@@ -1,5 +1,7 @@
 # Energy Transition Simulation
 
+**Live Demo:** https://stakeholder-simulation-energy-transition.vercel.app/
+
 A multi-stakeholder negotiation simulation exploring the complexities of transitioning from coal to renewable energy.
 
 ## Overview
