@@ -10,10 +10,10 @@ export default function NavMenu() {
   const navItems = [
     { path: '/', label: 'Start' },
     { path: '/info', label: 'Info Hub' },
-    { path: '/info/roles', label: 'Roles' },
-    ...(selectedRole
-      ? [{ path: `/info/roles/${selectedRole.id}`, label: `My Role ${selectedRole.emoji}` }]
-      : []),
+    {
+      path: selectedRole ? `/info/roles/${selectedRole.id}` : '/info/roles',
+      label: selectedRole ? `My Role ${selectedRole.emoji}` : 'My Role'
+    },
   ];
 
   return (
