@@ -5,7 +5,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🏢',
     color: 'blue',
     order: 1,
-    file: '01_PowerShift_Management_RoleCard.md'
+    file: '01_PowerShift_Management_RoleCard.md',
+    shortDescription: 'Executive leadership team making decisions about transitioning from coal to renewable energy. Control transition timeline, allocate €3 billion budget, and approve all major agreements.'
   },
   workers: {
     id: 'workers',
@@ -13,7 +14,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '👷',
     color: 'amber',
     order: 2,
-    file: '02_Workers_Union_RoleCard.md'
+    file: '02_Workers_Union_RoleCard.md',
+    shortDescription: 'Representatives of 500 coal plant workers facing job losses. Fighting for job security, fair severance, retraining programs, and priority hiring for renewable positions.'
   },
   community: {
     id: 'community',
@@ -21,7 +23,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🏘️',
     color: 'emerald',
     order: 3,
-    file: '03_Community_Coalition_RoleCard.md'
+    file: '03_Community_Coalition_RoleCard.md',
+    shortDescription: 'Representatives of towns dependent on coal plant tax revenue and jobs. Advocating for economic transition support, local investment, and community development.'
   },
   environmental: {
     id: 'environmental',
@@ -29,7 +32,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🌿',
     color: 'green',
     order: 4,
-    file: '04_Environmental_Alliance_RoleCard.md'
+    file: '04_Environmental_Alliance_RoleCard.md',
+    shortDescription: 'Coalition of environmental groups pushing for fastest possible coal phase-out. Prioritizing climate action, ecosystem protection, and holding polluters accountable.'
   },
   government: {
     id: 'government',
@@ -37,7 +41,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🏛️',
     color: 'purple',
     order: 5,
-    file: '05_Regional_Government_RoleCard.md'
+    file: '05_Regional_Government_RoleCard.md',
+    shortDescription: 'Elected officials balancing economic stability, environmental compliance, and social welfare. Control permits, can offer subsidies, and must maintain public services.'
   },
   indigenous: {
     id: 'indigenous',
@@ -45,7 +50,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🪶',
     color: 'orange',
     order: 6,
-    file: '06_Indigenous_Community_RoleCard.md'
+    file: '06_Indigenous_Community_RoleCard.md',
+    shortDescription: 'Representatives protecting ancestral lands, cultural sites, and water resources near the Southern Plant. Seeking recognition, consultation rights, and environmental restoration.'
   },
   investors: {
     id: 'investors',
@@ -53,7 +59,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '💼',
     color: 'slate',
     order: 7,
-    file: '07_Investor_Coalition_RoleCard.md'
+    file: '07_Investor_Coalition_RoleCard.md',
+    shortDescription: 'Institutional investors and pension funds focused on financial returns and ESG compliance. Balancing profitability with sustainable investment criteria.'
   },
   technical: {
     id: 'technical',
@@ -61,7 +68,8 @@ export const STAKEHOLDER_GROUPS = {
     emoji: '🔬',
     color: 'cyan',
     order: 8,
-    file: '08_Technical_Expert_Panel_RoleCard.md'
+    file: '08_Technical_Expert_Panel_RoleCard.md',
+    shortDescription: 'Independent engineers and scientists providing technical guidance on grid stability, renewable integration timelines, and environmental assessments.'
   }
 };
 

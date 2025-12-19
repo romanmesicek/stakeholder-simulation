@@ -11,7 +11,7 @@ export default function RolesOverview() {
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Stakeholder Roles</h1>
       <div className="grid gap-4">
         {stakeholders.map((stakeholder) => (
-          <RoleCard key={stakeholder.id} stakeholder={stakeholder} />
+          <RoleCard key={stakeholder.id} stakeholder={stakeholder} showDescription />
         ))}
       </div>
     </div>

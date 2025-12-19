@@ -1,16 +1,20 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
-const navItems = [
-  { path: '/', label: 'Start' },
-  { path: '/info', label: 'Info Hub' },
-  { path: '/info/case', label: 'The Case' },
-  { path: '/info/roles', label: 'Roles' },
-];
+import { useRole } from '../lib/RoleContext';
 
 export default function NavMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { selectedRole } = useRole();
+
+  const navItems = [
+    { path: '/', label: 'Start' },
+    { path: '/info', label: 'Info Hub' },
+    { path: '/info/roles', label: 'Roles' },
+    ...(selectedRole
+      ? [{ path: `/info/roles/${selectedRole.id}`, label: `My Role ${selectedRole.emoji}` }]
+      : []),
+  ];
 
   return (
     <nav className="relative">

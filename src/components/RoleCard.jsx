@@ -11,17 +11,22 @@ const colorClasses = {
   cyan: 'border-cyan-400 bg-cyan-50 hover:bg-cyan-100',
 };
 
-export default function RoleCard({ stakeholder }) {
-  const { id, name, emoji, color } = stakeholder;
+export default function RoleCard({ stakeholder, showDescription = false }) {
+  const { id, name, emoji, color, shortDescription } = stakeholder;
 
   return (
     <Link
       to={`/info/roles/${id}`}
       className={`block p-4 rounded-lg border-l-4 shadow-sm transition-colors ${colorClasses[color]}`}
     >
-      <div className="flex items-center gap-3">
+      <div className="flex items-start gap-3">
         <span className="text-3xl">{emoji}</span>
-        <h3 className="font-medium text-slate-800">{name}</h3>
+        <div>
+          <h3 className="font-medium text-slate-800">{name}</h3>
+          {showDescription && shortDescription && (
+            <p className="text-sm text-slate-600 mt-1">{shortDescription}</p>
+          )}
+        </div>
       </div>
     </Link>
   );
