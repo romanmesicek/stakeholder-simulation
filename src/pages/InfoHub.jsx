@@ -9,13 +9,6 @@ const infoCards = [
     color: 'bg-blue-50 border-blue-200 hover:bg-blue-100',
   },
   {
-    path: '/info/reference',
-    emoji: '📊',
-    title: 'Quick Reference',
-    description: 'Key facts and figures at a glance',
-    color: 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100',
-  },
-  {
     path: '/info/schedule',
     emoji: '📅',
     title: 'Schedule',
@@ -28,6 +21,13 @@ const infoCards = [
     title: 'Stakeholder Groups',
     description: 'Overview of all 8 stakeholder groups',
     color: 'bg-amber-50 border-amber-200 hover:bg-amber-100',
+  },
+  {
+    path: '/info/reference',
+    emoji: '🎭',
+    title: 'Staying in Role',
+    description: 'Tips for effective role-playing and negotiation',
+    color: 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100',
   },
 ];
 
