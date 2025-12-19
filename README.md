@@ -1,16 +1,70 @@
-# React + Vite
+# Energy Transition Simulation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-stakeholder negotiation simulation exploring the complexities of transitioning from coal to renewable energy.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This web application supports an educational simulation where participants take on different stakeholder roles to negotiate an energy transition plan. The simulation involves 8 stakeholder groups with competing interests and priorities.
 
-## React Compiler
+## Stakeholder Groups
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **PowerShift Energy Management** - The company leading the transition
+- **Coal Plant Workers Union** - Representing employee interests
+- **Local Community Coalition** - Residents affected by the transition
+- **Environmental Alliance** - Advocating for climate action
+- **Regional Government** - Balancing economic and environmental concerns
+- **Indigenous Community** - Protecting cultural and land rights
+- **Investor Coalition** - Focused on financial returns
+- **Technical Expert Panel** - Providing scientific guidance
 
-## Expanding the ESLint configuration
+## Features (Phase 1)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse simulation information and case description
+- Access quick reference facts and figures
+- View simulation schedule and process
+- Explore all 8 stakeholder role cards
+
+## Tech Stack
+
+- React 18
+- Vite
+- Tailwind CSS
+- React Router DOM
+- react-markdown with remark-gfm
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+/src
+├── /components    # Reusable UI components
+├── /pages         # Route pages
+├── /content       # Markdown content files
+│   ├── /roles     # 8 stakeholder role cards
+│   └── /shared    # Case, reference, schedule
+└── /lib           # Configuration and utilities
+```
+
+## Routes
+
+| Path | Description |
+|------|-------------|
+| `/` | Landing page |
+| `/info` | Information hub |
+| `/info/case` | Situation briefing |
+| `/info/reference` | Quick reference facts |
+| `/info/schedule` | Simulation schedule |
+| `/info/roles` | All stakeholder roles |
+| `/info/roles/:id` | Individual role detail |
