@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import BackButton from '../components/BackButton';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { getStakeholderById } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
@@ -40,7 +39,6 @@ export default function RoleDetail() {
   if (!stakeholder || !content) {
     return (
       <div>
-        <BackButton to="/info/roles" label="Back to Roles" />
         <p className="text-slate-600">Role not found.</p>
       </div>
     );
@@ -56,7 +54,6 @@ export default function RoleDetail() {
 
   return (
     <div>
-      <BackButton to="/info/roles" label="Back to Roles" />
       <div className="flex items-center justify-between gap-3 mb-6">
         <div className="flex items-center gap-3">
           <span className="text-4xl">{stakeholder.emoji}</span>
