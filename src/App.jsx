@@ -6,6 +6,7 @@ import InfoHub from './pages/InfoHub';
 import CasePage from './pages/CasePage';
 import ReferencePage from './pages/ReferencePage';
 import SchedulePage from './pages/SchedulePage';
+import StakeholdersOverview from './pages/StakeholdersOverview';
 import RolesOverview from './pages/RolesOverview';
 import RoleDetail from './pages/RoleDetail';
 
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="info/case" element={<CasePage />} />
             <Route path="info/reference" element={<ReferencePage />} />
             <Route path="info/schedule" element={<SchedulePage />} />
+            <Route path="info/stakeholders" element={<StakeholdersOverview />} />
             <Route path="info/roles" element={<RolesOverview />} />
             <Route path="info/roles/:roleId" element={<RoleDetail />} />
           </Route>
