@@ -1,30 +1,39 @@
-# Energy Transition Simulation
+# Stakeholder Simulation
 
 **Live Demo:** https://stakeholder-simulation-energy-transition.vercel.app/
 
-A multi-stakeholder negotiation simulation exploring the complexities of transitioning from coal to renewable energy.
+A web-based platform for multi-stakeholder negotiation simulations. Participants take on different roles with competing interests and work to find common ground on complex real-world issues.
 
-## Overview
+## About
 
-This web application supports an educational simulation where participants take on different stakeholder roles to negotiate an energy transition plan. The simulation involves 8 stakeholder groups with competing interests and priorities.
+Stakeholder simulations are powerful learning tools that help participants:
+- Understand diverse perspectives and interests
+- Practice negotiation and diplomacy skills
+- Experience the complexity of real-world decision-making
+- Build empathy for positions different from their own
 
-## Stakeholder Groups
+## Current Case: Energy Transition
 
-- **PowerShift Energy Management** - The company leading the transition
-- **Coal Plant Workers Union** - Representing employee interests
-- **Local Community Coalition** - Residents affected by the transition
-- **Environmental Alliance** - Advocating for climate action
-- **Regional Government** - Balancing economic and environmental concerns
-- **Indigenous Community** - Protecting cultural and land rights
-- **Investor Coalition** - Focused on financial returns
-- **Technical Expert Panel** - Providing scientific guidance
+The included case explores the challenges of transitioning from coal to renewable energy. Eight stakeholder groups must negotiate a transition plan:
 
-## Features (Phase 1)
+| Group | Represents |
+|-------|------------|
+| PowerShift Energy Management | Company leadership |
+| Coal Plant Workers Union | 500 plant workers |
+| Local Community Coalition | Affected residents |
+| Environmental Alliance | Climate advocates |
+| Regional Government | Public authorities |
+| Indigenous Community | Local indigenous people |
+| Investor Coalition | Shareholders |
+| Technical Expert Panel | Independent advisors |
 
-- Browse simulation information and case description
-- Access quick reference facts and figures
-- View simulation schedule and process
-- Explore all 8 stakeholder role cards
+## Features
+
+- Role cards with detailed stakeholder information
+- Case briefing and background materials
+- Simulation schedule and process guide
+- Role-playing tips and negotiation guidance
+- Mobile-friendly design
 
 ## Tech Stack
 
@@ -37,36 +46,18 @@ This web application supports an educational simulation where participants take 
 ## Getting Started
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
 ## Project Structure
 
 ```
 /src
-├── /components    # Reusable UI components
+├── /components    # UI components
 ├── /pages         # Route pages
-├── /content       # Markdown content files
-│   ├── /roles     # 8 stakeholder role cards
-│   └── /shared    # Case, reference, schedule
-└── /lib           # Configuration and utilities
+├── /content       # Markdown content
+│   ├── /roles     # Stakeholder role cards
+│   └── /shared    # Case materials
+└── /lib           # Configuration
 ```
-
-## Routes
-
-| Path | Description |
-|------|-------------|
-| `/` | Landing page |
-| `/info` | Information hub |
-| `/info/case` | Situation briefing |
-| `/info/reference` | Quick reference facts |
-| `/info/schedule` | Simulation schedule |
-| `/info/roles` | All stakeholder roles |
-| `/info/roles/:id` | Individual role detail |

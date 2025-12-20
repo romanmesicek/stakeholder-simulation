@@ -8,9 +8,9 @@ export default function Layout() {
       <header className="bg-white border-b border-slate-200 sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl">⚡</span>
+            <span className="text-2xl">👥</span>
             <h1 className="text-lg font-semibold text-slate-800">
-              Energy Transition Simulation
+              Stakeholder Simulation
             </h1>
           </Link>
           <NavMenu />
@@ -27,7 +27,7 @@ export default function Layout() {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-auto">
         <div className="max-w-4xl mx-auto px-4 py-4 text-center text-sm text-slate-500">
-          PowerShift Energy Transition Simulation
+          Stakeholder Simulation
         </div>
       </footer>
     </div>
