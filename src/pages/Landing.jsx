@@ -97,19 +97,6 @@ export default function Landing() {
         Create New Session
       </Link>
       <p className="text-xs text-slate-400 mt-2">For facilitators</p>
-
-      <div className="w-full max-w-xs flex items-center gap-4 my-6">
-        <div className="flex-1 h-px bg-slate-300"></div>
-      </div>
-
-      <Link
-        to="/info"
-        className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-800"
-      >
-        <span>📚</span>
-        <span>View Materials</span>
-      </Link>
-      <p className="text-xs text-slate-400 mt-1">Browse without joining</p>
     </div>
   );
 }
