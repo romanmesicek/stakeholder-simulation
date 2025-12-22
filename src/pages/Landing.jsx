@@ -91,10 +91,10 @@ export default function Landing() {
       </div>
 
       <Link
-        to="/create"
+        to="/facilitate"
         className="w-full max-w-xs bg-slate-100 text-slate-700 font-medium py-3 px-6 rounded-lg hover:bg-slate-200 transition-colors"
       >
-        Create New Session
+        Manage Sessions
       </Link>
       <p className="text-xs text-slate-400 mt-2">For facilitators</p>
     </div>

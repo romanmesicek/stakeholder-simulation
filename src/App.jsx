@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import CreateSession from './pages/CreateSession';
 import JoinSession from './pages/JoinSession';
 import ParticipantView from './pages/ParticipantView';
+import FacilitatorHome from './pages/FacilitatorHome';
 import FacilitatorDashboard from './pages/FacilitatorDashboard';
 import InfoHub from './pages/InfoHub';
 import CasePage from './pages/CasePage';
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="create" element={<CreateSession />} />
             <Route path="join/:sessionCode" element={<JoinSession />} />
             <Route path="session/:sessionCode" element={<ParticipantView />} />
+            <Route path="facilitate" element={<FacilitatorHome />} />
             <Route path="facilitate/:sessionCode" element={<FacilitatorDashboard />} />
             <Route path="info" element={<InfoHub />} />
             <Route path="info/case" element={<CasePage />} />

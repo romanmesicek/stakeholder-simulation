@@ -4,12 +4,14 @@ import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { assignToGroup } from '../lib/sessionUtils';
+import { useRole } from '../lib/RoleContext';
 
 export default function JoinSession() {
   const { sessionCode } = useParams();
   const navigate = useNavigate();
   const { session, loading: sessionLoading } = useSession(sessionCode);
   const { participants, loading: participantsLoading } = useParticipants(sessionCode);
+  const { joinSession } = useRole();
 
   const [name, setName] = useState('');
   const [joining, setJoining] = useState(false);
@@ -66,6 +68,9 @@ export default function JoinSession() {
 
     // Store participant ID
     localStorage.setItem(`participant-${sessionCode}`, data.id);
+
+    // Update context so NavMenu shows "My Role"
+    joinSession(sessionCode);
 
     navigate(`/session/${sessionCode}`);
   };

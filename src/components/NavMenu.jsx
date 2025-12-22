@@ -1,20 +1,17 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useRole } from '../lib/RoleContext';
 
 export default function NavMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-
-  // Check if user is in a session (URL contains /session/)
-  const sessionMatch = location.pathname.match(/\/session\/([A-Z0-9]+)/i);
-  const isInSession = !!sessionMatch;
-  const sessionCode = sessionMatch ? sessionMatch[1] : null;
+  const { activeSessionCode } = useRole();
 
   const navItems = [
     { path: '/', label: 'Start' },
     { path: '/info', label: 'Info Hub' },
-    // Only show My Role when in a session
-    ...(isInSession ? [{ path: `/session/${sessionCode}`, label: 'My Role' }] : []),
+    // Show My Role when user has joined a session (persisted in context/localStorage)
+    ...(activeSessionCode ? [{ path: `/session/${activeSessionCode}`, label: 'My Role' }] : []),
   ];
 
   return (
