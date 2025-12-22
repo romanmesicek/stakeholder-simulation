@@ -2,6 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RoleProvider } from './lib/RoleContext';
 import Layout from './components/Layout';
 import Landing from './pages/Landing';
+import CreateSession from './pages/CreateSession';
+import JoinSession from './pages/JoinSession';
+import ParticipantView from './pages/ParticipantView';
+import FacilitatorDashboard from './pages/FacilitatorDashboard';
 import InfoHub from './pages/InfoHub';
 import CasePage from './pages/CasePage';
 import ReferencePage from './pages/ReferencePage';
@@ -17,6 +21,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Landing />} />
+            <Route path="create" element={<CreateSession />} />
+            <Route path="join/:sessionCode" element={<JoinSession />} />
+            <Route path="session/:sessionCode" element={<ParticipantView />} />
+            <Route path="facilitate/:sessionCode" element={<FacilitatorDashboard />} />
             <Route path="info" element={<InfoHub />} />
             <Route path="info/case" element={<CasePage />} />
             <Route path="info/reference" element={<ReferencePage />} />
