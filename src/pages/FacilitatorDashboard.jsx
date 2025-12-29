@@ -1,18 +1,31 @@
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
+import { loadSharedContent } from '../lib/contentLoader';
 import SessionCodeDisplay from '../components/SessionCodeDisplay';
 import StatusBadge from '../components/StatusBadge';
 import ParticipantList from '../components/ParticipantList';
+import MarkdownRenderer from '../components/MarkdownRenderer';
 
 export default function FacilitatorDashboard() {
   const { sessionCode } = useParams();
   const { session, loading: sessionLoading, updateStatus } = useSession(sessionCode);
   const { participants, loading: participantsLoading } = useParticipants(sessionCode);
+  const [showDebriefing, setShowDebriefing] = useState(false);
+  const [debriefingContent, setDebriefingContent] = useState(null);
 
   const handleToggleStatus = async () => {
     const newStatus = session.status === 'open' ? 'closed' : 'open';
     await updateStatus(newStatus);
+  };
+
+  const handleOpenDebriefing = async () => {
+    if (!debriefingContent && session) {
+      const content = await loadSharedContent(session.education_level || 'master', 'debriefing');
+      setDebriefingContent(content);
+    }
+    setShowDebriefing(true);
   };
 
   if (sessionLoading || participantsLoading) {
@@ -47,7 +60,12 @@ export default function FacilitatorDashboard() {
       </Link>
 
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold text-slate-800">Session</h1>
+        <div>
+          <h1 className="text-2xl font-bold text-slate-800">Session</h1>
+          <p className="text-sm text-slate-500">
+            {session.education_level === 'bachelor' ? 'Bachelor Level (~2 hours)' : 'Master Level (~3 hours)'}
+          </p>
+        </div>
         <StatusBadge status={session.status} />
       </div>
 
@@ -67,6 +85,53 @@ export default function FacilitatorDashboard() {
         activeGroups={session.active_groups}
         maxPerGroup={session.max_per_group}
       />
+
+      {/* Debriefing Guide Button */}
+      <div className="mt-6">
+        <button
+          onClick={handleOpenDebriefing}
+          className="w-full py-3 px-6 rounded-lg font-medium bg-purple-100 text-purple-700 hover:bg-purple-200 transition-colors flex items-center justify-center gap-2"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Debriefing Guide
+        </button>
+      </div>
+
+      {/* Debriefing Modal */}
+      {showDebriefing && (
+        <div className="fixed inset-0 bg-black/50 flex items-start justify-center p-4 z-50 overflow-y-auto">
+          <div className="bg-white rounded-lg shadow-xl w-full max-w-3xl my-8">
+            <div className="sticky top-0 bg-white border-b border-slate-200 px-6 py-4 rounded-t-lg flex items-center justify-between">
+              <h2 className="text-xl font-bold text-slate-800">Debriefing Guide</h2>
+              <button
+                onClick={() => setShowDebriefing(false)}
+                className="text-slate-500 hover:text-slate-700 p-1"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="px-6 py-4 max-h-[70vh] overflow-y-auto">
+              {debriefingContent ? (
+                <MarkdownRenderer content={debriefingContent} />
+              ) : (
+                <p className="text-slate-500">Loading...</p>
+              )}
+            </div>
+            <div className="border-t border-slate-200 px-6 py-4 rounded-b-lg">
+              <button
+                onClick={() => setShowDebriefing(false)}
+                className="w-full py-2 px-4 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="mt-8 pt-6 border-t border-slate-200">
         <button

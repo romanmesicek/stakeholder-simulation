@@ -139,3 +139,49 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 - "Northern Town already has technical training center ready for renewable energy curriculum..."
 - "Property value drops wipe out family wealth—for most residents, homes represent total net worth..."
 - "We're not asking for charity—we're asking for reinvestment in communities that generated company profits..."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Workers Union**: Workers are community members. Shared interest in economic stability and avoiding ghost towns.
+- **Government**: Shares interest in social stability and maintaining public services. You represent voters they need.
+
+**Potential Partners (with effort):**
+- **Management**: Can offer valuable renewable siting opportunities in exchange for community investments.
+- **Indigenous Community**: Southern Region communities share interests in local development and environmental restoration.
+
+**Likely Adversaries:**
+- **Investors**: May prioritize financial returns over community development investments.
+- **Environmental Alliance**: If you're perceived as prioritizing local benefits over environmental protection.
+
+**Strategic Insight:** Your strongest coalition is Community + Workers + Government. This "stability coalition" anchors negotiations around preventing social crisis while enabling transition.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Control social license—renewable projects need community acceptance
+- Political leverage through voter representation (23,000 voters)
+- Land and permitting influence for renewable siting
+- Media access to shape public narrative
+
+**Your Vulnerabilities:**
+- Dependent on Management and Government for actual investments
+- Competing with Workers for limited support funds
+- Environmental Alliance may frame community demands as obstruction
+- Long-term benefits require short-term cooperation
+
+**Key Trade-offs to Consider:**
+- Larger community fund vs. faster timeline
+- Tax replacement guarantees vs. flexible development fund
+- Local jobs vs. lower renewable energy costs
+
+**Negotiation Strategy:**
+1. Lead with renewable siting offer—frame community as partner, not obstacle
+2. Align with Workers early to present unified "social" front
+3. Use Government as ally—they share political incentives
+4. Quantify community assets: sites, infrastructure, workforce availability
+5. Frame community investment as enabling rapid, stable transition (appeals to all parties)

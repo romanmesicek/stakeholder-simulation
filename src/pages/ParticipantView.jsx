@@ -4,36 +4,11 @@ import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { getStakeholderById } from '../lib/stakeholders';
+import { loadAllSessionContent } from '../lib/contentLoader';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Accordion from '../components/Accordion';
 import GroupMembersList from '../components/GroupMembersList';
 import ParticipantList from '../components/ParticipantList';
-
-// Import content
-import situationBriefing from '../content/shared/situation-briefing.md?raw';
-import keyFacts from '../content/shared/key-facts-reference.md?raw';
-import schedule from '../content/shared/simulation-instructions.md?raw';
-
-// Import all role markdown files
-import management from '../content/roles/01_PowerShift_Management_RoleCard.md?raw';
-import workers from '../content/roles/02_Workers_Union_RoleCard.md?raw';
-import community from '../content/roles/03_Community_Coalition_RoleCard.md?raw';
-import environmental from '../content/roles/04_Environmental_Alliance_RoleCard.md?raw';
-import government from '../content/roles/05_Regional_Government_RoleCard.md?raw';
-import indigenous from '../content/roles/06_Indigenous_Community_RoleCard.md?raw';
-import investors from '../content/roles/07_Investor_Coalition_RoleCard.md?raw';
-import technical from '../content/roles/08_Technical_Expert_Panel_RoleCard.md?raw';
-
-const roleContent = {
-  management,
-  workers,
-  community,
-  environmental,
-  government,
-  indigenous,
-  investors,
-  technical,
-};
 
 const colorClasses = {
   blue: 'border-blue-400 bg-blue-50',
@@ -54,6 +29,8 @@ export default function ParticipantView() {
 
   const [participant, setParticipant] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [content, setContent] = useState(null);
+  const [contentLoading, setContentLoading] = useState(true);
 
   useEffect(() => {
     const fetchParticipant = async () => {
@@ -84,7 +61,27 @@ export default function ParticipantView() {
     fetchParticipant();
   }, [sessionCode, navigate]);
 
-  if (loading || sessionLoading || participantsLoading) {
+  // Load content based on session education level
+  useEffect(() => {
+    const loadContent = async () => {
+      if (!session || !participant) return;
+
+      const level = session.education_level || 'master';
+
+      try {
+        const loadedContent = await loadAllSessionContent(level, participant.stakeholder_group);
+        setContent(loadedContent);
+      } catch (err) {
+        console.error('Failed to load content:', err);
+      } finally {
+        setContentLoading(false);
+      }
+    };
+
+    loadContent();
+  }, [session, participant]);
+
+  if (loading || sessionLoading || participantsLoading || contentLoading) {
     return (
       <div className="flex items-center justify-center min-h-[40vh]">
         <p className="text-slate-500">Loading...</p>
@@ -92,7 +89,7 @@ export default function ParticipantView() {
     );
   }
 
-  if (!session || !participant) {
+  if (!session || !participant || !content) {
     return (
       <div className="text-center py-12">
         <p className="text-slate-600 mb-4">Session not found.</p>
@@ -107,7 +104,6 @@ export default function ParticipantView() {
   const myGroupMembers = participants.filter(
     p => p.stakeholder_group === participant.stakeholder_group
   );
-  const roleMarkdown = roleContent[participant.stakeholder_group];
 
   return (
     <div>
@@ -131,19 +127,19 @@ export default function ParticipantView() {
       {/* Accordion Sections */}
       <div className="space-y-3">
         <Accordion title="📋 Your Role Card" defaultOpen>
-          <MarkdownRenderer content={roleMarkdown} />
+          <MarkdownRenderer content={content.roleMarkdown} />
         </Accordion>
 
         <Accordion title="🎭 Staying in Role">
-          <MarkdownRenderer content={keyFacts} />
+          <MarkdownRenderer content={content.keyFacts} />
         </Accordion>
 
         <Accordion title="📖 The Case">
-          <MarkdownRenderer content={situationBriefing} />
+          <MarkdownRenderer content={content.situationBriefing} />
         </Accordion>
 
         <Accordion title="📅 Schedule">
-          <MarkdownRenderer content={schedule} />
+          <MarkdownRenderer content={content.schedule} />
         </Accordion>
 
         <Accordion title="👥 All Groups">

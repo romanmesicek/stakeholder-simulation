@@ -144,3 +144,51 @@ Full compliance with environmental protection laws. Best available technology an
 - "German utilities closed 8 coal plants in 4 years—technical feasibility proven..."
 - "Climate commitments are legally binding—regional targets require rapid coal retirement..."
 - "Restored ecosystems create tourism and recreation opportunities benefiting communities..."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Indigenous Community**: Share environmental justice concerns. Indigenous rights strengthen environmental claims.
+- **Technical Experts**: Can validate feasibility of accelerated timelines when properly planned.
+
+**Potential Partners (with effort):**
+- **Government**: Shares legal obligation to meet climate targets. Can apply regulatory pressure.
+- **Investors**: ESG-focused investors may support faster transition. Financial risk framing resonates.
+
+**Likely Adversaries:**
+- **Management**: Will resist accelerated timelines citing technical constraints (some legitimate, some self-serving).
+- **Workers Union**: Will resist fast timelines unless adequately supported (legitimate concern requiring accommodation).
+
+**Strategic Insight:** Your strongest coalition is Environmental + Indigenous + Technical Experts. This "science-justice coalition" combines moral authority with technical credibility.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Scientific evidence and data ownership
+- Legal expertise and litigation capacity
+- Public mobilization and media influence
+- Moral authority representing future generations
+- Can offer positive recognition for genuine climate leadership
+
+**Your Vulnerabilities:**
+- Perceived as "anti-worker" if timeline demands ignore social costs
+- Technical Experts may validate longer timelines
+- Community opposition can derail renewable permits you need
+- Pure opposition without constructive alternatives loses credibility
+
+**Key Trade-offs to Consider:**
+- Faster timeline vs. adequate worker support packages
+- Environmental purity vs. practical coalition building
+- Confrontation vs. constructive engagement
+
+**Negotiation Strategy:**
+1. Lead with health impacts—50 deaths annually is powerful moral claim
+2. Support generous worker packages—removes "jobs vs. environment" framing
+3. Build coalition with Indigenous (environmental justice) and Government (legal obligations)
+4. Validate Technical Expert constraints to maintain credibility
+5. Offer positive recognition as "just transition leader" for cooperative Management
+6. Reserve legal threats as last resort—litigation delays renewables too

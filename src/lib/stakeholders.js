@@ -6,6 +6,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'blue',
     order: 1,
     file: '01_PowerShift_Management_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Executive leadership team making decisions about transitioning from coal to renewable energy. Control transition timeline, allocate €3 billion budget, and approve all major agreements.'
   },
   workers: {
@@ -15,6 +16,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'amber',
     order: 2,
     file: '02_Workers_Union_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Representatives of 500 coal plant workers facing job losses. Fighting for job security, fair severance, retraining programs, and priority hiring for renewable positions.'
   },
   community: {
@@ -24,6 +26,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'emerald',
     order: 3,
     file: '03_Community_Coalition_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Representatives of towns dependent on coal plant tax revenue and jobs. Advocating for economic transition support, local investment, and community development.'
   },
   environmental: {
@@ -33,6 +36,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'green',
     order: 4,
     file: '04_Environmental_Alliance_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Coalition of environmental groups pushing for fastest possible coal phase-out. Prioritizing climate action, ecosystem protection, and holding polluters accountable.'
   },
   government: {
@@ -42,6 +46,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'purple',
     order: 5,
     file: '05_Regional_Government_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Elected officials balancing economic stability, environmental compliance, and social welfare. Control permits, can offer subsidies, and must maintain public services.'
   },
   indigenous: {
@@ -51,6 +56,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'orange',
     order: 6,
     file: '06_Indigenous_Community_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Representatives protecting ancestral lands, cultural sites, and water resources near the Southern Plant. Seeking recognition, consultation rights, and environmental restoration.'
   },
   investors: {
@@ -60,6 +66,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'slate',
     order: 7,
     file: '07_Investor_Coalition_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Institutional investors and pension funds focused on financial returns and ESG compliance. Balancing profitability with sustainable investment criteria.'
   },
   technical: {
@@ -69,6 +76,7 @@ export const STAKEHOLDER_GROUPS = {
     color: 'cyan',
     order: 8,
     file: '08_Technical_Expert_Panel_RoleCard.md',
+    levels: ['bachelor', 'master'],
     shortDescription: 'Independent engineers and scientists providing technical guidance on grid stability, renewable integration timelines, and environmental assessments.'
   }
 };
@@ -77,3 +85,15 @@ export const getStakeholderById = (id) => STAKEHOLDER_GROUPS[id];
 
 export const getOrderedStakeholders = () =>
   Object.values(STAKEHOLDER_GROUPS).sort((a, b) => a.order - b.order);
+
+export const getStakeholdersForLevel = (level) =>
+  Object.values(STAKEHOLDER_GROUPS)
+    .filter(s => s.levels.includes(level))
+    .sort((a, b) => a.order - b.order);
+
+export const getDefaultGroupsForLevel = (level) => {
+  if (level === 'bachelor') {
+    return ['management', 'workers', 'community', 'environmental', 'government', 'investors'];
+  }
+  return Object.keys(STAKEHOLDER_GROUPS);
+};

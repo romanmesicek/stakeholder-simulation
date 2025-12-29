@@ -1,45 +1,47 @@
-import { useParams } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useParams, useSearchParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { getStakeholderById } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
-
-// Import all role markdown files
-import management from '../content/roles/01_PowerShift_Management_RoleCard.md?raw';
-import workers from '../content/roles/02_Workers_Union_RoleCard.md?raw';
-import community from '../content/roles/03_Community_Coalition_RoleCard.md?raw';
-import environmental from '../content/roles/04_Environmental_Alliance_RoleCard.md?raw';
-import government from '../content/roles/05_Regional_Government_RoleCard.md?raw';
-import indigenous from '../content/roles/06_Indigenous_Community_RoleCard.md?raw';
-import investors from '../content/roles/07_Investor_Coalition_RoleCard.md?raw';
-import technical from '../content/roles/08_Technical_Expert_Panel_RoleCard.md?raw';
-
-const roleContent = {
-  management,
-  workers,
-  community,
-  environmental,
-  government,
-  indigenous,
-  investors,
-  technical,
-};
+import { loadRoleContent } from '../lib/contentLoader';
 
 export default function RoleDetail() {
   const { roleId } = useParams();
+  const [searchParams] = useSearchParams();
+  const level = searchParams.get('level') || 'master';
   const { selectedRoleId, setSelectedRoleId } = useRole();
   const stakeholder = getStakeholderById(roleId);
-  const content = roleContent[roleId];
   const isMyRole = selectedRoleId === roleId;
+
+  const [content, setContent] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [roleId]);
 
+  useEffect(() => {
+    if (!roleId) return;
+
+    setLoading(true);
+    loadRoleContent(level, roleId)
+      .then(setContent)
+      .catch(() => setContent(null))
+      .finally(() => setLoading(false));
+  }, [roleId, level]);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-[40vh]">
+        <p className="text-slate-500">Loading...</p>
+      </div>
+    );
+  }
+
   if (!stakeholder || !content) {
     return (
       <div>
-        <p className="text-slate-600">Role not found.</p>
+        <p className="text-slate-600">Role not found for this level.</p>
       </div>
     );
   }

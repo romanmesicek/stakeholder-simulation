@@ -123,3 +123,50 @@ Absolute protection of identified sacred sites. No facilities within designated 
 - "Development on our territory requires our partnership or faces legal challenge. Courts increasingly recognize Indigenous rights. Choose partnership..."
 - "We're not asking for charity—we're offering partnership. Our land, your capital, shared prosperity."
 - "Restoration. Ownership. Employment. Rights. These are our requirements. The river's health and our community's future are not negotiable."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Environmental Alliance**: Shared environmental justice concerns. Your pollution evidence strengthens their case.
+- **Workers Union**: 18% of Southern Plant workers are Indigenous. Shared experience of being affected by powerful interests.
+
+**Potential Partners (with effort):**
+- **Government**: Must balance recognition with constraints, but political pressure and international frameworks create leverage.
+- **Community Coalition**: Southern Region communities share interests; can build broader social coalition.
+
+**Likely Adversaries:**
+- **Investors**: May view ownership stakes and restoration costs as reducing returns.
+- **Management**: May resist ownership sharing and comprehensive restoration costs.
+
+**Strategic Insight:** Your strongest coalition is Indigenous + Environmental Alliance + Workers. This "justice coalition" combines moral authority, legal frameworks, and political pressure.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Legal rights recognized in constitution and international frameworks
+- Strategic land control—best renewable sites require your cooperation
+- Moral authority and public sympathy
+- Capacity for litigation and permit challenges
+
+**Your Vulnerabilities:**
+- Smaller population means less direct political weight
+- Economic marginalization limits negotiating resources
+- Risk of being "bought off" with token benefits
+- Internal community divisions on development approach
+
+**Key Trade-offs to Consider:**
+- Faster closure (environmental benefit) vs. more time for negotiation (better deal)
+- Ownership stake vs. immediate cash benefits
+- Partnership with company vs. maintaining independent advocacy position
+
+**Negotiation Strategy:**
+1. Lead with historical harm and restoration requirement—moral foundation
+2. Build coalition with Environmental Alliance early (shared environmental justice frame)
+3. Position land access as partnership opportunity, not threat
+4. Insist on FPIC process—procedural rights create negotiating leverage
+5. Demand ownership not just employment—build community wealth
+6. Use international frameworks (UNDRIP) to strengthen position

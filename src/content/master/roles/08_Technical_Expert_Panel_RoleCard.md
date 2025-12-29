@@ -126,3 +126,52 @@ Many parameters have ranges, not precise values. Costs have ±15-20% uncertainty
 - "Grid reliability isn't optional. Reserve margins and contingency requirements protect 350,000 homes from extended outages..."
 - "Cost estimates should include storage, grid upgrades, and contingency. Industry benchmarks suggest €3.0-3.5 billion for this scope..."
 - "Technical constraints are not obstacles to overcome—they define the solution space within which negotiation occurs."
+
+---
+
+### COALITION DYNAMICS
+
+**Your Unique Position:**
+You are not an advocate—you are an honest broker. Your value comes from objectivity. All parties benefit from accurate technical analysis.
+
+**Natural Partners:**
+- **Government**: Values objective analysis to defend timeline and budget decisions.
+- **Management**: Benefits from technical credibility supporting feasibility claims.
+- **Investors**: Wants realistic assessments to evaluate investment decisions.
+
+**Complex Relationships:**
+- **Environmental Alliance**: Shares scientific orientation but may push for timelines you cannot validate. Support their goals within feasible parameters.
+- **Workers Union**: Benefits from realistic retraining timelines. Can validate skill transferability claims.
+
+**All Parties Need You:**
+Everyone benefits from honest assessment. Your credibility depends on not favoring anyone.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Technical credibility—your analysis is trusted because you're independent
+- Can validate or invalidate claims from all parties
+- Industry data and benchmarks inform realistic expectations
+- Objectivity valued in contentious negotiations
+
+**Your Vulnerabilities:**
+- No direct power—you advise, others decide
+- Can be ignored if political dynamics overwhelm technical reality
+- Uncertainty ranges can be exploited by all parties
+- "Honest broker" role can frustrate parties wanting validation
+
+**Key Principles:**
+- Maintain independence—don't become anyone's advocate
+- State uncertainty honestly—many parameters have ranges
+- Distinguish technical feasibility from optimality
+- Validate legitimate concerns from all parties
+
+**Facilitation Strategy:**
+1. Establish credibility early by acknowledging valid points from all sides
+2. Use industry benchmarks and case studies as neutral reference points
+3. Present timeline/cost ranges rather than false precision
+4. Identify creative solutions within technical constraints
+5. Translate between technical language and stakeholder concerns
+6. When parties disagree, clarify what's technically determined vs. value choice

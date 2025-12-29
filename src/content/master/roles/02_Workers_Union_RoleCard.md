@@ -130,3 +130,49 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 - "We're not against renewable energy—many younger members are already training in clean tech..."
 - "Adequate support makes rapid transition possible and fair—inadequate support makes it impossible and unjust..."
 - "Ghost towns help nobody—community collapse creates lasting opposition to climate action..."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Community Coalition**: Shared interest in preventing community collapse. Workers are community members; their families use local services.
+- **Indigenous Community**: 18% of Southern Plant workers are Indigenous. Shared experience of marginalization by powerful interests.
+
+**Potential Partners (with effort):**
+- **Management**: Mutual interest in avoiding bankruptcy and ensuring operational continuity during transition. Can negotiate reasonable packages.
+- **Government**: Shares interest in social stability. Political incentive to prevent visible unemployment crisis.
+
+**Likely Adversaries:**
+- **Environmental Alliance**: Will push for faster timelines that threaten adequate transition time. Climate urgency vs. worker security tension.
+- **Investors**: May prioritize cost-cutting over generous worker packages. Financial returns vs. social costs tension.
+
+**Strategic Insight:** Your strongest coalition is Workers + Community + Indigenous. This "social justice coalition" can apply moral and political pressure for adequate support packages.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Operational knowledge is irreplaceable for safe plant operations and decommissioning
+- Strike capability can halt power supply (powerful but nuclear option)
+- Strong public sympathy and media narrative potential
+- Political leverage in swing constituencies
+
+**Your Vulnerabilities:**
+- No transition happens without Management cooperation
+- Prolonged conflict damages community you're trying to protect
+- Investors can influence Management to minimize support packages
+- Environmental Alliance can frame worker demands as climate obstruction
+
+**Key Trade-offs to Consider:**
+- Faster transition with generous packages vs. slower transition with minimal packages
+- Guarantee jobs vs. maximize voluntary redundancy payments
+- Individual worker benefits vs. community-wide investments
+
+**Negotiation Strategy:**
+1. Lead with transferable skills narrative—you're assets, not obstacles
+2. Build coalition with Community and Indigenous before engaging Management
+3. Use Government as mediator—they fear social crisis
+4. Keep strike threat implicit rather than explicit (preserves relationship)
+5. Accept faster timeline in exchange for enhanced packages (leverage Environmental Alliance pressure)

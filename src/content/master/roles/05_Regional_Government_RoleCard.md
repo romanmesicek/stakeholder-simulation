@@ -148,3 +148,54 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 - "Every €100 million to transition represents delayed investment in healthcare, education, infrastructure..."
 - "Political reality: transition handling determines next election—fairness is both moral and strategic..."
 - "We're honest brokers balancing all interests—seeking collaborative solutions serving broad public good..."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Technical Experts**: Provide credible feasibility assessments protecting against unrealistic demands.
+- **Community Coalition**: Shares interest in social stability and public service maintenance. You represent their interests.
+
+**Potential Partners (with effort):**
+- **Management**: Shares interest in orderly transition. Can co-fund support packages.
+- **Workers Union**: Shares interest in preventing social crisis. Political incentives align.
+- **Investors**: Shares interest in regulatory clarity and stable investment environment.
+
+**Complex Relationships:**
+- **Environmental Alliance**: Shares climate obligations but may demand faster timelines than safely possible.
+- **Indigenous Community**: Must balance recognition with fiscal constraints.
+
+**Strategic Insight:** You are the natural "honest broker" position. Build coalition around pragmatic center: Management + Government + Technical Experts + Community.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- Regulatory power over permits and enforcement
+- €500-650 million public funding available
+- Convening authority—you can set agenda and facilitate
+- Political legitimacy as elected representatives
+- Information advantage through government expertise
+
+**Your Vulnerabilities:**
+- Electoral vulnerability (24 months to election)
+- Budget constraints limit flexibility
+- Must balance conflicting constituencies
+- Failure is highly visible—transition is signature policy
+- Coalition government creates internal tensions
+
+**Key Trade-offs to Consider:**
+- Generous support vs. fiscal sustainability
+- Fast timeline (climate) vs. safe timeline (energy security)
+- Environmental demands vs. worker protection
+- Northern Town focus vs. Southern Region/Indigenous needs
+
+**Negotiation Strategy:**
+1. Position as "honest broker" seeking balanced solution
+2. Use funding as leverage—attach conditions to support
+3. Build coalition with Management and Technical Experts on feasibility
+4. Validate both environmental urgency AND worker protection needs
+5. Set timeline boundaries: minimum 5 years (safety), maximum 7 years (climate)
+6. Create framework agreements that enable detailed bilateral negotiations

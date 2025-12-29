@@ -120,3 +120,51 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 - "Returns below our hurdle rate destroy value. Meeting 8% isn't exceptional—it's the minimum bar for competent execution..."
 - "We support adequate stakeholder packages. Social license issues affect execution risk. This is risk mitigation, not charity..."
 - "Our beneficiaries deserve both successful decarbonization and protected retirement security. Let's build a transition that achieves both."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Management**: Shared interest in financial viability and successful execution. You provide capital they need.
+- **Technical Experts**: Provide credible feasibility assessments protecting against unrealistic commitments.
+
+**Potential Partners (with effort):**
+- **Government**: Shares interest in stable investment environment and successful transition.
+- **Environmental Alliance**: ESG-focused investors share climate goals; can find common ground on timeline if execution is credible.
+
+**Likely Adversaries:**
+- **Workers Union**: May demand support packages exceeding financial prudence.
+- **Community Coalition**: May demand investments reducing returns.
+- **Indigenous Community**: Ownership stakes reduce investor share of value.
+
+**Strategic Insight:** Your strongest coalition is Investors + Management + Technical Experts. This "execution coalition" focuses on feasibility and financial discipline.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- 68% voting majority—ultimate corporate decision-making power
+- Capital provision required for transition (€750 million equity)
+- Board representation (3 of 9 directors)
+- Divestment threat affects company valuation and capital costs
+
+**Your Vulnerabilities:**
+- Pure financial focus can appear callous in social context
+- ESG-focused members may break coalition if social performance poor
+- Divestment removes influence—selling means losing voice
+- Reputational risk from association with social crisis
+
+**Key Trade-offs to Consider:**
+- Generous stakeholder packages (execution risk reduction) vs. cost discipline
+- Faster timeline (ESG alignment) vs. reliable execution
+- Dividends during transition vs. reinvestment capacity
+
+**Negotiation Strategy:**
+1. Lead with long-term value creation narrative—you're partners, not extractors
+2. Support reasonable stakeholder packages as risk mitigation (social license)
+3. Insist on governance mechanisms (milestones, accountability, reporting)
+4. Use ESG obligations to justify environmental requirements
+5. Build coalition with Management and Government on execution focus
+6. Position support packages as enabling faster timeline (appeals to Environmental Alliance)

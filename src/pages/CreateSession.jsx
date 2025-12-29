@@ -1,19 +1,24 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { generateSessionCode } from '../lib/sessionUtils';
-import { getOrderedStakeholders } from '../lib/stakeholders';
-
-const defaultSelected = ['management', 'workers', 'community', 'environmental', 'government'];
+import { getStakeholdersForLevel, getDefaultGroupsForLevel } from '../lib/stakeholders';
 
 export default function CreateSession() {
   const navigate = useNavigate();
-  const stakeholders = getOrderedStakeholders();
 
-  const [selectedGroups, setSelectedGroups] = useState(defaultSelected);
+  const [educationLevel, setEducationLevel] = useState('master');
+  const [selectedGroups, setSelectedGroups] = useState(getDefaultGroupsForLevel('master'));
   const [maxPerGroup, setMaxPerGroup] = useState(4);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
+  const stakeholders = getStakeholdersForLevel(educationLevel);
+
+  // Update selected groups when education level changes
+  useEffect(() => {
+    setSelectedGroups(getDefaultGroupsForLevel(educationLevel));
+  }, [educationLevel]);
 
   const toggleGroup = (groupId) => {
     setSelectedGroups(prev =>
@@ -57,7 +62,8 @@ export default function CreateSession() {
         id: sessionCode,
         status: 'open',
         active_groups: selectedGroups,
-        max_per_group: maxPerGroup
+        max_per_group: maxPerGroup,
+        education_level: educationLevel
       });
 
     if (insertError) {
@@ -84,6 +90,38 @@ export default function CreateSession() {
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Create Session</h1>
 
       <form onSubmit={handleSubmit}>
+        <div className="mb-6">
+          <label className="block text-sm font-medium text-slate-700 mb-3">
+            Education Level
+          </label>
+          <div className="grid grid-cols-2 gap-4">
+            <button
+              type="button"
+              onClick={() => setEducationLevel('bachelor')}
+              className={`p-4 rounded-lg border-2 text-left transition-colors ${
+                educationLevel === 'bachelor'
+                  ? 'border-blue-500 bg-blue-50'
+                  : 'border-slate-200 hover:border-slate-300'
+              }`}
+            >
+              <div className="font-medium text-slate-800">Bachelor</div>
+              <div className="text-sm text-slate-500">~2 hours, 6 groups, simplified</div>
+            </button>
+            <button
+              type="button"
+              onClick={() => setEducationLevel('master')}
+              className={`p-4 rounded-lg border-2 text-left transition-colors ${
+                educationLevel === 'master'
+                  ? 'border-blue-500 bg-blue-50'
+                  : 'border-slate-200 hover:border-slate-300'
+              }`}
+            >
+              <div className="font-medium text-slate-800">Master</div>
+              <div className="text-sm text-slate-500">~3 hours, 8 groups, full complexity</div>
+            </button>
+          </div>
+        </div>
+
         <div className="mb-6">
           <label className="block text-sm font-medium text-slate-700 mb-3">
             Select Active Groups

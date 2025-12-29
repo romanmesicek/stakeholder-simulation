@@ -125,3 +125,48 @@ Why: Technical reality of grid integration and renewable commissioning. Conseque
 - "We're creating 300 permanent renewable jobs plus 1,200 construction positions..."
 - "Every €100 million extra reduces our return by 0.8%, threatening project viability..."
 - "We want to support workers and communities, but we operate within real financial constraints..."
+
+---
+
+### COALITION DYNAMICS
+
+**Natural Allies:**
+- **Investors**: Share interest in financial viability and ESG performance. Can help justify transition investments to the Board.
+- **Technical Experts**: Provide credibility for your timeline claims. Their endorsement protects against accusations of delay tactics.
+- **Government**: Shares interest in orderly transition. Can provide additional funding and regulatory flexibility.
+
+**Potential Partners (with effort):**
+- **Workers**: Mutual interest in avoiding bankruptcy. Retraining programs and job guarantees can build trust.
+- **Community**: Local renewable facilities create tax revenue and jobs. Infrastructure investments show good faith.
+
+**Likely Adversaries:**
+- **Environmental Alliance**: Will push for faster timelines you cannot safely deliver. Expect pressure on your 5-year minimum.
+- **Indigenous Community**: Historical grievances and Southern Plant impacts create tension. Environmental justice claims are difficult to dismiss.
+
+**Strategic Insight:** Your strongest coalition is Management + Investors + Technical Experts. This "feasibility coalition" can anchor negotiations around realistic parameters.
+
+---
+
+### STRATEGIC CONSIDERATIONS
+
+**Your Position Strength:**
+- You control the €3 billion budget—no transition happens without you
+- Technical expertise gives you information advantage on feasibility
+- Legal authority over employment decisions and site selection
+
+**Your Vulnerabilities:**
+- Reputational risk if perceived as obstructing just transition
+- Regulatory pressure and potential license issues if you appear uncooperative
+- Worker opposition can escalate to political intervention
+
+**Key Trade-offs to Consider:**
+- Faster timeline vs. reliability risk
+- Generous worker packages vs. budget constraints
+- Community investments vs. shareholder returns
+
+**Negotiation Strategy:**
+1. Lead with your investment commitment (€3 billion) to establish good faith
+2. Use Technical Expert endorsement to defend timeline requirements
+3. Offer phased worker transitions and community investments as concessions
+4. Keep €200M contingency as late-stage bargaining chip
+5. Build coalition with Investors and Government before engaging adversaries

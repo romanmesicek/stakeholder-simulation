@@ -33,8 +33,10 @@ The included case explores the challenges of transitioning from coal to renewabl
 - **Auto-Assignment**: Participants are automatically assigned to stakeholder groups
 - **Realtime Updates**: Live participant list updates via Supabase
 - **Facilitator Dashboard**: Monitor and manage active sessions
+- **Multi-Level Content**: Bachelor (6 groups, simplified) and Master (8 groups, full complexity)
 - **Role Cards**: Detailed stakeholder information for each group
 - **Info Hub**: Case briefing, schedule, and reference materials
+- **Debriefing Guides**: Structured post-simulation discussion questions
 - **Mobile-Friendly**: Responsive design for all devices
 
 ## Tech Stack
@@ -136,15 +138,31 @@ No. Old sessions don't affect new ones. Delete when:
 - Privacy requirements after workshops
 - General database cleanup
 
+## Content Levels
+
+The simulation supports two difficulty levels with separate content:
+
+| Feature | Bachelor | Master |
+|---------|----------|--------|
+| Stakeholder groups | 6 | 8 |
+| Content complexity | Simplified | Full |
+| Debriefing guide | Quick (15 min) | Structured (20+ min) |
+
+Content is stored in `src/content/bachelor/` and `src/content/master/`.
+
 ## Project Structure
 
 ```
 /src
 ├── /components    # UI components
-├── /hooks         # Custom React hooks
+├── /hooks         # Custom React hooks (useSession, useParticipants, etc.)
 ├── /pages         # Route pages
 ├── /content       # Markdown content
-│   ├── /roles     # Stakeholder role cards
-│   └── /shared    # Case materials
-└── /lib           # Supabase client & utilities
+│   ├── /bachelor  # Simplified content (6 groups)
+│   │   ├── /roles     # Stakeholder role cards
+│   │   └── /shared    # Case, schedule, debriefing
+│   └── /master    # Full complexity content (8 groups)
+│       ├── /roles     # Stakeholder role cards
+│       └── /shared    # Case, schedule, debriefing
+└── /lib           # Supabase client, utilities, context
 ```

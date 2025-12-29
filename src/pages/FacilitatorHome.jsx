@@ -46,6 +46,13 @@ function SessionCard({ session, onDelete }) {
           }`}>
             {session.status === 'open' ? 'Open' : 'Closed'}
           </span>
+          <span className={`text-xs px-2 py-0.5 rounded-full ${
+            session.education_level === 'bachelor'
+              ? 'bg-amber-100 text-amber-700'
+              : 'bg-purple-100 text-purple-700'
+          }`}>
+            {session.education_level === 'bachelor' ? 'BA' : 'MA'}
+          </span>
         </div>
         <div className="flex items-center gap-4 mt-1 text-sm text-slate-500">
           <span>{session.participantCount} participant{session.participantCount !== 1 ? 's' : ''}</span>
