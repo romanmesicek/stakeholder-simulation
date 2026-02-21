@@ -92,8 +92,8 @@ export const SCENARIOS = {
     id: 'talstadt',
     name: 'Umweltverschmutzung in Talstadt',
     description: 'Umweltkonflikt in einer Kleinstadt',
-    levels: ['standard'],
-    defaultLevel: 'standard',
+    levels: ['bachelor'],
+    defaultLevel: 'bachelor',
     groups: {
       stadtrat: {
         id: 'stadtrat',
@@ -101,7 +101,7 @@ export const SCENARIOS = {
         emoji: '🏛️',
         color: 'purple',
         order: 1,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Mitglieder des Stadtrats, die im Interesse der Bürger Politik machen. Setzen sich für Arbeitsplätze und saubere Umwelt ein, damit Talstadts Ruf als Luftkurort keinen Schaden nimmt.'
       },
       umweltschutzamt: {
@@ -110,7 +110,7 @@ export const SCENARIOS = {
         emoji: '🛡️',
         color: 'green',
         order: 2,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Zuständige Umweltschutzbehörde für Luftreinhaltung und Gewässerschutz. Überwacht Betriebe, kann Maßnahmen anordnen und Bußgelder verhängen.'
       },
       papierfabrik: {
@@ -119,7 +119,7 @@ export const SCENARIOS = {
         emoji: '🏭',
         color: 'amber',
         order: 3,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Geschäftsführer der Papierfabrik mit 500 Beschäftigten. Kämpfen mit Verlusten und müssen zwischen Modernisierung, Umweltschutz und Überleben des Betriebs abwägen.'
       },
       lackierfabrik: {
@@ -128,7 +128,7 @@ export const SCENARIOS = {
         emoji: '🎨',
         color: 'blue',
         order: 4,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Geschäftsführer der Lackierfabrik mit 200 Beschäftigten. Wirtschaftlich erfolgreich, planen Expansion, aber veraltete Filteranlagen verursachen Geruchsbelästigung.'
       },
       fremdenverkehrsverein: {
@@ -137,7 +137,7 @@ export const SCENARIOS = {
         emoji: '🏨',
         color: 'emerald',
         order: 5,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Vorstand des Fremdenverkehrsvereins. Befürchtet, dass Luftverschmutzung und Geruchsbelästigung Kur- und Feriengäste abschrecken.'
       },
       anglerclub: {
@@ -146,7 +146,7 @@ export const SCENARIOS = {
         emoji: '🎣',
         color: 'cyan',
         order: 6,
-        levels: ['standard'],
+        levels: ['bachelor'],
         shortDescription: 'Vorstand des Anglerclubs mit 49 Mitgliedern. Will die Schwarzach als sauberes Gewässer erhalten und fordert Schadenersatz für das Fischsterben.'
       }
     }

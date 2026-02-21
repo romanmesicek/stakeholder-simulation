@@ -40,20 +40,20 @@ const contentModules = {
     }
   },
   'talstadt': {
-    standard: {
+    bachelor: {
       roles: {
-        stadtrat: () => import('../content/talstadt/standard/roles/stadtrat.md?raw'),
-        umweltschutzamt: () => import('../content/talstadt/standard/roles/umweltschutzamt.md?raw'),
-        papierfabrik: () => import('../content/talstadt/standard/roles/papierfabrik.md?raw'),
-        lackierfabrik: () => import('../content/talstadt/standard/roles/lackierfabrik.md?raw'),
-        fremdenverkehrsverein: () => import('../content/talstadt/standard/roles/fremdenverkehrsverein.md?raw'),
-        anglerclub: () => import('../content/talstadt/standard/roles/anglerclub.md?raw'),
+        stadtrat: () => import('../content/talstadt/bachelor/roles/stadtrat.md?raw'),
+        umweltschutzamt: () => import('../content/talstadt/bachelor/roles/umweltschutzamt.md?raw'),
+        papierfabrik: () => import('../content/talstadt/bachelor/roles/papierfabrik.md?raw'),
+        lackierfabrik: () => import('../content/talstadt/bachelor/roles/lackierfabrik.md?raw'),
+        fremdenverkehrsverein: () => import('../content/talstadt/bachelor/roles/fremdenverkehrsverein.md?raw'),
+        anglerclub: () => import('../content/talstadt/bachelor/roles/anglerclub.md?raw'),
       },
       shared: {
-        situationBriefing: () => import('../content/talstadt/standard/shared/situation-briefing.md?raw'),
-        keyFacts: () => import('../content/talstadt/standard/shared/key-facts-reference.md?raw'),
-        schedule: () => import('../content/talstadt/standard/shared/simulation-instructions.md?raw'),
-        debriefing: () => import('../content/talstadt/standard/shared/debriefing-questions.md?raw'),
+        situationBriefing: () => import('../content/talstadt/bachelor/shared/situation-briefing.md?raw'),
+        keyFacts: () => import('../content/talstadt/bachelor/shared/key-facts-reference.md?raw'),
+        schedule: () => import('../content/talstadt/bachelor/shared/simulation-instructions.md?raw'),
+        debriefing: () => import('../content/talstadt/bachelor/shared/debriefing-questions.md?raw'),
       }
     }
   }
