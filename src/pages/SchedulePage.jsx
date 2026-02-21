@@ -3,18 +3,25 @@ import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { loadSharedContent } from '../lib/contentLoader';
+import { SCENARIOS } from '../lib/stakeholders';
+import { useRole } from '../lib/RoleContext';
 
 export default function SchedulePage() {
   const [searchParams] = useSearchParams();
-  const level = searchParams.get('level') || 'master';
+  const { selectedScenario } = useRole();
+  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
+  const scenarioData = SCENARIOS[scenario];
+  const level = searchParams.get('level') || scenarioData?.defaultLevel || 'master';
   const [content, setContent] = useState(null);
   const [loading, setLoading] = useState(true);
+  const isGerman = scenario === 'talstadt';
 
   useEffect(() => {
-    loadSharedContent(level, 'schedule')
+    setLoading(true);
+    loadSharedContent(scenario, level, 'schedule')
       .then(setContent)
       .finally(() => setLoading(false));
-  }, [level]);
+  }, [scenario, level]);
 
   if (loading) {
     return (
@@ -26,10 +33,7 @@ export default function SchedulePage() {
 
   return (
     <div>
-      <BackButton to="/info" label="Back to Info Hub" />
-      <div className="mb-4 text-sm text-slate-500">
-        Viewing: {level === 'bachelor' ? 'Bachelor (~2h)' : 'Master (~3h)'} schedule
-      </div>
+      <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
       <MarkdownRenderer content={content} />
     </div>
   );

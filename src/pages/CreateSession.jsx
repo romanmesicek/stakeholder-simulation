@@ -2,23 +2,35 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { generateSessionCode } from '../lib/sessionUtils';
-import { getStakeholdersForLevel, getDefaultGroupsForLevel } from '../lib/stakeholders';
+import { SCENARIOS, getScenariosArray, getStakeholdersForLevel, getDefaultGroupsForLevel } from '../lib/stakeholders';
 
 export default function CreateSession() {
   const navigate = useNavigate();
 
-  const [educationLevel, setEducationLevel] = useState('master');
-  const [selectedGroups, setSelectedGroups] = useState(getDefaultGroupsForLevel('master'));
+  const [scenario, setScenario] = useState('energy-transition');
+  const scenarioData = SCENARIOS[scenario];
+  const hasMultipleLevels = scenarioData.levels.length > 1;
+
+  const [educationLevel, setEducationLevel] = useState(scenarioData.defaultLevel);
+  const [selectedGroups, setSelectedGroups] = useState(getDefaultGroupsForLevel(educationLevel, scenario));
   const [maxPerGroup, setMaxPerGroup] = useState(4);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const stakeholders = getStakeholdersForLevel(educationLevel);
+  const stakeholders = getStakeholdersForLevel(educationLevel, scenario);
+
+  // Update level and groups when scenario changes
+  useEffect(() => {
+    const newScenario = SCENARIOS[scenario];
+    const newLevel = newScenario.defaultLevel;
+    setEducationLevel(newLevel);
+    setSelectedGroups(getDefaultGroupsForLevel(newLevel, scenario));
+  }, [scenario]);
 
   // Update selected groups when education level changes
   useEffect(() => {
-    setSelectedGroups(getDefaultGroupsForLevel(educationLevel));
-  }, [educationLevel]);
+    setSelectedGroups(getDefaultGroupsForLevel(educationLevel, scenario));
+  }, [educationLevel, scenario]);
 
   const toggleGroup = (groupId) => {
     setSelectedGroups(prev =>
@@ -63,7 +75,8 @@ export default function CreateSession() {
         status: 'open',
         active_groups: selectedGroups,
         max_per_group: maxPerGroup,
-        education_level: educationLevel
+        education_level: educationLevel,
+        scenario: scenario,
       });
 
     if (insertError) {
@@ -74,6 +87,8 @@ export default function CreateSession() {
 
     navigate(`/facilitate/${sessionCode}`);
   };
+
+  const scenarios = getScenariosArray();
 
   return (
     <div>
@@ -90,37 +105,62 @@ export default function CreateSession() {
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Create Session</h1>
 
       <form onSubmit={handleSubmit}>
+        {/* Scenario Selection */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-slate-700 mb-3">
-            Education Level
+            Scenario
           </label>
-          <div className="grid grid-cols-2 gap-4">
-            <button
-              type="button"
-              onClick={() => setEducationLevel('bachelor')}
-              className={`p-4 rounded-lg border-2 text-left transition-colors ${
-                educationLevel === 'bachelor'
-                  ? 'border-blue-500 bg-blue-50'
-                  : 'border-slate-200 hover:border-slate-300'
-              }`}
-            >
-              <div className="font-medium text-slate-800">Bachelor</div>
-              <div className="text-sm text-slate-500">~2 hours, 6 groups, simplified</div>
-            </button>
-            <button
-              type="button"
-              onClick={() => setEducationLevel('master')}
-              className={`p-4 rounded-lg border-2 text-left transition-colors ${
-                educationLevel === 'master'
-                  ? 'border-blue-500 bg-blue-50'
-                  : 'border-slate-200 hover:border-slate-300'
-              }`}
-            >
-              <div className="font-medium text-slate-800">Master</div>
-              <div className="text-sm text-slate-500">~3 hours, 8 groups, full complexity</div>
-            </button>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {scenarios.map(s => (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => setScenario(s.id)}
+                className={`p-4 rounded-lg border-2 text-left transition-colors ${
+                  scenario === s.id
+                    ? 'border-blue-500 bg-blue-50'
+                    : 'border-slate-200 hover:border-slate-300'
+                }`}
+              >
+                <div className="font-medium text-slate-800">{s.name}</div>
+                <div className="text-sm text-slate-500 mt-1">{s.description}</div>
+                <div className="text-xs text-slate-400 mt-2">
+                  {Object.keys(s.groups).length} groups
+                  {s.levels.length > 1 && ` · ${s.levels.join(' / ')}`}
+                </div>
+              </button>
+            ))}
           </div>
         </div>
+
+        {/* Level Selection - only show if scenario has multiple levels */}
+        {hasMultipleLevels && (
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-slate-700 mb-3">
+              Education Level
+            </label>
+            <div className="grid grid-cols-2 gap-4">
+              {scenarioData.levels.map(level => (
+                <button
+                  key={level}
+                  type="button"
+                  onClick={() => setEducationLevel(level)}
+                  className={`p-4 rounded-lg border-2 text-left transition-colors ${
+                    educationLevel === level
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  <div className="font-medium text-slate-800 capitalize">{level}</div>
+                  <div className="text-sm text-slate-500">
+                    {level === 'bachelor' && '~2 hours, 6 groups, simplified'}
+                    {level === 'master' && '~3 hours, 8 groups, full complexity'}
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="mb-6">
           <label className="block text-sm font-medium text-slate-700 mb-3">

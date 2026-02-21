@@ -12,7 +12,7 @@ const colorClasses = {
   cyan: 'border-cyan-400 bg-cyan-50',
 };
 
-export default function ParticipantList({ participants, activeGroups, maxPerGroup, highlightName }) {
+export default function ParticipantList({ participants, activeGroups, maxPerGroup, highlightName, scenario = 'energy-transition' }) {
   // Group participants by stakeholder group
   const grouped = {};
   activeGroups.forEach(groupId => {
@@ -22,7 +22,7 @@ export default function ParticipantList({ participants, activeGroups, maxPerGrou
   return (
     <div className="space-y-3">
       {activeGroups.map(groupId => {
-        const stakeholder = getStakeholderById(groupId);
+        const stakeholder = getStakeholderById(groupId, scenario);
         if (!stakeholder) return null;
 
         const members = grouped[groupId] || [];

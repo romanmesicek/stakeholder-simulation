@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { loadSharedContent } from '../lib/contentLoader';
+import { SCENARIOS } from '../lib/stakeholders';
 import SessionCodeDisplay from '../components/SessionCodeDisplay';
 import StatusBadge from '../components/StatusBadge';
 import ParticipantList from '../components/ParticipantList';
@@ -22,7 +23,9 @@ export default function FacilitatorDashboard() {
 
   const handleOpenDebriefing = async () => {
     if (!debriefingContent && session) {
-      const content = await loadSharedContent(session.education_level || 'master', 'debriefing');
+      const scenario = session.scenario || 'energy-transition';
+      const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
+      const content = await loadSharedContent(scenario, level, 'debriefing');
       setDebriefingContent(content);
     }
     setShowDebriefing(true);
@@ -63,7 +66,9 @@ export default function FacilitatorDashboard() {
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Session</h1>
           <p className="text-sm text-slate-500">
-            {session.education_level === 'bachelor' ? 'Bachelor Level (~2 hours)' : 'Master Level (~3 hours)'}
+            {SCENARIOS[session.scenario]?.name || 'Energy Transition'}
+            {' · '}
+            {session.education_level === 'bachelor' ? 'Bachelor (~2h)' : session.education_level === 'master' ? 'Master (~3h)' : session.education_level}
           </p>
         </div>
         <StatusBadge status={session.status} />
@@ -84,6 +89,7 @@ export default function FacilitatorDashboard() {
         participants={participants}
         activeGroups={session.active_groups}
         maxPerGroup={session.max_per_group}
+        scenario={session.scenario || 'energy-transition'}
       />
 
       {/* Debriefing Guide Button */}

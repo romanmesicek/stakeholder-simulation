@@ -1,5 +1,7 @@
+import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
-import { getOrderedStakeholders } from '../lib/stakeholders';
+import { getOrderedStakeholders, SCENARIOS } from '../lib/stakeholders';
+import { useRole } from '../lib/RoleContext';
 
 const colorClasses = {
   blue: 'border-blue-400 bg-blue-50',
@@ -13,12 +15,18 @@ const colorClasses = {
 };
 
 export default function StakeholdersOverview() {
-  const stakeholders = getOrderedStakeholders();
+  const [searchParams] = useSearchParams();
+  const { selectedScenario } = useRole();
+  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
+  const stakeholders = getOrderedStakeholders(scenario);
+  const isGerman = scenario === 'talstadt';
 
   return (
     <div>
-      <BackButton to="/info" label="Back to Info Hub" />
-      <h1 className="text-2xl font-bold text-slate-800 mb-6">All Stakeholder Groups</h1>
+      <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
+      <h1 className="text-2xl font-bold text-slate-800 mb-6">
+        {isGerman ? 'Alle Interessengruppen' : 'All Stakeholder Groups'}
+      </h1>
       <div className="grid gap-3">
         {stakeholders.map((stakeholder) => (
           <div

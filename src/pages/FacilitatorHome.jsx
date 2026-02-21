@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAllSessions } from '../hooks/useAllSessions';
+import { SCENARIOS } from '../lib/stakeholders';
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -46,12 +47,15 @@ function SessionCard({ session, onDelete }) {
           }`}>
             {session.status === 'open' ? 'Open' : 'Closed'}
           </span>
+          <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700">
+            {SCENARIOS[session.scenario]?.name || 'Energy Transition'}
+          </span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
             session.education_level === 'bachelor'
               ? 'bg-amber-100 text-amber-700'
               : 'bg-purple-100 text-purple-700'
           }`}>
-            {session.education_level === 'bachelor' ? 'BA' : 'MA'}
+            {session.education_level === 'bachelor' ? 'BA' : session.education_level === 'master' ? 'MA' : session.education_level}
           </span>
         </div>
         <div className="flex items-center gap-4 mt-1 text-sm text-slate-500">

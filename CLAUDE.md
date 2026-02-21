@@ -4,7 +4,7 @@
 
 A web-based platform for multi-stakeholder negotiation simulations, designed for educational settings. Participants take on different stakeholder roles and negotiate solutions to complex real-world problems.
 
-**Live:** https://stakeholder-simulation-energy-transition.vercel.app/
+**Live:** https://stakeholder-simulation.suska.app/
 
 ## Tech Stack
 
@@ -16,19 +16,26 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 ## Key Concepts
 
+### Scenarios
+The platform supports multiple scenarios, each with its own stakeholder groups and content:
+- **Energy Transition** (`energy-transition`): Coal plant phase-out negotiation, 8 groups, bachelor/master levels
+- **Umweltverschmutzung in Talstadt** (`talstadt`): Environmental pollution conflict in a small German town, 6 groups, single level
+
 ### Levels
-The simulation supports two difficulty levels:
-- **Bachelor**: 6 stakeholder groups, simplified content, shorter debriefing
-- **Master**: 8 stakeholder groups, full complexity content, structured debriefing
+Each scenario can have one or more difficulty levels:
+- Energy Transition: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity)
+- Talstadt: **Standard** (single level)
 
 ### Sessions
 - Created by facilitators with a unique 6-character code
+- Facilitator selects scenario, level, and active groups
 - Participants join via code and are auto-assigned to stakeholder groups
 - Sessions have `open` or `closed` status
 - Realtime updates via Supabase subscriptions
 
 ### Stakeholder Groups
-8 groups representing different interests in an energy transition scenario:
+
+**Energy Transition** (8 groups):
 1. PowerShift Energy Management (company)
 2. Coal Plant Workers Union (workers)
 3. Local Community Coalition (residents)
@@ -38,28 +45,35 @@ The simulation supports two difficulty levels:
 7. Investor Coalition (shareholders)
 8. Technical Expert Panel (advisors)
 
+**Talstadt** (6 groups):
+1. Stadtrat (city council)
+2. Amt für Umweltschutz (environmental office)
+3. Leitung der Papierfabrik (paper factory)
+4. Leitung der Lackierfabrik (paint factory)
+5. Fremdenverkehrsverein (tourism association)
+6. Anglerclub (fishing club)
+
 ## Project Structure
 
 ```
 /src
 ├── /components       # Reusable UI components
-├── /content          # Markdown content by level
-│   ├── /bachelor     # Simplified content
-│   │   ├── /roles    # 8 role cards
-│   │   └── /shared   # Case, schedule, debriefing
-│   └── /master       # Full complexity content
-│       ├── /roles    # 8 role cards
-│       └── /shared   # Case, schedule, debriefing
+├── /content          # Markdown content by scenario → level
+│   ├── /energy-transition
+│   │   ├── /bachelor/roles|shared
+│   │   └── /master/roles|shared
+│   └── /talstadt
+│       └── /standard/roles|shared
 ├── /hooks            # Custom React hooks
 │   ├── useSession.js       # Single session data
 │   ├── useAllSessions.js   # All sessions for facilitator
 │   └── useParticipants.js  # Realtime participant list
 ├── /lib              # Utilities
 │   ├── supabase.js         # Supabase client
-│   ├── stakeholders.js     # Stakeholder definitions
-│   ├── contentLoader.js    # Dynamic content loading
+│   ├── stakeholders.js     # SCENARIOS object + utility functions
+│   ├── contentLoader.js    # Dynamic content loading (scenario → level → content)
 │   ├── sessionUtils.js     # Session code generation
-│   └── RoleContext.jsx     # Participant role state
+│   └── RoleContext.jsx     # Participant role + scenario state
 └── /pages            # Route components
 ```
 
@@ -82,6 +96,8 @@ The simulation supports two difficulty levels:
 sessions (
   id TEXT PRIMARY KEY,           -- 6-char code
   status TEXT DEFAULT 'open',    -- 'open' or 'closed'
+  scenario TEXT NOT NULL DEFAULT 'energy-transition',
+  education_level TEXT,          -- 'bachelor', 'master', 'standard', etc.
   active_groups TEXT[] NOT NULL, -- which groups are enabled
   max_per_group INTEGER DEFAULT 4,
   created_at TIMESTAMPTZ
@@ -99,14 +115,16 @@ participants (
 
 ## Content System
 
-Content is loaded dynamically via `contentLoader.js`:
+Content is loaded dynamically via `contentLoader.js` with 3 parameters: scenario, level, contentKey/roleId:
 
 ```javascript
-// Load role content for a specific level
-await loadRoleContent('master', 'workers');
+// Load role content
+await loadRoleContent('energy-transition', 'master', 'workers');
+await loadRoleContent('talstadt', 'standard', 'stadtrat');
 
-// Load shared content (case briefing, schedule, etc.)
-await loadSharedContent('bachelor', 'situationBriefing');
+// Load shared content
+await loadSharedContent('energy-transition', 'bachelor', 'situationBriefing');
+await loadSharedContent('talstadt', 'standard', 'keyFacts');
 ```
 
 Content keys for shared content:
@@ -124,18 +142,19 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 
 ## Common Tasks
 
-### Add a new stakeholder group
-1. Add entry in `src/lib/stakeholders.js`
-2. Create role card markdown in both `bachelor/roles/` and `master/roles/`
+### Add a new scenario
+1. Add entry in `SCENARIOS` in `src/lib/stakeholders.js` (~15 lines)
+2. Create content folder `src/content/new-scenario/{level}/roles|shared/`
+3. Add imports in `contentModules` in `src/lib/contentLoader.js`
+4. No further files needed — CreateSession reads `getScenariosArray()` dynamically
+
+### Add a new stakeholder group to existing scenario
+1. Add entry in `SCENARIOS[scenario].groups` in `src/lib/stakeholders.js`
+2. Create role card markdown in scenario's content folder
 3. Add import to `contentLoader.js`
 
-### Modify content for a level
-Edit files in `src/content/bachelor/` or `src/content/master/`
-
-### Add a new shared content type
-1. Create markdown file in `shared/` directories
-2. Add loader to `contentLoader.js`
-3. Create page component and route
+### Modify content for a scenario/level
+Edit files in `src/content/{scenario}/{level}/`
 
 ## Testing Locally
 

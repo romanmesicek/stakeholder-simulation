@@ -1,8 +1,13 @@
+import { useSearchParams } from 'react-router-dom';
 import RoleCard from '../components/RoleCard';
 import { getOrderedStakeholders } from '../lib/stakeholders';
+import { useRole } from '../lib/RoleContext';
 
 export default function RolesOverview() {
-  const stakeholders = getOrderedStakeholders();
+  const [searchParams] = useSearchParams();
+  const { selectedScenario } = useRole();
+  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
+  const stakeholders = getOrderedStakeholders(scenario);
 
   return (
     <div>

@@ -8,6 +8,10 @@ export function RoleProvider({ children }) {
     return localStorage.getItem('selectedRole') || null;
   });
 
+  const [selectedScenario, setSelectedScenario] = useState(() => {
+    return localStorage.getItem('selectedScenario') || 'energy-transition';
+  });
+
   // Track active session from localStorage
   const [activeSessionCode, setActiveSessionCode] = useState(() => {
     // Check localStorage for any participant-* keys
@@ -28,7 +32,13 @@ export function RoleProvider({ children }) {
     }
   }, [selectedRoleId]);
 
-  const selectedRole = selectedRoleId ? getStakeholderById(selectedRoleId) : null;
+  useEffect(() => {
+    if (selectedScenario) {
+      localStorage.setItem('selectedScenario', selectedScenario);
+    }
+  }, [selectedScenario]);
+
+  const selectedRole = selectedRoleId ? getStakeholderById(selectedRoleId, selectedScenario) : null;
 
   // Function to join a session (called from JoinSession)
   const joinSession = (sessionCode) => {
@@ -48,6 +58,8 @@ export function RoleProvider({ children }) {
       selectedRole,
       selectedRoleId,
       setSelectedRoleId,
+      selectedScenario,
+      setSelectedScenario,
       activeSessionCode,
       joinSession,
       leaveSession

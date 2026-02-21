@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
-import { getStakeholderById } from '../lib/stakeholders';
+import { getStakeholderById, SCENARIOS } from '../lib/stakeholders';
 import { loadAllSessionContent } from '../lib/contentLoader';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Accordion from '../components/Accordion';
@@ -66,10 +66,11 @@ export default function ParticipantView() {
     const loadContent = async () => {
       if (!session || !participant) return;
 
-      const level = session.education_level || 'master';
+      const scenario = session.scenario || 'energy-transition';
+      const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
 
       try {
-        const loadedContent = await loadAllSessionContent(level, participant.stakeholder_group);
+        const loadedContent = await loadAllSessionContent(scenario, level, participant.stakeholder_group);
         setContent(loadedContent);
       } catch (err) {
         console.error('Failed to load content:', err);
@@ -100,7 +101,7 @@ export default function ParticipantView() {
     );
   }
 
-  const stakeholder = getStakeholderById(participant.stakeholder_group);
+  const stakeholder = getStakeholderById(participant.stakeholder_group, session.scenario || 'energy-transition');
   const myGroupMembers = participants.filter(
     p => p.stakeholder_group === participant.stakeholder_group
   );
@@ -148,6 +149,7 @@ export default function ParticipantView() {
             activeGroups={session.active_groups}
             maxPerGroup={session.max_per_group}
             highlightName={participant.name}
+            scenario={session.scenario || 'energy-transition'}
           />
         </Accordion>
       </div>

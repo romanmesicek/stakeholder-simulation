@@ -1,16 +1,18 @@
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
-import { getStakeholderById } from '../lib/stakeholders';
+import { getStakeholderById, SCENARIOS } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 import { loadRoleContent } from '../lib/contentLoader';
 
 export default function RoleDetail() {
   const { roleId } = useParams();
   const [searchParams] = useSearchParams();
-  const level = searchParams.get('level') || 'master';
-  const { selectedRoleId, setSelectedRoleId } = useRole();
-  const stakeholder = getStakeholderById(roleId);
+  const { selectedRoleId, setSelectedRoleId, selectedScenario, setSelectedScenario } = useRole();
+  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
+  const scenarioData = SCENARIOS[scenario];
+  const level = searchParams.get('level') || scenarioData?.defaultLevel || 'master';
+  const stakeholder = getStakeholderById(roleId, scenario);
   const isMyRole = selectedRoleId === roleId;
 
   const [content, setContent] = useState(null);
@@ -24,11 +26,11 @@ export default function RoleDetail() {
     if (!roleId) return;
 
     setLoading(true);
-    loadRoleContent(level, roleId)
+    loadRoleContent(scenario, level, roleId)
       .then(setContent)
       .catch(() => setContent(null))
       .finally(() => setLoading(false));
-  }, [roleId, level]);
+  }, [roleId, scenario, level]);
 
   if (loading) {
     return (
@@ -48,6 +50,7 @@ export default function RoleDetail() {
 
   const handleSelectRole = () => {
     setSelectedRoleId(roleId);
+    setSelectedScenario(scenario);
   };
 
   const handleClearRole = () => {

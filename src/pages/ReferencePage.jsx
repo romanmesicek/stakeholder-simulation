@@ -3,18 +3,25 @@ import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { loadSharedContent } from '../lib/contentLoader';
+import { SCENARIOS } from '../lib/stakeholders';
+import { useRole } from '../lib/RoleContext';
 
 export default function ReferencePage() {
   const [searchParams] = useSearchParams();
-  const level = searchParams.get('level') || 'master';
+  const { selectedScenario } = useRole();
+  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
+  const scenarioData = SCENARIOS[scenario];
+  const level = searchParams.get('level') || scenarioData?.defaultLevel || 'master';
   const [content, setContent] = useState(null);
   const [loading, setLoading] = useState(true);
+  const isGerman = scenario === 'talstadt';
 
   useEffect(() => {
-    loadSharedContent(level, 'keyFacts')
+    setLoading(true);
+    loadSharedContent(scenario, level, 'keyFacts')
       .then(setContent)
       .finally(() => setLoading(false));
-  }, [level]);
+  }, [scenario, level]);
 
   if (loading) {
     return (
@@ -26,7 +33,7 @@ export default function ReferencePage() {
 
   return (
     <div>
-      <BackButton to="/info" label="Back to Info Hub" />
+      <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
       <MarkdownRenderer content={content} />
     </div>
   );
