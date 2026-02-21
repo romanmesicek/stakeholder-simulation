@@ -1,6 +1,6 @@
 # Stakeholder Simulation
 
-**Live Demo:** https://stakeholder-simulation-energy-transition.vercel.app/
+**Live:** https://stakeholder-simulation.suska.app/
 
 A web-based platform for multi-stakeholder negotiation simulations. Participants take on different roles with competing interests and work to find common ground on complex real-world issues.
 
@@ -12,7 +12,9 @@ Stakeholder simulations are powerful learning tools that help participants:
 - Experience the complexity of real-world decision-making
 - Build empathy for positions different from their own
 
-## Current Case: Energy Transition
+## Scenarios
+
+### Energy Transition (English)
 
 The included case explores the challenges of transitioning from coal to renewable energy. Eight stakeholder groups must negotiate a transition plan:
 
@@ -27,13 +29,31 @@ The included case explores the challenges of transitioning from coal to renewabl
 | Investor Coalition | Shareholders |
 | Technical Expert Panel | Independent advisors |
 
+Supports two levels: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity).
+
+### Umweltverschmutzung in Talstadt (Deutsch)
+
+Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Sechs Interessengruppen verhandeln über Umweltschutz vs. wirtschaftliche Interessen:
+
+| Gruppe | Vertritt |
+|--------|----------|
+| Stadtrat | Kommunalpolitik |
+| Amt für Umweltschutz | Umweltbehörde |
+| Leitung der Papierfabrik | Fabrikleitung (500 Beschäftigte) |
+| Leitung der Lackierfabrik | Fabrikleitung (200 Beschäftigte) |
+| Fremdenverkehrsverein | Tourismusbranche |
+| Anglerclub | Naturschutz / Angler |
+
+Single level: **Standard**.
+
 ## Features
 
+- **Multi-Scenario Support**: Multiple cases with independent stakeholder groups and content
 - **Session Management**: Create sessions with unique 6-character codes
 - **Auto-Assignment**: Participants are automatically assigned to stakeholder groups
 - **Realtime Updates**: Live participant list updates via Supabase
 - **Facilitator Dashboard**: Monitor and manage active sessions
-- **Multi-Level Content**: Bachelor (6 groups, simplified) and Master (8 groups, full complexity)
+- **Bilingual UI**: English for Energy Transition, German for Talstadt
 - **Role Cards**: Detailed stakeholder information for each group
 - **Info Hub**: Case briefing, schedule, and reference materials
 - **Debriefing Guides**: Structured post-simulation discussion questions
@@ -64,6 +84,8 @@ Create a Supabase project at https://supabase.com and run this SQL in the SQL Ed
 CREATE TABLE sessions (
   id TEXT PRIMARY KEY,
   status TEXT DEFAULT 'open' CHECK (status IN ('open', 'closed')),
+  scenario TEXT NOT NULL DEFAULT 'energy-transition',
+  education_level TEXT NOT NULL DEFAULT 'master',
   active_groups TEXT[] NOT NULL,
   max_per_group INTEGER DEFAULT 4,
   created_at TIMESTAMPTZ DEFAULT NOW()
@@ -131,24 +153,12 @@ Sessions can be deleted in two ways:
 
 Participants are automatically deleted with their session (`ON DELETE CASCADE`).
 
-### Is Deleting Necessary?
+## Adding a New Scenario
 
-No. Old sessions don't affect new ones. Delete when:
-- Testing during development
-- Privacy requirements after workshops
-- General database cleanup
-
-## Content Levels
-
-The simulation supports two difficulty levels with separate content:
-
-| Feature | Bachelor | Master |
-|---------|----------|--------|
-| Stakeholder groups | 6 | 8 |
-| Content complexity | Simplified | Full |
-| Debriefing guide | Quick (15 min) | Structured (20+ min) |
-
-Content is stored in `src/content/bachelor/` and `src/content/master/`.
+1. Add entry to `SCENARIOS` in `src/lib/stakeholders.js`
+2. Create content folder `src/content/new-scenario/{level}/roles|shared/`
+3. Add imports in `contentModules` in `src/lib/contentLoader.js`
+4. No further files needed — CreateSession picks it up dynamically
 
 ## Project Structure
 
@@ -157,12 +167,11 @@ Content is stored in `src/content/bachelor/` and `src/content/master/`.
 ├── /components    # UI components
 ├── /hooks         # Custom React hooks (useSession, useParticipants, etc.)
 ├── /pages         # Route pages
-├── /content       # Markdown content
-│   ├── /bachelor  # Simplified content (6 groups)
-│   │   ├── /roles     # Stakeholder role cards
-│   │   └── /shared    # Case, schedule, debriefing
-│   └── /master    # Full complexity content (8 groups)
-│       ├── /roles     # Stakeholder role cards
-│       └── /shared    # Case, schedule, debriefing
+├── /content       # Markdown content by scenario
+│   ├── /energy-transition
+│   │   ├── /bachelor/roles|shared
+│   │   └── /master/roles|shared
+│   └── /talstadt
+│       └── /standard/roles|shared
 └── /lib           # Supabase client, utilities, context
 ```
