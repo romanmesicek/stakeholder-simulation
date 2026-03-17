@@ -4,6 +4,7 @@ import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { assignToGroup } from '../lib/sessionUtils';
+import { SCENARIOS } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 
 export default function JoinSession() {
@@ -37,10 +38,12 @@ export default function JoinSession() {
     setError(null);
 
     // Assign to group
+    const scenarioGroups = SCENARIOS[session.scenario || 'energy-transition']?.groups;
     const assignedGroup = assignToGroup(
       session.active_groups,
       participants,
-      session.max_per_group
+      session.max_per_group,
+      scenarioGroups
     );
 
     if (!assignedGroup) {

@@ -8,8 +8,8 @@ export function generateSessionCode() {
   return code;
 }
 
-// Find group with fewest participants
-export function assignToGroup(activeGroups, participants, maxPerGroup) {
+// Find group with fewest participants, using priority to break ties
+export function assignToGroup(activeGroups, participants, maxPerGroup, groupsConfig) {
   // Count participants per group
   const counts = {};
   activeGroups.forEach(g => counts[g] = 0);
@@ -29,7 +29,17 @@ export function assignToGroup(activeGroups, participants, maxPerGroup) {
   const minCount = Math.min(...availableGroups.map(g => counts[g]));
   const candidates = availableGroups.filter(g => counts[g] === minCount);
 
-  // Random selection among tied groups
+  // Sort by priority (lower number = higher priority for staffing)
+  if (groupsConfig) {
+    candidates.sort((a, b) => {
+      const pa = groupsConfig[a]?.priority ?? 999;
+      const pb = groupsConfig[b]?.priority ?? 999;
+      return pa - pb;
+    });
+    return candidates[0];
+  }
+
+  // Fallback: random selection if no config provided
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
 

@@ -12,6 +12,7 @@ export const SCENARIOS = {
         emoji: '🏢',
         color: 'blue',
         order: 1,
+        priority: 1,
         file: '01_PowerShift_Management_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Executive leadership team making decisions about transitioning from coal to renewable energy. Control transition timeline, allocate €3 billion budget, and approve all major agreements.'
@@ -22,6 +23,7 @@ export const SCENARIOS = {
         emoji: '👷',
         color: 'amber',
         order: 2,
+        priority: 2,
         file: '02_Workers_Union_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives of 500 coal plant workers facing job losses. Fighting for job security, fair severance, retraining programs, and priority hiring for renewable positions.'
@@ -32,6 +34,7 @@ export const SCENARIOS = {
         emoji: '🏘️',
         color: 'emerald',
         order: 3,
+        priority: 4,
         file: '03_Community_Coalition_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives of towns dependent on coal plant tax revenue and jobs. Advocating for economic transition support, local investment, and community development.'
@@ -42,6 +45,7 @@ export const SCENARIOS = {
         emoji: '🌿',
         color: 'green',
         order: 4,
+        priority: 5,
         file: '04_Environmental_Alliance_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Coalition of environmental groups pushing for fastest possible coal phase-out. Prioritizing climate action, ecosystem protection, and holding polluters accountable.'
@@ -52,6 +56,7 @@ export const SCENARIOS = {
         emoji: '🏛️',
         color: 'purple',
         order: 5,
+        priority: 3,
         file: '05_Regional_Government_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Elected officials balancing economic stability, environmental compliance, and social welfare. Control permits, can offer subsidies, and must maintain public services.'
@@ -62,6 +67,7 @@ export const SCENARIOS = {
         emoji: '🪶',
         color: 'orange',
         order: 6,
+        priority: 7,
         file: '06_Indigenous_Community_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives protecting ancestral lands, cultural sites, and water resources near the Southern Plant. Seeking recognition, consultation rights, and environmental restoration.'
@@ -72,6 +78,7 @@ export const SCENARIOS = {
         emoji: '💼',
         color: 'slate',
         order: 7,
+        priority: 6,
         file: '07_Investor_Coalition_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Institutional investors and pension funds focused on financial returns and ESG compliance. Balancing profitability with sustainable investment criteria.'
@@ -82,6 +89,7 @@ export const SCENARIOS = {
         emoji: '🔬',
         color: 'cyan',
         order: 8,
+        priority: 8,
         file: '08_Technical_Expert_Panel_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Independent engineers and scientists providing technical guidance on grid stability, renewable integration timelines, and environmental assessments.'
@@ -101,6 +109,7 @@ export const SCENARIOS = {
         emoji: '🏛️',
         color: 'purple',
         order: 1,
+        priority: 1,
         levels: ['bachelor'],
         shortDescription: 'Mitglieder des Stadtrats, die im Interesse der Bürger Politik machen. Setzen sich für Arbeitsplätze und saubere Umwelt ein, damit Talstadts Ruf als Luftkurort keinen Schaden nimmt.'
       },
@@ -110,6 +119,7 @@ export const SCENARIOS = {
         emoji: '🛡️',
         color: 'green',
         order: 2,
+        priority: 3,
         levels: ['bachelor'],
         shortDescription: 'Zuständige Umweltschutzbehörde für Luftreinhaltung und Gewässerschutz. Überwacht Betriebe, kann Maßnahmen anordnen und Bußgelder verhängen.'
       },
@@ -119,6 +129,7 @@ export const SCENARIOS = {
         emoji: '🏭',
         color: 'amber',
         order: 3,
+        priority: 2,
         levels: ['bachelor'],
         shortDescription: 'Geschäftsführer der Papierfabrik mit 500 Beschäftigten. Kämpfen mit Verlusten und müssen zwischen Modernisierung, Umweltschutz und Überleben des Betriebs abwägen.'
       },
@@ -128,6 +139,7 @@ export const SCENARIOS = {
         emoji: '🎨',
         color: 'blue',
         order: 4,
+        priority: 4,
         levels: ['bachelor'],
         shortDescription: 'Geschäftsführer der Lackierfabrik mit 200 Beschäftigten. Wirtschaftlich erfolgreich, planen Expansion, aber veraltete Filteranlagen verursachen Geruchsbelästigung.'
       },
@@ -137,6 +149,7 @@ export const SCENARIOS = {
         emoji: '🏨',
         color: 'emerald',
         order: 5,
+        priority: 5,
         levels: ['bachelor'],
         shortDescription: 'Vorstand des Fremdenverkehrsvereins. Befürchtet, dass Luftverschmutzung und Geruchsbelästigung Kur- und Feriengäste abschrecken.'
       },
@@ -146,6 +159,7 @@ export const SCENARIOS = {
         emoji: '🎣',
         color: 'cyan',
         order: 6,
+        priority: 6,
         levels: ['bachelor'],
         shortDescription: 'Vorstand des Anglerclubs mit 49 Mitgliedern. Will die Schwarzach als sauberes Gewässer erhalten und fordert Schadenersatz für das Fischsterben.'
       }
