@@ -33,7 +33,7 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 
 ### IHRE ZIELE
 
-**1. Saubere Schwarzach -- Gewässergüteklasse II erreichen**
+**1. Saubere Schwarzach –Gewässergüteklasse II erreichen**
 - Die Papierfabrik muss ihre Abwässer wirksam reinigen
 - Das Fischsterben muss aufhören
 - Langfristig soll die Schwarzach wieder ein gesundes Gewässer werden
@@ -51,11 +51,11 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
 - **Druck auf den Stadtrat ausüben** für einen stärkeren Gewässerschutz
-- **Protestbrief an das Amt für Umweltschutz schreiben** -- Handeln fordern!
+- **Protestbrief an das Amt für Umweltschutz schreiben** –Handeln fordern!
 - **Mit der Papierfabrik verhandeln** und klare Forderungen stellen (Kläranlage + Entschädigung)
 - **Flugblätter erstellen und verteilen** um die Öffentlichkeit zu informieren
 - **Demonstrationsplakate anfertigen** für öffentliche Aktionen
-- **Eng mit dem Fremdenverkehrsverein zusammenarbeiten** -- gemeinsame Interessen!
+- **Eng mit dem Fremdenverkehrsverein zusammenarbeiten** –gemeinsame Interessen!
 - **Briefe beantworten** und mit anderen Gruppen kommunizieren
 
 ---
@@ -64,9 +64,9 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 
 1. **Einflussreiche Mitglieder:** Der Club hat 49 Mitglieder, darunter mehrere einflussreiche Persönlichkeiten aus Talstadt. Auch viele Kur- und Feriengäste nutzen das Angelangebot.
 
-2. **Ministeriumsanweisung:** Sie haben gehört, dass das Umweltministerium das Amt für Umweltschutz angewiesen hat, die Gewässergüteklasse II anzustreben (siehe M7). Erkundigen Sie sich danach -- das stützt Ihre Forderungen!
+2. **Ministeriumsanweisung:** Sie haben gehört, dass das Umweltministerium das Amt für Umweltschutz angewiesen hat, die Gewässergüteklasse II anzustreben (siehe M7). Erkundigen Sie sich danach –das stützt Ihre Forderungen!
 
-3. **Jährliche Ausgaben:** Die Mitglieder geben jährlich etwa 10.000 EUR für Wasserpacht und Fischpflege aus. 5.000 EUR davon fließen als Pachtzins in die Stadtkasse -- auch die Stadt profitiert von Ihrem Engagement!
+3. **Jährliche Ausgaben:** Die Mitglieder geben jährlich etwa 10.000 EUR für Wasserpacht und Fischpflege aus. 5.000 EUR davon fließen als Pachtzins in die Stadtkasse –auch die Stadt profitiert von Ihrem Engagement!
 
 4. **Entschädigungsanspruch:** Für Schäden, die durch Gewässerverunreinigung entstanden sind, kann nach geltendem Recht Schadensersatz gefordert werden (siehe M9). Das ist ein starkes rechtliches Argument!
 
@@ -78,9 +78,9 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 
 - Verweisen Sie auf das Umweltrecht und Ihren Entschädigungsanspruch
 - Nutzen Sie die Ministeriumsanweisung zur Gewässergüteklasse II als Argument
-- Bauen Sie öffentlichen Druck auf -- Flugblätter und Demonstrationen zeigen Wirkung
+- Bauen Sie öffentlichen Druck auf –Flugblätter und Demonstrationen zeigen Wirkung
 - Bilden Sie eine starke Allianz mit dem Fremdenverkehrsverein
-- Drohen Sie mit Wahlkampf gegen den Stadtrat -- das ist Ihr stärkstes politisches Druckmittel
+- Drohen Sie mit Wahlkampf gegen den Stadtrat –das ist Ihr stärkstes politisches Druckmittel
 - Fordern Sie sowohl die Kläranlage als auch eine finanzielle Entschädigung
 
 ---
@@ -92,8 +92,8 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 - **Amt für Umweltschutz**: Teilt das Ziel sauberer Gewässer, hat behördliche Durchsetzungsmacht
 
 **Mögliche Partner:**
-- **Stadtrat**: Abhängig von der Kooperationsbereitschaft -- das Druckmittel Wiederwahl wirkt!
+- **Stadtrat**: Abhängig von der Kooperationsbereitschaft –das Druckmittel Wiederwahl wirkt!
 
 **Potenzielle Gegner:**
-- **Papierfabrik**: Hauptverursacher der Wasserverschmutzung -- hier müssen Sie den größten Druck aufbauen
+- **Papierfabrik**: Hauptverursacher der Wasserverschmutzung –hier müssen Sie den größten Druck aufbauen
 - **Lackierfabrik**: Könnte sich mit der Papierfabrik verbünden gegen "übertriebene" Umweltforderungen

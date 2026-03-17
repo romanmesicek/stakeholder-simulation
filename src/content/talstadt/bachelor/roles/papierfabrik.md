@@ -5,7 +5,7 @@
 
 ### WER SIE SIND
 
-Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ihr Ziel ist es, den Betrieb rentabel zu führen. Derzeit macht die Fabrik Verluste -- das muss sich ändern. Ihnen stehen verschiedene Optionen offen: Modernisierung, Personalabbau, Gewinnung neuer Kunden oder eventuell der Verkauf des gesamten Unternehmens.
+Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ihr Ziel ist es, den Betrieb rentabel zu führen. Derzeit macht die Fabrik Verluste –das muss sich ändern. Ihnen stehen verschiedene Optionen offen: Modernisierung, Personalabbau, Gewinnung neuer Kunden oder eventuell der Verkauf des gesamten Unternehmens.
 
 **Ihre Befugnisse:** Investitionsentscheidungen, Personalentscheidungen, Verhandlungen über Subventionen und Fördermittel, Entscheidung über Unternehmensverkauf.
 
@@ -16,7 +16,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 ### IHRE SITUATION
 
 **Wirtschaftliche Lage:**
-- Die Geschäfte laufen sehr schlecht -- das Unternehmen macht Verluste (siehe M1)
+- Die Geschäfte laufen sehr schlecht –das Unternehmen macht Verluste (siehe M1)
 - Um wettbewerbsfähig zu werden, wäre eine Modernisierungsinvestition von 3-4 Mio. EUR nötig
 - Der Erfolg einer Modernisierung ist nicht garantiert
 - Sie verfügen über 3 Mio. EUR an Rücklagen für Investitionen
@@ -24,7 +24,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 **Umweltprobleme:**
 - Die Abwässer der Fabrik belasten die Schwarzach erheblich (Fischsterben!)
-- Der Sauerstoffbedarf liegt bei 23 mg/l -- knapp unter dem Grenzwert von 25 mg/l
+- Der Sauerstoffbedarf liegt bei 23 mg/l –knapp unter dem Grenzwert von 25 mg/l
 - Das Amt für Umweltschutz hat bereits vor einem halben Jahr eine verbesserte Abwasserreinigung angeordnet
 - Bisher wurde nichts unternommen
 
@@ -41,7 +41,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 - Modernisierung oder Restrukturierung erforderlich
 - Alternative: Verkauf des Unternehmens (aber Achtung: Darlehensrückzahlung!)
 
-**2. Umweltauflagen erfüllen -- möglichst kostengünstig**
+**2. Umweltauflagen erfüllen –möglichst kostengünstig**
 - Abwasserreinigung muss verbessert werden (die Anordnung läuft!)
 - Verschiedene technische Optionen stehen zur Verfügung (siehe M3)
 - Kosten für Kläranlage: 1 bis 2,5 Mio. EUR je nach Ausbaustufe
@@ -56,9 +56,9 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 - **Subventionen beim Stadtrat beantragen** für den Bau einer Kläranlage (siehe M3)
 - **Beim Amt für Umweltschutz um Aufschub bitten** wegen der wirtschaftlichen Lage
-- **Mit der Lackierfabrik kooperieren** -- gemeinsame Lösungen suchen
+- **Mit der Lackierfabrik kooperieren** –gemeinsame Lösungen suchen
 - **Entschädigungsverhandlungen mit dem Anglerclub führen** für entstandene Schäden
-- **Rettungskonzept für das Unternehmen entwickeln** -- Modernisierung, Restrukturierung oder Verkauf
+- **Rettungskonzept für das Unternehmen entwickeln** –Modernisierung, Restrukturierung oder Verkauf
 - **Anfragen anderer Gruppen beantworten**
 
 ---
@@ -91,7 +91,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 - Betonen Sie die Bedeutung der 500 Arbeitsplätze für Talstadt
 - Nutzen Sie die schlechte wirtschaftliche Lage als Argument für Subventionen und Nachsicht
-- Drohen Sie notfalls mit Werksschließung oder Standortverlagerung -- aber vorsichtig!
+- Drohen Sie notfalls mit Werksschließung oder Standortverlagerung –aber vorsichtig!
 - Seien Sie offen für Kooperationen, die Ihnen finanziell helfen
 - Vergessen Sie nicht: Die 4 Mio. EUR Darlehensrückzahlung macht einen Verkauf teuer
 
@@ -101,7 +101,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 **Natürliche Verbündete:**
 - **Stadtrat**: Hat Interesse an Arbeitsplatzerhalt, kann Subventionen bereitstellen
-- **Lackierfabrik**: Als zweiter Industriebetrieb teilt sie ähnliche Probleme -- gemeinsame Front möglich
+- **Lackierfabrik**: Als zweiter Industriebetrieb teilt sie ähnliche Probleme –gemeinsame Front möglich
 
 **Mögliche Partner:**
 - **Amt für Umweltschutz**: Bei kooperativem Verhalten könnte Aufschub oder mildere Auflagen erreicht werden

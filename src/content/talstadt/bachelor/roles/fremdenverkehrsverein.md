@@ -57,7 +57,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 - **Auf das Amt für Umweltschutz drängen**, damit es eingreift
 - **Flugblätter erstellen und verteilen** um die Öffentlichkeit zu informieren
 - **Plakate anfertigen** für öffentliche Aktionen
-- **Eng mit dem Anglerclub zusammenarbeiten** -- gemeinsame Interessen bündeln
+- **Eng mit dem Anglerclub zusammenarbeiten** –gemeinsame Interessen bündeln
 - **Anfragen anderer Gruppen beantworten**
 
 ---
@@ -81,7 +81,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 - Betonen Sie die wirtschaftliche Bedeutung des Tourismus für Talstadt
 - Verweisen Sie auf den TÜV-Bericht als objektive Grundlage
 - Nutzen Sie das politische Druckmittel (Wahlkampf) gegenüber dem Stadtrat
-- Bilden Sie eine starke Allianz mit dem Anglerclub -- gemeinsam sind Sie stärker
+- Bilden Sie eine starke Allianz mit dem Anglerclub –gemeinsam sind Sie stärker
 - Erwägen Sie öffentlichkeitswirksame Aktionen (Flugblätter, Plakate), um Druck aufzubauen
 - Machen Sie klar: Wenn die Gäste wegbleiben, verliert ganz Talstadt
 
@@ -94,8 +94,8 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 - **Amt für Umweltschutz**: Teilt das Ziel der Umweltverbesserung, kann behördlich eingreifen
 
 **Mögliche Partner:**
-- **Stadtrat**: Teilt das Interesse am Kurstadt-Image -- aber nur wenn der Druck groß genug ist
-- **Papierfabrik**: Indirekt verbündet -- auch die Wasserverschmutzung schadet dem Tourismus
+- **Stadtrat**: Teilt das Interesse am Kurstadt-Image –aber nur wenn der Druck groß genug ist
+- **Papierfabrik**: Indirekt verbündet –auch die Wasserverschmutzung schadet dem Tourismus
 
 **Potenzielle Gegner:**
-- **Lackierfabrik**: Hauptverursacher der Luftverschmutzung -- hier müssen Sie den größten Druck aufbauen
+- **Lackierfabrik**: Hauptverursacher der Luftverschmutzung –hier müssen Sie den größten Druck aufbauen

@@ -5,7 +5,7 @@
 
 ### WER SIE SIND
 
-Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, Politik im Interesse der Bürgerinnen und Bürger zu gestalten. Sie unterstützen den Erhalt von Arbeitsplätzen, wollen aber gleichzeitig eine saubere Umwelt -- schließlich lebt Talstadt von seinem Ruf als Kurstadt.
+Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, Politik im Interesse der Bürgerinnen und Bürger zu gestalten. Sie unterstützen den Erhalt von Arbeitsplätzen, wollen aber gleichzeitig eine saubere Umwelt –schließlich lebt Talstadt von seinem Ruf als Kurstadt.
 
 **Ihre Befugnisse:** Entscheidungen über städtische Subventionen und Fördermittel, Genehmigung städtischer Investitionen, Auflagen für Gewerbebetriebe im Rahmen kommunaler Zuständigkeit, Zusammenarbeit mit dem Amt für Umweltschutz.
 
@@ -18,7 +18,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 **Wirtschaftliche Lage:**
 - Die Papierfabrik (ca. 500 Beschäftigte) ist in wirtschaftlichen Schwierigkeiten und macht Verluste
 - Die Lackierfabrik (ca. 200 Beschäftigte) läuft wirtschaftlich gut und kann Aufträge kaum abarbeiten
-- Der Tourismus ist ein wichtiger Wirtschaftsfaktor -- er sichert Arbeitsplätze und bringt Geld in die Stadtkasse
+- Der Tourismus ist ein wichtiger Wirtschaftsfaktor –er sichert Arbeitsplätze und bringt Geld in die Stadtkasse
 
 **Umweltprobleme:**
 - Die Papierfabrik verschmutzt die Schwarzach (Fischsterben, üble Gerüchte)
@@ -52,9 +52,9 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
 - **Mit beiden Fabriken sprechen** über Arbeitsplätze und Umweltschutzmaßnahmen
-- **Probleme mit Fremdenverkehrsverein und Anglerclub besprechen** -- deren Anliegen ernst nehmen
+- **Probleme mit Fremdenverkehrsverein und Anglerclub besprechen** –deren Anliegen ernst nehmen
 - **Informationen vom Amt für Umweltschutz anfordern** über die aktuelle Umweltsituation
-- **Subventionen mit der Papierfabrik verhandeln** -- Fördermittel an klare Bedingungen knüpfen
+- **Subventionen mit der Papierfabrik verhandeln** –Fördermittel an klare Bedingungen knüpfen
 - **Anfragen anderer Gruppen beantworten** und Verhandlungen führen
 
 ---
@@ -67,7 +67,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 
 3. **Wirtschaftliche Lage der Lackierfabrik:** Die Lackierfabrik läuft wirtschaftlich gut und sollte in der Lage sein, Maßnahmen zur Verbesserung der Luftreinigung aus eigenen Mitteln zu finanzieren.
 
-4. **Bedeutung des Tourismus:** Der Tourismus sichert viele Arbeitsplätze und bringt Geld in die Stadtkasse. Vorsicht beim Anglerclub -- dort sind einflussreiche Persönlichkeiten Mitglied, die Sie für die Wiederwahl brauchen!
+4. **Bedeutung des Tourismus:** Der Tourismus sichert viele Arbeitsplätze und bringt Geld in die Stadtkasse. Vorsicht beim Anglerclub –dort sind einflussreiche Persönlichkeiten Mitglied, die Sie für die Wiederwahl brauchen!
 
 5. **Darlehensrückzahlung:** Sollte die Leitung der Papierfabrik den Betrieb verkaufen wollen, fordern Sie die sofortige Rückzahlung der gewährten Darlehen in Höhe von 4 Mio. EUR!
 

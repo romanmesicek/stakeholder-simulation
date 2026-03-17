@@ -1,4 +1,4 @@
-# Spielablauf -- Planspiel Talstadt
+# Spielablauf –Planspiel Talstadt
 
 ---
 
@@ -26,7 +26,7 @@
 
 ## Phase 1: Einlesen und Strategieentwicklung (30 min)
 
-### Arbeitskarte -- 8 Schritte
+### Arbeitskarte –8 Schritte
 
 1. **Materialien lesen:** Lesen Sie Ihre Rollenkarte und die Informationsmaterialien gründlich durch (15 min)
 2. **Situation analysieren:** Was ist Ihre Ausgangslage? Was sind Ihre Stärken und Schwächen?
@@ -76,7 +76,7 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 ### Ablauf
 
 1. **Eröffnung** durch die Spielleitung (2 min)
-2. **Statements der Gruppen** -- jede Gruppe hat 3-5 Minuten:
+2. **Statements der Gruppen** –jede Gruppe hat 3-5 Minuten:
    - Stadtrat
    - Amt für Umweltschutz
    - Leitung der Papierfabrik
@@ -91,7 +91,7 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 ### Regeln für die Konferenz
 
 - Jede Gruppe bestimmt eine Sprecherin / einen Sprecher
-- Ausreden lassen -- keine Zwischenrufe
+- Ausreden lassen –keine Zwischenrufe
 - Sachlich bleiben, aber engagiert argumentieren
 - Die Spielleitung moderiert und achtet auf die Zeit
 
@@ -100,23 +100,6 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 ## Phase 4: Auswertung und Reflexion (20 min)
 
 Siehe "Auswertungsfragen" für die strukturierte Nachbesprechung.
-
----
-
-## Ereigniskarten
-
-Die Spielleitung kann während des Spiels folgende Ereigniskarten einsetzen, um die Dynamik zu verändern:
-
-| Nr. | Ereignis | Wirkung |
-|-----|----------|---------|
-| E1 | **Zeitungsbericht:** "Erneutes Fischsterben -- Anglerclub droht mit Klage" | Erhöhter Druck auf Papierfabrik und Stadtrat |
-| E2 | **Gerüchteküche:** Ein Investor aus dem Ausland interessiert sich für die Papierfabrik | Verkaufsoption wird realistischer -- Stadt muss reagieren |
-| E3 | **Kurgäste-Protest:** Mehrere Hotels melden Stornierungen wegen Geruchsbelästigung | Erhöhter Druck auf Lackierfabrik und Stadtrat |
-| E4 | **Landeszuschuss:** Das Land erhöht den möglichen Zuschuss auf 2,5 Mio. EUR -- aber nur bei sofortigem Handeln | Neue Finanzierungsmöglichkeiten, Zeitdruck |
-| E5 | **Umweltskandal:** Eine Umweltorganisation veröffentlicht einen Bericht über Talstadt in der überregionalen Presse | Öffentlicher Druck auf alle Beteiligten steigt massiv |
-| E6 | **Arbeitsmarkt:** Die Nachbarstadt bietet der Lackierfabrik ein Grundstück für eine Filiale an | Drohkulisse: Abwanderung von Arbeitsplätzen |
-
-**Hinweis für die Spielleitung:** Setzen Sie die Ereigniskarten gezielt ein, um festgefahrene Verhandlungen aufzulockern oder neue Dynamik zu erzeugen. Nicht alle Karten müssen verwendet werden.
 
 ---
 

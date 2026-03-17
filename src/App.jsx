@@ -7,6 +7,7 @@ import JoinSession from './pages/JoinSession';
 import ParticipantView from './pages/ParticipantView';
 import FacilitatorHome from './pages/FacilitatorHome';
 import FacilitatorDashboard from './pages/FacilitatorDashboard';
+import FacilitatorMaterial from './pages/FacilitatorMaterial';
 import InfoHub from './pages/InfoHub';
 import CasePage from './pages/CasePage';
 import ReferencePage from './pages/ReferencePage';
@@ -27,6 +28,7 @@ export default function App() {
             <Route path="session/:sessionCode" element={<ParticipantView />} />
             <Route path="facilitate" element={<FacilitatorHome />} />
             <Route path="facilitate/:sessionCode" element={<FacilitatorDashboard />} />
+            <Route path="facilitate/materials/:contentKey" element={<FacilitatorMaterial />} />
             <Route path="info" element={<InfoHub />} />
             <Route path="info/case" element={<CasePage />} />
             <Route path="info/reference" element={<ReferencePage />} />

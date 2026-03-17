@@ -54,6 +54,9 @@ const contentModules = {
         keyFacts: () => import('../content/talstadt/bachelor/shared/key-facts-reference.md?raw'),
         schedule: () => import('../content/talstadt/bachelor/shared/simulation-instructions.md?raw'),
         debriefing: () => import('../content/talstadt/bachelor/shared/debriefing-questions.md?raw'),
+      },
+      facilitator: {
+        eventCards: () => import('../content/talstadt/bachelor/facilitator/event-cards.md?raw'),
       }
     }
   }
@@ -83,6 +86,26 @@ export async function loadSharedContent(scenario, level, contentKey) {
 
   const module = await loader();
   return module.default;
+}
+
+export async function loadFacilitatorContent(scenario, level, contentKey) {
+  const effectiveScenario = scenario || 'energy-transition';
+  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
+  const loader = contentModules[effectiveScenario]?.[effectiveLevel]?.facilitator?.[contentKey];
+
+  if (!loader) {
+    throw new Error(`Facilitator content ${contentKey} not found for scenario ${effectiveScenario}, level ${effectiveLevel}`);
+  }
+
+  const module = await loader();
+  return module.default;
+}
+
+export function getFacilitatorMaterials(scenario, level) {
+  const effectiveScenario = scenario || 'energy-transition';
+  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
+  const facilitator = contentModules[effectiveScenario]?.[effectiveLevel]?.facilitator;
+  return facilitator ? Object.keys(facilitator) : [];
 }
 
 export async function loadAllSessionContent(scenario, level, roleId) {

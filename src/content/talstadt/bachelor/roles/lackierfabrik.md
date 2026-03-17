@@ -5,7 +5,7 @@
 
 ### WER SIE SIND
 
-Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. Ihr Ziel ist es, den Gewinn zu maximieren. Die Geschäfte laufen gut -- Sie können nicht alle Aufträge abarbeiten. Sie planen eine neue Produktionshalle und wollen weiter modernisieren und rationalisieren. Für Umweltschutz bleibt in Ihren Augen nicht viel Geld übrig.
+Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. Ihr Ziel ist es, den Gewinn zu maximieren. Die Geschäfte laufen gut –Sie können nicht alle Aufträge abarbeiten. Sie planen eine neue Produktionshalle und wollen weiter modernisieren und rationalisieren. Für Umweltschutz bleibt in Ihren Augen nicht viel Geld übrig.
 
 **Ihre Befugnisse:** Investitionsentscheidungen, Personalplanung, Produktionsentscheidungen, Verhandlungen mit Behörden und anderen Gruppen.
 
@@ -16,7 +16,7 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 ### IHRE SITUATION
 
 **Wirtschaftliche Lage:**
-- Die Geschäfte laufen sehr gut -- Sie können die Auftragslage kaum bewältigen
+- Die Geschäfte laufen sehr gut –Sie können die Auftragslage kaum bewältigen
 - Sie verfügen über 2,5 Mio. EUR an Rücklagen für Investitionen
 - Darüber hinausgehender Bedarf müsste zu 6% Zinsen aufgenommen werden
 
@@ -27,7 +27,7 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 
 **Umweltsituation:**
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
-- Laut TÜV-Bericht: 150 mg/m3 Schadstoffbelastung am Schornstein -- genau am Grenzwert
+- Laut TÜV-Bericht: 150 mg/m3 Schadstoffbelastung am Schornstein –genau am Grenzwert
 - Der Schornstein ist 5 m zu niedrig (unzureichende Schadstoffverteilung)
 - Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe M2)
 
@@ -39,7 +39,7 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 ### IHRE ZIELE
 
 **1. Gewinn maximieren und Unternehmen erweitern**
-- Neue Produktionshalle bauen -- ca. 40 neue Arbeitsplätze
+- Neue Produktionshalle bauen –ca. 40 neue Arbeitsplätze
 - Weiter modernisieren und rationalisieren
 - Auftragsrückstand abarbeiten
 
@@ -56,10 +56,10 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
-- **Pläne für die neue Produktionshalle dem Stadtrat vorstellen** -- 40 neue Arbeitsplätze als Argument
+- **Pläne für die neue Produktionshalle dem Stadtrat vorstellen** –40 neue Arbeitsplätze als Argument
 - **Verbesserungen der Luftreinigung mit Stadtrat und Umweltschutzamt besprechen** und Subventionen fordern
 - **Mit dem Fremdenverkehrsverein sprechen** über die Situation
-- **Mit der Papierfabrik kooperieren** -- gemeinsame Verhandlungsposition aufbauen
+- **Mit der Papierfabrik kooperieren** –gemeinsame Verhandlungsposition aufbauen
 - **Anfragen anderer Gruppen beantworten**
 
 ---
@@ -102,7 +102,7 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 
 **Natürliche Verbündete:**
 - **Papierfabrik**: Gemeinsame Industrieinteressen, gemeinsame Front gegen zu strenge Auflagen
-- **Stadtrat**: Interesse an Arbeitsplätzen und Gewerbesteuer -- die neue Halle ist ein starkes Argument
+- **Stadtrat**: Interesse an Arbeitsplätzen und Gewerbesteuer –die neue Halle ist ein starkes Argument
 
 **Mögliche Partner:**
 - **Amt für Umweltschutz**: Bei konstruktivem Dialog Kompromisse möglich

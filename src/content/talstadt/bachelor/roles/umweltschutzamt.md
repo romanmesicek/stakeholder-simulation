@@ -24,7 +24,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 **Rechtliche Grundlagen:**
 - Wasserhaushaltsgesetz (WHG) und Bundes-Immissionsschutzgesetz (BImSchG)
 - Verwaltungsvorschriften zum Gewässerschutz und TA Luft (Technische Anleitung zur Reinhaltung der Luft)
-- Grenzwerte sind Mindestanforderungen -- bessere Werte sind anzustreben!
+- Grenzwerte sind Mindestanforderungen –bessere Werte sind anzustreben!
 
 **Vorgeschichte:**
 - Vor einem halben Jahr wurde bereits eine Anordnung zur Verbesserung der Abwasserreinigung an die Papierfabrik geschickt
@@ -35,7 +35,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 ### IHRE ZIELE
 
 **1. Einhaltung und Verbesserung der Umweltstandards**
-- Grenzwerte müssen eingehalten werden -- sie sind nur Mindestanforderungen
+- Grenzwerte müssen eingehalten werden –sie sind nur Mindestanforderungen
 - Streben Sie bessere Werte als die gesetzlichen Mindestanforderungen an
 - Gewässergüteklasse II für die Schwarzach erreichen (Anweisung des zuständigen Ministeriums, siehe M7)
 
@@ -55,7 +55,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 - **Mit der Leitung beider Fabriken sprechen** über notwendige Umweltschutzmaßnahmen
 - **Konkrete Maßnahmen anordnen** (siehe M3 für die Papierfabrik und M4 für die Lackierfabrik)
-- **Wirtschaftliche Situation mit dem Stadtrat besprechen** -- gemeinsame Lösung suchen
+- **Wirtschaftliche Situation mit dem Stadtrat besprechen** –gemeinsame Lösung suchen
 - **Informationsgespräche mit Anglerclub und Fremdenverkehrsverein führen** über die Umweltsituation
 - **Bußgelder androhen** bei Nichtbefolgung von Anordnungen
 - **Anfragen anderer Gruppen beantworten**
@@ -74,13 +74,13 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 5. **Bußgelder:** Strafen werden erst verhängt, nachdem eine vorherige "Anordnung" zur Beseitigung eines Umweltverstoßes nicht befolgt wurde.
 
-6. **Papierfabrik-Anordnung:** Der Papierfabrik wurde bereits vor einem halben Jahr eine Anordnung zugestellt. Bisher ist nichts geschehen. Sie könnten nun ein Bußgeld androhen -- in welcher Höhe?
+6. **Papierfabrik-Anordnung:** Der Papierfabrik wurde bereits vor einem halben Jahr eine Anordnung zugestellt. Bisher ist nichts geschehen. Sie könnten nun ein Bußgeld androhen –in welcher Höhe?
 
 ---
 
 ### VERHANDLUNGSTIPPS
 
-- Stützen Sie sich auf Gesetze und den TÜV-Bericht -- das sind Ihre stärksten Argumente
+- Stützen Sie sich auf Gesetze und den TÜV-Bericht –das sind Ihre stärksten Argumente
 - Seien Sie sachlich und fachlich fundiert, aber bestimmt
 - Berücksichtigen Sie die wirtschaftliche Lage, aber lassen Sie sich nicht von Betrieben erpressen
 - Nutzen Sie die Bußgeldandrohung als Druckmittel, aber setzen Sie sie mit Bedacht ein
@@ -100,4 +100,4 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 **Potenzielle Gegner:**
 - **Lackierfabrik**: Könnte Maßnahmen als wirtschaftlich unzumutbar ablehnen
-- **Papierfabrik**: Hat die bisherige Anordnung ignoriert -- möglicherweise unkooperativ
+- **Papierfabrik**: Hat die bisherige Anordnung ignoriert –möglicherweise unkooperativ

@@ -33,7 +33,7 @@
 - Sind die Ergebnisse für alle Seiten akzeptabel?
 - Wer hat seine Interessen am besten durchgesetzt? Warum?
 - Wer musste die größten Zugeständnisse machen?
-- Ist die gefundene Lösung nachhaltig -- oder wird das Problem nur verschoben?
+- Ist die gefundene Lösung nachhaltig –oder wird das Problem nur verschoben?
 - Hätten bessere Ergebnisse erzielt werden können? Wie?
 
 ---
@@ -73,7 +73,7 @@
 ### Umweltpolitische Erkenntnisse
 
 - Welches Grundproblem steckt hinter dem Konflikt in Talstadt?
-- Ist der Konflikt zwischen Wirtschaft und Umwelt unvermeidlich -- oder gibt es Win-Win-Lösungen?
+- Ist der Konflikt zwischen Wirtschaft und Umwelt unvermeidlich –oder gibt es Win-Win-Lösungen?
 - Welche Rolle spielen Gesetze und Grenzwerte in der Umweltpolitik? Reichen sie aus?
 - Warum ist es so schwierig, Umweltschutzmaßnahmen durchzusetzen, obwohl die Notwendigkeit klar ist?
 - Was lässt sich aus dem Planspiel über die Balance zwischen wirtschaftlichen und ökologischen Interessen lernen?
@@ -96,4 +96,4 @@
 
 ## Abschlussfrage
 
-> Stellen Sie sich vor, Sie wären tatsächlich Bürgerin oder Bürger von Talstadt. Welche Lösung würden Sie sich für Ihre Stadt wünschen -- und was wären Sie bereit, dafür in Kauf zu nehmen?
+> Stellen Sie sich vor, Sie wären tatsächlich Bürgerin oder Bürger von Talstadt. Welche Lösung würden Sie sich für Ihre Stadt wünschen –und was wären Sie bereit, dafür in Kauf zu nehmen?

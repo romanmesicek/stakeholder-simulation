@@ -2,6 +2,24 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAllSessions } from '../hooks/useAllSessions';
 import { SCENARIOS } from '../lib/stakeholders';
+import { getFacilitatorMaterials } from '../lib/contentLoader';
+
+const MATERIAL_META = {
+  eventCards: {
+    emoji: '🎴',
+    labelDe: 'Ereigniskarten',
+    labelEn: 'Event Cards',
+    descDe: 'Ereignisse zum Einsetzen während der Verhandlungen',
+    descEn: 'Events to inject during negotiations',
+  },
+  debriefing: {
+    emoji: '💬',
+    labelDe: 'Auswertungsfragen',
+    labelEn: 'Debriefing Guide',
+    descDe: 'Strukturierte Reflexion nach dem Planspiel',
+    descEn: 'Post-simulation discussion guide',
+  },
+};
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -182,6 +200,60 @@ export default function FacilitatorHome() {
           )}
         </div>
       )}
+
+      {/* Facilitator Materials Section */}
+      <div className="mt-12 pt-8 border-t border-slate-200">
+        <h2 className="text-lg font-bold text-slate-800 mb-4">Facilitator Materials</h2>
+        <div className="space-y-4">
+          {Object.entries(SCENARIOS).map(([scenarioId, scenario]) =>
+            scenario.levels.map(level => {
+              const facilitatorKeys = getFacilitatorMaterials(scenarioId, level);
+              const allKeys = ['debriefing', ...facilitatorKeys.filter(k => k !== 'debriefing')];
+              const isGerman = scenarioId === 'talstadt';
+
+              return (
+                <div key={`${scenarioId}-${level}`} className="bg-slate-50 rounded-lg p-4">
+                  <div className="flex items-center gap-2 mb-3">
+                    <h3 className="font-medium text-slate-800">{scenario.name}</h3>
+                    {scenario.levels.length > 1 && (
+                      <span className={`text-xs px-2 py-0.5 rounded-full ${
+                        level === 'bachelor'
+                          ? 'bg-amber-100 text-amber-700'
+                          : 'bg-purple-100 text-purple-700'
+                      }`}>
+                        {level === 'bachelor' ? 'BA' : 'MA'}
+                      </span>
+                    )}
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {allKeys.map(key => {
+                      const meta = MATERIAL_META[key];
+                      if (!meta) return null;
+                      return (
+                        <Link
+                          key={key}
+                          to={`/facilitate/materials/${key}?scenario=${scenarioId}&level=${level}`}
+                          className="flex items-start gap-3 p-3 bg-white border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+                        >
+                          <span className="text-xl">{meta.emoji}</span>
+                          <div>
+                            <p className="font-medium text-slate-800 text-sm">
+                              {isGerman ? meta.labelDe : meta.labelEn}
+                            </p>
+                            <p className="text-xs text-slate-500">
+                              {isGerman ? meta.descDe : meta.descEn}
+                            </p>
+                          </div>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })
+          )}
+        </div>
+      </div>
     </div>
   );
 }
