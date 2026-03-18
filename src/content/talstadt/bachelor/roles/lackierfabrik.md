@@ -5,11 +5,11 @@
 
 ### WER SIE SIND
 
-Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. Ihr Ziel ist es, den Gewinn zu maximieren. Die Geschäfte laufen gut –Sie können nicht alle Aufträge abarbeiten. Sie planen eine neue Produktionshalle und wollen weiter modernisieren und rationalisieren. Für Umweltschutz bleibt in Ihren Augen nicht viel Geld übrig.
+Sie sind die Geschäftsführung (CEO) der Lackierfabrik in Talstadt –angestellt, nicht Eigentümer. Die Eigentümer erwarten steigende Gewinne und eine schnelle Expansion. Ihr Ziel ist es, den Gewinn zu maximieren und die Erwartungen der Eigentümer zu erfüllen. Die Geschäfte laufen gut –Sie können nicht alle Aufträge abarbeiten. Sie planen eine neue Produktionshalle und wollen weiter modernisieren und rationalisieren. Umweltschutz ist für Sie vor allem ein Kostenfaktor, der die Rendite schmälert.
 
-**Ihre Befugnisse:** Investitionsentscheidungen, Personalplanung, Produktionsentscheidungen, Verhandlungen mit Behörden und anderen Gruppen.
+**Ihre Befugnisse:** Investitionsentscheidungen (im Rahmen des Budgets), Personalplanung, Produktionsentscheidungen, Verhandlungen mit Behörden und anderen Gruppen. Die Eigentümer erwarten Ergebnisse –nicht Kompromisse.
 
-**Ihre Verantwortung:** Gegenüber den Beschäftigten (ca. 200 Arbeitsplätze, potenziell ca. 240 nach Erweiterung), gegenüber den Umweltbehörden und der Stadtgemeinschaft.
+**Ihre Verantwortung:** Gegenüber den Eigentümern (Gewinnerwartung), den Beschäftigten (ca. 200 Arbeitsplätze, potenziell ca. 240 nach Erweiterung), den Umweltbehörden und der Stadtgemeinschaft.
 
 ---
 

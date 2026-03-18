@@ -131,7 +131,7 @@ export const SCENARIOS = {
         order: 3,
         priority: 2,
         levels: ['bachelor'],
-        shortDescription: 'Geschäftsführer der Papierfabrik mit 500 Beschäftigten. Kämpfen mit Verlusten und müssen zwischen Modernisierung, Umweltschutz und Überleben des Betriebs abwägen.'
+        shortDescription: 'Eigentümerfamilie und Geschäftsführung der Papierfabrik mit 500 Beschäftigten. Familienbesitz seit Generationen. Kämpfen mit Verlusten, wollen den Betrieb aber langfristig erhalten –nicht um jeden Preis verkaufen.'
       },
       lackierfabrik: {
         id: 'lackierfabrik',
@@ -141,7 +141,7 @@ export const SCENARIOS = {
         order: 4,
         priority: 4,
         levels: ['bachelor'],
-        shortDescription: 'Geschäftsführer der Lackierfabrik mit 200 Beschäftigten. Wirtschaftlich erfolgreich, planen Expansion, aber veraltete Filteranlagen verursachen Geruchsbelästigung.'
+        shortDescription: 'Angestellter CEO der Lackierfabrik mit 200 Beschäftigten. Stark gewinnorientiert, unter Druck der Eigentümer. Wirtschaftlich erfolgreich, plant Expansion, aber veraltete Filteranlagen verursachen Geruchsbelästigung.'
       },
       fremdenverkehrsverein: {
         id: 'fremdenverkehrsverein',

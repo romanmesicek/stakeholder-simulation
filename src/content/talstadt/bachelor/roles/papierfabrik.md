@@ -5,11 +5,11 @@
 
 ### WER SIE SIND
 
-Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ihr Ziel ist es, den Betrieb rentabel zu führen. Derzeit macht die Fabrik Verluste –das muss sich ändern. Ihnen stehen verschiedene Optionen offen: Modernisierung, Personalabbau, Gewinnung neuer Kunden oder eventuell der Verkauf des gesamten Unternehmens.
+Sie sind die Geschäftsführung und Eigentümerfamilie der Papierfabrik in Talstadt. Das Unternehmen ist seit Generationen in Familienbesitz –Sie fühlen sich der Stadt und den Beschäftigten verpflichtet. Ihr Ziel ist es, den Betrieb profitabel zu führen und langfristig zu erhalten. Derzeit macht die Fabrik Verluste –das muss sich ändern. Gewinn ist wichtig, aber nicht um jeden Preis: Die Fabrik ist Teil Ihrer Identität, und ein Verkauf wäre das letzte Mittel. Ihnen stehen verschiedene Optionen offen: Modernisierung, Personalabbau, Gewinnung neuer Kunden oder eventuell der Verkauf des gesamten Unternehmens.
 
-**Ihre Befugnisse:** Investitionsentscheidungen, Personalentscheidungen, Verhandlungen über Subventionen und Fördermittel, Entscheidung über Unternehmensverkauf.
+**Ihre Befugnisse:** Investitionsentscheidungen, Personalentscheidungen, Verhandlungen über Subventionen und Fördermittel, Entscheidung über Unternehmensverkauf. Als Eigentümer haben Sie volle Entscheidungsfreiheit.
 
-**Ihre Verantwortung:** Gegenüber den Beschäftigten (ca. 500 Arbeitsplätze), gegenüber der Stadt (Steuerzahler, Darlehensgeber) und gegenüber den Umweltbehörden.
+**Ihre Verantwortung:** Gegenüber der Familie (Erbe bewahren), den Beschäftigten (ca. 500 Arbeitsplätze, viele seit Jahrzehnten dabei), der Stadt (Steuerzahler, Darlehensgeber) und den Umweltbehörden.
 
 ---
 
