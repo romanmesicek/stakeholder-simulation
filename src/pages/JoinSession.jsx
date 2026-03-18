@@ -169,7 +169,7 @@ export default function JoinSession() {
           <p>{participants.length} participant{participants.length !== 1 ? 's' : ''} joined</p>
         </div>
         <p className="text-xs text-slate-400 text-center">
-          Lost your session? Just enter the same name again to rejoin your group.
+          Lost your session? Just enter session code and the same name again to rejoin your group.
         </p>
       </div>
     </div>
