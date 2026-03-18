@@ -29,7 +29,7 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
 - Laut TÜV-Bericht: 150 mg/m3 Schadstoffbelastung am Schornstein –genau am Grenzwert
 - Der Schornstein ist 5 m zu niedrig (unzureichende Schadstoffverteilung)
-- Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe M2)
+- Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe Informationsmaterialien, Abschnitt 2)
 
 **Informationen über die Papierfabrik:**
 - Aus zuverlässiger Quelle: Die Papierfabrik steht vor Entlassungen und erwägt möglicherweise einen Verkauf. Gehen Sie dem nach!
@@ -74,11 +74,11 @@ Sie sind die Geschäftsführung und Eigentümer der Lackierfabrik in Talstadt. I
 
 4. **BImSchG und wirtschaftliche Zumutbarkeit:** Das Bundes-Immissionsschutzgesetz verlangt, dass nachträgliche Umweltschutzmaßnahmen für den Betreiber wirtschaftlich zumutbar sein müssen. Nutzen Sie dieses Argument.
 
-5. **Aktuelle Umweltwerte:** Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe M2). Allerdings ist der Schornstein 5 m zu niedrig.
+5. **Aktuelle Umweltwerte:** Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe Informationsmaterialien, Abschnitt 2). Allerdings ist der Schornstein 5 m zu niedrig.
 
 ---
 
-### TECHNISCHE OPTIONEN FÜR DIE LUFTREINIGUNG (M4)
+### TECHNISCHE OPTIONEN FÜR DIE LUFTREINIGUNG
 
 | Maßnahme | Kosten | Wirkung |
 |-----------|--------|---------|

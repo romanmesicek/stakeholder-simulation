@@ -26,8 +26,8 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 - Die Schäden durch die Wasserverschmutzung übersteigen diese Summen bei Weitem
 
 **Rechtliche Möglichkeiten:**
-- Für Schäden durch Gewässerverunreinigung kann nach geltendem Recht Entschädigung gefordert werden (siehe M9)
-- Das Umweltministerium hat die Behörden angewiesen, Gewässergüteklasse II anzustreben (siehe M7)
+- Für Schäden durch Gewässerverunreinigung kann nach geltendem Recht Entschädigung gefordert werden (siehe Informationsmaterialien, Abschnitt 9)
+- Das Umweltministerium hat die Behörden angewiesen, Gewässergüteklasse II anzustreben (siehe Informationsmaterialien, Abschnitt 7)
 
 ---
 
@@ -64,11 +64,11 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 
 1. **Einflussreiche Mitglieder:** Der Club hat 49 Mitglieder, darunter mehrere einflussreiche Persönlichkeiten aus Talstadt. Auch viele Kur- und Feriengäste nutzen das Angelangebot.
 
-2. **Ministeriumsanweisung:** Sie haben gehört, dass das Umweltministerium das Amt für Umweltschutz angewiesen hat, die Gewässergüteklasse II anzustreben (siehe M7). Erkundigen Sie sich danach –das stützt Ihre Forderungen!
+2. **Ministeriumsanweisung:** Sie haben gehört, dass das Umweltministerium das Amt für Umweltschutz angewiesen hat, die Gewässergüteklasse II anzustreben (siehe Informationsmaterialien, Abschnitt 7). Erkundigen Sie sich danach –das stützt Ihre Forderungen!
 
 3. **Jährliche Ausgaben:** Die Mitglieder geben jährlich etwa 10.000 EUR für Wasserpacht und Fischpflege aus. 5.000 EUR davon fließen als Pachtzins in die Stadtkasse –auch die Stadt profitiert von Ihrem Engagement!
 
-4. **Entschädigungsanspruch:** Für Schäden, die durch Gewässerverunreinigung entstanden sind, kann nach geltendem Recht Schadensersatz gefordert werden (siehe M9). Das ist ein starkes rechtliches Argument!
+4. **Entschädigungsanspruch:** Für Schäden, die durch Gewässerverunreinigung entstanden sind, kann nach geltendem Recht Schadensersatz gefordert werden (siehe Informationsmaterialien, Abschnitt 9). Das ist ein starkes rechtliches Argument!
 
 5. **Politisches Druckmittel:** Die Stadträte wollen wiedergewählt werden. Wenn Sie gegen sie Wahlkampf machen, sinken deren Chancen! Das gibt Ihnen erheblichen politischen Einfluss.
 

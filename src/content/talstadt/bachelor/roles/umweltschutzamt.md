@@ -5,7 +5,7 @@
 
 ### WER SIE SIND
 
-Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umweltbehörde sind Sie zuständig für den Schutz der Luftqualität und den Gewässerschutz in Talstadt. Ihre Aufgabe ist es, Betriebe zu überwachen und bei Verstößen gegen Umweltvorschriften einzuschreiten. Sie können sich dabei auf Gesetze (siehe M9) und den TÜV-Bericht (siehe M2) stützen. Sie können Maßnahmen anordnen und Bußgelder verhängen.
+Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umweltbehörde sind Sie zuständig für den Schutz der Luftqualität und den Gewässerschutz in Talstadt. Ihre Aufgabe ist es, Betriebe zu überwachen und bei Verstößen gegen Umweltvorschriften einzuschreiten. Sie können sich dabei auf Gesetze (siehe Informationsmaterialien, Abschnitt 9) und den TÜV-Bericht (siehe Informationsmaterialien, Abschnitt 2) stützen. Sie können Maßnahmen anordnen und Bußgelder verhängen.
 
 **Ihre Befugnisse:** Anordnung von Umweltschutzmaßnahmen, Verhängung von Bußgeldern bei Verstößen, Überwachung der Einhaltung von Grenzwerten, Erstellung von Gutachten und Berichten.
 
@@ -37,7 +37,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 **1. Einhaltung und Verbesserung der Umweltstandards**
 - Grenzwerte müssen eingehalten werden –sie sind nur Mindestanforderungen
 - Streben Sie bessere Werte als die gesetzlichen Mindestanforderungen an
-- Gewässergüteklasse II für die Schwarzach erreichen (Anweisung des zuständigen Ministeriums, siehe M7)
+- Gewässergüteklasse II für die Schwarzach erreichen (Anweisung des zuständigen Ministeriums, siehe Informationsmaterialien, Abschnitt 7)
 
 **2. Durchsetzung der Umweltgesetze**
 - Verstöße müssen geahndet werden
@@ -54,7 +54,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
 - **Mit der Leitung beider Fabriken sprechen** über notwendige Umweltschutzmaßnahmen
-- **Konkrete Maßnahmen anordnen** (siehe M3 für die Papierfabrik und M4 für die Lackierfabrik)
+- **Konkrete Maßnahmen anordnen** (siehe Informationsmaterialien, Abschnitt 3 für die Papierfabrik und Abschnitt 4 für die Lackierfabrik)
 - **Wirtschaftliche Situation mit dem Stadtrat besprechen** –gemeinsame Lösung suchen
 - **Informationsgespräche mit Anglerclub und Fremdenverkehrsverein führen** über die Umweltsituation
 - **Bußgelder androhen** bei Nichtbefolgung von Anordnungen
@@ -64,13 +64,13 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 ### WICHTIGE ZUSATZINFORMATIONEN
 
-1. **Gesetze und TÜV-Bericht beachten:** Orientieren Sie sich an den gesetzlichen Vorgaben und dem TÜV-Bericht (M2). Berücksichtigen Sie dabei die wirtschaftliche Situation der Betriebe.
+1. **Gesetze und TÜV-Bericht beachten:** Orientieren Sie sich an den gesetzlichen Vorgaben und dem TÜV-Bericht (siehe Informationsmaterialien, Abschnitt 2). Berücksichtigen Sie dabei die wirtschaftliche Situation der Betriebe.
 
 2. **Herkunft der Grenzwerte:** Die "Grenzwerte" aus dem TÜV-Bericht stammen aus den Verwaltungsvorschriften zum Gewässerschutz und der Technischen Anleitung zur Reinhaltung der Luft (TA Luft).
 
 3. **Grenzwerte sind Mindestanforderungen:** Streben Sie bessere Werte an! Die Grenzwerte markieren nur die Untergrenze dessen, was akzeptabel ist.
 
-4. **Ministeriumsanweisung:** Das zuständige Ministerium hat angewiesen, die Gewässergüteklasse II anzustreben (siehe M7). Dies ist ein klarer Auftrag an Ihre Behörde.
+4. **Ministeriumsanweisung:** Das zuständige Ministerium hat angewiesen, die Gewässergüteklasse II anzustreben (siehe Informationsmaterialien, Abschnitt 7). Dies ist ein klarer Auftrag an Ihre Behörde.
 
 5. **Bußgelder:** Strafen werden erst verhängt, nachdem eine vorherige "Anordnung" zur Beseitigung eines Umweltverstoßes nicht befolgt wurde.
 

@@ -16,7 +16,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 ### IHRE SITUATION
 
 **Wirtschaftliche Lage:**
-- Die Geschäfte laufen sehr schlecht –das Unternehmen macht Verluste (siehe M1)
+- Die Geschäfte laufen sehr schlecht –das Unternehmen macht Verluste (siehe Informationsmaterialien, Abschnitt 1)
 - Um wettbewerbsfähig zu werden, wäre eine Modernisierungsinvestition von 3-4 Mio. EUR nötig
 - Der Erfolg einer Modernisierung ist nicht garantiert
 - Sie verfügen über 3 Mio. EUR an Rücklagen für Investitionen
@@ -43,7 +43,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 **2. Umweltauflagen erfüllen –möglichst kostengünstig**
 - Abwasserreinigung muss verbessert werden (die Anordnung läuft!)
-- Verschiedene technische Optionen stehen zur Verfügung (siehe M3)
+- Verschiedene technische Optionen stehen zur Verfügung (siehe Informationsmaterialien, Abschnitt 3)
 - Kosten für Kläranlage: 1 bis 2,5 Mio. EUR je nach Ausbaustufe
 
 **3. Subventionen und Fördermittel sichern**
@@ -54,7 +54,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
-- **Subventionen beim Stadtrat beantragen** für den Bau einer Kläranlage (siehe M3)
+- **Subventionen beim Stadtrat beantragen** für den Bau einer Kläranlage (siehe Informationsmaterialien, Abschnitt 3)
 - **Beim Amt für Umweltschutz um Aufschub bitten** wegen der wirtschaftlichen Lage
 - **Mit der Lackierfabrik kooperieren** –gemeinsame Lösungen suchen
 - **Entschädigungsverhandlungen mit dem Anglerclub führen** für entstandene Schäden
@@ -65,7 +65,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 ### WICHTIGE ZUSATZINFORMATIONEN
 
-1. **Wirtschaftliche Lage:** Die Geschäfte laufen sehr schlecht (siehe M1). Um wettbewerbsfähig zu werden, wäre eine Modernisierungsinvestition von 3-4 Mio. EUR nötig. Der Erfolg ist allerdings nicht garantiert.
+1. **Wirtschaftliche Lage:** Die Geschäfte laufen sehr schlecht (siehe Informationsmaterialien, Abschnitt 1). Um wettbewerbsfähig zu werden, wäre eine Modernisierungsinvestition von 3-4 Mio. EUR nötig. Der Erfolg ist allerdings nicht garantiert.
 
 2. **Finanzielle Reserven:** Sie verfügen über 3 Mio. EUR an Rücklagen für Investitionen. Darüber hinausgehender Bedarf muss als Kredit zu 6% Zinsen aufgenommen werden.
 
@@ -77,7 +77,7 @@ Sie sind die Geschäftsführung und Eigentümer der Papierfabrik in Talstadt. Ih
 
 ---
 
-### TECHNISCHE OPTIONEN FÜR DIE ABWASSERREINIGUNG (M3)
+### TECHNISCHE OPTIONEN FÜR DIE ABWASSERREINIGUNG
 
 | Stufe | Maßnahme | Kosten | Wirkung |
 |-------|-----------|--------|---------|

@@ -24,7 +24,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
 - Besonders betroffen: Die Waldsiedlung mit mehreren Hotels und Pensionen
 - Laut TÜV-Bericht sind die Umweltschutzmaßnahmen der Lackierfabrik unzureichend
-- Verbesserungen sind technisch möglich und finanziell tragbar (siehe M4)
+- Verbesserungen sind technisch möglich und finanziell tragbar (siehe Informationsmaterialien, Abschnitt 4)
 
 **Politische Situation:**
 - Die "Bürgerpartei" hat die Mehrheit im Stadtrat
@@ -53,7 +53,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 ### IHRE HANDLUNGSMÖGLICHKEITEN
 
 - **Beim Stadtrat protestieren** und die Situation besprechen
-- **Präzise Forderungen an die Lackierfabrik stellen** (siehe M4 für technische Optionen)
+- **Präzise Forderungen an die Lackierfabrik stellen** (siehe Informationsmaterialien, Abschnitt 4 für technische Optionen)
 - **Auf das Amt für Umweltschutz drängen**, damit es eingreift
 - **Flugblätter erstellen und verteilen** um die Öffentlichkeit zu informieren
 - **Plakate anfertigen** für öffentliche Aktionen
