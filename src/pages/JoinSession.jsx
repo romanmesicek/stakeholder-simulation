@@ -37,6 +37,18 @@ export default function JoinSession() {
     setJoining(true);
     setError(null);
 
+    // Check if name already exists in this session (rejoin)
+    const existingParticipant = participants.find(
+      p => p.name.toLowerCase() === name.trim().toLowerCase()
+    );
+
+    if (existingParticipant) {
+      localStorage.setItem(`participant-${sessionCode}`, existingParticipant.id);
+      joinSession(sessionCode);
+      navigate(`/session/${sessionCode}`);
+      return;
+    }
+
     // Assign to group
     const scenarioGroups = SCENARIOS[session.scenario || 'energy-transition']?.groups;
     const assignedGroup = assignToGroup(
@@ -151,9 +163,14 @@ export default function JoinSession() {
         </button>
       </form>
 
-      <div className="mt-6 pt-6 border-t border-slate-200 text-center text-sm text-slate-500">
-        <p>{session.active_groups.length} groups active</p>
-        <p>{participants.length} participant{participants.length !== 1 ? 's' : ''} joined</p>
+      <div className="mt-6 pt-6 border-t border-slate-200 text-sm text-slate-500">
+        <div className="text-center mb-3">
+          <p>{session.active_groups.length} groups active</p>
+          <p>{participants.length} participant{participants.length !== 1 ? 's' : ''} joined</p>
+        </div>
+        <p className="text-xs text-slate-400 text-center">
+          Lost your session? Just enter the same name again to rejoin your group.
+        </p>
       </div>
     </div>
   );
