@@ -4,7 +4,7 @@ A quick guide for facilitating the post-simulation discussion.
 
 ---
 
-## Phase 1: How Are You Feeling? (3 min)
+## Phase 1: How Are You Feeling?
 
 Let participants decompress after their roles.
 
@@ -14,7 +14,7 @@ Let participants decompress after their roles.
 
 ---
 
-## Phase 2: What Happened? (5 min)
+## Phase 2: What Happened?
 
 Surface observations before analysis.
 
@@ -32,7 +32,7 @@ Surface observations before analysis.
 
 ---
 
-## Phase 3: What Did You Learn? (5 min)
+## Phase 3: What Did You Learn?
 
 Connect to course concepts.
 
@@ -43,7 +43,7 @@ Connect to course concepts.
 
 ---
 
-## Phase 4: Real-World Application (2 min)
+## Phase 4: Real-World Application
 
 - How might real energy transitions differ from this simulation?
 - What surprised you about your own behavior in the role?
@@ -52,7 +52,7 @@ Connect to course concepts.
 
 ## Facilitator Tips
 
-**Timing:** Keep it moving—15 minutes total.
+**Timing:** Keep it moving.
 
 **Common Pitfalls:**
 - Skipping the feelings phase

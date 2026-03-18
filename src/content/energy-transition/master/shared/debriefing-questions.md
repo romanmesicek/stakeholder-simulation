@@ -4,7 +4,7 @@ This guide supports the facilitator in leading a structured debriefing session f
 
 ---
 
-## Phase 1: Defusing (5 minutes)
+## Phase 1: Defusing
 
 *Purpose: Allow participants to process emotions and transition out of their roles.*
 
@@ -18,7 +18,7 @@ This guide supports the facilitator in leading a structured debriefing session f
 
 ---
 
-## Phase 2: Discovery (10 minutes)
+## Phase 2: Discovery
 
 *Purpose: Surface observations and shared experiences before analysis.*
 
@@ -42,7 +42,7 @@ This guide supports the facilitator in leading a structured debriefing session f
 
 ---
 
-## Phase 3: Deepening (5 minutes)
+## Phase 3: Deepening
 
 *Purpose: Connect observations to theoretical frameworks and course concepts.*
 
@@ -92,9 +92,9 @@ This guide supports the facilitator in leading a structured debriefing session f
 ## Facilitator Notes
 
 ### Timing Guidance
-- Defusing: 5 min (don't rush this phase)
-- Discovery: 10 min (most substantive phase)
-- Deepening: 5 min (connect to theory)
+- Defusing (don't rush this phase)
+- Discovery (most substantive phase)
+- Deepening (connect to theory)
 - Transfer is embedded in the reflection assignment
 
 ### Common Debriefing Pitfalls to Avoid

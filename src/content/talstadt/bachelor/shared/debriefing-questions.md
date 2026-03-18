@@ -4,7 +4,7 @@
 
 ---
 
-## Phase 1: Entlastung (5 Minuten)
+## Phase 1: Entlastung
 
 *Ziel: Aus der Rolle heraustreten und erste Eindrücke teilen.*
 
@@ -15,7 +15,7 @@
 
 ---
 
-## Phase 2: Ergebnisreflexion (10 Minuten)
+## Phase 2: Ergebnisreflexion
 
 *Ziel: Die Ergebnisse des Planspiels analysieren und bewerten.*
 
@@ -38,7 +38,7 @@
 
 ---
 
-## Phase 3: Prozessreflexion (10 Minuten)
+## Phase 3: Prozessreflexion
 
 *Ziel: Den Verhandlungsprozess und die Dynamiken analysieren.*
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Phase 4: Lernreflexion (10 Minuten)
+## Phase 4: Lernreflexion
 
 *Ziel: Vom Planspiel auf reale Umweltkonflikte übertragen.*
 
