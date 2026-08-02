@@ -1,30 +1,44 @@
-# Staying in Role — Quick Reference
+# Key Facts — Quick Reference
 
-## Ground Rules
+Facts every group can cite during negotiations. Your role card contains additional information only you know.
 
-1. **Stay in character** during all negotiations
-2. **Respect time limits** set by the facilitator
-3. **Your constraints are real** — honour them
-4. **No agreement is a valid outcome** — don't force consensus
-5. **Listen as much as you advocate**
+## The Company
 
-## Role-Playing Tips
+| Plant | Capacity | Workers | Homes Served | Built |
+|-------|----------|---------|--------------|-------|
+| Northern Plant | 500 MW | 300 | 200,000 | 1985 |
+| Southern Plant | 300 MW | 200 | 150,000 | 1990 |
 
-### Before Negotiations
-- Read your role card thoroughly
-- Identify your top 3 priorities
-- Know your constraints (what you cannot accept)
-- Consider potential allies and opponents
+- Total: 800 MW, 500 workers, 350,000 households served
+- Annual revenue: €450 million
+- Annual CO₂ emissions: 4 million tons
+- Regional tax contribution: €8 million/year
 
-### During Negotiations
-- Speak from your stakeholder's perspective ("We need..." not "I think...")
-- Reference your stakeholder's interests and concerns
-- Use the facts and figures from your role card
-- Take notes on offers and proposals
+## The Money
 
-### Managing Conflict
-- Disagreement is expected and valuable
-- Attack positions, not people
-- Look for creative trade-offs
-- Remember: real negotiations often fail
+- Company investment: €3 billion (approved by the Board)
+- Government transition fund: €500 million
+- **Total available: €3.5 billion**
+- Planned renewables: 450 MW wind (3 farms) + 350 MW solar (5 sites) = 800 MW
 
+## The Timeline
+
+| Project Type | Development Time |
+|--------------|------------------|
+| Wind farm | 24-30 months |
+| Solar installation | 18-24 months |
+| Battery storage | 18-24 months |
+
+- Realistic full transition: **6-7 years**
+- Below 5 years: serious risk of power outages for 350,000 homes
+
+## Law & Climate Targets
+
+- EU law: 55% emissions reduction by 2030
+- Binding regional requirement: 45% reduction by 2030
+- The coal plants produce 35% of regional emissions
+
+## Costs of Electricity (per MWh)
+
+- Solar and wind: €25-45
+- Coal: €65-150 (including environmental costs)

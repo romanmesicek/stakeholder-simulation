@@ -19,7 +19,7 @@ You represent a coalition of local, regional, and national environmental organiz
 - IPCC emphasizes 2020-2030 as critical decade for preventing catastrophic warming
 - PowerShift plants emit 4 million tons CO₂ annually
 - 5-year vs 10-year closure prevents 20 million tons cumulative CO₂
-- Regional target: 50% emissions reduction by 2030
+- The law requires a 45% regional emissions cut by 2030 — your alliance campaigns for 50%
 - Coal plants = 35% of regional emissions (rapid closure essential)
 
 **Local Air Pollution:**
@@ -119,7 +119,7 @@ Full compliance with environmental protection laws. Best available technology an
 - Cumulative impact: 5-year vs 10-year closure prevents 20 million tons CO₂ (equivalent to removing 4.3 million cars for one year)
 - Water contamination: Mercury 300% above safe limits affecting Indigenous food sources
 - Technical feasibility: German utilities closed 8 coal plants in 4 years; renewable costs declined 90% (solar) and 70% (wind)
-- Legal obligation: National climate law mandates regional 50% reduction by 2030; coal plants are 35% of emissions
+- Legal baseline: national climate law requires a 45% regional reduction by 2030 — your alliance campaigns for 50%; coal plants are 35% of emissions
 - Ecosystem recovery: Studies document rapid recovery with proper restoration (water quality 2-3 years, fish rebound 5 years)
 
 ---

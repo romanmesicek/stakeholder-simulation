@@ -90,3 +90,12 @@ Your role card is confidential. Do not share your specific constraints.
 2. **Analysis** — How did power dynamics shape the outcome?
 3. **Learning** — What did you learn about stakeholder negotiations?
 
+---
+
+## Staying in Role — Ground Rules
+
+1. **Stay in character** during all negotiations — speak as "we", not "I think"
+2. **Your constraints are real** — honour them
+3. **No agreement is a valid outcome** — don't force consensus
+4. **Attack positions, not people** — disagreement is expected and valuable
+5. **Listen as much as you advocate**, take notes on offers, and look for creative trade-offs

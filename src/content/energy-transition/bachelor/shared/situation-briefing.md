@@ -25,7 +25,7 @@ PowerShift operates two coal-fired power plants:
 
 ## Why the Transition Must Happen
 
-**Climate regulations:** EU law requires 55% emissions reduction by 2030. Coal plants must close.
+**Climate regulations:** EU law requires 55% emissions reduction by 2030; national law makes a 45% cut legally binding for the region. Coal plants must close.
 
 **Economics:** Renewable energy is now cheaper than coal. Solar and wind cost €25-45 per MWh; coal costs €65-150 per MWh.
 
@@ -58,9 +58,7 @@ Building renewable energy takes time:
 | Solar installation | 18-24 months |
 | Battery storage | 18-24 months |
 
-**Realistic transition timeline:** 5-7 years minimum
-
-Faster timelines risk power outages for 350,000 homes.
+**Realistic transition timeline:** 6-7 years; anything below 5 years risks power outages for 350,000 homes.
 
 ---
 

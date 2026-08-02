@@ -35,10 +35,11 @@
 | Messwert | Ergebnis | Grenzwert | Bewertung |
 |----------|----------|-----------|-----------|
 | Biochemischer Sauerstoffbedarf (BSB) | 23 mg/l | 25 mg/l | Knapp unter dem Grenzwert |
+| Sauerstoffgehalt der Schwarzach (fabriknah) | 3 mg/l | ca. 6 mg/l für Güteklasse II | Kritisch – Fische benötigen ca. 4 mg/l |
 | Abwassermenge | Hoch | –| Große Belastung für die Schwarzach |
 | Fischbestand Schwarzach | Stark rückläufig | –| Fischsterben dokumentiert |
 
-**Fazit TÜV:** Die Abwasserreinigung der Papierfabrik ist unzureichend. Der BSB-Wert liegt zwar knapp unter dem Grenzwert, aber die Gesamtbelastung der Schwarzach ist erheblich. Dringender Handlungsbedarf.
+**Fazit TÜV:** Die Abwasserreinigung der Papierfabrik ist unzureichend. Der BSB-Wert liegt zwar knapp unter dem Grenzwert, doch der Sauerstoffgehalt des Flusses ist fabriknah auf 3 mg/l gesunken – zu wenig für Fische (ca. 4 mg/l nötig) und weit unter dem Niveau der Güteklasse II (ca. 6 mg/l). Die Emission hält den Grenzwert ein, das Gewässer kippt dennoch. Dringender Handlungsbedarf.
 
 ### Lackierfabrik –Luftbelastung
 
@@ -82,7 +83,7 @@
 
 > **"Schon wieder tote Fische in der Schwarzach!"**
 >
-> Angler berichten von einem erneuten Fischsterben an der Schwarzach unterhalb der Papierfabrik. "So schlimm war es noch nie", klagt der Vorsitzende des Anglerclubs. "Die Schwarzach war einmal ein Paradies für Angler –jetzt ist sie eine Kloake." Der Anglerclub fordert sofortige Maßnahmen und droht mit einer öffentlichen Demonstration. Das Amt für Umweltschutz kündigt eine Untersuchung an.
+> Angler berichten von einem erneuten Fischsterben an der Schwarzach unterhalb der Papierfabrik. "So schlimm war es noch nie", klagt der Vorsitzende des Anglerclubs. "Die Schwarzach war einmal ein Paradies für Angler –jetzt ist sie eine Kloake." Die Schäden der letzten zwei Jahre beziffert der Verein auf rund 7.000 EUR; zusätzlich seien eingesetzte Jungfische im Wert von 12.000 EUR verendet. Der Anglerclub fordert sofortige Maßnahmen und droht mit einer öffentlichen Demonstration. Das Amt für Umweltschutz kündigt eine Untersuchung an.
 
 ### "Talstädter Anzeiger" –Ausgabe vom Freitag
 

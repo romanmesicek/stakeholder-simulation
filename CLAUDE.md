@@ -162,6 +162,13 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 ### Modify content for a scenario/level
 Edit files in `src/content/{scenario}/{level}/`
 
+## Reviews & Open Todos
+
+Two consolidated reviews (August 2026) track findings and remaining work — check them before starting improvement work, and tick items off there when done:
+
+- `docs/code-review-2026-08.md` — code/UX/security review (step 1, largely done; remaining: session cleanup, hook consistency, Supabase Auth for SaaS)
+- `docs/content-review-2026-08.md` — case-content & didactics review (step 2; package 1 "errors & facts" done, packages 2 "negotiation logic" and 3 "didactics & facilitator" are the open todo list)
+
 ## Testing Locally
 
 ```bash

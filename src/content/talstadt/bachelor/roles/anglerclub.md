@@ -17,13 +17,15 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 
 **Schäden am Gewässer:**
 - Das Fischsterben in der Schwarzach ist durch die Abwässer der Papierfabrik verursacht
+- Der Sauerstoffgehalt ist fabriknah auf 3 mg/l gesunken – Fische brauchen ca. 4 mg/l (siehe Informationsmaterialien, Abschnitt 2)
 - Die Wasserqualität hat sich in den letzten Jahren deutlich verschlechtert
 - Ihre Investitionen in Fischbesatz und Gewässerpflege werden zunichtegemacht
 
 **Finanzielle Belastung:**
 - Die Mitglieder geben jährlich etwa 10.000 EUR für Wasserpacht und Fischpflege aus
 - 5.000 EUR fließen als Pachtzins in die Stadtkasse
-- Die Schäden durch die Wasserverschmutzung übersteigen diese Summen bei Weitem
+- In den letzten zwei Jahren sind dem Club Schäden von rund 7.000 EUR entstanden
+- Zusätzlich sind eingesetzte Jungfische im Wert von 12.000 EUR durch das Fischsterben verloren gegangen
 
 **Rechtliche Möglichkeiten:**
 - Für Schäden durch Gewässerverunreinigung kann nach geltendem Recht Entschädigung gefordert werden (siehe Informationsmaterialien, Abschnitt 9)
@@ -41,6 +43,7 @@ Sie sind der Vorstand des Anglerclubs von Talstadt. Ihr Ziel ist es, die Schwarz
 **2. Entschädigung für entstandene Schäden**
 - Die Papierfabrik muss für die Schäden am Fischbestand aufkommen
 - Ihre Investitionen in Fischbesatz und Gewässerpflege müssen entschädigt werden
+- Ihr Anker für die Verhandlung: mindestens die nachgewiesenen Schäden – rund 7.000 EUR Verluste plus 12.000 EUR für verlorene Jungfische
 
 **3. Politischen Druck für besseren Gewässerschutz aufbauen**
 - Der Stadtrat und das Umweltschutzamt müssen handeln

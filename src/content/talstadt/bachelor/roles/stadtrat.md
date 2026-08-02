@@ -21,7 +21,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 - Der Tourismus ist ein wichtiger Wirtschaftsfaktor –er sichert Arbeitsplätze und bringt Geld in die Stadtkasse
 
 **Umweltprobleme:**
-- Die Papierfabrik verschmutzt die Schwarzach (Fischsterben, üble Gerüchte)
+- Die Papierfabrik verschmutzt die Schwarzach (Fischsterben, üble Gerüche)
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
 - Beides gefährdet den Ruf von Talstadt als Kurstadt
 
@@ -61,7 +61,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 
 ### WICHTIGE ZUSATZINFORMATIONEN
 
-1. **Landesfördermittel:** Das Land hat einen Zuschuss von maximal 2 Mio. EUR für Umweltschutzmaßnahmen in Aussicht gestellt. Prüfen Sie streng die Bedürfigkeit und Ernsthaftigkeit, bevor Sie Subventionen bewilligen!
+1. **Landesfördermittel:** Das Land hat einen Zuschuss von maximal 2 Mio. EUR für Umweltschutzmaßnahmen in Aussicht gestellt. Prüfen Sie streng die Bedürftigkeit und Ernsthaftigkeit, bevor Sie Subventionen bewilligen!
 
 2. **Gerüchte über die Papierfabrik:** Es gibt Gerüchte, dass die Papierfabrik verkauft und der Standort verlagert werden soll. Gehen Sie dem nach!
 

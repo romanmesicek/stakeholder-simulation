@@ -14,7 +14,7 @@ You represent environmental organizations fighting for climate action, clean air
 **Climate Crisis:**
 - PowerShift plants emit 4 million tons CO₂ annually
 - 5-year vs 10-year closure prevents 20 million tons cumulative emissions
-- Regional target: 50% emissions reduction by 2030
+- The law requires a 45% regional emissions cut by 2030 — your alliance demands 50%
 
 **Health Impacts:**
 - 50 premature deaths annually from coal pollution

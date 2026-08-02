@@ -6,7 +6,7 @@
 
 ## Case Overview
 
-PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants—Northern Plant (300 MW, 300 employees) and Southern Plant (200 MW, 200 employees)—serving 350,000 households while supporting approximately 1,000 indirect regional employment positions.
+PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants—Northern Plant (500 MW, 300 employees) and Southern Plant (300 MW, 200 employees)—serving 350,000 households while supporting approximately 1,000 indirect regional employment positions.
 
 This case exemplifies the "wicked problem" characteristics inherent in sustainability transitions: irreducible complexity, value pluralism, deep uncertainty, and contested knowledge claims (Rittel & Webber, 1973). No single stakeholder possesses sufficient resources or authority for unilateral implementation. Success requires coalition formation, creative value creation expanding negotiation space, and acceptance of imperfect but workable compromises.
 
@@ -34,8 +34,8 @@ International Energy Agency projections indicate coal-fired power generation mus
 
 | Asset | Capacity | Workforce | Service Area | Commissioned |
 |-------|----------|-----------|--------------|--------------|
-| Northern Plant | 300 MW | 300 workers | 200,000 homes | 1985 |
-| Southern Plant | 200 MW | 200 workers | 150,000 homes | 1990 |
+| Northern Plant | 500 MW | 300 workers | 200,000 homes | 1985 |
+| Southern Plant | 300 MW | 200 workers | 150,000 homes | 1990 |
 
 **Financial snapshot:**
 - Annual revenue: €450 million
@@ -82,9 +82,10 @@ With eight major facilities requiring coordinated commissioning, realistic imple
 |----------|----------------|
 | Renewable infrastructure | €1.8 billion |
 | Grid upgrades and storage | €600 million |
-| Storage systems (200 MW/800 MWh) | €320 million |
+| *— of which storage systems (200 MW/800 MWh)* | *€320 million* |
 | Plant decommissioning | €400 million |
 | Contingency (industry standard 15–25%) | €200 million |
+| **Total** | **€3.0 billion** |
 
 Major infrastructure projects average 25% cost overruns and 30% schedule delays. Contingency allocation represents engineering necessity, not pessimism (Flyvbjerg, 2014).
 

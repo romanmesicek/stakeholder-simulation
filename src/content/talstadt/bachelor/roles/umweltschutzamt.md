@@ -16,7 +16,8 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 ### IHRE SITUATION
 
 **Umweltbefunde:**
-- Die Papierfabrik überschreitet mit 23 mg/l Sauerstoffbedarf fast den Grenzwert von 25 mg/l bei der Abwasserbelastung
+- Die Papierfabrik erreicht mit 23 mg/l Sauerstoffbedarf fast den Grenzwert von 25 mg/l bei der Abwasserbelastung
+- Der Sauerstoffgehalt der Schwarzach ist fabriknah auf nur noch 3 mg/l gesunken – Fische benötigen ca. 4 mg/l, Güteklasse II erfordert ca. 6 mg/l (siehe Informationsmaterialien, Abschnitt 2)
 - Die Lackierfabrik erreicht mit 150 mg/m3 am Schornstein genau den Grenzwert für Luftschadstoffe
 - Der Schornstein der Lackierfabrik ist 5 m zu niedrig (unzureichende Schadstoffverteilung)
 - Das Fischsterben in der Schwarzach ist dokumentiert
@@ -29,6 +30,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 **Vorgeschichte:**
 - Vor einem halben Jahr wurde bereits eine Anordnung zur Verbesserung der Abwasserreinigung an die Papierfabrik geschickt
 - Die Papierfabrik hat bisher nichts unternommen
+- Grundlage der Anordnung: Zwar hält die Fabrik den Grenzwert am Einleitungsrohr ein, aber der Zustand des Gewässers (Sauerstoffmangel, Fischsterben) verletzt die Sorgfaltspflicht nach Paragraph 6 WHG – es zählt der Fluss, nicht nur der Messwert
 
 ---
 
@@ -47,7 +49,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 **3. Wirtschaftliche Verhältnismäßigkeit beachten**
 - Maßnahmen müssen wirtschaftlich zumutbar sein
 - Die wirtschaftliche Lage der Betriebe ist zu berücksichtigen
-- Verhaltensmaßiger Ausgleich zwischen Umweltschutz und Wirtschaft
+- Verhältnismäßiger Ausgleich zwischen Umweltschutz und Wirtschaft
 
 ---
 

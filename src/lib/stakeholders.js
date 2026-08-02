@@ -4,7 +4,7 @@ export const SCENARIOS = {
     name: 'Energy Transition',
     description: 'Coal plant phase-out negotiation',
     language: 'en',
-    keyFactsLabel: '🎭 Staying in Role',
+    keyFactsLabel: '📊 Key Facts',
     levels: ['bachelor', 'master'],
     defaultLevel: 'master',
     levelMeta: {
