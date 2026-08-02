@@ -135,6 +135,8 @@ export default function FacilitatorDashboard() {
     );
   }
 
+  const levelMeta = getLevelMeta(session.scenario, session.education_level);
+
   return (
     <div>
       <BackButton to="/facilitate" label="All Sessions" />
@@ -142,11 +144,22 @@ export default function FacilitatorDashboard() {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Session</h1>
-          <p className="text-sm text-slate-500">
-            {SCENARIOS[session.scenario]?.name}
-            {' · '}
-            {getLevelMeta(session.scenario, session.education_level).label}
-          </p>
+          <div className="flex items-center gap-2 mt-1">
+            <p className="text-sm text-slate-500">
+              {SCENARIOS[session.scenario]?.name}
+              {' · '}
+              {levelMeta.label}
+            </p>
+            {levelMeta.badge && (
+              <span className={`text-xs px-2 py-0.5 rounded-full ${
+                levelMeta.badge === 'BA'
+                  ? 'bg-amber-100 text-amber-700'
+                  : 'bg-purple-100 text-purple-700'
+              }`}>
+                {levelMeta.badge}
+              </span>
+            )}
+          </div>
         </div>
         <StatusBadge status={session.status} />
       </div>
