@@ -3,6 +3,8 @@ export const SCENARIOS = {
     id: 'energy-transition',
     name: 'Energy Transition',
     description: 'Coal plant phase-out negotiation',
+    language: 'en',
+    keyFactsLabel: '🎭 Staying in Role',
     levels: ['bachelor', 'master'],
     defaultLevel: 'master',
     groups: {
@@ -100,6 +102,8 @@ export const SCENARIOS = {
     id: 'talstadt',
     name: 'Umweltverschmutzung in Talstadt',
     description: 'Umweltkonflikt in einer Kleinstadt',
+    language: 'de',
+    keyFactsLabel: '📚 Informationsmaterialien',
     levels: ['bachelor'],
     defaultLevel: 'bachelor',
     groups: {
@@ -183,6 +187,15 @@ export const getStakeholdersForLevel = (level, scenario = 'energy-transition') =
   Object.values(SCENARIOS[scenario]?.groups || {})
     .filter(s => s.levels.includes(level))
     .sort((a, b) => a.order - b.order);
+
+// Level for info pages: URL param wins, then the level of the session the
+// user joined (only if it belongs to this scenario), then the default.
+export const resolveLevel = (scenario, urlLevel, joinedScenario, joinedLevel) => {
+  const levels = SCENARIOS[scenario]?.levels || [];
+  if (urlLevel && levels.includes(urlLevel)) return urlLevel;
+  if (joinedLevel && scenario === joinedScenario && levels.includes(joinedLevel)) return joinedLevel;
+  return SCENARIOS[scenario]?.defaultLevel || 'master';
+};
 
 export const getDefaultGroupsForLevel = (level, scenario = 'energy-transition') => {
   const scenarioData = SCENARIOS[scenario];

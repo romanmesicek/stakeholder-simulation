@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RoleProvider } from './lib/RoleContext';
+import ErrorBoundary from './components/ErrorBoundary';
 import Layout from './components/Layout';
 import Landing from './pages/Landing';
 import CreateSession from './pages/CreateSession';
@@ -20,7 +21,8 @@ import RoleDetail from './pages/RoleDetail';
 export default function App() {
   return (
     <BrowserRouter>
-      <RoleProvider>
+      <ErrorBoundary>
+        <RoleProvider>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Landing />} />
@@ -40,7 +42,8 @@ export default function App() {
             <Route path="info/roles/:roleId" element={<RoleDetail />} />
           </Route>
         </Routes>
-      </RoleProvider>
+        </RoleProvider>
+      </ErrorBoundary>
     </BrowserRouter>
   );
 }

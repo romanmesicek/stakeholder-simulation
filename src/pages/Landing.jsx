@@ -9,8 +9,14 @@ export default function Landing() {
   const [checking, setChecking] = useState(false);
 
   const handleCodeChange = (e) => {
+    let value = e.target.value;
+    // Someone pasted a full join URL — extract the code segment
+    if (value.includes('/')) {
+      const segments = value.split('/').filter(Boolean);
+      value = segments[segments.length - 1] || '';
+    }
     // Auto-uppercase and limit to 6 chars
-    const value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6);
+    value = value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6);
     setSessionCode(value);
     setError(null);
   };
@@ -70,10 +76,15 @@ export default function Landing() {
           value={sessionCode}
           onChange={handleCodeChange}
           placeholder="Enter Session Code"
+          aria-label="Session code"
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="characters"
+          spellCheck={false}
           className="w-full p-3 text-center font-mono text-lg tracking-wider border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 uppercase"
         />
         {error && (
-          <p className="mt-2 text-sm text-red-600">{error}</p>
+          <p role="alert" className="mt-2 text-sm text-red-600">{error}</p>
         )}
         <button
           type="submit"
@@ -96,7 +107,7 @@ export default function Landing() {
       >
         Manage Sessions
       </Link>
-      <p className="text-xs text-slate-400 mt-2">For facilitators</p>
+      <p className="text-xs text-slate-500 mt-2">For facilitators</p>
     </div>
   );
 }

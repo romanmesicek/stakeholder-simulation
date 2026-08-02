@@ -1,9 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { QRCodeSVG } from 'qrcode.react';
+import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { loadSharedContent } from '../lib/contentLoader';
-import { SCENARIOS } from '../lib/stakeholders';
+import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
 import SessionCodeDisplay from '../components/SessionCodeDisplay';
 import StatusBadge from '../components/StatusBadge';
 import ParticipantList from '../components/ParticipantList';
@@ -12,13 +14,58 @@ import MarkdownRenderer from '../components/MarkdownRenderer';
 export default function FacilitatorDashboard() {
   const { sessionCode } = useParams();
   const { session, loading: sessionLoading, updateStatus } = useSession(sessionCode);
-  const { participants, loading: participantsLoading } = useParticipants(sessionCode);
+  const { participants, loading: participantsLoading, refetch: refetchParticipants } = useParticipants(sessionCode);
   const [showDebriefing, setShowDebriefing] = useState(false);
   const [debriefingContent, setDebriefingContent] = useState(null);
+  const [actionError, setActionError] = useState(null);
+  const [linkCopied, setLinkCopied] = useState(false);
+
+  const joinUrl = `${window.location.origin}/join/${sessionCode}`;
 
   const handleToggleStatus = async () => {
+    setActionError(null);
     const newStatus = session.status === 'open' ? 'closed' : 'open';
-    await updateStatus(newStatus);
+    const ok = await updateStatus(newStatus);
+    if (!ok) {
+      setActionError('Could not update the session status. Please try again.');
+    }
+  };
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(joinUrl);
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 2000);
+    } catch {
+      setActionError('Could not copy the link — please copy it manually.');
+    }
+  };
+
+  const handleMoveParticipant = async (member, newGroup) => {
+    if (newGroup === member.stakeholder_group) return;
+    setActionError(null);
+    const { error } = await supabase
+      .from('participants')
+      .update({ stakeholder_group: newGroup })
+      .eq('id', member.id);
+    if (error) {
+      setActionError(`Could not move ${member.name}. Please try again.`);
+    }
+    refetchParticipants();
+  };
+
+  const handleRemoveParticipant = async (member) => {
+    const groupName = getStakeholderById(member.stakeholder_group, session.scenario)?.name || member.stakeholder_group;
+    if (!window.confirm(`Remove ${member.name} (${groupName}) from this session?`)) return;
+    setActionError(null);
+    const { error } = await supabase
+      .from('participants')
+      .delete()
+      .eq('id', member.id);
+    if (error) {
+      setActionError(`Could not remove ${member.name}. Please try again.`);
+    }
+    refetchParticipants();
   };
 
   const handleOpenDebriefing = async () => {
@@ -77,6 +124,20 @@ export default function FacilitatorDashboard() {
       <div className="mb-6">
         <p className="text-sm text-slate-500 mb-2">Share this code with participants:</p>
         <SessionCodeDisplay code={sessionCode} />
+        <div className="mt-4 flex items-center gap-4">
+          <div className="bg-white p-2 rounded-lg border border-slate-200 shrink-0">
+            <QRCodeSVG value={joinUrl} size={112} aria-label={`QR code for ${joinUrl}`} />
+          </div>
+          <div className="min-w-0">
+            <p className="text-sm text-slate-600 break-all">{joinUrl}</p>
+            <button
+              onClick={handleCopyLink}
+              className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700"
+            >
+              {linkCopied ? 'Copied!' : 'Copy join link'}
+            </button>
+          </div>
+        </div>
       </div>
 
       <div className="mb-6">
@@ -85,11 +146,17 @@ export default function FacilitatorDashboard() {
         </p>
       </div>
 
+      {actionError && (
+        <p role="alert" className="mb-4 text-sm text-red-600">{actionError}</p>
+      )}
+
       <ParticipantList
         participants={participants}
         activeGroups={session.active_groups}
         maxPerGroup={session.max_per_group}
         scenario={session.scenario || 'energy-transition'}
+        onMoveParticipant={handleMoveParticipant}
+        onRemoveParticipant={handleRemoveParticipant}
       />
 
       {/* Facilitator Actions */}

@@ -1,6 +1,10 @@
-export default function GroupMembersList({ members, highlightName }) {
+import { getUiStrings } from '../lib/i18n';
+
+export default function GroupMembersList({ members, highlightName, scenario }) {
+  const t = getUiStrings(scenario);
+
   if (!members || members.length === 0) {
-    return <p className="text-sm text-slate-400 italic">No members yet</p>;
+    return <p className="text-sm text-slate-500 italic">{t.noMembersYet}</p>;
   }
 
   return (
@@ -14,7 +18,7 @@ export default function GroupMembersList({ members, highlightName }) {
               : 'text-slate-600'
           }`}
         >
-          {member.name === highlightName ? `${member.name} (You)` : member.name}
+          {member.name === highlightName ? `${member.name} ${t.youSuffix}` : member.name}
         </li>
       ))}
     </ul>

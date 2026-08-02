@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from 'react-router-dom';
-import { getScenariosArray, SCENARIOS } from '../lib/stakeholders';
+import { getScenariosArray, SCENARIOS, resolveLevel } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 
 const labels = {
@@ -23,10 +23,10 @@ const defaultLabels = labels['energy-transition'];
 
 export default function InfoHub() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { selectedScenario, setSelectedScenario } = useRole();
+  const { selectedScenario, setSelectedScenario, selectedLevel } = useRole();
   const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
   const scenarioData = SCENARIOS[scenario];
-  const level = scenarioData?.defaultLevel || 'master';
+  const level = resolveLevel(scenario, null, selectedScenario, selectedLevel);
   const scenarios = getScenariosArray();
   const l = labels[scenario] || defaultLabels;
 

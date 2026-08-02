@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useRole } from '../lib/RoleContext';
+import { getUiStrings } from '../lib/i18n';
 
 export default function NavMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const { activeSessionCode } = useRole();
+  const { activeSessionCode, selectedScenario } = useRole();
+  const t = getUiStrings(selectedScenario);
 
   const navItems = [
-    { path: '/', label: 'Start' },
-    { path: '/info', label: 'Info Hub' },
+    { path: '/', label: t.navStart },
+    { path: '/info', label: t.navInfoHub },
     // Show My Role when user has joined a session (persisted in context/localStorage)
-    ...(activeSessionCode ? [{ path: `/session/${activeSessionCode}`, label: 'My Role' }] : []),
+    ...(activeSessionCode ? [{ path: `/session/${activeSessionCode}`, label: t.navMyRole }] : []),
   ];
 
   return (
@@ -57,7 +59,7 @@ export default function NavMenu() {
               key={item.path}
               to={item.path}
               onClick={() => setIsOpen(false)}
-              className={`block px-4 py-2 text-sm ${
+              className={`block px-4 py-3 text-sm ${
                 location.pathname === item.path
                   ? 'text-blue-600 bg-blue-50'
                   : 'text-slate-600 hover:bg-slate-50'

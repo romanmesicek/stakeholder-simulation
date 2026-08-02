@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { getStakeholderById, SCENARIOS } from '../lib/stakeholders';
 import { loadAllSessionContent } from '../lib/contentLoader';
+import { getUiStrings } from '../lib/i18n';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Accordion from '../components/Accordion';
 import GroupMembersList from '../components/GroupMembersList';
@@ -31,6 +32,9 @@ export default function ParticipantView() {
   const [loading, setLoading] = useState(true);
   const [content, setContent] = useState(null);
   const [contentLoading, setContentLoading] = useState(true);
+  const [contentError, setContentError] = useState(false);
+
+  const t = getUiStrings(session?.scenario);
 
   useEffect(() => {
     const fetchParticipant = async () => {
@@ -48,9 +52,10 @@ export default function ParticipantView() {
         .single();
 
       if (error || !data) {
-        // Participant not found, clear localStorage and redirect
+        // Participant record is gone (e.g. removed by the facilitator) —
+        // tell the join page why so the student doesn't silently re-register.
         localStorage.removeItem(`participant-${sessionCode}`);
-        navigate(`/join/${sessionCode}`);
+        navigate(`/join/${sessionCode}`, { state: { reason: 'removed' } });
         return;
       }
 
@@ -62,94 +67,140 @@ export default function ParticipantView() {
   }, [sessionCode, navigate]);
 
   // Load content based on session education level
-  useEffect(() => {
-    const loadContent = async () => {
-      if (!session || !participant) return;
+  const loadContent = useCallback(async () => {
+    if (!session || !participant) return;
 
-      const scenario = session.scenario || 'energy-transition';
-      const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
+    const scenario = session.scenario;
+    const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
 
-      try {
-        const loadedContent = await loadAllSessionContent(scenario, level, participant.stakeholder_group);
-        setContent(loadedContent);
-      } catch (err) {
-        console.error('Failed to load content:', err);
-      } finally {
-        setContentLoading(false);
-      }
-    };
-
-    loadContent();
+    setContentLoading(true);
+    setContentError(false);
+    try {
+      const loadedContent = await loadAllSessionContent(scenario, level, participant.stakeholder_group);
+      setContent(loadedContent);
+    } catch (err) {
+      console.error('Failed to load content:', err);
+      setContentError(true);
+    } finally {
+      setContentLoading(false);
+    }
   }, [session, participant]);
 
-  if (loading || sessionLoading || participantsLoading || contentLoading) {
+  useEffect(() => {
+    loadContent();
+  }, [loadContent]);
+
+  if (sessionLoading || (session && (loading || participantsLoading || contentLoading))) {
     return (
       <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
+        <p className="text-slate-500">{t.loading}</p>
       </div>
     );
   }
 
-  if (!session || !participant || !content) {
+  if (!session) {
     return (
       <div className="text-center py-12">
-        <p className="text-slate-600 mb-4">Session not found.</p>
+        <p className="text-slate-600 mb-4">{t.sessionNotFound}</p>
         <Link to="/" className="text-blue-600 hover:underline">
-          Back to Home
+          {t.backHome}
         </Link>
       </div>
     );
   }
 
-  const stakeholder = getStakeholderById(participant.stakeholder_group, session.scenario || 'energy-transition');
+  // Session + participant are fine but the markdown chunks didn't load
+  // (bad wifi, deploy during class) — offer a retry instead of a dead end.
+  if (participant && (contentError || !content)) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-slate-600 mb-4" role="alert">{t.contentLoadError}</p>
+        <button
+          onClick={loadContent}
+          className="bg-blue-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          {t.retry}
+        </button>
+      </div>
+    );
+  }
+
+  if (!participant) {
+    return null; // redirect to join is already in flight
+  }
+
+  const stakeholder = getStakeholderById(participant.stakeholder_group, session.scenario);
+
+  if (!stakeholder) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-slate-600 mb-4" role="alert">{t.unknownRole}</p>
+        <Link to="/" className="text-blue-600 hover:underline">
+          {t.backHome}
+        </Link>
+      </div>
+    );
+  }
+
   const myGroupMembers = participants.filter(
     p => p.stakeholder_group === participant.stakeholder_group
   );
+  const keyFactsLabel = SCENARIOS[session.scenario]?.keyFactsLabel || '🎭 Staying in Role';
 
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-xl font-bold text-slate-800">Your Role</h1>
+        <h1 className="text-xl font-bold text-slate-800">{t.yourRole}</h1>
         <span className="font-mono text-sm text-slate-500">{sessionCode}</span>
       </div>
 
+      {session.status === 'closed' && (
+        <div className="mb-6 p-3 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-700">
+          {t.sessionClosedBanner}
+        </div>
+      )}
+
       {/* Role Card */}
-      <div className={`p-4 rounded-lg border-l-4 mb-6 ${colorClasses[stakeholder.color]}`}>
+      <div className={`p-4 rounded-lg border-l-4 mb-6 ${colorClasses[stakeholder.color] || colorClasses.slate}`}>
         <div className="flex items-center gap-3 mb-3">
           <span className="text-4xl">{stakeholder.emoji}</span>
           <h2 className="text-xl font-bold text-slate-800">{stakeholder.name}</h2>
         </div>
         <div className="mt-3">
-          <p className="text-sm font-medium text-slate-600 mb-2">Your group:</p>
-          <GroupMembersList members={myGroupMembers} highlightName={participant.name} />
+          <p className="text-sm font-medium text-slate-600 mb-2">{t.yourGroup}</p>
+          <GroupMembersList
+            members={myGroupMembers}
+            highlightName={participant.name}
+            scenario={session.scenario}
+          />
         </div>
       </div>
 
       {/* Accordion Sections */}
       <div className="space-y-3">
-        <Accordion title="📋 Your Role Card" defaultOpen>
+        <Accordion title={t.roleCardSection} defaultOpen>
           <MarkdownRenderer content={content.roleMarkdown} />
         </Accordion>
 
-        <Accordion title="🎭 Staying in Role">
+        <Accordion title={keyFactsLabel}>
           <MarkdownRenderer content={content.keyFacts} />
         </Accordion>
 
-        <Accordion title="📖 The Case">
+        <Accordion title={t.caseSection}>
           <MarkdownRenderer content={content.situationBriefing} />
         </Accordion>
 
-        <Accordion title="📅 Schedule">
+        <Accordion title={t.scheduleSection}>
           <MarkdownRenderer content={content.schedule} />
         </Accordion>
 
-        <Accordion title="👥 All Groups">
+        <Accordion title={t.allGroupsSection}>
           <ParticipantList
             participants={participants}
             activeGroups={session.active_groups}
             maxPerGroup={session.max_per_group}
             highlightName={participant.name}
-            scenario={session.scenario || 'energy-transition'}
+            scenario={session.scenario}
           />
         </Accordion>
       </div>

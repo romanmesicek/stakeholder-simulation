@@ -3,15 +3,14 @@ import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { loadSharedContent } from '../lib/contentLoader';
-import { SCENARIOS } from '../lib/stakeholders';
+import { resolveLevel } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 
 export default function SchedulePage() {
   const [searchParams] = useSearchParams();
-  const { selectedScenario } = useRole();
+  const { selectedScenario, selectedLevel } = useRole();
   const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
-  const scenarioData = SCENARIOS[scenario];
-  const level = searchParams.get('level') || scenarioData?.defaultLevel || 'master';
+  const level = resolveLevel(scenario, searchParams.get('level'), selectedScenario, selectedLevel);
   const [content, setContent] = useState(null);
   const [loading, setLoading] = useState(true);
   const isGerman = scenario === 'talstadt';
