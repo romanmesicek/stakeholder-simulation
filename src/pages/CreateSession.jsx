@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { generateSessionCode } from '../lib/sessionUtils';
 import { generateOwnerKey, saveFacilitatorKey } from '../lib/facilitatorKeys';
-import { SCENARIOS, getScenariosArray, getStakeholdersForLevel, getDefaultGroupsForLevel } from '../lib/stakeholders';
+import { SCENARIOS, getScenariosArray, getStakeholdersForLevel, getDefaultGroupsForLevel, getLevelMeta } from '../lib/stakeholders';
+import BackButton from '../components/BackButton';
 
 export default function CreateSession() {
   const navigate = useNavigate();
@@ -94,15 +95,7 @@ export default function CreateSession() {
 
   return (
     <div>
-      <Link
-        to="/facilitate"
-        className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-800 mb-6"
-      >
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        All Sessions
-      </Link>
+      <BackButton to="/facilitate" label="All Sessions" />
 
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Create Session</h1>
 
@@ -142,24 +135,24 @@ export default function CreateSession() {
               Education Level
             </label>
             <div className="grid grid-cols-2 gap-4">
-              {scenarioData.levels.map(level => (
-                <button
-                  key={level}
-                  type="button"
-                  onClick={() => setEducationLevel(level)}
-                  className={`p-4 rounded-lg border-2 text-left transition-colors ${
-                    educationLevel === level
-                      ? 'border-blue-500 bg-blue-50'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
-                >
-                  <div className="font-medium text-slate-800 capitalize">{level}</div>
-                  <div className="text-sm text-slate-500">
-                    {level === 'bachelor' && '~2 hours, 6 groups, simplified'}
-                    {level === 'master' && '~3 hours, 8 groups, full complexity'}
-                  </div>
-                </button>
-              ))}
+              {scenarioData.levels.map(level => {
+                const meta = getLevelMeta(scenario, level);
+                return (
+                  <button
+                    key={level}
+                    type="button"
+                    onClick={() => setEducationLevel(level)}
+                    className={`p-4 rounded-lg border-2 text-left transition-colors ${
+                      educationLevel === level
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-slate-200 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className="font-medium text-slate-800">{meta.label}</div>
+                    <div className="text-sm text-slate-500">{meta.description}</div>
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

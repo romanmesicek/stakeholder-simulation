@@ -8,7 +8,7 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 ## Tech Stack
 
-- **Frontend**: React 18 + Vite + Tailwind CSS
+- **Frontend**: React 19 + Vite + Tailwind CSS
 - **Routing**: React Router DOM
 - **Markdown**: react-markdown + remark-gfm
 - **Backend**: Supabase (PostgreSQL + Realtime subscriptions)
@@ -24,14 +24,19 @@ The platform supports multiple scenarios, each with its own stakeholder groups a
 ### Levels
 Each scenario can have one or more difficulty levels:
 - Energy Transition: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity)
-- Talstadt: **Standard** (single level)
+- Talstadt: single level, stored as `bachelor` in the DB (displayed as "Standard")
+
+Level labels/badges/descriptions come from `levelMeta` in each `SCENARIOS` entry.
 
 ### Sessions
 - Created by facilitators with a unique 6-character code
 - Facilitator selects scenario, level, and active groups
-- Participants join via code and are auto-assigned to stakeholder groups
-- Sessions have `open` or `closed` status
+- Participants join via code; the `join_session()` Postgres RPC assigns groups atomically (enforces `max_per_group`, priority tie-break)
+- Sessions have `open` or `closed` status; closed sessions still allow rejoin-by-name
 - Realtime updates via Supabase subscriptions
+
+### Facilitator keys (no login)
+Each session gets a random owner key, generated in the browser on creation and stored in localStorage (`facilitator-keys`). The DB stores only its SHA-256 hash. Close/reopen/delete and participant move/remove go through `SECURITY DEFINER` RPCs that check the key. The dashboard shows the key for transfer to other devices; `/facilitate` lists only sessions whose keys are present on the device (plus an import form). RLS allows anonymous clients read-only access; all writes go through RPCs (see `supabase/migrations/`).
 
 ### Stakeholder Groups
 
@@ -63,17 +68,20 @@ Each scenario can have one or more difficulty levels:
 │   │   ├── /bachelor/roles|shared
 │   │   └── /master/roles|shared
 │   └── /talstadt
-│       └── /standard/roles|shared
+│       └── /bachelor/roles|shared|facilitator
 ├── /hooks            # Custom React hooks
 │   ├── useSession.js       # Single session data
-│   ├── useAllSessions.js   # All sessions for facilitator
+│   ├── useAllSessions.js   # Facilitator's sessions (keys in localStorage)
 │   └── useParticipants.js  # Realtime participant list
 ├── /lib              # Utilities
 │   ├── supabase.js         # Supabase client
 │   ├── stakeholders.js     # SCENARIOS object + utility functions
-│   ├── contentLoader.js    # Dynamic content loading (scenario → level → content)
+│   ├── contentLoader.js    # Glob-based markdown loading (scenario → level → content)
+│   ├── i18n.js             # Participant-facing UI strings per scenario language
+│   ├── facilitatorKeys.js  # Owner keys in localStorage
+│   ├── materialMeta.js     # Facilitator material labels
 │   ├── sessionUtils.js     # Session code generation
-│   └── RoleContext.jsx     # Participant role + scenario state
+│   └── RoleContext.jsx     # Participant role + scenario/level state
 └── /pages            # Route components
 ```
 
@@ -97,9 +105,10 @@ sessions (
   id TEXT PRIMARY KEY,           -- 6-char code
   status TEXT DEFAULT 'open',    -- 'open' or 'closed'
   scenario TEXT NOT NULL DEFAULT 'energy-transition',
-  education_level TEXT,          -- 'bachelor', 'master', 'standard', etc.
+  education_level TEXT,          -- 'bachelor' or 'master'
   active_groups TEXT[] NOT NULL, -- which groups are enabled
   max_per_group INTEGER DEFAULT 4,
+  owner_key_hash TEXT,           -- SHA-256 of the facilitator key
   created_at TIMESTAMPTZ
 )
 
@@ -115,23 +124,22 @@ participants (
 
 ## Content System
 
-Content is loaded dynamically via `contentLoader.js` with 3 parameters: scenario, level, contentKey/roleId:
+`contentLoader.js` discovers all markdown under `src/content/` via `import.meta.glob` — no import wiring. File conventions per `src/content/{scenario}/{level}/`:
+
+- `roles/<groupId>.md` — role card, file name must equal the group id in `SCENARIOS`
+- `shared/situation-briefing.md` → key `situationBriefing`
+- `shared/key-facts-reference.md` → key `keyFacts`
+- `shared/simulation-instructions.md` → key `schedule`
+- `shared/debriefing-questions.md` → key `debriefing`
+- `facilitator/<kebab-name>.md` → key is the camelCased file name (e.g. `eventCards`)
 
 ```javascript
-// Load role content
 await loadRoleContent('energy-transition', 'master', 'workers');
-await loadRoleContent('talstadt', 'standard', 'stadtrat');
-
-// Load shared content
-await loadSharedContent('energy-transition', 'bachelor', 'situationBriefing');
-await loadSharedContent('talstadt', 'standard', 'keyFacts');
+await loadRoleContent('talstadt', 'bachelor', 'stadtrat');
+await loadSharedContent('talstadt', 'bachelor', 'keyFacts');
 ```
 
-Content keys for shared content:
-- `situationBriefing` - Case overview
-- `keyFacts` - Quick reference facts
-- `schedule` - Simulation timeline
-- `debriefing` - Post-simulation questions
+In dev mode the loader warns at startup about missing role/shared files (`[contentLoader]` in the console).
 
 ## Environment Variables
 
@@ -143,15 +151,13 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 ## Common Tasks
 
 ### Add a new scenario
-1. Add entry in `SCENARIOS` in `src/lib/stakeholders.js` (~15 lines)
-2. Create content folder `src/content/new-scenario/{level}/roles|shared/`
-3. Add imports in `contentModules` in `src/lib/contentLoader.js`
-4. No further files needed — CreateSession reads `getScenariosArray()` dynamically
+1. Add entry in `SCENARIOS` in `src/lib/stakeholders.js` (incl. `language`, `keyFactsLabel`, `levelMeta`)
+2. Create content folder `src/content/new-scenario/{level}/roles|shared/` following the file conventions above
+3. Done — the loader discovers the files, CreateSession reads `getScenariosArray()` dynamically
 
 ### Add a new stakeholder group to existing scenario
 1. Add entry in `SCENARIOS[scenario].groups` in `src/lib/stakeholders.js`
-2. Create role card markdown in scenario's content folder
-3. Add import to `contentLoader.js`
+2. Create `roles/<groupId>.md` in the scenario's content folder for each level
 
 ### Modify content for a scenario/level
 Edit files in `src/content/{scenario}/{level}/`

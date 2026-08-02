@@ -1,7 +1,8 @@
 import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
-import { getOrderedStakeholders, SCENARIOS } from '../lib/stakeholders';
+import { getOrderedStakeholders } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
+import { getScenarioLanguage } from '../lib/i18n';
 
 const colorClasses = {
   blue: 'border-blue-400 bg-blue-50',
@@ -19,7 +20,7 @@ export default function StakeholdersOverview() {
   const { selectedScenario } = useRole();
   const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
   const stakeholders = getOrderedStakeholders(scenario);
-  const isGerman = scenario === 'talstadt';
+  const isGerman = getScenarioLanguage(scenario) === 'de';
 
   return (
     <div>
@@ -31,7 +32,7 @@ export default function StakeholdersOverview() {
         {stakeholders.map((stakeholder) => (
           <div
             key={stakeholder.id}
-            className={`p-4 rounded-lg border-l-4 shadow-sm ${colorClasses[stakeholder.color]}`}
+            className={`p-4 rounded-lg border-l-4 shadow-sm ${colorClasses[stakeholder.color] || colorClasses.slate}`}
           >
             <div className="flex items-start gap-3">
               <span className="text-2xl">{stakeholder.emoji}</span>

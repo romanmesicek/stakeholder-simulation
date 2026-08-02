@@ -1,123 +1,108 @@
-// Dynamic content loader with scenario support
+// Content loader: discovers all markdown under src/content/ via glob, so a
+// new scenario/level/role only needs its files and a SCENARIOS entry — no
+// import wiring. Files stay lazily loaded (one chunk per file).
+//
+// Conventions:
+//   roles/<groupId>.md                 — role card per stakeholder group
+//   shared/situation-briefing.md       — key "situationBriefing"
+//   shared/key-facts-reference.md      — key "keyFacts"
+//   shared/simulation-instructions.md  — key "schedule"
+//   shared/debriefing-questions.md     — key "debriefing"
+//   facilitator/<kebab-name>.md        — key is the camelCased file name
 
-const contentModules = {
-  'energy-transition': {
-    bachelor: {
-      roles: {
-        management: () => import('../content/energy-transition/bachelor/roles/01_PowerShift_Management_RoleCard.md?raw'),
-        workers: () => import('../content/energy-transition/bachelor/roles/02_Workers_Union_RoleCard.md?raw'),
-        community: () => import('../content/energy-transition/bachelor/roles/03_Community_Coalition_RoleCard.md?raw'),
-        environmental: () => import('../content/energy-transition/bachelor/roles/04_Environmental_Alliance_RoleCard.md?raw'),
-        government: () => import('../content/energy-transition/bachelor/roles/05_Regional_Government_RoleCard.md?raw'),
-        indigenous: () => import('../content/energy-transition/bachelor/roles/06_Indigenous_Community_RoleCard.md?raw'),
-        investors: () => import('../content/energy-transition/bachelor/roles/07_Investor_Coalition_RoleCard.md?raw'),
-        technical: () => import('../content/energy-transition/bachelor/roles/08_Technical_Expert_Panel_RoleCard.md?raw'),
-      },
-      shared: {
-        situationBriefing: () => import('../content/energy-transition/bachelor/shared/situation-briefing.md?raw'),
-        keyFacts: () => import('../content/energy-transition/bachelor/shared/key-facts-reference.md?raw'),
-        schedule: () => import('../content/energy-transition/bachelor/shared/simulation-instructions.md?raw'),
-        debriefing: () => import('../content/energy-transition/bachelor/shared/debriefing-questions.md?raw'),
-      }
-    },
-    master: {
-      roles: {
-        management: () => import('../content/energy-transition/master/roles/01_PowerShift_Management_RoleCard.md?raw'),
-        workers: () => import('../content/energy-transition/master/roles/02_Workers_Union_RoleCard.md?raw'),
-        community: () => import('../content/energy-transition/master/roles/03_Community_Coalition_RoleCard.md?raw'),
-        environmental: () => import('../content/energy-transition/master/roles/04_Environmental_Alliance_RoleCard.md?raw'),
-        government: () => import('../content/energy-transition/master/roles/05_Regional_Government_RoleCard.md?raw'),
-        indigenous: () => import('../content/energy-transition/master/roles/06_Indigenous_Community_RoleCard.md?raw'),
-        investors: () => import('../content/energy-transition/master/roles/07_Investor_Coalition_RoleCard.md?raw'),
-        technical: () => import('../content/energy-transition/master/roles/08_Technical_Expert_Panel_RoleCard.md?raw'),
-      },
-      shared: {
-        situationBriefing: () => import('../content/energy-transition/master/shared/situation-briefing.md?raw'),
-        keyFacts: () => import('../content/energy-transition/master/shared/key-facts-reference.md?raw'),
-        schedule: () => import('../content/energy-transition/master/shared/simulation-instructions.md?raw'),
-        debriefing: () => import('../content/energy-transition/master/shared/debriefing-questions.md?raw'),
-      }
-    }
-  },
-  'talstadt': {
-    bachelor: {
-      roles: {
-        stadtrat: () => import('../content/talstadt/bachelor/roles/stadtrat.md?raw'),
-        umweltschutzamt: () => import('../content/talstadt/bachelor/roles/umweltschutzamt.md?raw'),
-        papierfabrik: () => import('../content/talstadt/bachelor/roles/papierfabrik.md?raw'),
-        lackierfabrik: () => import('../content/talstadt/bachelor/roles/lackierfabrik.md?raw'),
-        fremdenverkehrsverein: () => import('../content/talstadt/bachelor/roles/fremdenverkehrsverein.md?raw'),
-        anglerclub: () => import('../content/talstadt/bachelor/roles/anglerclub.md?raw'),
-      },
-      shared: {
-        situationBriefing: () => import('../content/talstadt/bachelor/shared/situation-briefing.md?raw'),
-        keyFacts: () => import('../content/talstadt/bachelor/shared/key-facts-reference.md?raw'),
-        schedule: () => import('../content/talstadt/bachelor/shared/simulation-instructions.md?raw'),
-        debriefing: () => import('../content/talstadt/bachelor/shared/debriefing-questions.md?raw'),
-      },
-      facilitator: {
-        eventCards: () => import('../content/talstadt/bachelor/facilitator/event-cards.md?raw'),
-      }
-    }
-  }
+import { SCENARIOS } from './stakeholders';
+
+const modules = import.meta.glob('../content/*/*/{roles,shared,facilitator}/*.md', {
+  query: '?raw',
+  import: 'default',
+});
+
+const SHARED_FILES = {
+  situationBriefing: 'situation-briefing',
+  keyFacts: 'key-facts-reference',
+  schedule: 'simulation-instructions',
+  debriefing: 'debriefing-questions',
 };
 
-export async function loadRoleContent(scenario, level, roleId) {
-  const effectiveScenario = scenario || 'energy-transition';
-  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
-  const loader = contentModules[effectiveScenario]?.[effectiveLevel]?.roles[roleId];
+const camelCase = (kebab) => kebab.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+const kebabCase = (camel) => camel.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
 
-  if (!loader) {
-    throw new Error(`Role ${roleId} not found for scenario ${effectiveScenario}, level ${effectiveLevel}`);
+const modulePath = (scenario, level, kind, fileName) =>
+  `../content/${scenario}/${level}/${kind}/${fileName}.md`;
+
+function firstAvailableLevel(scenario) {
+  const prefix = `../content/${scenario}/`;
+  for (const path of Object.keys(modules)) {
+    if (path.startsWith(prefix)) {
+      return path.slice(prefix.length).split('/')[0];
+    }
   }
-
-  const module = await loader();
-  return module.default;
+  return 'master';
 }
 
-export async function loadSharedContent(scenario, level, contentKey) {
+async function load(scenario, level, kind, fileName, description) {
   const effectiveScenario = scenario || 'energy-transition';
-  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
-  const loader = contentModules[effectiveScenario]?.[effectiveLevel]?.shared[contentKey];
+  const effectiveLevel = level || firstAvailableLevel(effectiveScenario);
+  const loader = modules[modulePath(effectiveScenario, effectiveLevel, kind, fileName)];
 
   if (!loader) {
-    throw new Error(`Shared content ${contentKey} not found for scenario ${effectiveScenario}, level ${effectiveLevel}`);
+    throw new Error(`${description} not found for scenario ${effectiveScenario}, level ${effectiveLevel}`);
   }
-
-  const module = await loader();
-  return module.default;
+  return loader();
 }
 
-export async function loadFacilitatorContent(scenario, level, contentKey) {
-  const effectiveScenario = scenario || 'energy-transition';
-  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
-  const loader = contentModules[effectiveScenario]?.[effectiveLevel]?.facilitator?.[contentKey];
+export function loadRoleContent(scenario, level, roleId) {
+  return load(scenario, level, 'roles', roleId, `Role ${roleId}`);
+}
 
-  if (!loader) {
-    throw new Error(`Facilitator content ${contentKey} not found for scenario ${effectiveScenario}, level ${effectiveLevel}`);
+export function loadSharedContent(scenario, level, contentKey) {
+  const fileName = SHARED_FILES[contentKey];
+  if (!fileName) {
+    return Promise.reject(new Error(`Unknown shared content key ${contentKey}`));
   }
+  return load(scenario, level, 'shared', fileName, `Shared content ${contentKey}`);
+}
 
-  const module = await loader();
-  return module.default;
+export function loadFacilitatorContent(scenario, level, contentKey) {
+  return load(scenario, level, 'facilitator', kebabCase(contentKey), `Facilitator content ${contentKey}`);
 }
 
 export function getFacilitatorMaterials(scenario, level) {
   const effectiveScenario = scenario || 'energy-transition';
-  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
-  const facilitator = contentModules[effectiveScenario]?.[effectiveLevel]?.facilitator;
-  return facilitator ? Object.keys(facilitator) : [];
+  const effectiveLevel = level || firstAvailableLevel(effectiveScenario);
+  const prefix = `../content/${effectiveScenario}/${effectiveLevel}/facilitator/`;
+  return Object.keys(modules)
+    .filter(path => path.startsWith(prefix))
+    .map(path => camelCase(path.slice(prefix.length).replace(/\.md$/, '')));
 }
 
 export async function loadAllSessionContent(scenario, level, roleId) {
-  const effectiveScenario = scenario || 'energy-transition';
-  const effectiveLevel = level || (contentModules[effectiveScenario] ? Object.keys(contentModules[effectiveScenario])[0] : 'master');
-
   const [roleMarkdown, situationBriefing, keyFacts, schedule] = await Promise.all([
-    loadRoleContent(effectiveScenario, effectiveLevel, roleId),
-    loadSharedContent(effectiveScenario, effectiveLevel, 'situationBriefing'),
-    loadSharedContent(effectiveScenario, effectiveLevel, 'keyFacts'),
-    loadSharedContent(effectiveScenario, effectiveLevel, 'schedule'),
+    loadRoleContent(scenario, level, roleId),
+    loadSharedContent(scenario, level, 'situationBriefing'),
+    loadSharedContent(scenario, level, 'keyFacts'),
+    loadSharedContent(scenario, level, 'schedule'),
   ]);
 
   return { roleMarkdown, situationBriefing, keyFacts, schedule };
+}
+
+// Dev-only sanity check: every group in SCENARIOS must have a role card,
+// every level the four shared files. Typos then fail at `npm run dev`
+// startup instead of when a student opens their role in class.
+if (import.meta.env.DEV) {
+  for (const scenario of Object.values(SCENARIOS)) {
+    for (const level of scenario.levels) {
+      for (const key of Object.values(SHARED_FILES)) {
+        if (!modules[modulePath(scenario.id, level, 'shared', key)]) {
+          console.warn(`[contentLoader] Missing shared file: ${scenario.id}/${level}/shared/${key}.md`);
+        }
+      }
+      for (const group of Object.values(scenario.groups)) {
+        if (group.levels.includes(level) && !modules[modulePath(scenario.id, level, 'roles', group.id)]) {
+          console.warn(`[contentLoader] Missing role card: ${scenario.id}/${level}/roles/${group.id}.md`);
+        }
+      }
+    }
+  }
 }

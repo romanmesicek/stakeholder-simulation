@@ -7,6 +7,13 @@ export const SCENARIOS = {
     keyFactsLabel: '🎭 Staying in Role',
     levels: ['bachelor', 'master'],
     defaultLevel: 'master',
+    levelMeta: {
+      bachelor: { label: 'Bachelor', badge: 'BA', description: '~2 hours, 6 groups, simplified' },
+      master: { label: 'Master', badge: 'MA', description: '~3 hours, 8 groups, full complexity' },
+    },
+    defaultGroupsByLevel: {
+      bachelor: ['management', 'workers', 'community', 'environmental', 'government', 'investors'],
+    },
     groups: {
       management: {
         id: 'management',
@@ -15,7 +22,6 @@ export const SCENARIOS = {
         color: 'blue',
         order: 1,
         priority: 1,
-        file: '01_PowerShift_Management_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Executive leadership team making decisions about transitioning from coal to renewable energy. Control transition timeline, allocate €3 billion budget, and approve all major agreements.'
       },
@@ -26,7 +32,6 @@ export const SCENARIOS = {
         color: 'amber',
         order: 2,
         priority: 2,
-        file: '02_Workers_Union_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives of 500 coal plant workers facing job losses. Fighting for job security, fair severance, retraining programs, and priority hiring for renewable positions.'
       },
@@ -37,7 +42,6 @@ export const SCENARIOS = {
         color: 'emerald',
         order: 3,
         priority: 4,
-        file: '03_Community_Coalition_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives of towns dependent on coal plant tax revenue and jobs. Advocating for economic transition support, local investment, and community development.'
       },
@@ -48,7 +52,6 @@ export const SCENARIOS = {
         color: 'green',
         order: 4,
         priority: 5,
-        file: '04_Environmental_Alliance_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Coalition of environmental groups pushing for fastest possible coal phase-out. Prioritizing climate action, ecosystem protection, and holding polluters accountable.'
       },
@@ -59,7 +62,6 @@ export const SCENARIOS = {
         color: 'purple',
         order: 5,
         priority: 3,
-        file: '05_Regional_Government_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Elected officials balancing economic stability, environmental compliance, and social welfare. Control permits, can offer subsidies, and must maintain public services.'
       },
@@ -70,7 +72,6 @@ export const SCENARIOS = {
         color: 'orange',
         order: 6,
         priority: 7,
-        file: '06_Indigenous_Community_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Representatives protecting ancestral lands, cultural sites, and water resources near the Southern Plant. Seeking recognition, consultation rights, and environmental restoration.'
       },
@@ -81,7 +82,6 @@ export const SCENARIOS = {
         color: 'slate',
         order: 7,
         priority: 6,
-        file: '07_Investor_Coalition_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Institutional investors and pension funds focused on financial returns and ESG compliance. Balancing profitability with sustainable investment criteria.'
       },
@@ -92,7 +92,6 @@ export const SCENARIOS = {
         color: 'cyan',
         order: 8,
         priority: 8,
-        file: '08_Technical_Expert_Panel_RoleCard.md',
         levels: ['bachelor', 'master'],
         shortDescription: 'Independent engineers and scientists providing technical guidance on grid stability, renewable integration timelines, and environmental assessments.'
       }
@@ -106,6 +105,9 @@ export const SCENARIOS = {
     keyFactsLabel: '📚 Informationsmaterialien',
     levels: ['bachelor'],
     defaultLevel: 'bachelor',
+    levelMeta: {
+      bachelor: { label: 'Standard', badge: null, description: '6 Gruppen' },
+    },
     groups: {
       stadtrat: {
         id: 'stadtrat',
@@ -171,9 +173,6 @@ export const SCENARIOS = {
   }
 };
 
-// Backward compatibility shim
-export const STAKEHOLDER_GROUPS = SCENARIOS['energy-transition'].groups;
-
 export const getScenariosArray = () =>
   Object.values(SCENARIOS);
 
@@ -200,9 +199,8 @@ export const resolveLevel = (scenario, urlLevel, joinedScenario, joinedLevel) =>
 export const getDefaultGroupsForLevel = (level, scenario = 'energy-transition') => {
   const scenarioData = SCENARIOS[scenario];
   if (!scenarioData) return [];
-
-  if (scenario === 'energy-transition' && level === 'bachelor') {
-    return ['management', 'workers', 'community', 'environmental', 'government', 'investors'];
-  }
-  return Object.keys(scenarioData.groups);
+  return scenarioData.defaultGroupsByLevel?.[level] || Object.keys(scenarioData.groups);
 };
+
+export const getLevelMeta = (scenario, level) =>
+  SCENARIOS[scenario]?.levelMeta?.[level] || { label: level, badge: null, description: '' };

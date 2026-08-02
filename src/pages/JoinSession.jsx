@@ -6,6 +6,7 @@ import { useParticipants } from '../hooks/useParticipants';
 import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
 import { getUiStrings } from '../lib/i18n';
 import { useRole } from '../lib/RoleContext';
+import Loading from '../components/Loading';
 
 export default function JoinSession() {
   const { sessionCode } = useParams();
@@ -136,11 +137,7 @@ export default function JoinSession() {
   };
 
   if (sessionLoading || participantsLoading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">{t.loading}</p>
-      </div>
-    );
+    return <Loading text={t.loading} />;
   }
 
   if (!session) {

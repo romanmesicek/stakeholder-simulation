@@ -90,7 +90,7 @@ export default function InfoHub() {
               <div className="font-semibold text-slate-800">{s.name}</div>
               <div className="text-sm text-slate-500 mt-1">{s.description}</div>
               <div className="text-xs text-slate-400 mt-2">
-                {Object.keys(s.groups).length} {s.id === 'talstadt' ? 'Gruppen' : 'groups'}
+                {Object.keys(s.groups).length} {s.language === 'de' ? 'Gruppen' : 'groups'}
               </div>
             </button>
           ))}

@@ -113,11 +113,10 @@ npm run dev
 
 The architecture is designed so new scenarios require no structural changes:
 
-1. **Define groups** — add an entry to `SCENARIOS` in `src/lib/stakeholders.js`
-2. **Write content** — create `src/content/{scenario-id}/{level}/roles/` and `shared/`
-3. **Register imports** — add the files to `contentModules` in `src/lib/contentLoader.js`
+1. **Define groups** — add an entry to `SCENARIOS` in `src/lib/stakeholders.js` (incl. `language`, `keyFactsLabel`, `levelMeta`)
+2. **Write content** — create `src/content/{scenario-id}/{level}/roles/` and `shared/`; role files are named `<groupId>.md`, shared files follow the fixed names (`situation-briefing.md`, `key-facts-reference.md`, `simulation-instructions.md`, `debriefing-questions.md`)
 
-That's it. The create-session UI, participant views, info hub, and facilitator dashboard all pick up the new scenario automatically.
+That's it. The content loader discovers the files via glob; the create-session UI, participant views, info hub, and facilitator dashboard all pick up the new scenario automatically.
 
 ## Session Management
 

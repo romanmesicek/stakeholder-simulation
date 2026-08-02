@@ -1,7 +1,8 @@
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
-import { getStakeholderById, SCENARIOS } from '../lib/stakeholders';
+import Loading from '../components/Loading';
+import { getStakeholderById, resolveLevel } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 import { loadRoleContent } from '../lib/contentLoader';
 
@@ -10,8 +11,7 @@ export default function RoleDetail() {
   const [searchParams] = useSearchParams();
   const { selectedRoleId, setSelectedRoleId, selectedScenario, setSelectedScenario } = useRole();
   const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
-  const scenarioData = SCENARIOS[scenario];
-  const level = searchParams.get('level') || scenarioData?.defaultLevel || 'master';
+  const level = resolveLevel(scenario, searchParams.get('level'), selectedScenario, null);
   const stakeholder = getStakeholderById(roleId, scenario);
   const isMyRole = selectedRoleId === roleId;
 
@@ -33,11 +33,7 @@ export default function RoleDetail() {
   }, [roleId, scenario, level]);
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!stakeholder || !content) {

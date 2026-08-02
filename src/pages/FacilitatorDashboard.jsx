@@ -6,11 +6,13 @@ import { getFacilitatorKey, saveFacilitatorKey } from '../lib/facilitatorKeys';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { loadSharedContent } from '../lib/contentLoader';
-import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
+import { SCENARIOS, getStakeholderById, getLevelMeta } from '../lib/stakeholders';
 import SessionCodeDisplay from '../components/SessionCodeDisplay';
 import StatusBadge from '../components/StatusBadge';
 import ParticipantList from '../components/ParticipantList';
 import MarkdownRenderer from '../components/MarkdownRenderer';
+import BackButton from '../components/BackButton';
+import Loading from '../components/Loading';
 
 export default function FacilitatorDashboard() {
   const { sessionCode } = useParams();
@@ -112,20 +114,14 @@ export default function FacilitatorDashboard() {
 
   const handleOpenDebriefing = async () => {
     if (!debriefingContent && session) {
-      const scenario = session.scenario || 'energy-transition';
-      const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
-      const content = await loadSharedContent(scenario, level, 'debriefing');
+      const content = await loadSharedContent(session.scenario, session.education_level, 'debriefing');
       setDebriefingContent(content);
     }
     setShowDebriefing(true);
   };
 
   if (sessionLoading || participantsLoading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!session) {
@@ -141,23 +137,15 @@ export default function FacilitatorDashboard() {
 
   return (
     <div>
-      <Link
-        to="/"
-        className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-800 mb-6"
-      >
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Exit
-      </Link>
+      <BackButton to="/facilitate" label="All Sessions" />
 
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Session</h1>
           <p className="text-sm text-slate-500">
-            {SCENARIOS[session.scenario]?.name || 'Energy Transition'}
+            {SCENARIOS[session.scenario]?.name}
             {' · '}
-            {session.education_level === 'bachelor' ? 'Bachelor (~2h)' : session.education_level === 'master' ? 'Master (~3h)' : session.education_level}
+            {getLevelMeta(session.scenario, session.education_level).label}
           </p>
         </div>
         <StatusBadge status={session.status} />
@@ -257,7 +245,7 @@ export default function FacilitatorDashboard() {
         participants={participants}
         activeGroups={session.active_groups}
         maxPerGroup={session.max_per_group}
-        scenario={session.scenario || 'energy-transition'}
+        scenario={session.scenario}
         onMoveParticipant={handleMoveParticipant}
         onRemoveParticipant={handleRemoveParticipant}
       />

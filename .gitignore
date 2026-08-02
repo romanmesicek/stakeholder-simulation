@@ -26,3 +26,4 @@ dist-ssr
 # Background material for refinement
 material
 
+.playwright-mcp/

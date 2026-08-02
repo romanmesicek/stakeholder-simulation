@@ -1,18 +1,16 @@
 import { useParams, Link } from 'react-router-dom';
 import { useSession } from '../hooks/useSession';
-import { SCENARIOS, getOrderedStakeholders } from '../lib/stakeholders';
+import { SCENARIOS, getStakeholderById, getLevelMeta } from '../lib/stakeholders';
 import RoleCard from '../components/RoleCard';
+import BackButton from '../components/BackButton';
+import Loading from '../components/Loading';
 
 export default function FacilitatorRoles() {
   const { sessionCode } = useParams();
   const { session, loading } = useSession(sessionCode);
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!session) {
@@ -26,29 +24,25 @@ export default function FacilitatorRoles() {
     );
   }
 
-  const scenario = session.scenario || 'energy-transition';
-  const level = session.education_level || SCENARIOS[scenario]?.defaultLevel || 'master';
-  const allGroups = getOrderedStakeholders(scenario);
+  const scenario = session.scenario;
+  const level = session.education_level;
+  // Only the groups actually active in this session
+  const activeStakeholders = session.active_groups
+    .map(groupId => getStakeholderById(groupId, scenario))
+    .filter(Boolean)
+    .sort((a, b) => a.order - b.order);
 
   return (
     <div>
-      <Link
-        to={`/facilitate/${sessionCode}`}
-        className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-800 mb-6"
-      >
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Back to Session
-      </Link>
+      <BackButton to={`/facilitate/${sessionCode}`} label="Back to Session" />
 
       <h1 className="text-2xl font-bold text-slate-800 mb-2">Role Cards</h1>
       <p className="text-sm text-slate-500 mb-6">
-        {SCENARIOS[scenario]?.name} · {level.charAt(0).toUpperCase() + level.slice(1)}
+        {SCENARIOS[scenario]?.name} · {getLevelMeta(scenario, level).label}
       </p>
 
       <div className="grid gap-4">
-        {allGroups.map((stakeholder) => (
+        {activeStakeholders.map((stakeholder) => (
           <RoleCard
             key={stakeholder.id}
             stakeholder={stakeholder}

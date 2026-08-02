@@ -10,6 +10,7 @@ import MarkdownRenderer from '../components/MarkdownRenderer';
 import Accordion from '../components/Accordion';
 import GroupMembersList from '../components/GroupMembersList';
 import ParticipantList from '../components/ParticipantList';
+import Loading from '../components/Loading';
 
 const colorClasses = {
   blue: 'border-blue-400 bg-blue-50',
@@ -91,11 +92,7 @@ export default function ParticipantView() {
   }, [loadContent]);
 
   if (sessionLoading || (session && (loading || participantsLoading || contentLoading))) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">{t.loading}</p>
-      </div>
-    );
+    return <Loading text={t.loading} />;
   }
 
   if (!session) {

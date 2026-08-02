@@ -2,18 +2,11 @@ import { useState, useEffect } from 'react';
 import { useParams, useSearchParams, Link } from 'react-router-dom';
 import { loadFacilitatorContent, loadSharedContent } from '../lib/contentLoader';
 import { SCENARIOS } from '../lib/stakeholders';
+import { getScenarioLanguage } from '../lib/i18n';
+import { MATERIAL_META } from '../lib/materialMeta';
 import MarkdownRenderer from '../components/MarkdownRenderer';
-
-const CONTENT_META = {
-  eventCards: {
-    titleDe: 'Ereigniskarten',
-    titleEn: 'Event Cards',
-  },
-  debriefing: {
-    titleDe: 'Auswertungsfragen',
-    titleEn: 'Debriefing Guide',
-  },
-};
+import BackButton from '../components/BackButton';
+import Loading from '../components/Loading';
 
 export default function FacilitatorMaterial() {
   const { contentKey } = useParams();
@@ -25,9 +18,9 @@ export default function FacilitatorMaterial() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const isGerman = scenario === 'talstadt';
-  const meta = CONTENT_META[contentKey] || {};
-  const title = isGerman ? meta.titleDe : meta.titleEn;
+  const lang = getScenarioLanguage(scenario);
+  const isGerman = lang === 'de';
+  const title = MATERIAL_META[contentKey]?.label[lang];
 
   useEffect(() => {
     setLoading(true);
@@ -53,11 +46,7 @@ export default function FacilitatorMaterial() {
   }, [scenario, level, contentKey]);
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (error) {
@@ -73,15 +62,7 @@ export default function FacilitatorMaterial() {
 
   return (
     <div>
-      <Link
-        to="/facilitate"
-        className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-800 mb-6"
-      >
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        {isGerman ? 'Zurück' : 'Back'}
-      </Link>
+      <BackButton to="/facilitate" label={isGerman ? 'Zurück' : 'Back'} />
 
       <div className="mb-6">
         <p className="text-sm text-slate-500">

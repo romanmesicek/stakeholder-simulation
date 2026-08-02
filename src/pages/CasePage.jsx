@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import BackButton from '../components/BackButton';
+import Loading from '../components/Loading';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { loadSharedContent } from '../lib/contentLoader';
 import { resolveLevel } from '../lib/stakeholders';
+import { getScenarioLanguage } from '../lib/i18n';
 import { useRole } from '../lib/RoleContext';
 
 export default function CasePage() {
@@ -13,7 +15,7 @@ export default function CasePage() {
   const level = resolveLevel(scenario, searchParams.get('level'), selectedScenario, selectedLevel);
   const [content, setContent] = useState(null);
   const [loading, setLoading] = useState(true);
-  const isGerman = scenario === 'talstadt';
+  const isGerman = getScenarioLanguage(scenario) === 'de';
 
   useEffect(() => {
     setLoading(true);
@@ -23,11 +25,7 @@ export default function CasePage() {
   }, [scenario, level]);
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading...</p>
-      </div>
-    );
+    return <Loading />;
   }
 
   return (

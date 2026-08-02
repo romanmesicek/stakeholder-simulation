@@ -3,25 +3,11 @@ import { Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useAllSessions } from '../hooks/useAllSessions';
 import { saveFacilitatorKey } from '../lib/facilitatorKeys';
-import { SCENARIOS } from '../lib/stakeholders';
+import { SCENARIOS, getLevelMeta } from '../lib/stakeholders';
+import { getScenarioLanguage } from '../lib/i18n';
+import { MATERIAL_META } from '../lib/materialMeta';
 import { getFacilitatorMaterials } from '../lib/contentLoader';
-
-const MATERIAL_META = {
-  eventCards: {
-    emoji: '🎴',
-    labelDe: 'Ereigniskarten',
-    labelEn: 'Event Cards',
-    descDe: 'Ereignisse zum Einsetzen während der Verhandlungen',
-    descEn: 'Events to inject during negotiations',
-  },
-  debriefing: {
-    emoji: '💬',
-    labelDe: 'Auswertungsfragen',
-    labelEn: 'Debriefing Guide',
-    descDe: 'Strukturierte Reflexion nach dem Planspiel',
-    descEn: 'Post-simulation discussion guide',
-  },
-};
+import Loading from '../components/Loading';
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -43,6 +29,7 @@ function formatDate(dateString) {
 function SessionCard({ session, onDelete }) {
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const levelBadge = getLevelMeta(session.scenario, session.education_level).badge;
 
   const handleDelete = async () => {
     setDeleting(true);
@@ -68,15 +55,17 @@ function SessionCard({ session, onDelete }) {
             {session.status === 'open' ? 'Open' : 'Closed'}
           </span>
           <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700">
-            {SCENARIOS[session.scenario]?.name || 'Energy Transition'}
+            {SCENARIOS[session.scenario]?.name || session.scenario}
           </span>
-          <span className={`text-xs px-2 py-0.5 rounded-full ${
-            session.education_level === 'bachelor'
-              ? 'bg-amber-100 text-amber-700'
-              : 'bg-purple-100 text-purple-700'
-          }`}>
-            {session.education_level === 'bachelor' ? 'BA' : session.education_level === 'master' ? 'MA' : session.education_level}
-          </span>
+          {levelBadge && (
+            <span className={`text-xs px-2 py-0.5 rounded-full ${
+              levelBadge === 'BA'
+                ? 'bg-amber-100 text-amber-700'
+                : 'bg-purple-100 text-purple-700'
+            }`}>
+              {levelBadge}
+            </span>
+          )}
         </div>
         <div className="flex items-center gap-4 mt-1 text-sm text-slate-500">
           <span>{session.participantCount} participant{session.participantCount !== 1 ? 's' : ''}</span>
@@ -221,11 +210,7 @@ export default function FacilitatorHome() {
   const closedSessions = sessions.filter(s => s.status === 'closed');
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-[40vh]">
-        <p className="text-slate-500">Loading sessions...</p>
-      </div>
-    );
+    return <Loading text="Loading sessions..." />;
   }
 
   return (
@@ -301,19 +286,20 @@ export default function FacilitatorHome() {
             scenario.levels.map(level => {
               const facilitatorKeys = getFacilitatorMaterials(scenarioId, level);
               const allKeys = ['debriefing', ...facilitatorKeys.filter(k => k !== 'debriefing')];
-              const isGerman = scenarioId === 'talstadt';
+              const lang = getScenarioLanguage(scenarioId);
+              const levelBadge = getLevelMeta(scenarioId, level).badge;
 
               return (
                 <div key={`${scenarioId}-${level}`} className="bg-slate-50 rounded-lg p-4">
                   <div className="flex items-center gap-2 mb-3">
                     <h3 className="font-medium text-slate-800">{scenario.name}</h3>
-                    {scenario.levels.length > 1 && (
+                    {scenario.levels.length > 1 && levelBadge && (
                       <span className={`text-xs px-2 py-0.5 rounded-full ${
-                        level === 'bachelor'
+                        levelBadge === 'BA'
                           ? 'bg-amber-100 text-amber-700'
                           : 'bg-purple-100 text-purple-700'
                       }`}>
-                        {level === 'bachelor' ? 'BA' : 'MA'}
+                        {levelBadge}
                       </span>
                     )}
                   </div>
@@ -330,10 +316,10 @@ export default function FacilitatorHome() {
                           <span className="text-xl">{meta.emoji}</span>
                           <div>
                             <p className="font-medium text-slate-800 text-sm">
-                              {isGerman ? meta.labelDe : meta.labelEn}
+                              {meta.label[lang]}
                             </p>
                             <p className="text-xs text-slate-500">
-                              {isGerman ? meta.descDe : meta.descEn}
+                              {meta.description[lang]}
                             </p>
                           </div>
                         </Link>
