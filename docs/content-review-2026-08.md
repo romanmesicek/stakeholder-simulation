@@ -29,6 +29,10 @@ Beide Cases stehen didaktisch und handwerklich auf solidem Fundament: einheitlic
 - ☑ **Timeline vereinheitlicht:** Bachelor-Briefing sagt jetzt wie Master und Technical „6-7 years; below 5 years risks outages" (vorher 5-7 vs. 6-7).
 - ☑ **`\newpage`-LaTeX-Artefakt** aus den Master-Instructions entfernt.
 
+### Nachtrag (Entscheidung 02.08.2026)
+
+- ☑ **Talstadt ist offiziell Bachelor-Niveau:** Level-Label „Standard" → „Bachelor" mit BA-Badge in Session-Übersicht, Session-Dashboard und Facilitator-Materials (Einschätzung Roman, bestätigt: Einsteiger-Planspiel, 2,5 h, explizite Koalitionshinweise — vergleichbar mit ET-Bachelor). Ein späteres Talstadt-Master-Level bleibt als Idee unten gelistet.
+
 ---
 
 ## Paket 2 — Verhandlungslogik (☐ offen)
