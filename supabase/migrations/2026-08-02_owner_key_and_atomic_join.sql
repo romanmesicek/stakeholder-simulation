@@ -30,9 +30,10 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_participants_session_name
 -- ---------------------------------------------------------------------------
 -- Owner check (legacy sessions without a key hash stay open to everyone)
 -- ---------------------------------------------------------------------------
+-- search_path includes extensions because Supabase installs pgcrypto there
 CREATE OR REPLACE FUNCTION assert_session_owner(p_session_id TEXT, p_owner_key TEXT)
 RETURNS void
-LANGUAGE plpgsql SECURITY DEFINER SET search_path = public AS $$
+LANGUAGE plpgsql SECURITY DEFINER SET search_path = public, extensions AS $$
 DECLARE
   v_hash TEXT;
 BEGIN
@@ -67,7 +68,7 @@ CREATE OR REPLACE FUNCTION create_session(
   p_max_per_group INTEGER,
   p_owner_key TEXT
 ) RETURNS sessions
-LANGUAGE plpgsql SECURITY DEFINER SET search_path = public AS $$
+LANGUAGE plpgsql SECURITY DEFINER SET search_path = public, extensions AS $$
 DECLARE
   v_session sessions;
 BEGIN
@@ -225,6 +226,8 @@ END $$;
 -- ---------------------------------------------------------------------------
 DROP POLICY IF EXISTS "Allow all for sessions" ON sessions;
 DROP POLICY IF EXISTS "Allow all for participants" ON participants;
+DROP POLICY IF EXISTS "sessions_read" ON sessions;
+DROP POLICY IF EXISTS "participants_read" ON participants;
 
 CREATE POLICY "sessions_read" ON sessions FOR SELECT USING (true);
 CREATE POLICY "participants_read" ON participants FOR SELECT USING (true);
