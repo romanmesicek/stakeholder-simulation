@@ -24,7 +24,7 @@ The platform supports multiple scenarios, each with its own stakeholder groups a
 ### Levels
 Each scenario can have one or more difficulty levels:
 - Energy Transition: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity)
-- Talstadt: single level, stored as `bachelor` in the DB (displayed as "Standard")
+- Talstadt: single level, stored and displayed as `bachelor` (BA badge)
 
 Level labels/badges/descriptions come from `levelMeta` in each `SCENARIOS` entry.
 

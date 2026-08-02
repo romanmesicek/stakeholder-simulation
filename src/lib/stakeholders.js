@@ -106,7 +106,7 @@ export const SCENARIOS = {
     levels: ['bachelor'],
     defaultLevel: 'bachelor',
     levelMeta: {
-      bachelor: { label: 'Standard', badge: null, description: '6 Gruppen' },
+      bachelor: { label: 'Bachelor', badge: 'BA', description: '~2,5 Stunden, 6 Gruppen' },
     },
     groups: {
       stadtrat: {
