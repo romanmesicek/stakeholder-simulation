@@ -293,7 +293,7 @@ export default function FacilitatorHome() {
                 <div key={`${scenarioId}-${level}`} className="bg-slate-50 rounded-lg p-4">
                   <div className="flex items-center gap-2 mb-3">
                     <h3 className="font-medium text-slate-800">{scenario.name}</h3>
-                    {scenario.levels.length > 1 && levelBadge && (
+                    {levelBadge && (
                       <span className={`text-xs px-2 py-0.5 rounded-full ${
                         levelBadge === 'BA'
                           ? 'bg-amber-100 text-amber-700'
