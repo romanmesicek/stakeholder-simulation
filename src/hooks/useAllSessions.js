@@ -1,18 +1,29 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
+import { knownSessionCodes, getFacilitatorKey, removeFacilitatorKey } from '../lib/facilitatorKeys';
 
+// Lists the sessions this facilitator holds keys for (localStorage).
+// Sessions created on another device appear after importing their key.
 export function useAllSessions() {
   const [sessions, setSessions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const fetchSessions = async () => {
+    const codes = knownSessionCodes();
+    if (codes.length === 0) {
+      setSessions([]);
+      setLoading(false);
+      return;
+    }
+
     const { data, error: fetchError } = await supabase
       .from('sessions')
       .select(`
         *,
         participants:participants(count)
       `)
+      .in('id', codes)
       .order('created_at', { ascending: false });
 
     if (fetchError) {
@@ -52,16 +63,16 @@ export function useAllSessions() {
   }, []);
 
   const deleteSession = async (sessionId) => {
-    const { error: deleteError } = await supabase
-      .from('sessions')
-      .delete()
-      .eq('id', sessionId);
+    const { error: deleteError } = await supabase.rpc('delete_session', {
+      p_session_id: sessionId,
+      p_owner_key: getFacilitatorKey(sessionId),
+    });
 
     if (deleteError) {
       throw deleteError;
     }
 
-    // Refetch after delete
+    removeFacilitatorKey(sessionId);
     await fetchSessions();
   };
 

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { generateSessionCode } from '../lib/sessionUtils';
+import { generateOwnerKey, saveFacilitatorKey } from '../lib/facilitatorKeys';
 import { SCENARIOS, getScenariosArray, getStakeholdersForLevel, getDefaultGroupsForLevel } from '../lib/stakeholders';
 
 export default function CreateSession() {
@@ -51,39 +52,40 @@ export default function CreateSession() {
     setLoading(true);
     setError(null);
 
-    // Generate unique session code
-    let sessionCode = generateSessionCode();
-    let attempts = 0;
+    const ownerKey = generateOwnerKey();
 
-    while (attempts < 5) {
-      const { data: existing } = await supabase
-        .from('sessions')
-        .select('id')
-        .eq('id', sessionCode)
-        .single();
-
-      if (!existing) break;
+    // Create via RPC; retry with a fresh code on the (rare) code collision
+    let created = false;
+    let sessionCode;
+    for (let attempts = 0; attempts < 5 && !created; attempts++) {
       sessionCode = generateSessionCode();
-      attempts++;
-    }
-
-    // Create session
-    const { error: insertError } = await supabase
-      .from('sessions')
-      .insert({
-        id: sessionCode,
-        status: 'open',
-        active_groups: selectedGroups,
-        max_per_group: maxPerGroup,
-        education_level: educationLevel,
-        scenario: scenario,
+      const { error: rpcError } = await supabase.rpc('create_session', {
+        p_id: sessionCode,
+        p_scenario: scenario,
+        p_education_level: educationLevel,
+        p_active_groups: selectedGroups,
+        p_max_per_group: maxPerGroup,
+        p_owner_key: ownerKey,
       });
 
-    if (insertError) {
+      if (!rpcError) {
+        created = true;
+      } else if (!rpcError.message?.includes('duplicate key')) {
+        setError('Failed to create session. Please try again.');
+        setLoading(false);
+        return;
+      }
+    }
+
+    if (!created) {
       setError('Failed to create session. Please try again.');
       setLoading(false);
       return;
     }
+
+    // The key authorizes closing/deleting the session and managing
+    // participants; it lives in this browser's localStorage.
+    saveFacilitatorKey(sessionCode, ownerKey);
 
     navigate(`/facilitate/${sessionCode}`);
   };

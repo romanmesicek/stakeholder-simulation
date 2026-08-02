@@ -3,7 +3,6 @@ import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
-import { assignToGroup } from '../lib/sessionUtils';
 import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
 import { getUiStrings } from '../lib/i18n';
 import { useRole } from '../lib/RoleContext';
@@ -45,33 +44,28 @@ export default function JoinSession() {
   };
 
   const insertParticipant = async (trimmedName) => {
-    // Assign to group
-    const scenarioGroups = SCENARIOS[session.scenario]?.groups;
-    const assignedGroup = assignToGroup(
-      session.active_groups,
-      participants,
-      session.max_per_group,
-      scenarioGroups
+    // The server assigns the group atomically; ties between equally full
+    // groups are broken by the scenario's staffing priority.
+    const scenarioGroups = SCENARIOS[session.scenario]?.groups || {};
+    const priorityOrder = [...session.active_groups].sort(
+      (a, b) => (scenarioGroups[a]?.priority ?? 999) - (scenarioGroups[b]?.priority ?? 999)
     );
 
-    if (!assignedGroup) {
-      setError(t.allGroupsFull);
-      setJoining(false);
-      return;
-    }
+    const { data, error: rpcError } = await supabase.rpc('join_session', {
+      p_session_id: sessionCode,
+      p_name: trimmedName,
+      p_group_priority: priorityOrder,
+    });
 
-    const { data, error: insertError } = await supabase
-      .from('participants')
-      .insert({
-        session_id: sessionCode,
-        name: trimmedName,
-        stakeholder_group: assignedGroup
-      })
-      .select()
-      .single();
-
-    if (insertError) {
-      setError(t.joinFailed);
+    if (rpcError || !data) {
+      const message = rpcError?.message || '';
+      if (message.includes('GROUPS_FULL')) {
+        setError(t.allGroupsFull);
+      } else if (message.includes('SESSION_CLOSED')) {
+        setError(t.closedNoNewJoin);
+      } else {
+        setError(t.joinFailed);
+      }
       setJoining(false);
       return;
     }

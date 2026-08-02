@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { QRCodeSVG } from 'qrcode.react';
 import { supabase } from '../lib/supabase';
+import { getFacilitatorKey, saveFacilitatorKey } from '../lib/facilitatorKeys';
 import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { loadSharedContent } from '../lib/contentLoader';
@@ -19,8 +20,41 @@ export default function FacilitatorDashboard() {
   const [debriefingContent, setDebriefingContent] = useState(null);
   const [actionError, setActionError] = useState(null);
   const [linkCopied, setLinkCopied] = useState(false);
+  const [ownerKey, setOwnerKey] = useState(() => getFacilitatorKey(sessionCode));
+  const [keyInput, setKeyInput] = useState('');
+  const [showKey, setShowKey] = useState(false);
+  const [keyCopied, setKeyCopied] = useState(false);
 
   const joinUrl = `${window.location.origin}/join/${sessionCode}`;
+  // Legacy sessions (pre owner-key migration) are manageable without a key
+  const needsKey = Boolean(session?.owner_key_hash) && !ownerKey;
+
+  const handleImportKey = async () => {
+    const trimmed = keyInput.trim();
+    if (!trimmed) return;
+    setActionError(null);
+    const { data: valid, error } = await supabase.rpc('verify_owner_key', {
+      p_session_id: sessionCode,
+      p_owner_key: trimmed,
+    });
+    if (error || !valid) {
+      setActionError('That facilitator key does not match this session.');
+      return;
+    }
+    saveFacilitatorKey(sessionCode, trimmed);
+    setOwnerKey(trimmed);
+    setKeyInput('');
+  };
+
+  const handleCopyKey = async () => {
+    try {
+      await navigator.clipboard.writeText(ownerKey);
+      setKeyCopied(true);
+      setTimeout(() => setKeyCopied(false), 2000);
+    } catch {
+      setActionError('Could not copy the key — please copy it manually.');
+    }
+  };
 
   const handleToggleStatus = async () => {
     setActionError(null);
@@ -41,15 +75,23 @@ export default function FacilitatorDashboard() {
     }
   };
 
+  const describeActionError = (error, fallback) => {
+    if (error?.message?.includes('NOT_AUTHORIZED')) {
+      return 'This action requires the facilitator key for this session.';
+    }
+    return fallback;
+  };
+
   const handleMoveParticipant = async (member, newGroup) => {
     if (newGroup === member.stakeholder_group) return;
     setActionError(null);
-    const { error } = await supabase
-      .from('participants')
-      .update({ stakeholder_group: newGroup })
-      .eq('id', member.id);
+    const { error } = await supabase.rpc('move_participant', {
+      p_participant_id: member.id,
+      p_owner_key: ownerKey,
+      p_new_group: newGroup,
+    });
     if (error) {
-      setActionError(`Could not move ${member.name}. Please try again.`);
+      setActionError(describeActionError(error, `Could not move ${member.name}. Please try again.`));
     }
     refetchParticipants();
   };
@@ -58,12 +100,12 @@ export default function FacilitatorDashboard() {
     const groupName = getStakeholderById(member.stakeholder_group, session.scenario)?.name || member.stakeholder_group;
     if (!window.confirm(`Remove ${member.name} (${groupName}) from this session?`)) return;
     setActionError(null);
-    const { error } = await supabase
-      .from('participants')
-      .delete()
-      .eq('id', member.id);
+    const { error } = await supabase.rpc('remove_participant', {
+      p_participant_id: member.id,
+      p_owner_key: ownerKey,
+    });
     if (error) {
-      setActionError(`Could not remove ${member.name}. Please try again.`);
+      setActionError(describeActionError(error, `Could not remove ${member.name}. Please try again.`));
     }
     refetchParticipants();
   };
@@ -139,6 +181,67 @@ export default function FacilitatorDashboard() {
           </div>
         </div>
       </div>
+
+      {needsKey && (
+        <div className="mb-6 p-4 rounded-lg bg-amber-50 border border-amber-200">
+          <p className="text-sm font-medium text-amber-800 mb-2">
+            No facilitator key on this device
+          </p>
+          <p className="text-sm text-amber-700 mb-3">
+            Closing the session and managing participants requires the key shown
+            on the device that created this session. Paste it here to manage
+            the session from this device too.
+          </p>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={keyInput}
+              onChange={(e) => setKeyInput(e.target.value)}
+              placeholder="Facilitator key"
+              aria-label="Facilitator key"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+              className="flex-1 p-2 font-mono text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            <button
+              onClick={handleImportKey}
+              disabled={!keyInput.trim()}
+              className="px-4 py-2 text-sm font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      )}
+
+      {ownerKey && (
+        <div className="mb-6 text-sm">
+          <button
+            onClick={() => setShowKey(!showKey)}
+            aria-expanded={showKey}
+            className="text-slate-500 hover:text-slate-700 font-medium"
+          >
+            {showKey ? '▾ Facilitator key' : '▸ Facilitator key'}
+          </button>
+          {showKey && (
+            <div className="mt-2 p-3 rounded-lg bg-slate-100 border border-slate-200">
+              <p className="font-mono break-all text-slate-700">{ownerKey}</p>
+              <div className="mt-2 flex items-center gap-4">
+                <button
+                  onClick={handleCopyKey}
+                  className="font-medium text-blue-600 hover:text-blue-700"
+                >
+                  {keyCopied ? 'Copied!' : 'Copy key'}
+                </button>
+                <span className="text-xs text-slate-500">
+                  Save this key to manage the session from another device.
+                </span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="mb-6">
         <p className="text-lg font-medium text-slate-800">

@@ -88,10 +88,11 @@ ALTER PUBLICATION supabase_realtime ADD TABLE sessions;
 
 ALTER TABLE sessions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE participants ENABLE ROW LEVEL SECURITY;
-
-CREATE POLICY "Allow all for sessions" ON sessions FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "Allow all for participants" ON participants FOR ALL USING (true) WITH CHECK (true);
 ```
+
+Then run the migrations in `supabase/migrations/` (SQL Editor, in file order). The most important one is `2026-08-02_owner_key_and_atomic_join.sql`: it adds facilitator owner keys, the atomic `join_session()` group assignment, and the RLS policies (anonymous clients may only read; all writes go through `SECURITY DEFINER` functions).
+
+Facilitators authenticate through a per-session **facilitator key**: generated in the browser on session creation, stored in localStorage, and shown on the session dashboard so it can be transferred to another device. Without the key, a session can be viewed but not closed, deleted, or edited.
 
 ### 3. Environment Variables
 

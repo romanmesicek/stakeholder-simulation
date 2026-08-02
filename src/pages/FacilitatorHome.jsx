@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { supabase } from '../lib/supabase';
 import { useAllSessions } from '../hooks/useAllSessions';
+import { saveFacilitatorKey } from '../lib/facilitatorKeys';
 import { SCENARIOS } from '../lib/stakeholders';
 import { getFacilitatorMaterials } from '../lib/contentLoader';
 
@@ -124,8 +126,96 @@ function SessionCard({ session, onDelete }) {
   );
 }
 
+function ImportSession({ onImported }) {
+  const [expanded, setExpanded] = useState(false);
+  const [code, setCode] = useState('');
+  const [key, setKey] = useState('');
+  const [importing, setImporting] = useState(false);
+  const [error, setError] = useState(null);
+
+  const handleImport = async () => {
+    const trimmedCode = code.trim().toUpperCase();
+    const trimmedKey = key.trim();
+    if (trimmedCode.length !== 6 || !trimmedKey) return;
+
+    setImporting(true);
+    setError(null);
+    const { data: valid, error: rpcError } = await supabase.rpc('verify_owner_key', {
+      p_session_id: trimmedCode,
+      p_owner_key: trimmedKey,
+    });
+    if (rpcError || !valid) {
+      setError('Code and key do not match a session.');
+      setImporting(false);
+      return;
+    }
+
+    saveFacilitatorKey(trimmedCode, trimmedKey);
+    setCode('');
+    setKey('');
+    setExpanded(false);
+    setImporting(false);
+    onImported();
+  };
+
+  return (
+    <div className="mb-6">
+      <button
+        onClick={() => setExpanded(!expanded)}
+        aria-expanded={expanded}
+        className="text-sm text-slate-500 hover:text-slate-700 font-medium"
+      >
+        {expanded ? '▾' : '▸'} Session from another device?
+      </button>
+      {expanded && (
+        <div className="mt-3 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+          <p className="text-sm text-slate-600 mb-3">
+            Enter the session code and the facilitator key (shown on the
+            session dashboard of the device that created it).
+          </p>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <input
+              type="text"
+              value={code}
+              onChange={(e) => setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6))}
+              placeholder="Code"
+              aria-label="Session code"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="characters"
+              spellCheck={false}
+              className="sm:w-28 p-2 font-mono text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 uppercase"
+            />
+            <input
+              type="text"
+              value={key}
+              onChange={(e) => setKey(e.target.value)}
+              placeholder="Facilitator key"
+              aria-label="Facilitator key"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+              className="flex-1 p-2 font-mono text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+            <button
+              onClick={handleImport}
+              disabled={importing || code.trim().length !== 6 || !key.trim()}
+              className="px-4 py-2 text-sm font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
+            >
+              {importing ? '...' : 'Add'}
+            </button>
+          </div>
+          {error && (
+            <p role="alert" className="mt-2 text-sm text-red-600">{error}</p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function FacilitatorHome() {
-  const { sessions, loading, deleteSession } = useAllSessions();
+  const { sessions, loading, deleteSession, refetch } = useAllSessions();
 
   const openSessions = sessions.filter(s => s.status === 'open');
   const closedSessions = sessions.filter(s => s.status === 'closed');
@@ -153,9 +243,11 @@ export default function FacilitatorHome() {
         </Link>
       </div>
 
+      <ImportSession onImported={refetch} />
+
       {sessions.length === 0 ? (
         <div className="text-center py-12 bg-slate-50 rounded-lg">
-          <p className="text-slate-500 mb-4">No sessions yet.</p>
+          <p className="text-slate-500 mb-4">No sessions on this device yet.</p>
           <Link
             to="/create"
             className="text-blue-600 hover:underline"

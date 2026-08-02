@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
+import { getFacilitatorKey } from '../lib/facilitatorKeys';
 
 export function useSession(sessionCode) {
   const [session, setSession] = useState(null);
@@ -49,10 +50,11 @@ export function useSession(sessionCode) {
   }, [sessionCode]);
 
   const updateStatus = async (newStatus) => {
-    const { error } = await supabase
-      .from('sessions')
-      .update({ status: newStatus })
-      .eq('id', sessionCode);
+    const { error } = await supabase.rpc('set_session_status', {
+      p_session_id: sessionCode,
+      p_owner_key: getFacilitatorKey(sessionCode),
+      p_status: newStatus,
+    });
 
     if (error) {
       setError(error);
