@@ -2,7 +2,7 @@
 
 Konsolidierter Befund aus drei parallelen Reviews (Talstadt-Inhalt, Energy-Transition-Inhalt, Didaktik gegen die Best-Practice-Quellen in `material/`) vor dem Herbstsemester 2026. Schritt 2 des Verbesserungsplans (Schritt 1 = Code, siehe [code-review-2026-08.md](code-review-2026-08.md); Schritt 3 = SaaS-Idee).
 
-Status: ☑ erledigt (Paket 1, August 2026) · ☐ offen (Todo für Paket 2/3)
+Status: ☑ Pakete 1–3 vollständig erledigt (August 2026). Offen sind nur noch die "Größeren Ideen" am Ende.
 
 ---
 
@@ -35,36 +35,54 @@ Beide Cases stehen didaktisch und handwerklich auf solidem Fundament: einheitlic
 
 ---
 
-## Paket 2 — Verhandlungslogik (☐ offen)
+## Paket 2 — Verhandlungslogik (☑ erledigt August 2026)
 
 | # | Maßnahme | Fall | Prio | KI | Review |
 |---|---|---|---|---|---|
-| 2.1 | ☐ **No-Deal-Default definieren:** Absatz „If no agreement is reached…" in beide Briefings (z. B. unilaterale Schließung in 10 Jahren mit gesetzlichen Mindestpaketen, Strafen, keine lokalen Zusagen) + je 1 Zeile „Your no-deal outcome" pro Rollenkarte. Ohne Default können Studierende Angebote nicht gegen ihre BATNA bewerten | ET beide | Hoch | ~15 | ~15 |
-| 2.2 | ☐ **Bußgeldrahmen** in der Umweltamt-Karte (z. B. „bis 50.000 EUR, wiederholbar") — verhindert Fantasiebeträge | Talstadt | Mittel | ~2 | ~5 |
-| 2.3 | ☐ **Wirtschaftszahlen aus dem Original nachziehen:** Gewinn-/Verlustreihen der Fabriken (Papier: +2 Mio → −0,4, laufend −0,6 bis −0,8; Lackier: 1,0–1,8 Mio Gewinne), Gewerbesteuer (160k vs. 500k/320k) in Key Facts §1/§6 — Grundlage für die Subventionsprüfung des Stadtrats | Talstadt | Mittel | ~5 | ~10 |
-| 2.4 | ☐ **Bestandsanlagen + Betriebskosten:** Papierfabrik hat bereits mechanische Reinigung (biologische Stufe fehlt), Lackierfabrik hat veraltete Nasswäsche/Filter; laufende Kosten (~150k/Jahr Kläranlage, 100–200k/Jahr Nachverbrennung) in Key Facts §3/§4 | Talstadt | Mittel | ~5 | ~10 |
-| 2.5 | ☐ **Technical Panel Verhandlungsmechanik geben:** Finale Agreements brauchen ein „Feasibility Certificate" des Panels (Verweigerung = öffentliches Risiko-Statement) — die Rolle hat sonst nichts zu tauschen | ET beide | Mittel | ~10 | ~10 |
-| 2.6 | ☐ **Geld-Übersicht „Where can money come from?":** Einseiter (Contingency, Kreditlinie, Decommissioning↔Restoration-Überlappung), klärt ob Stakeholder-Pakete im €3-Mrd.-Budget stecken — die Geld-ZOPA ist sonst v. a. für Bachelor unsichtbar | ET beide | Mittel | ~10 | ~10 |
-| 2.7 | ☐ **Lackierfabrik-Einigungsdruck:** Schornstein als eindeutig anordnungsfähigen Rechtsverstoß in der Amtskarte explizit machen; Hallengenehmigung als Koppelgeschäft beim Stadtrat verankern | Talstadt | Mittel | ~5 | ~5 |
-| 2.8 | ☐ **Kleinere Konsistenzfixes ET:** Indigenous-Anteil (90 von 200 Southern = 45 %, nicht „18% of workforce" in der Workers-Karte); Community-Steuerzahlen sauber trennen (€5 M kommunal + €3 M regional = €8 M); €45-M-Payroll auf ~€20 M senken oder als „economic flow incl. multiplier" umbenennen; Skills-Transfer-Zahlen als „union-commissioned study" kennzeichnen; Multiplikator-Wording („2.5 total" vs. „additional"); eine der zwei €50-M-Strafen umbeziffern; Environmental-Constraint „by 2029-2030" physikalisch möglich machen (→ „within 6 years") + Carbon-Budget-Sprache statt „IPCC 2020–2030"; Satz zur fiktiven Verortung (EU-Politik + verfassungsrechtlich anerkannte indigene Rechte); Storage-Preis ~€250 M oder begründen; BrE/AmE vereinheitlichen; Caldecott/Mayer-Zitate ersetzen | ET | Niedrig | ~20 | ~20 |
-| 2.9 | ☐ **Fremdenverkehrsverein-Daten:** rückläufige Gäste-/Übernachtungszahlen als Fakt oder Ereigniskarte | Talstadt | Niedrig | ~3 | ~5 |
+| 2.1 | ☑ **No-Deal-Default definieren:** Absatz „If no agreement is reached…" in beide Briefings (z. B. unilaterale Schließung in 10 Jahren mit gesetzlichen Mindestpaketen, Strafen, keine lokalen Zusagen) + je 1 Zeile „Your no-deal outcome" pro Rollenkarte. Ohne Default können Studierende Angebote nicht gegen ihre BATNA bewerten | ET beide | Hoch | ~15 | ~15 |
+| 2.2 | ☑ **Bußgeldrahmen** in der Umweltamt-Karte (z. B. „bis 50.000 EUR, wiederholbar") — verhindert Fantasiebeträge | Talstadt | Mittel | ~2 | ~5 |
+| 2.3 | ☑ **Wirtschaftszahlen aus dem Original nachziehen:** Gewinn-/Verlustreihen der Fabriken (Papier: +2 Mio → −0,4, laufend −0,6 bis −0,8; Lackier: 1,0–1,8 Mio Gewinne), Gewerbesteuer (160k vs. 500k/320k) in Key Facts §1/§6 — Grundlage für die Subventionsprüfung des Stadtrats | Talstadt | Mittel | ~5 | ~10 |
+| 2.4 | ☑ **Bestandsanlagen + Betriebskosten:** Papierfabrik hat bereits mechanische Reinigung (biologische Stufe fehlt), Lackierfabrik hat veraltete Nasswäsche/Filter; laufende Kosten (~150k/Jahr Kläranlage, 100–200k/Jahr Nachverbrennung) in Key Facts §3/§4 | Talstadt | Mittel | ~5 | ~10 |
+| 2.5 | ☑ **Technical Panel Verhandlungsmechanik geben:** Finale Agreements brauchen ein „Feasibility Certificate" des Panels (Verweigerung = öffentliches Risiko-Statement) — die Rolle hat sonst nichts zu tauschen | ET beide | Mittel | ~10 | ~10 |
+| 2.6 | ☑ **Geld-Übersicht „Where can money come from?":** Einseiter (Contingency, Kreditlinie, Decommissioning↔Restoration-Überlappung), klärt ob Stakeholder-Pakete im €3-Mrd.-Budget stecken — die Geld-ZOPA ist sonst v. a. für Bachelor unsichtbar | ET beide | Mittel | ~10 | ~10 |
+| 2.7 | ☑ **Lackierfabrik-Einigungsdruck:** Schornstein als eindeutig anordnungsfähigen Rechtsverstoß in der Amtskarte explizit machen; Hallengenehmigung als Koppelgeschäft beim Stadtrat verankern | Talstadt | Mittel | ~5 | ~5 |
+| 2.8 | ☑ **Kleinere Konsistenzfixes ET:** Indigenous-Anteil (90 von 200 Southern = 45 %, nicht „18% of workforce" in der Workers-Karte); Community-Steuerzahlen sauber trennen (€5 M kommunal + €3 M regional = €8 M); €45-M-Payroll auf ~€20 M senken oder als „economic flow incl. multiplier" umbenennen; Skills-Transfer-Zahlen als „union-commissioned study" kennzeichnen; Multiplikator-Wording („2.5 total" vs. „additional"); eine der zwei €50-M-Strafen umbeziffern; Environmental-Constraint „by 2029-2030" physikalisch möglich machen (→ „within 6 years") + Carbon-Budget-Sprache statt „IPCC 2020–2030"; Satz zur fiktiven Verortung (EU-Politik + verfassungsrechtlich anerkannte indigene Rechte); Storage-Preis ~€250 M oder begründen; BrE/AmE vereinheitlichen; Caldecott/Mayer-Zitate ersetzen | ET | Niedrig | ~20 | ~20 |
+| 2.9 | ☑ **Fremdenverkehrsverein-Daten:** rückläufige Gäste-/Übernachtungszahlen als Fakt oder Ereigniskarte | Talstadt | Niedrig | ~3 | ~5 |
 
-## Paket 3 — Didaktik & Facilitator (☐ offen)
+### Umsetzungsnotizen Paket 2 (10.08.2026)
+
+- **2.1:** No-Deal-Default = unilaterale Minimal-Compliance-Schließung in ~10 Jahren (Abschnitt in beiden Briefings) + je eine „Your no-deal outcome"-Zeile in allen 16 Rollenkarten.
+- **2.2:** Bußgeldrahmen als Neuerfindung festgelegt: bis 50.000 EUR pro Verstoß, wiederholbar; WHG § 41 und BImSchG § 62 in Key Facts § 9 ergänzt.
+- **2.5:** Feasibility Certificate: finale Agreements brauchen das Zertifikat des Panels, Verweigerung = öffentliches Risiko-Statement (Bachelor: nur wenn Panel mitspielt).
+- **2.6:** „Where can money come from?" in beiden Key Facts; Decommissioning-Posten explizit inkl. Site Restoration; Kreditlinie (€500 M Headroom bis €3,5 Mrd) öffentlich gemacht, Managements Verhandlungsspielraum bleibt privat.
+- **2.8 Entscheidungen:** Multiplikator standardisiert auf 2,5 *total* (~750 indirekte Jobs); €45 M als „economic flow inkl. Multiplikator" umbenannt (direkte Payroll ≈ €20 M); Storage €320 M → €250 M; Coal-Maintenance €50 M → €40 M; Environmental-Constraint „within six years of agreement" mit Carbon-Budget-Sprache; Caldecott → Battiston et al. (2017), Mayer & Gereffi → Moffat & Zhang (2014); AmE als Standard (honour→honor), „International Labour Organization" als Eigenname.
+
+## Paket 3 — Didaktik & Facilitator (☑ erledigt August 2026)
 
 | # | Maßnahme | Fall | Prio | KI | Review |
 |---|---|---|---|---|---|
-| 3.1 | ☐ **Ereigniskarten für Energy Transition** (5–6 Karten im Talstadt-Format inkl. Einsatzempfehlungen): Beinahe-Blackout, Rating „negative watch", Vorziehen des Kohleausstiegs, Quecksilber-Medienbericht, EU-Just-Transition-Fördertopf mit Frist, Abwerbung durch Nachbarregion | ET | Hoch | ~20 | ~30 |
-| 3.2 | ☐ **Facilitator-Werkzeuge (beide Cases):** Rollenübersicht mit allen roten Linien + ZOPA auf einer Seite; Beobachtungsbogen (Koalitionen, Wendepunkte, Zitate → Rohstoff fürs Debriefing); Common-Problems-Playbook (dominante Gruppe, verweigerte Rolle, zu früher Konsens, Blockade, Eskalation) | Beide | Hoch | ~30 | ~30 |
-| 3.3 | ☐ **Bachelor-ET-Debriefing auf 20–25 min** verlängern (aktuell 10 von 100 min), Ablauftabelle anpassen | ET Bachelor | Hoch | ~5 | ~10 |
-| 3.4 | ☐ **Reflexionsaufgabe für Talstadt** (600–800 Wörter: Erlebnis → Machtanalyse → Verursacherprinzip/Transfer), analog zur ET-Aufgabe | Talstadt | Hoch | ~10 | ~15 |
-| 3.5 | ☐ **Lernziele-Abschnitt** (3–4 Bullets) an den Anfang aller drei Teilnehmer-Guides | Beide | Hoch | ~10 | ~15 |
-| 3.6 | ☐ **Talstadt-Konferenz entzerren:** Statements auf 2 min deckeln, 10 min „Konferenzvorbereitung" als eigene Phase; Statement-Reihenfolge des Originals (Beschwerdeführer zuerst: Anglerclub → Fremdenverkehr → Fabriken → Amt → Stadtrat); Spielleitung eröffnet als Bürgermeister:in | Talstadt | Hoch | ~10 | ~10 |
-| 3.7 | ☐ **Talstadt-Zusatz-Ereigniskarten** aus dem Original: „Papierfabrik macht überraschend 600.000 EUR Gewinn", „Fischsterben könnte auch an der Hitzewelle liegen" (Kausalitätszweifel), Kaufangebot konkretisiert (8 Mio geboten / 20 Mio Wert / 200 Entlassungen); E4-Frist („heute bis zur Konferenz" statt „2 Wochen") und E6 („unkomplizierte Genehmigungspraxis" statt „ohne Umweltauflagen") umformulieren — aktuell drücken alle Karten nur gegen die Industrie | Talstadt | Mittel | ~15 | ~15 |
-| 3.8 | ☐ **Theorieanker in die Bachelor-Debriefings:** BATNA/Reservationspunkt (steckt schon implizit in Best/Acceptable/Avoid), Power/Interest, Verursacherprinzip, externe Kosten, Stakeholder-Salience-Fragen für Talstadt | Beide | Mittel | ~15 | ~20 |
-| 3.9 | ☐ **Bewertungsrubrik** für die Reflexionsaufgaben (KPSS-Kompetenzen: Systems/Collaborative/Normative/Critical Thinking) | Beide | Mittel | ~15 | ~20 |
-| 3.10 | ☐ **Pre-Reading deklarieren:** Situation Briefing als Hausaufgabe vor der Session (Lesezeit in der Session ist knapp) | Beide | Mittel | ~5 | ~5 |
-| 3.11 | ☐ **ET-Konferenzleitung klären:** Facilitator-Nebenrolle (z. B. Energieministerin) benennen; Mentimeter-Setup-Hinweis fürs Facilitator-Material | ET | Mittel | ~5 | ~5 |
-| 3.12 | ☐ **Pre/Post-Fragen:** Mentimeter-Prediction um 3–4 Wissens-/Einstellungsfragen vor und nach der Simulation erweitern | Beide | Niedrig | ~10 | ~10 |
+| 3.1 | ☑ **Ereigniskarten für Energy Transition** (5–6 Karten im Talstadt-Format inkl. Einsatzempfehlungen): Beinahe-Blackout, Rating „negative watch", Vorziehen des Kohleausstiegs, Quecksilber-Medienbericht, EU-Just-Transition-Fördertopf mit Frist, Abwerbung durch Nachbarregion | ET | Hoch | ~20 | ~30 |
+| 3.2 | ☑ **Facilitator-Werkzeuge (beide Cases):** Rollenübersicht mit allen roten Linien + ZOPA auf einer Seite; Beobachtungsbogen (Koalitionen, Wendepunkte, Zitate → Rohstoff fürs Debriefing); Common-Problems-Playbook (dominante Gruppe, verweigerte Rolle, zu früher Konsens, Blockade, Eskalation) | Beide | Hoch | ~30 | ~30 |
+| 3.3 | ☑ **Bachelor-ET-Debriefing auf 20–25 min** verlängern (aktuell 10 von 100 min), Ablauftabelle anpassen | ET Bachelor | Hoch | ~5 | ~10 |
+| 3.4 | ☑ **Reflexionsaufgabe für Talstadt** (600–800 Wörter: Erlebnis → Machtanalyse → Verursacherprinzip/Transfer), analog zur ET-Aufgabe | Talstadt | Hoch | ~10 | ~15 |
+| 3.5 | ☑ **Lernziele-Abschnitt** (3–4 Bullets) an den Anfang aller drei Teilnehmer-Guides | Beide | Hoch | ~10 | ~15 |
+| 3.6 | ☑ **Talstadt-Konferenz entzerren:** Statements auf 2 min deckeln, 10 min „Konferenzvorbereitung" als eigene Phase; Statement-Reihenfolge des Originals (Beschwerdeführer zuerst: Anglerclub → Fremdenverkehr → Fabriken → Amt → Stadtrat); Spielleitung eröffnet als Bürgermeister:in | Talstadt | Hoch | ~10 | ~10 |
+| 3.7 | ☑ **Talstadt-Zusatz-Ereigniskarten** aus dem Original: „Papierfabrik macht überraschend 600.000 EUR Gewinn", „Fischsterben könnte auch an der Hitzewelle liegen" (Kausalitätszweifel), Kaufangebot konkretisiert (8 Mio geboten / 20 Mio Wert / 200 Entlassungen); E4-Frist („heute bis zur Konferenz" statt „2 Wochen") und E6 („unkomplizierte Genehmigungspraxis" statt „ohne Umweltauflagen") umformulieren — aktuell drücken alle Karten nur gegen die Industrie | Talstadt | Mittel | ~15 | ~15 |
+| 3.8 | ☑ **Theorieanker in die Bachelor-Debriefings:** BATNA/Reservationspunkt (steckt schon implizit in Best/Acceptable/Avoid), Power/Interest, Verursacherprinzip, externe Kosten, Stakeholder-Salience-Fragen für Talstadt | Beide | Mittel | ~15 | ~20 |
+| 3.9 | ☑ **Bewertungsrubrik** für die Reflexionsaufgaben (KPSS-Kompetenzen: Systems/Collaborative/Normative/Critical Thinking) | Beide | Mittel | ~15 | ~20 |
+| 3.10 | ☑ **Pre-Reading deklarieren:** Situation Briefing als Hausaufgabe vor der Session (Lesezeit in der Session ist knapp) | Beide | Mittel | ~5 | ~5 |
+| 3.11 | ☑ **ET-Konferenzleitung klären:** Facilitator-Nebenrolle (z. B. Energieministerin) benennen; Mentimeter-Setup-Hinweis fürs Facilitator-Material | ET | Mittel | ~5 | ~5 |
+| 3.12 | ☑ **Pre/Post-Fragen:** Mentimeter-Prediction um 3–4 Wissens-/Einstellungsfragen vor und nach der Simulation erweitern | Beide | Niedrig | ~10 | ~10 |
+
+### Umsetzungsnotizen Paket 3 (10.08.2026)
+
+- **3.1:** Ereigniskarten je Level (Facilitator-Material wird pro Level entdeckt): Beinahe-Blackout, Rating negative watch, vorgezogener Kohleausstieg, Quecksilber-Bericht, EU-Fördertopf (€150 M, Frist Konferenzende), Abwerbung durch Nachbarregion.
+- **3.2 + 3.9:** Vier neue Facilitator-Materialtypen je Szenario-Level: `role-overview` (Rollen/ZOPA-Einseiter), `observation-sheet`, `common-problems` (inkl. Setup-Checkliste mit Mentimeter), `assessment-rubric` (4 KPSS-Kompetenzen × 3 Stufen). Keys in `materialMeta.js` ergänzt.
+- **3.3:** ET-Bachelor-Session um 15 min verlängert (1 h 55) statt Verhandlungszeit zu kürzen; Debrief 25 min in vier Schritten.
+- **3.6:** Talstadt: eigene Phase 3 „Konferenzvorbereitung" (10 min, Verhandlungsrunden 60→50), Statements max. 2 min, Reihenfolge Beschwerdeführer zuerst, Spielleitung eröffnet als Bürgermeister:in Müller (Name aus M 6; Original-Inkonsistenz Klein/Müller zugunsten Müller entschieden).
+- **3.7:** E2 als Kaufangebot konkretisiert (8 Mio geboten / ~20 Mio Wert / 200 Entlassungen), E4-Frist „bis Konferenzende", E6 „zügige Genehmigungspraxis", neue Karten E7 (Überraschungsgewinn) und E8 (Hitzewelle-Kausalitätszweifel) als Industrie-Entlastung.
+- **3.11:** Konferenzleitung ET = Facilitator als „Regional Energy Minister" (Phasen 2 und 4).
+- Verifiziert: Build ok, Playwright-Smoke auf `/facilitate` (alle neuen Material-Karten beider Sprachen sichtbar, Detailseiten rendern, keine contentLoader-Warnungen).
 
 ## Größere Ideen (Frühjahr 2027 / mit Schritt 3)
 
