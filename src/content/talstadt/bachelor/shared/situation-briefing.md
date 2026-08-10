@@ -2,6 +2,8 @@
 
 ## Ein Planspiel zu Umweltverschmutzung, Wirtschaft und Politik
 
+> **Vorbereitung:** Lesen Sie diese Fallstudie vor der Planspiel-Session.
+
 ---
 
 ## Überblick

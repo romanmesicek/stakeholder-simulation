@@ -2,6 +2,19 @@
 
 ---
 
+## Learning Objectives
+
+By the end of this simulation you will be able to:
+
+- Analyze a multi-stakeholder conflict in terms of interests, positions, and power
+- Negotiate within real constraints and judge offers against your walk-away alternative (your no-deal outcome)
+- Explain how coalitions form, hold, and break — and what membership costs
+- Connect the trade-offs of a just energy transition (jobs, climate, cost, reliability) to real-world cases
+
+**Preparation:** Read the situation briefing *before* the session — in-session reading time only covers your role card.
+
+---
+
 ## Session Overview
 
 | Phase | Activity | Duration |
@@ -52,6 +65,10 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 **Voting (7 min)** — Via Mentimeter:
 - Rate each stakeholder on Power (1–10)
 - Predict the outcome: Agreement / Partial / Deadlock
+- Pre-questions (revisited after the simulation):
+  - What is a realistic timeline for this coal exit? (years)
+  - Who should carry most of the transition's cost? (company / government / consumers)
+  - How likely is an agreement today? (1–10)
 
 ---
 
@@ -78,6 +95,7 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
 - If the Technical Expert Panel is in play: a final agreement needs its **Feasibility Certificate** — if the Panel refuses, it reads out a public risk statement instead
 - Outcome summary: timeline, budget, key agreements
 - Voting results revealed — compare predictions vs. reality
+- Post-round of the pre-questions (timeline, who pays, likelihood) — discuss what shifted and why
 
 ---
 

@@ -2,6 +2,19 @@
 
 ---
 
+## Learning Objectives
+
+By the end of this simulation you will be able to:
+
+- Analyze multi-stakeholder governance under power asymmetries, using stakeholder salience and just-transition frameworks
+- Negotiate within technical and financial constraints, judging every offer against your no-deal alternative (BATNA)
+- Build and manage coalitions — and account for what membership costs each party
+- Transfer transition-governance concepts (multi-level perspective, transition management, distributive justice) to real cases
+
+**Preparation:** Read the situation briefing *before* the session — it is substantial, and in-session reading time only covers your role card.
+
+---
+
 ## Session Overview
 
 | Phase | Activity | Duration |
@@ -56,6 +69,10 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 - Rate each stakeholder on Interest (1–10) and Power (1–10)
 - Predict the outcome: Win-win / Partial / Zero-sum / Deadlock
 - Identify your most likely coalition partners
+- Pre-questions (revisited after the simulation):
+  - What is a realistic timeline for this transition? (years)
+  - Which constraint will bind hardest? (grid reliability / money / politics / justice claims)
+  - Who should carry most of the cost? (company / government / consumers)
 
 ---
 
@@ -92,6 +109,7 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
 - A final agreement package needs the Technical Expert Panel's **Feasibility Certificate**; if the Panel refuses to certify, it delivers a public risk statement that becomes part of the recorded outcome
 - Outcome summary (timeline, budget, agreements, unresolved issues)
 - Mentimeter results revealed — compare predictions vs. reality
+- Post-round of the pre-questions — discuss which answers moved and why
 - Discussion: What enabled or blocked consensus?
 
 ---

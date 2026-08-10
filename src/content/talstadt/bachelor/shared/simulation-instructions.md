@@ -2,6 +2,19 @@
 
 ---
 
+## Lernziele
+
+Nach diesem Planspiel können Sie:
+
+- einen kommunalen Umweltkonflikt nach Interessen, Positionen und Machtquellen analysieren
+- in Verhandlungen mit realen Beschränkungen Angebote gegen Ihre Alternativen abwägen
+- erklären, wie Koalitionen entstehen –und was sie ihre Mitglieder kosten
+- das Verursacherprinzip und externe Kosten an einem konkreten Fall erläutern
+
+**Vorbereitung:** Lesen Sie die Fallstudie *vor* der Session –die Lesezeit im Spiel reicht nur für Ihre Rollenkarte.
+
+---
+
 ## Übersicht
 
 | Phase | Aktivität | Dauer |
@@ -20,6 +33,7 @@
 ## Phase 0: Einführung und Rollenverteilung (10 min)
 
 - Einführung in das Planspiel und die Situation in Talstadt
+- Blitzumfrage (Handzeichen oder Mentimeter, wird am Ende wiederholt): Wer trägt die Hauptverantwortung für die Lage in Talstadt? Wer soll die Umweltmaßnahmen bezahlen? Wird heute eine Einigung gelingen?
 - Verteilung der Rollen auf die Gruppen
 - Ausgabe der Materialien (Rollenkarte + Informationsmaterialien)
 
@@ -114,6 +128,8 @@ Die Bürgermeisterin / der Bürgermeister Müller (gespielt von der Spielleitung
 ## Phase 5: Auswertung und Reflexion (20 min)
 
 Siehe "Auswertungsfragen" für die strukturierte Nachbesprechung.
+
+**Blitzumfrage wiederholen:** Stellen Sie die drei Eingangsfragen aus Phase 0 erneut und besprechen Sie, welche Antworten sich verschoben haben –und warum.
 
 **Reflexionsaufgabe –Abgabe: [Datum]**
 

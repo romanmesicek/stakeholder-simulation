@@ -94,6 +94,26 @@
 
 ---
 
+## Theorieanker für die Auswertung
+
+*Kurze Konzepte zum Einordnen der Erfahrungen –je eine Minute Input, dann die Fragen.*
+
+**BATNA (beste Alternative zur Verhandlungslösung):** Jede Gruppe hatte eine Alternative zum Kompromiss –Bußgeld riskieren, verkaufen, klagen, Wahlkampf führen. Wer seine Alternative kennt, weiß, welche Angebote er ablehnen kann.
+- Welche Gruppe hatte die stärkste Alternative –und hat sie das genutzt?
+
+**Verursacherprinzip und externe Kosten:** Die Fabriken verlagern Kosten ihres Wirtschaftens (Fischsterben, Gästerückgang) auf andere –sogenannte externe Kosten. Das Verursacherprinzip fordert, diese Kosten den Verursachern zuzurechnen.
+- Wer trug in Talstadt die externen Kosten –und hat die Verhandlung sie zu den Verursachern zurückverlagert?
+
+**Macht und Betroffenheit (Power/Interest):** Macht und Betroffenheit fallen oft auseinander: Der Anglerclub ist stark betroffen, hat aber formal wenig Macht.
+- Ordnen Sie die sechs Gruppen auf beiden Achsen ein: Haben die am stärksten Betroffenen am meisten erreicht?
+
+**Stakeholder-Salience (Macht, Legitimität, Dringlichkeit):**
+- Welche Gruppe vereinte alle drei Attribute –Macht, legitime Ansprüche und Dringlichkeit?
+- Welche Gruppe hat sich Dringlichkeit erst verschafft, etwa über Öffentlichkeit oder Drohungen?
+- Wessen legitimer Anspruch wurde am ehesten überhört –und warum?
+
+---
+
 ## Abschlussfrage
 
 > Stellen Sie sich vor, Sie wären tatsächlich Bürgerin oder Bürger von Talstadt. Welche Lösung würden Sie sich für Ihre Stadt wünschen –und was wären Sie bereit, dafür in Kauf zu nehmen?

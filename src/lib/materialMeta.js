@@ -41,4 +41,12 @@ export const MATERIAL_META = {
       en: 'Recognize and handle typical session problems',
     },
   },
+  assessmentRubric: {
+    emoji: '📋',
+    label: { de: 'Bewertungsraster', en: 'Assessment Rubric' },
+    description: {
+      de: 'Raster für die Reflexionsaufgabe (vier Schlüsselkompetenzen)',
+      en: 'Rubric for the reflection assignment (four key competencies)',
+    },
+  },
 };

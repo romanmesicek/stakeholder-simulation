@@ -1,5 +1,7 @@
 # An Energy Transition Case
 
+> **Pre-reading:** Read this briefing before the simulation session.
+
 ## The Challenge
 
 PowerShift Energy Corporation must close its two coal plants and switch to renewable energy. This affects many people with different interests—and no single group can solve the problem alone.

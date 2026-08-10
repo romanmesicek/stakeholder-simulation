@@ -2,6 +2,8 @@
 
 ## A Multi-Stakeholder Governance Dilemma in a Socio-Technical System Transformation
 
+> **Pre-reading:** Read this briefing before the simulation session.
+
 ---
 
 ## Case Overview

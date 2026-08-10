@@ -41,6 +41,11 @@ Connect to course concepts.
 - Which stakeholders' needs were hardest to reconcile?
 - How did technical constraints affect what was possible?
 
+**Theory anchors** — one minute of input each, then the question:
+
+- **BATNA / reservation point:** Each card's Best/Acceptable/Avoid ladder plus its no-deal outcome is a walk-away alternative in miniature — it defines which offers a rational negotiator can accept. *Who knew their walk-away line, and who negotiated without one?*
+- **Power vs. interest:** Power (ability to shape the outcome) and interest (how strongly a group is affected) often diverge. *Map the six groups on both axes: did the most affected have the most say?*
+
 ---
 
 ## Phase 4: Real-World Application
