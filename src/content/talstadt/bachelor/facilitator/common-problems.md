@@ -44,5 +44,5 @@ Strukturelle Vorbeugung schlägt spontanes Eingreifen. Greifen Sie bei **Prozess
 
 ### 7. Die Zeit frisst die Auswertung
 
-**Erkennungszeichen:** Verhandlungsrunden überziehen, für Phase 4 bleiben fünf Minuten.
+**Erkennungszeichen:** Verhandlungsrunden überziehen, für die Auswertung (Phase 5) bleiben fünf Minuten.
 **Intervention:** Nicht zulassen. Lieber die letzte Verhandlungsrunde kürzen – das Lernen passiert in der Auswertung, nicht in den letzten zehn Verhandlungsminuten. Auch eine unfertige Verhandlung lässt sich vollständig auswerten.

@@ -40,7 +40,7 @@ Ihre Notizen hier sind der Rohstoff für die Auswertung. Halten Sie konkrete Mom
 - Werden die Koppelgeschäfte entdeckt (Hallengenehmigung, Zuschuss, Bußgeldverzicht)?
 - Argumentiert jemand mit Zahlen (Gewinnreihen, Gewerbesteuer, −10% Übernachtungen, 7.000 + 12.000 EUR)?
 
-## Phase 3 — Bürgerkonferenz
+## Phase 4 — Bürgerkonferenz
 
 - Statements: Wer bleibt bei 2 Minuten, wer überzieht? Wer spricht zur Sache, wer polemisiert?
 - Ergebnis: Maßnahmen Papierfabrik ______ · Maßnahmen Lackierfabrik ______ · Finanzierung ______ · Entschädigung Anglerclub ______

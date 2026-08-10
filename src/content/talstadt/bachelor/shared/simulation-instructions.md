@@ -8,9 +8,10 @@
 |-------|-----------|-------|
 | 0 | Einführung und Rollenverteilung | 10 min |
 | 1 | Einlesen und Strategieentwicklung | 30 min |
-| 2 | Verhandlungsrunden | 60 min |
-| 3 | Bürgerkonferenz | 30 min |
-| 4 | Auswertung und Reflexion | 20 min |
+| 2 | Verhandlungsrunden | 50 min |
+| 3 | Konferenzvorbereitung | 10 min |
+| 4 | Bürgerkonferenz | 30 min |
+| 5 | Auswertung und Reflexion | 20 min |
 
 **Gesamtdauer:** ca. 2,5 Stunden
 
@@ -35,27 +36,27 @@
 5. **Bündnispartner identifizieren:** Welche Gruppen könnten Ihre Verbündeten sein?
 6. **Argumente vorbereiten:** Welche Argumente stützen Ihre Position? Welche Gegenargumente erwarten Sie?
 7. **Delegierte bestimmen:** Wer verhandelt, wer dokumentiert, wer bereitet Material vor?
-8. **Konferenzstatement vorbereiten:** Bereiten Sie ein kurzes Statement für die Bürgerkonferenz vor (3-5 Minuten)
+8. **Konferenzstatement skizzieren:** Notieren Sie erste Stichpunkte für Ihr Konferenzstatement (max. 2 Minuten Redezeit; die Endfassung entsteht in Phase 3)
 
 **Wichtig:** Ihre Rollenkarte ist vertraulich! Teilen Sie Ihre konkreten Grenzen und internen Strategien nicht mit anderen Gruppen.
 
 ---
 
-## Phase 2: Verhandlungsrunden (60 min)
+## Phase 2: Verhandlungsrunden (50 min)
 
-### Runde 1: Erste Kontakte (15 min)
+### Runde 1: Erste Kontakte (12 min)
 
 Treffen Sie sich mit einer anderen Gruppe Ihrer Wahl. Lernen Sie die Positionen kennen, sondieren Sie Möglichkeiten.
 
-### Runde 2: Vertiefung (15 min)
+### Runde 2: Vertiefung (13 min)
 
 Treffen Sie sich mit einer weiteren Gruppe. Vertiefen Sie Gespräche, verhandeln Sie konkret.
 
-### Runde 3: Bündnisbildung (15 min)
+### Runde 3: Bündnisbildung (13 min)
 
 Bilden Sie Allianzen mit gleichgesinnten Gruppen. Erstellen Sie gemeinsame Positionspapiere.
 
-### Runde 4: Letzte Verhandlungen (15 min)
+### Runde 4: Letzte Verhandlungen (12 min)
 
 Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Finalisieren Sie Ihre Position.
 
@@ -71,18 +72,31 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 
 ---
 
-## Phase 3: Bürgerkonferenz (30 min)
+## Phase 3: Konferenzvorbereitung (10 min)
+
+Bereiten Sie sich gezielt auf die Bürgerkonferenz vor:
+
+- **Statement finalisieren:** Formulieren Sie Ihr Eingangsstatement aus – maximal 2 Minuten Redezeit
+- **Sprecherin/Sprecher festlegen:** Wer trägt das Statement vor?
+- **Mit Verbündeten abstimmen:** Stimmen Sie Kernbotschaften mit Ihren Bündnispartnern ab
+- **Reaktionen antizipieren:** Welche Einwände erwarten Sie – und was antworten Sie?
+
+---
+
+## Phase 4: Bürgerkonferenz (30 min)
+
+Die Bürgermeisterin / der Bürgermeister Müller (gespielt von der Spielleitung) hat zu einer **Schlichtungskonferenz** eingeladen, um die Meinungsverschiedenheiten möglichst einvernehmlich auszuräumen.
 
 ### Ablauf
 
-1. **Eröffnung** durch die Spielleitung (2 min)
-2. **Statements der Gruppen** –jede Gruppe hat 3-5 Minuten:
-   - Stadtrat
-   - Amt für Umweltschutz
+1. **Eröffnung** durch Bürgermeister:in Müller (3 min)
+2. **Statements der Gruppen** –jede Gruppe hat maximal 2 Minuten, die Beschwerdeführer zuerst:
+   - Anglerclub
+   - Fremdenverkehrsverein
    - Leitung der Papierfabrik
    - Leitung der Lackierfabrik
-   - Fremdenverkehrsverein
-   - Anglerclub
+   - Amt für Umweltschutz
+   - Stadtrat
 3. **Offene Diskussion** (restliche Zeit)
    - Reaktionen auf die Statements
    - Letzte Verhandlungen und Kompromissversuche
@@ -93,13 +107,21 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 - Jede Gruppe bestimmt eine Sprecherin / einen Sprecher
 - Ausreden lassen –keine Zwischenrufe
 - Sachlich bleiben, aber engagiert argumentieren
-- Die Spielleitung moderiert und achtet auf die Zeit
+- Bürgermeister:in Müller (Spielleitung) moderiert und achtet auf die Zeit
 
 ---
 
-## Phase 4: Auswertung und Reflexion (20 min)
+## Phase 5: Auswertung und Reflexion (20 min)
 
 Siehe "Auswertungsfragen" für die strukturierte Nachbesprechung.
+
+**Reflexionsaufgabe –Abgabe: [Datum]**
+
+600–800 Wörter zu drei Punkten:
+
+1. **Erlebnis** –Was war der prägendste Moment der Verhandlung für Sie –und warum?
+2. **Machtanalyse** –Welche Machtquellen gab es im Spiel (Geld, Recht, Öffentlichkeit, Arbeitsplätze)? Wer konnte sie nutzen, und wie haben sie das Ergebnis geprägt?
+3. **Transfer** –Was zeigt Talstadt über das Verursacherprinzip und externe Kosten? Wo sehen Sie denselben Konflikt in der Realität –und was würde dort helfen?
 
 ---
 
