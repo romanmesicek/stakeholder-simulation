@@ -83,7 +83,7 @@ With eight major facilities requiring coordinated commissioning, realistic imple
 | Renewable infrastructure | €1.8 billion |
 | Grid upgrades and storage | €600 million |
 | *— of which storage systems (200 MW/800 MWh)* | *€320 million* |
-| Plant decommissioning | €400 million |
+| Plant decommissioning and site restoration | €400 million |
 | Contingency (industry standard 15–25%) | €200 million |
 | **Total** | **€3.0 billion** |
 
@@ -175,6 +175,20 @@ Grid stability requires careful renewable integration while stakeholders demand 
 ### Governance Legitimacy
 
 How should transition decisions incorporate diverse stakeholder voices? What governance structures balance expertise with representation? Technocratic efficiency may conflict with democratic participation, yet excluding affected parties undermines implementation legitimacy (Fung & Wright, 2003).
+
+---
+
+## The No-Deal Default
+
+Negotiation failure does not preserve the status quo — it triggers a defined default trajectory. Absent agreement, PowerShift implements unilateral minimum compliance:
+
+- Both plants operate as long as regulators allow, closing in approximately 10 years without coordinated replacement build-out
+- Workforce reductions follow statutory severance requirements only — no transition fund, no retraining programs, no priority hiring
+- No community fund, no local siting commitments, no restoration beyond legally mandated minimums
+- The region misses its binding 45% reduction target, incurring €50 million annual penalties from public budgets
+- Investors carry a decade of regulatory exposure and stranded-asset write-downs
+
+This default is the reference point for every party's BATNA. Each role card specifies its own no-deal outcome; rational negotiators accept only agreements that beat it.
 
 ---
 

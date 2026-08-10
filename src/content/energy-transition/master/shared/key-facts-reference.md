@@ -21,11 +21,13 @@ Public facts every group can cite during negotiations. Role cards contain additi
 | Renewable infrastructure (450 MW wind + 350 MW solar) | €1.8 billion |
 | Grid upgrades and storage | €600 million |
 | *— of which storage systems (200 MW/800 MWh)* | *€320 million* |
-| Plant decommissioning | €400 million |
+| Plant decommissioning and site restoration | €400 million |
 | Contingency (industry standard 15-25%) | €200 million |
 | **Total company budget** | **€3.0 billion** |
 
 Plus €500 million government transition fund → €3.5 billion total available. Major infrastructure projects average 25% cost overruns and 30% schedule delays.
+
+**Where can stakeholder packages come from?** Worker, community, Indigenous and restoration packages are not separate line items in the €3.0 billion envelope. Possible sources: the €500 million government fund, the €200 million contingency (if the company commits it), a credit facility up to the €3.5 billion ceiling, or reallocation within the envelope — restoration demands draw on the €400 million decommissioning and site restoration budget. Every commitment needs a named funding source.
 
 ## Grid & Technical Constraints
 

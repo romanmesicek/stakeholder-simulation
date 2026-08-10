@@ -76,6 +76,8 @@ You represent 500 coal plant workers and their 2,000 family members. Your member
 
 **Avoid:** Under €100 million support. Forced layoffs. Timeline under 5 years.
 
+**Your no-deal outcome:** Statutory severance only — no fund, no retraining, no priority hiring, layoffs spread over an unmanaged 10-year decline.
+
 ---
 
 ### USEFUL PHRASES

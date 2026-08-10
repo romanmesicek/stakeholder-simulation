@@ -114,6 +114,8 @@ Absolute protection of identified sacred sites. No facilities within designated 
 
 **Failure to avoid:** Token ownership (<15%) without governance rights. Inadequate restoration leaving river degraded. Employment-only benefits without lasting community wealth. Imposed decisions without Indigenous participation.
 
+**Your no-deal outcome:** Up to 10 more years of pollution on traditional lands, restoration at legal minimums, no ownership stake, no FPIC precedent established.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

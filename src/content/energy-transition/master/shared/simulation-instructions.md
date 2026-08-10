@@ -84,6 +84,7 @@ Your role card is confidential. Do not share your specific constraints or bottom
   - Key agreements reached
   - Remaining concerns or unresolved issues
   - Coalition partnerships formed
+- A final agreement package needs the Technical Expert Panel's **Feasibility Certificate**; if the Panel refuses to certify, it delivers a public risk statement that becomes part of the recorded outcome
 - Outcome summary (timeline, budget, agreements, unresolved issues)
 - Mentimeter results revealed — compare predictions vs. reality
 - Discussion: What enabled or blocked consensus?

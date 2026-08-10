@@ -136,6 +136,8 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 
 **Failure to avoid:** Timeline threatening energy security (blackout risk). Inadequate support generating severe social crisis. Fiscal commitment exceeding €650 million. Environmental standards violations. Stakeholder revolt making implementation impossible. Electoral catastrophe from perceived incompetence.
 
+**Your no-deal outcome:** The region misses its binding 45% target — €50 million annual penalties from public budgets, blame for the failure, and the social crisis still unfolds on your watch.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

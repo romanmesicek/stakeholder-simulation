@@ -45,6 +45,7 @@ You are independent technical experts providing objective analysis. Your panel i
 - Technical credibility: All parties trust your expertise
 - Industry data and benchmarks
 - Analytical capability to assess any proposal
+- **The Feasibility Certificate:** A final agreement needs your sign-off — if you refuse, you read out a public risk statement instead. This is your real leverage: parties must convince you their plan works
 
 **What you can offer:**
 - Independent feasibility assessment
@@ -60,6 +61,7 @@ You are independent technical experts providing objective analysis. Your panel i
 - **Safety first** — Grid reliability below standards is unacceptable
 - **Professional honesty** — Must give accurate analysis, even if unpopular
 - **State uncertainty** — Costs have ±15-20% ranges at planning stage
+- **Certificate discipline** — Sign only plans you could defend publicly; if you refuse, you must state the concrete risks that made certification impossible
 
 ---
 
@@ -80,6 +82,8 @@ You are independent technical experts providing objective analysis. Your panel i
 **Acceptable:** 5-7 years. €3.0-3.5 billion. Adequate storage and grid upgrades. Major risks identified.
 
 **Avoid:** Impossible timelines (<5 years). Budgets ignoring storage/upgrades. Reliability compromises.
+
+**Your no-deal outcome:** Your analysis goes unused — an unmanaged 10-year drift maximizes exactly the reliability and cost risks you warned about.
 
 ---
 

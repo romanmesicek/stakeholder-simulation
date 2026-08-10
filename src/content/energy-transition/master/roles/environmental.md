@@ -132,6 +132,8 @@ Full compliance with environmental protection laws. Best available technology an
 
 **Failure to avoid:** Timeline exceeding 6 years violating climate necessity. Inadequate restoration funding or vague commitments. Compromised environmental standards prioritizing cost over protection. Minimal renewable development (<600 MW). Weak accountability enabling non-compliance.
 
+**Your no-deal outcome:** Coal operates up to 10 more years (≈40 million additional tons of CO₂), restoration stays at legal minimums, and no binding commitments exist to enforce.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

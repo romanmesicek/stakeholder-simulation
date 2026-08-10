@@ -115,6 +115,8 @@ Why: Technical reality of grid integration and renewable commissioning. Conseque
 
 **Failure to avoid:** Budget exceeding €3.5 billion. Timeline under 5 years causing power failures. Public opposition preventing renewable permits. Mass worker layoffs without support causing political intervention.
 
+**Your no-deal outcome:** Unilateral minimum-compliance closure over ~10 years — no negotiated package costs, but sustained protests, permit blockades, climate penalties and lasting reputational damage.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

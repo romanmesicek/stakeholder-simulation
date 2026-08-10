@@ -73,6 +73,8 @@ You represent 3,000 Indigenous community members whose traditional lands surroun
 
 **Avoid:** Token ownership (<15%), inadequate cleanup, jobs without lasting wealth.
 
+**Your no-deal outcome:** Up to 10 more years of pollution on your lands, restoration at the legal minimum, no ownership stake, no consultation precedent.
+
 ---
 
 ### USEFUL PHRASES

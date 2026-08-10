@@ -66,6 +66,8 @@ You are the executive leadership of PowerShift Energy, responsible for transitio
 
 **Avoid:** Budget over €3.5 billion. Power failures. Mass protests.
 
+**Your no-deal outcome:** Unilateral minimum-compliance closure over ~10 years — no package costs, but years of protests, permit blockades, penalties and reputational damage.
+
 ---
 
 ### USEFUL PHRASES

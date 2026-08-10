@@ -72,6 +72,7 @@ You represent independent technical experts providing objective analysis on tran
 - Analytical capability: Can assess any proposal for feasibility
 - Industry data: Access to benchmarks, case studies, technical standards
 - Objectivity: Trusted because you have no financial stake in outcome
+- **The Feasibility Certificate:** Final agreement packages require your formal certification. Withholding it means issuing a public risk statement that becomes part of the recorded outcome — this is your structural leverage in the negotiation
 
 **What You Can Offer:**
 - Independent feasibility assessment of any proposal
@@ -96,6 +97,9 @@ Must provide accurate analysis regardless of what stakeholders want to hear. Can
 **Uncertainty Must Be Stated**
 Many parameters have ranges, not precise values. Costs have ±15-20% uncertainty at planning stage.
 
+**Certification Carries Weight**
+Your Feasibility Certificate is required for any final agreement package. Certify only what you can defend professionally; if you refuse, you must issue a public risk statement explaining exactly why.
+
 ---
 
 ### KEY FACTS TO USE
@@ -116,6 +120,8 @@ Many parameters have ranges, not precise values. Costs have ±15-20% uncertainty
 **Acceptable outcome:** 5-7 year timeline with accelerated but feasible schedule. €3.0-3.5 billion budget within reasonable range. 750 MW renewable with adequate storage. Grid reliability maintained throughout transition. Major risks identified with mitigation plans.
 
 **Failure to avoid:** Timeline promises that cannot be met (under 5 years). Budget assumptions ignoring storage, grid upgrades, or contingency. Reliability compromises creating outage risk. Political agreements divorced from implementation reality.
+
+**Your no-deal outcome:** Your analysis goes unused — an unmanaged 10-year drift maximizes exactly the reliability, cost and workforce risks you identified.
 
 ---
 

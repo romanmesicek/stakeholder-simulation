@@ -119,6 +119,8 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 
 **Failure to avoid:** Timeline under 5 years forcing rushed displacement. Worker support under €100 million. Inadequate retraining leaving workers unemployable. Forced layoffs exceeding 30% without fair packages. Any pension reductions. Community abandonment creating ghost town.
 
+**Your no-deal outcome:** Statutory severance only — no support fund, no retraining program, no priority hiring; layoffs spread across an unmanaged 10-year decline.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

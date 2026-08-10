@@ -127,6 +127,8 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 
 **Failure to avoid:** Community fund under €100 million (token gesture). Minimal local renewable siting (costs without benefits). Inadequate tax replacement forcing school closures. Timeline under 6 years forcing rushed adjustment. No youth programs (abandoning next generation). Community economic collapse creating ghost towns.
 
+**Your no-deal outcome:** Unmanaged 10-year closure — the tax base erodes with no replacement fund, no local siting commitments, no infrastructure investment; the decline arrives anyway, without compensation.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

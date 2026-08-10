@@ -111,6 +111,8 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 
 **Failure to avoid:** Projected ROIC below 7%. Unlimited or uncapped stakeholder commitments. Credit rating below investment grade. No governance mechanisms. Transition designed for non-financial objectives at shareholder expense.
 
+**Your no-deal outcome:** A decade of regulatory risk, climate penalties and stranded-asset write-downs — ESG rating stagnates and the equity story erodes.
+
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION

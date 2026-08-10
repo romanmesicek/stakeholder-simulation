@@ -81,6 +81,8 @@ You represent regional government authorities responsible for balancing economic
 
 **Avoid:** Blackouts. Social crisis. Over €650 million cost. Electoral catastrophe.
 
+**Your no-deal outcome:** The region misses its binding 45% target — €50 million annual penalties, public blame, and the social fallout still lands on you.
+
 ---
 
 ### USEFUL PHRASES

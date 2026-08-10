@@ -76,6 +76,8 @@ You represent community leaders, business owners, and residents from Northern To
 
 **Avoid:** Under €100 million. Minimal local benefit. School closures.
 
+**Your no-deal outcome:** Slow decline — the tax base erodes over a 10-year unmanaged closure with no fund, no local siting commitments, no support.
+
 ---
 
 ### USEFUL PHRASES

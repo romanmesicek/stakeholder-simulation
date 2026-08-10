@@ -21,6 +21,26 @@ Facts every group can cite during negotiations. Your role card contains addition
 - **Total available: €3.5 billion**
 - Planned renewables: 450 MW wind (3 farms) + 350 MW solar (5 sites) = 800 MW
 
+**How the €3 billion is planned:**
+
+| Category | Estimated Cost |
+|----------|----------------|
+| Renewable infrastructure (wind + solar) | €1.8 billion |
+| Grid upgrades and storage | €600 million |
+| Plant decommissioning and site restoration | €400 million |
+| Contingency | €200 million |
+
+**Where can money for stakeholder packages come from?**
+
+Worker or community packages are **not** a line item in the €3 billion plan. Possible sources:
+
+- The €500 million government transition fund
+- The €200 million contingency — if the company agrees to commit it
+- A credit facility of up to €500 million — the headroom between €3.0 and €3.5 billion
+- Reallocation within the plan (e.g. restoration demands draw on the €400 million decommissioning and restoration budget)
+
+Every euro promised must come from somewhere — ask which source funds each commitment.
+
 ## The Timeline
 
 | Project Type | Development Time |

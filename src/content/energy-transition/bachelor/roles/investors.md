@@ -73,6 +73,8 @@ You represent institutional investors (pension funds, asset managers) who collec
 
 **Avoid:** Returns below 7%. Unlimited costs. No accountability. Credit downgrade.
 
+**Your no-deal outcome:** A decade of regulatory risk and stranded-asset write-downs — ESG rating stays weak and the share price stagnates.
+
 ---
 
 ### USEFUL PHRASES

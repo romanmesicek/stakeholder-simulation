@@ -102,6 +102,20 @@ A good outcome includes:
 
 ---
 
+## If No Agreement Is Reached
+
+No agreement is a real outcome — and it has a defined default:
+
+- PowerShift proceeds unilaterally with a minimum-compliance plan: both plants close in about 10 years, as late as regulators allow
+- Workers receive only statutory severance — no fund, no retraining programs, no priority hiring
+- No community fund, no local investment commitments, no restoration beyond legal minimums
+- The region misses its binding 45% target: €50 million in annual penalties, paid from public budgets
+- Investors face years of regulatory risk and a stagnating share price
+
+Every group loses something under no-deal — but not equally. Your role card tells you what no-deal means for you: that is your walk-away line. Judge every offer against it.
+
+---
+
 ## Your Task
 
 1. Understand your stakeholder's interests and constraints

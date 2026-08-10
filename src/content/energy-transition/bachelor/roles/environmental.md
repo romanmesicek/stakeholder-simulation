@@ -78,6 +78,8 @@ You represent environmental organizations fighting for climate action, clean air
 
 **Avoid:** Over 6 years. Inadequate cleanup. Weak enforcement.
 
+**Your no-deal outcome:** Coal burns up to 10 more years (≈40 million extra tons of CO₂) and clean-up stays at the legal minimum.
+
 ---
 
 ### USEFUL PHRASES

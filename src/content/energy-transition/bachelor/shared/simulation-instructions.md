@@ -71,6 +71,7 @@ Your role card is confidential. Do not share your specific constraints.
 ## Phase 4: Final Positions & Results (15 min)
 
 - Each group gives a 1-minute final statement
+- If the Technical Expert Panel is in play: a final agreement needs its **Feasibility Certificate** — if the Panel refuses, it reads out a public risk statement instead
 - Outcome summary: timeline, budget, key agreements
 - Voting results revealed — compare predictions vs. reality
 
