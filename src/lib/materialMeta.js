@@ -17,4 +17,28 @@ export const MATERIAL_META = {
       en: 'Post-simulation discussion guide',
     },
   },
+  roleOverview: {
+    emoji: '🧭',
+    label: { de: 'Rollenübersicht & ZOPA', en: 'Role Overview & ZOPA' },
+    description: {
+      de: 'Alle Ziele, roten Linien und Einigungszonen auf einer Seite',
+      en: 'All goals, red lines and deal space on one page',
+    },
+  },
+  observationSheet: {
+    emoji: '📝',
+    label: { de: 'Beobachtungsbogen', en: 'Observation Sheet' },
+    description: {
+      de: 'Koalitionen, Wendepunkte und Zitate fürs Debriefing festhalten',
+      en: 'Capture coalitions, turning points and quotes for the debrief',
+    },
+  },
+  commonProblems: {
+    emoji: '🧯',
+    label: { de: 'Problem-Playbook', en: 'Common Problems Playbook' },
+    description: {
+      de: 'Typische Störungen erkennen und auffangen',
+      en: 'Recognize and handle typical session problems',
+    },
+  },
 };
