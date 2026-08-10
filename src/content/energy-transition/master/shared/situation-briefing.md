@@ -6,7 +6,9 @@
 
 ## Case Overview
 
-PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants—Northern Plant (500 MW, 300 employees) and Southern Plant (300 MW, 200 employees)—serving 350,000 households while supporting approximately 1,000 indirect regional employment positions.
+PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants—Northern Plant (500 MW, 300 employees) and Southern Plant (300 MW, 200 employees)—serving 350,000 households while supporting approximately 750 indirect regional employment positions.
+
+The case is fictional, set in a region of an EU member state whose constitution explicitly recognizes the rights of its Indigenous community — combining EU-style climate policy with constitutionally anchored Indigenous rights.
 
 This case exemplifies the "wicked problem" characteristics inherent in sustainability transitions: irreducible complexity, value pluralism, deep uncertainty, and contested knowledge claims (Rittel & Webber, 1973). No single stakeholder possesses sufficient resources or authority for unilateral implementation. Success requires coalition formation, creative value creation expanding negotiation space, and acceptance of imperfect but workable compromises.
 
@@ -18,11 +20,11 @@ The transition imperative emerges from multiple systemic pressures operating acr
 
 - **Regulatory frameworks** mandate compliance with European Green Deal objectives requiring 55% emissions reduction by 2030 and net-zero by 2050 (European Commission, 2021).
 
-- **Financial markets** increasingly price climate risk through elevated capital costs for fossil assets and stranded asset devaluations (Caldecott et al., 2016).
+- **Financial markets** increasingly price climate risk through elevated capital costs for fossil assets and stranded asset devaluations (Battiston et al., 2017).
 
 - **Technological disruption** renders coal generation economically obsolete relative to renewable alternatives achieving grid parity. Current levelized cost estimates place solar PV at €30–45/MWh and onshore wind at €25–40/MWh versus coal at €65–150/MWh including environmental externalities (Lazard, 2024).
 
-- **Social movements** mobilize legitimacy crises challenging fossil fuel infrastructure's social license to operate (Mayer & Gereffi, 2010).
+- **Social movements** mobilize legitimacy crises challenging fossil fuel infrastructure's social license to operate (Moffat & Zhang, 2014).
 
 International Energy Agency projections indicate coal-fired power generation must decline 80% by 2030 relative to 2010 levels to maintain Paris Agreement trajectory (IEA, 2023).
 
@@ -41,7 +43,7 @@ International Energy Agency projections indicate coal-fired power generation mus
 - Annual revenue: €450 million
 - Operating costs: €280 million
 - Annual CO₂ emissions: 4 million tons
-- Regional tax contribution: €8 million/year
+- Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
 
 ### Transition Resources
 
@@ -82,7 +84,7 @@ With eight major facilities requiring coordinated commissioning, realistic imple
 |----------|----------------|
 | Renewable infrastructure | €1.8 billion |
 | Grid upgrades and storage | €600 million |
-| *— of which storage systems (200 MW/800 MWh)* | *€320 million* |
+| *— of which storage systems (200 MW/800 MWh)* | *€250 million* |
 | Plant decommissioning and site restoration | €400 million |
 | Contingency (industry standard 15–25%) | €200 million |
 | **Total** | **€3.0 billion** |
@@ -112,7 +114,7 @@ Eight stakeholder groups hold significant stakes in the transition outcome:
 
 The transition creates fundamental tensions among stakeholder interests:
 
-**Employment and economic concerns** affect workers who possess specialized technical competencies developed over decades, and host communities that depend on plant-generated tax revenue funding essential public services. Regional economic multipliers indicate each direct job supports 2.5 indirect positions.
+**Employment and economic concerns** affect workers who possess specialized technical competencies developed over decades, and host communities that depend on plant-generated tax revenue funding essential public services. Regional economic multipliers indicate each direct job supports 1.5 indirect positions (a total multiplier of 2.5).
 
 **Environmental imperatives** reflect climate urgency given atmospheric CO₂ exceeding 420 ppm and narrowing carbon budgets. Local air pollution from coal combustion causes documented public health impacts, with PM2.5 exposure linked to significant premature mortality across Europe (European Environment Agency, 2022). Ecosystem degradation from thermal discharge and heavy metal contamination requires comprehensive remediation.
 
@@ -208,7 +210,7 @@ The simulation illuminates how sustainability transitions necessitate institutio
 
 ## References
 
-Caldecott, B., Howarth, N., & McSharry, P. (2016). Stranded assets in agriculture: Protecting value from environment-related risks. *Journal of Sustainable Finance & Investment, 6*(4), 246–268.
+Battiston, S., Mandel, A., Monasterolo, I., Schütze, F., & Visentin, G. (2017). A climate stress-test of the financial system. *Nature Climate Change, 7*(4), 283–288.
 
 Carney, M. (2015). *Breaking the tragedy of the horizon: Climate change and financial stability*. Speech at Lloyd's of London.
 
@@ -230,9 +232,9 @@ International Labour Organization. (2015). *Guidelines for a just transition tow
 
 Lazard. (2024). *Lazard's levelized cost of energy analysis—Version 17.0*.
 
-Mayer, F., & Gereffi, G. (2010). Regulation and economic globalization: Prospects and limits of private governance. *Business and Politics, 12*(3), 1–25.
-
 McCauley, D., & Heffron, R. (2018). Just transition: Integrating climate, energy and environmental justice. *Energy Policy, 119*, 1–7.
+
+Moffat, K., & Zhang, A. (2014). The paths to social licence to operate: An integrative model explaining community acceptance of mining. *Resources Policy, 39*, 61–70.
 
 Mitchell, R. K., Agle, B. R., & Wood, D. J. (1997). Toward a theory of stakeholder identification and salience: Defining the principle of who and what really counts. *Academy of Management Review, 22*(4), 853–886.
 

@@ -52,7 +52,7 @@ You represent community leaders, business owners, and residents from Northern To
 
 ### YOUR CONSTRAINTS (Non-Negotiable)
 
-- **Replace €8 million annual tax revenue** — Or schools close
+- **Replace €8 million annual tax revenue** (€5 million municipal + €3 million regional) — Or schools close
 - **Local renewable siting** — Minimum 70% built locally
 - **Economic development fund** — At least €200 million
 - **Youth programs** — Training and scholarships for young people
@@ -61,8 +61,8 @@ You represent community leaders, business owners, and residents from Northern To
 
 ### KEY FACTS TO USE
 
-- Plant closure eliminates €45 million payroll supporting 180 businesses
-- €8 million tax loss = school closures or 60% property tax increase
+- Plant closure eliminates ~€45 million in local economic flow (payroll plus spending) supporting 180 businesses
+- €5 million municipal tax loss = school closures or 60% property tax increase (€3 million more lost regionally)
 - Communities have excellent wind and solar resources
 - German coal regions received €40 billion in support
 

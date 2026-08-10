@@ -18,7 +18,7 @@ You represent 3,000 Indigenous community members whose traditional lands surroun
 - Respiratory illness 23% above regional average
 
 **Your Community:**
-- 90 members work at Southern Plant (18% of workforce)
+- 90 members work at Southern Plant (45% of its 200 workers; 18% of the company's 500 workers)
 - Unemployment: 35% (vs 8% regional)
 - Exceptional wind/solar resources on your territory
 

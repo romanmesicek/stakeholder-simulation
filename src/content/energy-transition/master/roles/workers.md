@@ -32,7 +32,7 @@ You represent 500 coal plant workers—technicians, operators, maintenance staff
 
 **Two Plant Locations:**
 - Northern Plant: 300 workers living primarily in Northern Town (pop. 15,000)
-- Southern Plant: 200 workers, more dispersed, includes 18% Indigenous workers
+- Southern Plant: 200 workers, more dispersed, includes 45% Indigenous workers (90 of 200)
 
 **Community Impact:**
 - Northern Town: Plant provides 40% of local employment
@@ -71,7 +71,7 @@ You represent 500 coal plant workers—technicians, operators, maintenance staff
 - Public sympathy: Strong public support for workers facing job loss
 - Industrial action: Legal right to strike (would halt power for 350,000 homes)
 - Political connections: Local politicians need your votes
-- Technical expertise: Skills transferable to renewable operations (electrical: 85%, mechanical: 80%, grid: 90%, safety: 95%)
+- Technical expertise: A union-commissioned study finds skills transferable to renewable operations (electrical: 85%, mechanical: 80%, grid: 90%, safety: 95%) — be aware that independent estimates may come in lower
 
 **What You Can Offer:**
 - Cooperation with phased plant closure
@@ -106,7 +106,7 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 - Skills value: Coal workers have critical transferable skills needed for renewable sector
 - Health sacrifice: Many workers show coal-related health conditions from decades keeping regional lights on
 - Community collapse: Northern Town property values already dropped 15%; rapid closure triggers full economic collapse affecting 15,000 residents
-- Just transition principle: International Labor Organization guidelines require social dialogue, adequate time, income protection, retraining
+- Just transition principle: International Labour Organization guidelines require social dialogue, adequate time, income protection, retraining
 - Company profits: PowerShift earned €170 million annually over 40 years = €6.8 billion total profit from coal operations
 
 ---
@@ -139,7 +139,7 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 
 **Natural Allies:**
 - **Community Coalition**: Shared interest in preventing community collapse. Workers are community members; their families use local services.
-- **Indigenous Community**: 18% of Southern Plant workers are Indigenous. Shared experience of marginalization by powerful interests.
+- **Indigenous Community**: 45% of Southern Plant workers (90 of 200) are Indigenous. Shared experience of marginalization by powerful interests.
 
 **Potential Partners (with effort):**
 - **Management**: Mutual interest in avoiding bankruptcy and ensuring operational continuity during transition. Can negotiate reasonable packages.

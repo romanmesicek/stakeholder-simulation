@@ -27,7 +27,7 @@ You represent the Indigenous community of approximately 3,000 members whose trad
 - Population: 3,000 members; 45% under age 30; 18% over 60
 - Unemployment: 35% (vs 8% regional average)
 - Median income: 60% of regional average
-- 90 community members work at Southern Plant (18% of workforce)
+- 90 community members work at Southern Plant (45% of its 200 workers; 18% of the company's 500-strong workforce)
 
 **Renewable Opportunity:**
 - Your territory has exceptional wind/solar resources (95th percentile nationally)
@@ -132,7 +132,7 @@ Absolute protection of identified sacred sites. No facilities within designated 
 
 **Natural Allies:**
 - **Environmental Alliance**: Shared environmental justice concerns. Your pollution evidence strengthens their case.
-- **Workers Union**: 18% of Southern Plant workers are Indigenous. Shared experience of being affected by powerful interests.
+- **Workers Union**: 45% of Southern Plant workers (90 of 200) are Indigenous. Shared experience of being affected by powerful interests.
 
 **Potential Partners (with effort):**
 - **Government**: Must balance recognition with constraints, but political pressure and international frameworks create leverage.

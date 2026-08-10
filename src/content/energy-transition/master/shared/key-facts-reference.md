@@ -11,8 +11,8 @@ Public facts every group can cite during negotiations. Role cards contain additi
 
 - Annual revenue €450M · operating costs €280M
 - Annual CO₂ emissions: 4 million tons (35% of regional emissions)
-- Regional tax contribution: €8 million/year
-- ~1,000 indirect regional jobs (multiplier ≈ 2.5 per direct job)
+- Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
+- ~750 indirect regional jobs (total multiplier ≈ 2.5: each plant job supports 1.5 additional jobs)
 
 ## Investment Envelope
 
@@ -20,7 +20,7 @@ Public facts every group can cite during negotiations. Role cards contain additi
 |----------|----------------|
 | Renewable infrastructure (450 MW wind + 350 MW solar) | €1.8 billion |
 | Grid upgrades and storage | €600 million |
-| *— of which storage systems (200 MW/800 MWh)* | *€320 million* |
+| *— of which storage systems (200 MW/800 MWh)* | *€250 million* |
 | Plant decommissioning and site restoration | €400 million |
 | Contingency (industry standard 15-25%) | €200 million |
 | **Total company budget** | **€3.0 billion** |
@@ -46,5 +46,5 @@ Plus €500 million government transition fund → €3.5 billion total availabl
 ## Key Reference Points
 
 - Each year of delay adds 4 million tons CO₂
-- Every direct plant job supports ~2.5 indirect positions
+- Every direct plant job supports ~1.5 indirect positions (total multiplier ≈ 2.5)
 - Supply reliability standard: 99.97%

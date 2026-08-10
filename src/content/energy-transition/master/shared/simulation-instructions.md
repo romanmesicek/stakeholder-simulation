@@ -55,6 +55,7 @@ Your role card is confidential. Do not share your specific constraints or bottom
 - Predict the outcome: Win-win / Partial / Zero-sum / Deadlock
 - Identify your most likely coalition partners
 
+---
 
 ## Phase 3: Negotiations (75 min)
 
@@ -118,7 +119,7 @@ Your role card is confidential. Do not share your specific constraints or bottom
 ## Staying in Role — Ground Rules
 
 1. **Stay in character** during all negotiations — speak as "we", not "I think"
-2. **Your constraints are real** — honour them
+2. **Your constraints are real** — honor them
 3. **No agreement is a valid outcome** — don't force consensus
 4. **Attack positions, not people** — disagreement is expected and valuable
 5. **Listen as much as you advocate**, take notes on offers, and look for creative trade-offs

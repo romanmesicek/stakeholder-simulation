@@ -12,7 +12,7 @@ Facts every group can cite during negotiations. Your role card contains addition
 - Total: 800 MW, 500 workers, 350,000 households served
 - Annual revenue: €450 million
 - Annual CO₂ emissions: 4 million tons
-- Regional tax contribution: €8 million/year
+- Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
 
 ## The Money
 

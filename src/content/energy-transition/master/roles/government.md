@@ -38,7 +38,7 @@ You represent regional government authorities balancing economic development, so
 - Opportunity costs: Every €100M to transition = delayed healthcare, education, infrastructure
 
 **Fiscal Impact:**
-- Current plant tax revenue: €8 million/year
+- Current plant tax revenue: €8 million/year (€5 million municipal + €3 million regional)
 - Potential future renewable tax revenue: €15-20 million/year (long-term)
 - Short-term: Tax loss must be managed
 - Long-term: Renewable development creates new tax base

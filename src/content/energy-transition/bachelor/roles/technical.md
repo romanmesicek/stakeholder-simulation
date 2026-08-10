@@ -24,7 +24,7 @@ You are independent technical experts providing objective analysis. Your panel i
 
 **Cost Reality:**
 - Comparable transitions cost €3.0-3.5 billion
-- Storage requirement: €320 million
+- Storage requirement: €250 million
 - Grid upgrades: €285 million
 - Average projects have 25% cost overruns
 

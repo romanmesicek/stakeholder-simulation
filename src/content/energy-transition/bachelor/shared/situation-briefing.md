@@ -4,6 +4,8 @@
 
 PowerShift Energy Corporation must close its two coal plants and switch to renewable energy. This affects many people with different interests—and no single group can solve the problem alone.
 
+The case is fictional, set in a region of an EU member state whose constitution explicitly recognizes the rights of its Indigenous community.
+
 ---
 
 ## The Company
@@ -18,7 +20,7 @@ PowerShift operates two coal-fired power plants:
 **Key numbers:**
 - Annual revenue: €450 million
 - Annual CO₂ emissions: 4 million tons
-- Regional tax contribution: €8 million/year
+- Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
 - Total workers: 500
 
 ---

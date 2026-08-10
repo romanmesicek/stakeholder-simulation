@@ -32,7 +32,7 @@ You represent independent technical experts providing objective analysis on tran
 **Technical Requirements:**
 - Wind capacity factor in region: 38-42% (excellent)
 - Solar capacity factor: 14-16% (good)
-- Storage requirement: 200 MW / 800 MWh (approximately €320 million)
+- Storage requirement: 200 MW / 800 MWh (approximately €250 million)
 - Grid integration costs: €285 million for transmission upgrades
 
 **Workforce Transition Analysis:**

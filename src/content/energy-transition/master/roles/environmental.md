@@ -16,7 +16,7 @@ You represent a coalition of local, regional, and national environmental organiz
 ### YOUR SITUATION
 
 **Climate Crisis Context:**
-- IPCC emphasizes 2020-2030 as critical decade for preventing catastrophic warming
+- Climate science is unambiguous: the remaining carbon budget is shrinking fast, and every year of continued coal operation consumes it
 - PowerShift plants emit 4 million tons CO₂ annually
 - 5-year vs 10-year closure prevents 20 million tons cumulative CO₂
 - The law requires a 45% regional emissions cut by 2030 — your alliance campaigns for 50%
@@ -51,7 +51,7 @@ You represent a coalition of local, regional, and national environmental organiz
 - Southern Plant closure: Year 4-5
 - Binding commitments with penalty provisions for delays
 - Every year of delay = 4 million more tons CO₂ + 50 more preventable deaths
-- Climate science demands 2020-2030 action decade
+- Climate science demands action this decade
 
 **2. Comprehensive Environmental Restoration**
 - Full coal ash disposal site remediation (EPA standards)
@@ -102,7 +102,7 @@ You represent a coalition of local, regional, and national environmental organiz
 ### YOUR CONSTRAINTS (NON-NEGOTIABLE)
 
 **Maximum 5-6 Year Transition**
-Cannot accept timelines beyond 2029-2030 for complete closure. Climate science establishes urgency—2020-2030 is critical decade. Delay violates regional decarbonization commitments. Five years provides adequate time with proper planning.
+Cannot accept complete closure taking longer than six years from agreement. Every year of coal operation consumes 4 million tons of a shrinking carbon budget. Delay violates regional decarbonization commitments. Five to six years provides adequate time with proper planning.
 
 **Binding Environmental Restoration**
 Legally enforceable cleanup commitments. Adequate funding (minimum €150 million). Independent oversight with success metrics. Penalty provisions for non-compliance. Cannot accept vague intentions or under-funded plans.
@@ -114,7 +114,7 @@ Full compliance with environmental protection laws. Best available technology an
 
 ### KEY FACTS TO USE
 
-- Climate urgency: IPCC establishes 2020-2030 as critical decade; every year of coal operation adds incompatible cumulative emissions
+- Climate urgency: the remaining carbon budget leaves no room for a decade of delay; every year of coal operation adds 4 million tons of cumulative emissions
 - Health toll: 50 preventable deaths annually; childhood asthma 28% vs 18% baseline
 - Cumulative impact: 5-year vs 10-year closure prevents 20 million tons CO₂ (equivalent to removing 4.3 million cars for one year)
 - Water contamination: Mercury 300% above safe limits affecting Indigenous food sources
@@ -138,7 +138,7 @@ Full compliance with environmental protection laws. Best available technology an
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "IPCC establishes 2020-2030 as critical decade—delay risks catastrophic tipping points..."
+- "The carbon budget math is simple—every year of delay burns 4 million tons we cannot afford. Delay risks catastrophic tipping points..."
 - "Every year of continued operation means 50 preventable deaths from air pollution..."
 - "Five-year closure prevents 20 million tons cumulative CO₂—equivalent to removing 4.3 million cars..."
 - "Children's asthma rates 28% vs 18% baseline—continued pollution perpetuates health injustice..."

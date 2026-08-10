@@ -17,9 +17,9 @@ You represent community leaders, business owners, municipal officials, and resid
 
 **Northern Town (Pop. 15,000):**
 - Plant provides 40% of local employment directly and indirectly
-- Plant payroll: €45 million annually flows through local economy
-- Economic multiplier: Each plant job supports 2.5 additional jobs
-- Tax revenue: €5 million property tax (35% of municipal budget)
+- Economic flow: ~€45 million annually flows through the local economy (≈€20 million direct payroll plus local spending and multiplier effects)
+- Economic multiplier: Each plant job supports 1.5 additional jobs (2.5 total including the plant job)
+- Tax revenue: €5 million municipal property tax (35% of municipal budget); a further €3 million flows to the region — €8 million total
 - Schools: 55% funded by plant taxes
 - Demographics: Median age 48; population declining 8% over decade
 - Youth: 28% unemployment; many leaving for cities
@@ -109,8 +109,8 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 
 ### KEY FACTS TO USE
 
-- Economic multiplier: Northern Plant closure eliminates €45 million payroll supporting 180 businesses = 750 total jobs at risk
-- Tax crisis: €8 million loss = 35% of municipal budget; requires either devastating cuts or 60% property tax increase on remaining residents
+- Economic multiplier: Northern Plant closure cuts off ~€45 million in local economic flow (incl. multiplier effects) supporting 180 businesses = 750 total jobs at risk
+- Tax crisis: €5 million municipal loss = 35% of municipal budget; requires either devastating cuts or 60% property tax increase on remaining residents (a further €3 million is lost regionally)
 - Property wealth: Values declined 15%; rapid closure could trigger 30-40% drops wiping out €180 million household wealth
 - Renewable potential: Communities have superior wind/solar resources (95th percentile nationally)
 - Comparative justice: German coal regions received €40 billion support; Scottish communities got infrastructure investments

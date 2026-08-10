@@ -23,7 +23,7 @@ You are the executive leadership team of PowerShift Energy making decisions abou
 - Annual revenue: €450 million
 - Operating costs: €280 million
 - Board approved: €3 billion for renewable transition
-- Regional tax contribution: €8 million/year
+- Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
 - Investor pressure: ESG criteria increasingly important
 
 **Technical Constraints:**
@@ -98,7 +98,7 @@ Why: Technical reality of grid integration and renewable commissioning. Conseque
 ### KEY FACTS TO USE
 
 - Comparison: Regional competitor's rushed 4-year transition caused 47 hours of outages and €200 million in penalties
-- Savings: Maintaining old coal plants costs €50 million extra per year
+- Savings: Maintaining old coal plants costs €40 million extra per year
 - Employment: Renewable operations will create 300 permanent jobs + 1,200 construction jobs
 - Investment scale: €3 billion = €8,571 per customer served (highest in regional energy sector)
 - Peer context: Similar energy company transitions average 8.5 years
