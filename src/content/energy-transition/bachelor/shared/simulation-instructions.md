@@ -11,9 +11,9 @@
 | 2 | Pitches & Voting | 15 min |
 | 3 | Negotiations | 35 min |
 | 4 | Final Positions & Results | 15 min |
-| 5 | Debrief | 10 min |
+| 5 | Debrief | 25 min |
 
-**Total:** 1 hour 40 minutes
+**Total:** 1 hour 55 minutes
 
 ---
 
@@ -37,6 +37,8 @@ Your role card is confidential. Do not share your specific constraints.
 ---
 
 ## Phase 2: Pitches & Voting (15 min)
+
+The facilitator chairs this phase in the side-role of **Regional Energy Minister**, who has convened the transition conference.
 
 **Opening Statements (8 min)** — Each group presents 1 minute, in order:
 
@@ -70,6 +72,8 @@ Your role card is confidential. Do not share your specific constraints.
 
 ## Phase 4: Final Positions & Results (15 min)
 
+The **Regional Energy Minister** (facilitator) chairs the closing conference: opens it, moderates the statements, and announces the outcome.
+
 - Each group gives a 1-minute final statement
 - If the Technical Expert Panel is in play: a final agreement needs its **Feasibility Certificate** — if the Panel refuses, it reads out a public risk statement instead
 - Outcome summary: timeline, budget, key agreements
@@ -77,12 +81,16 @@ Your role card is confidential. Do not share your specific constraints.
 
 ---
 
-## Phase 5: Debrief (10 min)
+## Phase 5: Debrief (25 min)
 
-**Discussion Questions:**
-- What coalitions formed? Why?
-- What surprised you about the negotiations?
-- What would you do differently?
+Led by the facilitator, out of role:
+
+1. **How are you feeling? (5 min)** — Step out of your role. First reactions.
+2. **What happened? (8 min)** — Which coalitions formed, and why? What were the turning points? Where did power decide?
+3. **What did you learn? (7 min)** — Compare outcomes against each group's Best/Acceptable/Avoid ladder and no-deal outcome. What made offers credible?
+4. **Real-world transfer (5 min)** — Where does this conflict play out in reality, and what would help there?
+
+See the Debriefing Guide for detailed questions per step.
 
 **Reflection Assignment — Due: [Date TBD]**
 

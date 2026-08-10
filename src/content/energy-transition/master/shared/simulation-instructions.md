@@ -39,6 +39,8 @@ Your role card is confidential. Do not share your specific constraints or bottom
 
 ## Phase 2: Pitches & Voting (20 min)
 
+The facilitator chairs this phase in the side-role of **Regional Energy Minister**, who has convened the transition conference.
+
 **Opening Statements (10 min)** — Each group presents 1 minute, in order:
 
 1. PowerShift Energy Management
@@ -80,6 +82,8 @@ Your role card is confidential. Do not share your specific constraints or bottom
 ---
 
 ## Phase 4: Final Positions & Results (25 min)
+
+The **Regional Energy Minister** (facilitator) chairs the closing conference: opens it, moderates the statements, and announces the outcome.
 
 - Each group gives a 2-minute final statement including:
   - Key agreements reached
