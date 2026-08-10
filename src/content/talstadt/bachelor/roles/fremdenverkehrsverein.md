@@ -20,6 +20,11 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 - Die Branche beschäftigt viele Menschen und zahlt erhebliche Gewerbesteuer
 - Talstadt ist Kurstadt mit dem Werbeslogan "Besuchen Sie Talstadt, wo die Natur noch in Ordnung ist"
 
+**Alarmierende Entwicklung:**
+- Erstmals seit vielen Jahren sind die Gäste- und Übernachtungszahlen zurückgegangen (siehe Informationsmaterialien, Abschnitt 6)
+- Die aktuelle Buchungslage deutet auf rund 10% weniger Übernachtungen im laufenden Jahr –auffällig viele Stammgäste bleiben aus
+- Besonders betroffen sind die Betriebe in der Waldsiedlung
+
 **Umweltprobleme:**
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
 - Besonders betroffen: Die Waldsiedlung mit mehreren Hotels und Pensionen
@@ -47,6 +52,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 **3. Arbeitsplätze im Tourismus sichern**
 - Wenn die Gäste wegbleiben, gehen Arbeitsplätze verloren
 - Tourismusbetriebe sind auf saubere Luft und intakte Natur angewiesen
+- Ihr Anker für die Verhandlung: Der Gästerückgang hat bereits begonnen –rund 10% weniger Übernachtungen zeichnen sich ab, Stammgäste bleiben aus. Der Schaden ist messbar, nicht hypothetisch
 
 ---
 
@@ -64,7 +70,7 @@ Sie sind der Vorstand des Fremdenverkehrsvereins von Talstadt. Ihre Aufgabe ist 
 
 ### WICHTIGE ZUSATZINFORMATIONEN
 
-1. **Wirtschaftsfaktor Tourismus:** Die Tourismusbranche ist ein bedeutender Wirtschaftsfaktor in Talstadt. Sie beschäftigt viele Menschen und zahlt erhebliche Gewerbesteuer an die Stadt.
+1. **Wirtschaftsfaktor Tourismus:** Die Tourismusbranche ist ein bedeutender Wirtschaftsfaktor in Talstadt. Sie beschäftigt viele Menschen und zahlt erhebliche Gewerbesteuer an die Stadt. Aber: Erstmals seit vielen Jahren gehen die Gäste- und Übernachtungszahlen zurück –die Buchungslage deutet auf rund 10% weniger Übernachtungen im laufenden Jahr, und auffällig viele Stammgäste bleiben aus.
 
 2. **Kurstadt-Werbung:** Talstadt ist eine Kurstadt, die mit dem Slogan "Besuchen Sie Talstadt, wo die Natur noch in Ordnung ist" wirbt. Luftverschmutzung und Gestank passen nicht zu diesem Image!
 

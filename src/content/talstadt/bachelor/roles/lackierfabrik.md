@@ -17,6 +17,7 @@ Sie sind die Geschäftsführung (CEO) der Lackierfabrik in Talstadt –angestell
 
 **Wirtschaftliche Lage:**
 - Die Geschäfte laufen sehr gut –Sie können die Auftragslage kaum bewältigen
+- Jahresgewinne zuletzt: 1,3 Mio. EUR, dann 1,8 Mio. EUR; laufendes Jahr voraussichtlich ca. 1,5 Mio. EUR (siehe Informationsmaterialien, Abschnitt 1)
 - Sie verfügen über 2,5 Mio. EUR an Rücklagen für Investitionen
 - Darüber hinausgehender Bedarf müsste zu 6% Zinsen aufgenommen werden
 
@@ -24,12 +25,14 @@ Sie sind die Geschäftsführung (CEO) der Lackierfabrik in Talstadt –angestell
 - Eine neue Produktionshalle würde 2 bis 2,5 Mio. EUR kosten
 - Die Maschinen würden modernisiert
 - Ca. 40 neue Arbeitsplätze würden entstehen
+- Achtung: Für den Bau der Halle brauchen Sie eine Baugenehmigung der Stadt –der Stadtrat könnte sie an Umweltauflagen koppeln
 
 **Umweltsituation:**
 - Die Lackierfabrik verursacht Luftverschmutzung und Geruchsbelästigung
 - Laut TÜV-Bericht: 150 mg/m3 Schadstoffbelastung am Schornstein –genau am Grenzwert
 - Der Schornstein ist 5 m zu niedrig (unzureichende Schadstoffverteilung)
 - Bei großzügiger Auslegung der Vorschriften werden derzeit alle Umweltstandards eingehalten (siehe Informationsmaterialien, Abschnitt 2)
+- Achtung: Das Amt für Umweltschutz wertet den zu niedrigen Schornstein als klaren Rechtsverstoß und könnte eine nachträgliche Anordnung treffen
 
 **Informationen über die Papierfabrik:**
 - Aus zuverlässiger Quelle: Die Papierfabrik steht vor Entlassungen und erwägt möglicherweise einen Verkauf. Gehen Sie dem nach!
@@ -85,6 +88,8 @@ Sie sind die Geschäftsführung (CEO) der Lackierfabrik in Talstadt –angestell
 | Nasswäsche | ca. 500.000 EUR | Grundlegende Verbesserung |
 | Filteranlage | ca. 900.000 EUR | Deutliche Verbesserung |
 | Thermische Nachverbrennung | ca. 2,5 Mio. EUR | Bestmögliche Reinigung |
+
+**Hinweis:** Ihre vorhandene Nasswäsche und Filteranlage sind veraltet und seit der Betriebsvergrößerung zu klein. Die thermische Nachverbrennung verursacht zusätzlich laufende Betriebskosten von ca. 100.000–200.000 EUR pro Jahr; eine Schornsteinerhöhung (+5 m) kostet ca. 100.000–200.000 EUR (siehe Informationsmaterialien, Abschnitt 4).
 
 ---
 

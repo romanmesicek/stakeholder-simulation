@@ -19,7 +19,9 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 - Die Papierfabrik erreicht mit 23 mg/l Sauerstoffbedarf fast den Grenzwert von 25 mg/l bei der Abwasserbelastung
 - Der Sauerstoffgehalt der Schwarzach ist fabriknah auf nur noch 3 mg/l gesunken – Fische benötigen ca. 4 mg/l, Güteklasse II erfordert ca. 6 mg/l (siehe Informationsmaterialien, Abschnitt 2)
 - Die Lackierfabrik erreicht mit 150 mg/m3 am Schornstein genau den Grenzwert für Luftschadstoffe
-- Der Schornstein der Lackierfabrik ist 5 m zu niedrig (unzureichende Schadstoffverteilung)
+- Der Schornstein der Lackierfabrik ist 5 m zu niedrig und entspricht damit den geltenden Vorschriften nicht – ein eindeutiger, anordnungsfähiger Rechtsverstoß
+- Die Lackierfabrik wurde vor vier Jahren erheblich vergrößert, ohne dass zusätzliche Umweltschutzmaßnahmen getroffen wurden
+- Der zulässige Höchstwert der TA Luft (150 mg/m3) soll nach Ankündigung des Ministeriums demnächst abgesenkt werden
 - Das Fischsterben in der Schwarzach ist dokumentiert
 
 **Rechtliche Grundlagen:**
@@ -45,6 +47,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 - Verstöße müssen geahndet werden
 - Die bereits erlassene Anordnung an die Papierfabrik muss durchgesetzt werden
 - Bei Nichtbefolgung können Bußgelder verhängt werden
+- Auch gegenüber der Lackierfabrik können Sie eine nachträgliche Anordnung nach Paragraph 17 BImSchG treffen (Schornsteinerhöhung, verbesserte Abgasreinigung) – der zu niedrige Schornstein ist ein klarer Verstoß
 
 **3. Wirtschaftliche Verhältnismäßigkeit beachten**
 - Maßnahmen müssen wirtschaftlich zumutbar sein
@@ -57,6 +60,7 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 - **Mit der Leitung beider Fabriken sprechen** über notwendige Umweltschutzmaßnahmen
 - **Konkrete Maßnahmen anordnen** (siehe Informationsmaterialien, Abschnitt 3 für die Papierfabrik und Abschnitt 4 für die Lackierfabrik)
+- **Nachträgliche Anordnung gegenüber der Lackierfabrik treffen** (Paragraph 17 BImSchG): Schornsteinerhöhung und verbesserte Abgasreinigung sind anordnungsfähig, da der Schornstein den Vorschriften nicht entspricht
 - **Wirtschaftliche Situation mit dem Stadtrat besprechen** –gemeinsame Lösung suchen
 - **Informationsgespräche mit Anglerclub und Fremdenverkehrsverein führen** über die Umweltsituation
 - **Bußgelder androhen** bei Nichtbefolgung von Anordnungen
@@ -74,9 +78,11 @@ Sie sind Mitarbeiterinnen und Mitarbeiter des Amtes für Umweltschutz. Als Umwel
 
 4. **Ministeriumsanweisung:** Das zuständige Ministerium hat angewiesen, die Gewässergüteklasse II anzustreben (siehe Informationsmaterialien, Abschnitt 7). Dies ist ein klarer Auftrag an Ihre Behörde.
 
-5. **Bußgelder:** Strafen werden erst verhängt, nachdem eine vorherige "Anordnung" zur Beseitigung eines Umweltverstoßes nicht befolgt wurde.
+5. **Bußgelder:** Strafen werden erst verhängt, nachdem eine vorherige "Anordnung" zur Beseitigung eines Umweltverstoßes nicht befolgt wurde. Rechtsgrundlagen: WHG Paragraph 41 und BImSchG Paragraph 62 (siehe Informationsmaterialien, Abschnitt 9). Als Rahmen gelten Bußgelder bis zu 50.000 EUR pro Verstoß; bei fortgesetzter Nichtbefolgung können sie wiederholt verhängt werden, danach kommen Zwangsmaßnahmen bis hin zu Nutzungsbeschränkungen in Betracht.
 
-6. **Papierfabrik-Anordnung:** Der Papierfabrik wurde bereits vor einem halben Jahr eine Anordnung zugestellt. Bisher ist nichts geschehen. Sie könnten nun ein Bußgeld androhen –in welcher Höhe?
+6. **Papierfabrik-Anordnung:** Der Papierfabrik wurde bereits vor einem halben Jahr eine Anordnung zugestellt. Bisher ist nichts geschehen. Sie könnten nun ein Bußgeld androhen –innerhalb des Rahmens aus Punkt 5; die Höhe bestimmen Sie nach Schwere und Dauer des Verstoßes.
+
+7. **Lackierfabrik im Blick:** Der zu niedrige Schornstein entspricht den geltenden Vorschriften nicht –anders als beim BSB-Grenzwert gibt es hier keinen Auslegungsspielraum. Zusammen mit der Betriebsvergrößerung ohne zusätzliche Umweltschutzmaßnahmen und der angekündigten Absenkung des TA-Luft-Höchstwerts haben Sie eine solide Grundlage für eine nachträgliche Anordnung nach Paragraph 17 BImSchG.
 
 ---
 

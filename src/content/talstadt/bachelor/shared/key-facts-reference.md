@@ -8,8 +8,9 @@
 
 ### Papierfabrik
 
-- **Beschäftigte:** ca. 500
+- **Beschäftigte:** ca. 500 (vor zwei Jahren noch 580)
 - **Wirtschaftliche Lage:** Schlecht –das Unternehmen macht seit mehreren Jahren Verluste
+- **Geschäftsentwicklung:** Vor drei Jahren +2,0 Mio. EUR Gewinn, vor zwei Jahren +0,6 Mio. EUR, letztes Jahr −0,4 Mio. EUR Verlust; für das laufende Jahr werden −0,6 bis −0,8 Mio. EUR erwartet
 - **Ursachen:** Veraltete Produktionsanlagen, starker Wettbewerbsdruck, rückläufige Nachfrage
 - **Modernisierungsbedarf:** 3-4 Mio. EUR für neue Maschinen und Anlagen
 - **Rücklagen:** 3 Mio. EUR verfügbar
@@ -19,8 +20,9 @@
 
 ### Lackierfabrik
 
-- **Beschäftigte:** ca. 200 (geplant: ca. 240 nach Erweiterung)
+- **Beschäftigte:** ca. 200 (geplant: ca. 240 nach Erweiterung), Tendenz leicht steigend
 - **Wirtschaftliche Lage:** Sehr gut –Aufträge können kaum abgearbeitet werden
+- **Geschäftsentwicklung:** Jahresgewinne von +1,0 Mio. EUR (vor vier Jahren) über +1,3 Mio. EUR auf +1,8 Mio. EUR im letzten Jahr; laufendes Jahr voraussichtlich ca. +1,5 Mio. EUR
 - **Expansion:** Neue Produktionshalle geplant (2-2,5 Mio. EUR, ca. 40 neue Arbeitsplätze)
 - **Rücklagen:** 2,5 Mio. EUR verfügbar
 - **Kreditkonditionen:** Weitere Mittel müssten zu 6% Zinsen aufgenommen werden
@@ -63,6 +65,10 @@
 
 **Hinweis:** Die Stufen bauen aufeinander auf. Stufe 2 beinhaltet Stufe 1, Stufe 3 beinhaltet Stufen 1 und 2. Je höher die Stufe, desto besser die Reinigungsleistung –aber auch desto höher die Kosten.
 
+**Bestand:** Die Papierfabrik verfügt bereits über eine – allerdings veraltete – mechanische Kläranlage (Stufe 1). Die entscheidende biologische Stufe fehlt: Gelöste Stoffe (Säuren usw.) bleiben im Abwasser und verursachen den starken Sauerstoffverlust der Schwarzach.
+
+**Betriebskosten:** Eine ausgebaute Kläranlage verursacht laufende Kosten (Strom, Reinigung, Reparaturen) von ca. 150.000 EUR pro Jahr.
+
 ---
 
 ## 4. Möglichkeiten der Luftreinigung (Lackierfabrik)
@@ -74,6 +80,10 @@
 | Thermische Nachverbrennung | Schadstoffe werden bei hohen Temperaturen verbrannt –höchste Reinigungsleistung | ca. 2,5 Mio. EUR |
 
 **Hinweis:** Zusätzlich sollte der Schornstein um mindestens 5 m erhöht werden (Kosten: ca. 100.000-200.000 EUR), um eine bessere Schadstoffverteilung zu gewährleisten.
+
+**Bestand:** Die Lackierfabrik verfügt bereits über eine Nasswäsche und eine Filteranlage. Beide Anlagen sind jedoch veraltet und seit der Betriebsvergrößerung vor vier Jahren zu klein dimensioniert; am Gestank der Abgase ändern sie kaum etwas.
+
+**Betriebskosten:** Die thermische Nachverbrennung verursacht laufende Kosten von ca. 100.000–200.000 EUR pro Jahr.
 
 ---
 
@@ -95,7 +105,9 @@
 
 ## 6. Wirtschaftliche Situation der Stadt Talstadt
 
-- **Einnahmen aus Gewerbesteuer:** Rückläufig (vor allem wegen sinkender Erträge der Papierfabrik)
+- **Einnahmen aus Gewerbesteuer:** Insgesamt rückläufig. Papierfabrik: nur noch 160.000 EUR im letzten Jahr (zwei Jahre zuvor: 500.000 EUR). Lackierfabrik: 320.000 EUR im letzten Jahr (rund 140.000 EUR mehr als zwei Jahre zuvor). Auch die Gewerbesteuer aus dem Fremdenverkehr sinkt leicht
+- **Arbeitsmarkt:** Die Zahl der Arbeitsplätze im Stadtgebiet ist im letzten Jahr um rund 180 zurückgegangen; immer mehr Beschäftigte pendeln ins ca. 50 km entfernte Industrierevier
+- **Tourismus:** Erstmals seit vielen Jahren sind die Gäste- und Übernachtungszahlen zurückgegangen
 - **Städtische Investitionen der letzten Jahre:**
   - Modernisierung der Kuranlagen
   - Ausbau der Wanderwege
@@ -163,6 +175,9 @@ Luftschadstoffe aus Industriebetrieben können erhebliche Auswirkungen auf Gesun
 > **Paragraph 57 –Einleiten von Abwasser:**
 > Eine Erlaubnis für das Einleiten von Abwasser darf nur erteilt werden, wenn die Schadstofffracht so gering gehalten wird, wie dies bei Einhaltung der jeweils in Betracht kommenden Verfahren nach dem Stand der Technik möglich ist.
 
+> **Paragraph 41 –Ordnungswidrigkeiten:**
+> Ordnungswidrig handelt, wer trotz Anordnung der zuständigen Behörden den erforderlichen Gewässerschutz nicht sicherstellt. Die Ordnungswidrigkeit kann mit einer Geldbuße geahndet werden.
+
 > **Schadensersatz:**
 > Wer in ein Gewässer Stoffe einbringt oder einleitet, die die Wasserbeschaffenheit nachteilig verändern, ist zum Ersatz des daraus entstehenden Schadens verpflichtet. Die Ersatzpflicht tritt auch dann ein, wenn den Schädiger kein Verschulden trifft (Gefährdungshaftung).
 
@@ -176,3 +191,6 @@ Luftschadstoffe aus Industriebetrieben können erhebliche Auswirkungen auf Gesun
 
 > **Paragraph 22 –Pflichten der Betreiber nicht genehmigungsbedürftiger Anlagen:**
 > Nicht genehmigungsbedürftige Anlagen sind so zu errichten und zu betreiben, dass schädliche Umwelteinwirkungen verhindert werden, die nach dem Stand der Technik vermeidbar sind, und unvermeidbare schädliche Umwelteinwirkungen auf ein Mindestmaß beschränkt werden.
+
+> **Paragraph 62 –Ordnungswidrigkeiten:**
+> Wer als Betreiber einer Anlage Pflichten aus diesem Gesetz oder aus behördlichen Anordnungen nicht erfüllt, handelt ordnungswidrig. Die Ordnungswidrigkeit kann mit einer Geldbuße geahndet werden.

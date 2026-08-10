@@ -17,6 +17,8 @@ Sie sind die Geschäftsführung und Eigentümerfamilie der Papierfabrik in Talst
 
 **Wirtschaftliche Lage:**
 - Die Geschäfte laufen sehr schlecht –das Unternehmen macht Verluste (siehe Informationsmaterialien, Abschnitt 1)
+- Gewinnentwicklung: +2,0 Mio. EUR (vor drei Jahren), +0,6 Mio. EUR, dann −0,4 Mio. EUR Verlust; laufendes Jahr voraussichtlich −0,6 bis −0,8 Mio. EUR
+- Die Beschäftigtenzahl ist bereits von 580 auf ca. 500 gesunken
 - Um wettbewerbsfähig zu werden, wäre eine Modernisierungsinvestition von 3-4 Mio. EUR nötig
 - Der Erfolg einer Modernisierung ist nicht garantiert
 - Sie verfügen über 3 Mio. EUR an Rücklagen für Investitionen
@@ -71,7 +73,7 @@ Sie sind die Geschäftsführung und Eigentümerfamilie der Papierfabrik in Talst
 
 3. **Verkaufsoption:** Wenn Ihnen angeboten wird, die Fabrik zu verkaufen, beachten Sie: Der Stadtrat hat das Recht, die sofortige Rückzahlung der gewährten Darlehen (4 Mio. EUR) zu fordern!
 
-4. **Anordnung des Umweltschutzamtes:** Vor einem halben Jahr wurde bereits eine Anordnung zur verbesserten Abwasserreinigung erlassen. Bisher haben Sie nichts unternommen. Es droht ein Bußgeld!
+4. **Anordnung des Umweltschutzamtes:** Vor einem halben Jahr wurde bereits eine Anordnung zur verbesserten Abwasserreinigung erlassen. Bisher haben Sie nichts unternommen. Es droht ein Bußgeld (bis zu 50.000 EUR pro Verstoß, bei fortgesetzter Nichtbefolgung wiederholbar)!
 
 5. **Wirtschaftliche Zumutbarkeit:** Das Umweltschutzamt muss die wirtschaftliche Situation immer berücksichtigen und bei schlechter Geschäftslage Nachsicht zeigen. Nutzen Sie dieses Argument!
 
@@ -84,6 +86,8 @@ Sie sind die Geschäftsführung und Eigentümerfamilie der Papierfabrik in Talst
 | 1 | Mechanische Reinigung | ca. 1 Mio. EUR | Grundlegende Reinigung |
 | 2 | Biologische Reinigung | ca. 1,8 Mio. EUR | Deutliche Verbesserung |
 | 3 | Chemische Reinigung | ca. 2,5 Mio. EUR | Bestmögliche Reinigung |
+
+**Hinweis:** Sie verfügen bereits über eine – allerdings veraltete – mechanische Kläranlage (Stufe 1); die entscheidende biologische Stufe fehlt. Eine ausgebaute Kläranlage verursacht zusätzlich laufende Betriebskosten von ca. 150.000 EUR pro Jahr (siehe Informationsmaterialien, Abschnitt 3).
 
 ---
 

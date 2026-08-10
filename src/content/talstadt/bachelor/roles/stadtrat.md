@@ -7,7 +7,7 @@
 
 Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, Politik im Interesse der Bürgerinnen und Bürger zu gestalten. Sie unterstützen den Erhalt von Arbeitsplätzen, wollen aber gleichzeitig eine saubere Umwelt –schließlich lebt Talstadt von seinem Ruf als Kurstadt.
 
-**Ihre Befugnisse:** Entscheidungen über städtische Subventionen und Fördermittel, Genehmigung städtischer Investitionen, Auflagen für Gewerbebetriebe im Rahmen kommunaler Zuständigkeit, Zusammenarbeit mit dem Amt für Umweltschutz.
+**Ihre Befugnisse:** Entscheidungen über städtische Subventionen und Fördermittel, Genehmigung städtischer Investitionen, Auflagen für Gewerbebetriebe im Rahmen kommunaler Zuständigkeit, Erteilung der Baugenehmigung für die geplante neue Produktionshalle der Lackierfabrik, Zusammenarbeit mit dem Amt für Umweltschutz.
 
 **Wem Sie verantwortlich sind:** Den Bürgerinnen und Bürgern von Talstadt, die Sie gewählt haben. Wiederwahl hängt davon ab, dass Sie sowohl Arbeitsplätze als auch Lebensqualität sichern.
 
@@ -18,6 +18,8 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 **Wirtschaftliche Lage:**
 - Die Papierfabrik (ca. 500 Beschäftigte) ist in wirtschaftlichen Schwierigkeiten und macht Verluste
 - Die Lackierfabrik (ca. 200 Beschäftigte) läuft wirtschaftlich gut und kann Aufträge kaum abarbeiten
+- Die Gewerbesteuer der Papierfabrik ist von 500.000 EUR auf zuletzt nur noch 160.000 EUR eingebrochen; die Lackierfabrik zahlte zuletzt 320.000 EUR (siehe Informationsmaterialien, Abschnitt 6)
+- Die Zahl der Arbeitsplätze im Stadtgebiet ist im letzten Jahr um rund 180 zurückgegangen
 - Der Tourismus ist ein wichtiger Wirtschaftsfaktor –er sichert Arbeitsplätze und bringt Geld in die Stadtkasse
 
 **Umweltprobleme:**
@@ -55,6 +57,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 - **Probleme mit Fremdenverkehrsverein und Anglerclub besprechen** –deren Anliegen ernst nehmen
 - **Informationen vom Amt für Umweltschutz anfordern** über die aktuelle Umweltsituation
 - **Subventionen mit der Papierfabrik verhandeln** –Fördermittel an klare Bedingungen knüpfen
+- **Hallengenehmigung als Koppelgeschäft nutzen** –die Baugenehmigung für die neue Produktionshalle der Lackierfabrik können Sie an verbindliche Zusagen zur Luftreinhaltung knüpfen
 - **Anfragen anderer Gruppen beantworten** und Verhandlungen führen
 
 ---
@@ -65,7 +68,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 
 2. **Gerüchte über die Papierfabrik:** Es gibt Gerüchte, dass die Papierfabrik verkauft und der Standort verlagert werden soll. Gehen Sie dem nach!
 
-3. **Wirtschaftliche Lage der Lackierfabrik:** Die Lackierfabrik läuft wirtschaftlich gut und sollte in der Lage sein, Maßnahmen zur Verbesserung der Luftreinigung aus eigenen Mitteln zu finanzieren.
+3. **Wirtschaftliche Lage der Lackierfabrik:** Die Lackierfabrik läuft wirtschaftlich gut und sollte in der Lage sein, Maßnahmen zur Verbesserung der Luftreinigung aus eigenen Mitteln zu finanzieren. Ihr stärkstes Instrument gegenüber der Fabrik: Die geplante Produktionshalle braucht eine städtische Baugenehmigung –Sie können die Genehmigung an verbindliche Luftreinhaltungs-Zusagen koppeln.
 
 4. **Bedeutung des Tourismus:** Der Tourismus sichert viele Arbeitsplätze und bringt Geld in die Stadtkasse. Vorsicht beim Anglerclub –dort sind einflussreiche Persönlichkeiten Mitglied, die Sie für die Wiederwahl brauchen!
 
@@ -80,6 +83,7 @@ Sie sind gewählte Mitglieder des Stadtrates von Talstadt. Ihre Aufgabe ist es, 
 - Bilden Sie Allianzen mit Gruppen, die Ihre Interessen teilen
 - Denken Sie daran: Die Wähler beobachten, ob Sie sowohl Arbeitsplätze als auch Umwelt schützen
 - Das Drohpotenzial der Darlehensrückforderung gegenüber der Papierfabrik ist ein starkes Argument
+- Gegenüber der Lackierfabrik ist die Baugenehmigung für die neue Halle Ihr Gegenstück zum Darlehen –vergeben Sie sie nicht ohne Gegenleistung beim Umweltschutz
 
 ---
 
