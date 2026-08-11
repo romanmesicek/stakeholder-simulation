@@ -1,4 +1,4 @@
-# Role Overview & ZOPA Map
+# Role Overview & Deal Space
 
 For the facilitator only. Every group's outcome ladder, red lines, and where the deal space actually lies. (Default bachelor setup: the six groups below; Indigenous Community and Technical Expert Panel can be added as optional seventh/eighth groups.)
 

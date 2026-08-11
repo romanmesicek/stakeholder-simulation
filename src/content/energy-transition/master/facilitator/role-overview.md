@@ -1,4 +1,4 @@
-# Role Overview & ZOPA Map
+# Role Overview & Deal Space
 
 For the facilitator only. Every group's outcome ladder, red lines, and where the deal space actually lies.
 
