@@ -2,6 +2,8 @@
 
 For the facilitator only. Every group's outcome ladder, red lines, and where the deal space actually lies. (Default bachelor setup: the six groups below; Indigenous Community and Technical Expert Panel can be added as optional seventh/eighth groups.)
 
+*ZOPA = Zone of Possible Agreement — the range where the parties' acceptable outcomes overlap, so a deal is possible. Outside it, at least one party is better off walking away (its no-deal outcome).*
+
 ## Outcome ladders
 
 | Group | Best | Acceptable | Red line / must avoid |

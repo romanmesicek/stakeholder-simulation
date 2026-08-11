@@ -2,6 +2,8 @@
 
 Nur für die Spielleitung. Alle Ziele, Druckmittel und roten Linien auf einer Seite – und wo die Einigungszonen liegen.
 
+*ZOPA („Zone of Possible Agreement") = der Bereich, in dem sich die Akzeptanzspielräume der Parteien überlappen, sodass eine Einigung möglich ist. Außerhalb davon fährt mindestens eine Partei mit ihrer Alternative (Bußgeld riskieren, verkaufen, klagen …) besser als mit dem Abschluss.*
+
 ## Die sechs Rollen im Überblick
 
 | Rolle | Will vor allem | Druckmittel | Rote Linie |

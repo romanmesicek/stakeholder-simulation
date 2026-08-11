@@ -2,6 +2,8 @@
 
 For the facilitator only. Every group's outcome ladder, red lines, and where the deal space actually lies.
 
+*ZOPA = Zone of Possible Agreement — the range where the parties' acceptable outcomes overlap, so a deal is possible. Outside it, at least one party is better off walking away (its BATNA / no-deal outcome).*
+
 ## Outcome ladders
 
 | Group | Best | Acceptable | Red line / must avoid |
