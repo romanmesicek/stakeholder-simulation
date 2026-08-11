@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from 'react-router-dom';
-import { getScenariosArray, SCENARIOS, resolveLevel } from '../lib/stakeholders';
+import { getScenariosArray, SCENARIOS, resolveLevel, getLevelMeta } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 
 const labels = {
@@ -87,7 +87,28 @@ export default function InfoHub() {
                   : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50'
               }`}
             >
-              <div className="font-semibold text-slate-800">{s.name}</div>
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="font-semibold text-slate-800">{s.name}</span>
+                {s.levels.map(lvl => {
+                  const badge = getLevelMeta(s.id, lvl).badge;
+                  if (!badge) return null;
+                  return (
+                    <span
+                      key={lvl}
+                      className={`text-xs px-2 py-0.5 rounded-full ${
+                        badge === 'BA'
+                          ? 'bg-amber-100 text-amber-700'
+                          : 'bg-purple-100 text-purple-700'
+                      }`}
+                    >
+                      {badge}
+                    </span>
+                  );
+                })}
+                <span className="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700">
+                  {s.language === 'de' ? 'DE' : 'EN'}
+                </span>
+              </div>
               <div className="text-sm text-slate-500 mt-1">{s.description}</div>
               <div className="text-xs text-slate-400 mt-2">
                 {Object.keys(s.groups).length} {s.language === 'de' ? 'Gruppen' : 'groups'}
