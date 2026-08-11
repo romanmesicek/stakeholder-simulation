@@ -28,12 +28,14 @@ A coal plant phase-out negotiation. 8 stakeholder groups with competing interest
 
 ### Umweltverschmutzung in Talstadt (Deutsch)
 
-Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Zwei Fabriken verschmutzen Luft und Wasser, sechs Interessengruppen — Stadtrat, Umweltbehörde, beide Fabrikl­eitungen, Fremdenverkehrsverein und Anglerclub — verhandeln über Lösungen. Ein Level: **Standard**.
+Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Zwei Fabriken verschmutzen Luft und Wasser, sechs Interessengruppen — Stadtrat, Umweltbehörde, beide Fabrikl­eitungen, Fremdenverkehrsverein und Anglerclub — verhandeln über Lösungen. Ein Level: **Bachelor**.
 
 ## Features
 
 - **Multi-Scenario**: Any number of negotiation cases, each with its own groups, content, and language
 - **Facilitator Dashboard**: Create sessions, monitor groups, access debriefing guides
+- **Facilitator Toolkit**: Per scenario and level — event cards, role overview with deal-space notes, observation sheet, common-problems playbook, assessment rubric
+- **Access Gate**: The facilitator area and full foreign role cards sit behind a shared access code (per-device unlock)
 - **Realtime**: Live participant list via Supabase subscriptions
 - **Auto-Assignment**: Participants are evenly distributed across stakeholder groups
 - **Multi-Level Content**: Scenarios can have multiple difficulty levels (e.g. Bachelor/Master)
@@ -44,7 +46,7 @@ Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Zwei Fabriken verschmutze
 
 ## Tech Stack
 
-- **Frontend**: React 18 + Vite + Tailwind CSS
+- **Frontend**: React 19 + Vite + Tailwind CSS
 - **Routing**: React Router DOM
 - **Content**: Markdown files rendered with react-markdown + remark-gfm
 - **Backend**: Supabase (PostgreSQL + Realtime subscriptions)
@@ -115,6 +117,7 @@ The architecture is designed so new scenarios require no structural changes:
 
 1. **Define groups** — add an entry to `SCENARIOS` in `src/lib/stakeholders.js` (incl. `language`, `keyFactsLabel`, `levelMeta`)
 2. **Write content** — create `src/content/{scenario-id}/{level}/roles/` and `shared/`; role files are named `<groupId>.md`, shared files follow the fixed names (`situation-briefing.md`, `key-facts-reference.md`, `simulation-instructions.md`, `debriefing-questions.md`)
+3. **Optional facilitator materials** — add `facilitator/*.md` per level (e.g. `event-cards.md`, `role-overview.md`, `observation-sheet.md`, `common-problems.md`, `assessment-rubric.md`); each file type needs a matching key in `MATERIAL_META` (`src/lib/materialMeta.js`)
 
 That's it. The content loader discovers the files via glob; the create-session UI, participant views, info hub, and facilitator dashboard all pick up the new scenario automatically.
 
@@ -122,7 +125,7 @@ That's it. The content loader discovers the files via glob; the create-session U
 
 ### For Facilitators
 
-1. Go to `/facilitate`
+1. Go to `/facilitate` and unlock it once per device with the **facilitator access code** (ask the platform operator; to change it, replace the SHA-256 hash in `src/lib/facilitatorAccess.js` — the plain code is never committed)
 2. Create a session: pick scenario, level, groups, max participants per group
 3. Share the 6-character code with participants
 4. Monitor the live participant list on the dashboard
@@ -143,16 +146,20 @@ That's it. The content loader discovers the files via glob; the create-session U
 ├── /components       # Reusable UI (Accordion, ParticipantList, RoleCard, ...)
 ├── /content          # Markdown content, organized by scenario
 │   ├── /energy-transition
-│   │   ├── /bachelor/roles|shared
-│   │   └── /master/roles|shared
+│   │   ├── /bachelor/roles|shared|facilitator
+│   │   └── /master/roles|shared|facilitator
 │   └── /talstadt
-│       └── /standard/roles|shared
+│       └── /bachelor/roles|shared|facilitator
 ├── /hooks            # useSession, useParticipants, useAllSessions
 ├── /lib
-│   ├── stakeholders.js    # SCENARIOS object — groups, metadata, utility functions
-│   ├── contentLoader.js   # Dynamic imports: scenario → level → role/shared content
-│   ├── RoleContext.jsx    # Global state for selected role + scenario
-│   ├── supabase.js        # Supabase client
-│   └── sessionUtils.js    # Code generation, group assignment
+│   ├── stakeholders.js       # SCENARIOS object — groups, metadata, utility functions
+│   ├── contentLoader.js      # Glob-based markdown loading: scenario → level → content
+│   ├── i18n.js               # Participant-facing UI strings per scenario language
+│   ├── facilitatorKeys.js    # Per-session owner keys in localStorage
+│   ├── facilitatorAccess.js  # Shared access-code gate for the facilitator area
+│   ├── materialMeta.js       # Labels/descriptions for facilitator material types
+│   ├── RoleContext.jsx       # Global state for selected role + scenario/level
+│   ├── supabase.js           # Supabase client
+│   └── sessionUtils.js       # Session code generation
 └── /pages            # Route components (CreateSession, ParticipantView, InfoHub, ...)
 ```

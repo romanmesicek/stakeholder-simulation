@@ -6,6 +6,10 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 **Live:** https://stakeholder-simulation.suska.app/
 
+## Versioning
+
+App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both existing scenarios after the August 2026 code + content reviews. **3.0** is reserved for the data-centers scenario release. Convention: minor bump for feature/content waves, major bump for a new scenario.
+
 ## Tech Stack
 
 - **Frontend**: React 19 + Vite + Tailwind CSS
@@ -37,6 +41,9 @@ Level labels/badges/descriptions come from `levelMeta` in each `SCENARIOS` entry
 
 ### Facilitator keys (no login)
 Each session gets a random owner key, generated in the browser on creation and stored in localStorage (`facilitator-keys`). The DB stores only its SHA-256 hash. Close/reopen/delete and participant move/remove go through `SECURITY DEFINER` RPCs that check the key. The dashboard shows the key for transfer to other devices; `/facilitate` lists only sessions whose keys are present on the device (plus an import form). RLS allows anonymous clients read-only access; all writes go through RPCs (see `supabase/migrations/`).
+
+### Facilitator access code (shared gate)
+The whole facilitator area (`/facilitate*` incl. materials) sits behind a shared access code: `FacilitatorGate` layout route + `src/lib/facilitatorAccess.js`. Only the SHA-256 hash of the code is committed; the unlock persists per device (localStorage `facilitator-access`; input is uppercased before hashing). Full role cards in the info hub are also gated: participants see only their own selected role in full, other cards show the short description plus a confidentiality notice. Known limitation: "Select as my role" reveals that card (needed for the self-select flow) — the gate is friction against casual browsing, not real security; all content ships in the client bundle. Change the code by replacing the hash (`echo -n "NEW-CODE" | shasum -a 256`, uppercase input).
 
 ### Stakeholder Groups
 
@@ -96,6 +103,7 @@ Each session gets a random owner key, generated in the browser on creation and s
 | `/facilitate` | Facilitator home - all sessions |
 | `/facilitate/:code` | Dashboard for specific session |
 | `/info/*` | Info hub with case materials |
+| `/impressum` | Legal notice (Impressum, SUSTAINABILITY SKILLS e.U.) |
 
 ## Database Schema
 
@@ -133,6 +141,8 @@ participants (
 - `shared/debriefing-questions.md` → key `debriefing`
 - `facilitator/<kebab-name>.md` → key is the camelCased file name (e.g. `eventCards`)
 
+Facilitator materials are discovered **per level** (no cascading between bachelor/master) and only appear on `/facilitate` if `MATERIAL_META` in `src/lib/materialMeta.js` has a matching key (with `de`+`en` labels). Current types in both scenarios: `event-cards`, `role-overview`, `observation-sheet`, `common-problems`, `assessment-rubric` (plus the special-cased `debriefing`, which maps to `shared/debriefing-questions.md`).
+
 ```javascript
 await loadRoleContent('energy-transition', 'master', 'workers');
 await loadRoleContent('talstadt', 'bachelor', 'stadtrat');
@@ -167,7 +177,9 @@ Edit files in `src/content/{scenario}/{level}/`
 Two consolidated reviews (August 2026) track findings and remaining work — check them before starting improvement work, and tick items off there when done:
 
 - `docs/code-review-2026-08.md` — code/UX/security review (step 1, largely done; remaining: session cleanup, hook consistency, Supabase Auth for SaaS)
-- `docs/content-review-2026-08.md` — case-content & didactics review (step 2; package 1 "errors & facts" done, packages 2 "negotiation logic" and 3 "didactics & facilitator" are the open todo list)
+- `docs/content-review-2026-08.md` — case-content & didactics review (step 2; **all three packages done August 2026**, implementation notes inline — only the "Größere Ideen" list at the end remains open)
+
+Next up (step towards 3.0): the **data-centers scenario**, distilled from `material/2026-08-10_data-centers-dossier.md` (research prompt: `material/research-prompt-data-centers.md`).
 
 ## Testing Locally
 
