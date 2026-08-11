@@ -26,6 +26,16 @@ export default function Impressum() {
             </a>
             <br />
             Telefon: +43 664 88584153
+            <br />
+            Web:{' '}
+            <a
+              href="https://www.sustainability-skills.at"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              www.sustainability-skills.at
+            </a>
           </p>
         </section>
 
