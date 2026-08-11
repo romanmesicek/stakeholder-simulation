@@ -17,6 +17,7 @@ import SchedulePage from './pages/SchedulePage';
 import StakeholdersOverview from './pages/StakeholdersOverview';
 import RolesOverview from './pages/RolesOverview';
 import RoleDetail from './pages/RoleDetail';
+import Impressum from './pages/Impressum';
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
             <Route path="info/stakeholders" element={<StakeholdersOverview />} />
             <Route path="info/roles" element={<RolesOverview />} />
             <Route path="info/roles/:roleId" element={<RoleDetail />} />
+            <Route path="impressum" element={<Impressum />} />
           </Route>
         </Routes>
         </RoleProvider>
