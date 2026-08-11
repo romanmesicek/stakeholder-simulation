@@ -19,7 +19,7 @@ export const MATERIAL_META = {
   },
   roleOverview: {
     emoji: '🧭',
-    label: { de: 'Rollenübersicht', en: 'Role Overview' },
+    label: { de: 'Rollenübersicht & Einigungszonen', en: 'Role Overview & Deal Space' },
     description: {
       de: 'Alle Ziele, roten Linien und Einigungszonen auf einer Seite',
       en: 'All goals, red lines and deal space on one page',
