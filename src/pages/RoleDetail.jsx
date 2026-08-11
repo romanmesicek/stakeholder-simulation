@@ -2,9 +2,10 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Loading from '../components/Loading';
-import { getStakeholderById, resolveLevel } from '../lib/stakeholders';
+import { getStakeholderById, resolveLevel, SCENARIOS } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
 import { loadRoleContent } from '../lib/contentLoader';
+import { isFacilitatorUnlocked } from '../lib/facilitatorAccess';
 
 export default function RoleDetail() {
   const { roleId } = useParams();
@@ -76,7 +77,18 @@ export default function RoleDetail() {
           </button>
         )}
       </div>
-      <MarkdownRenderer content={content} />
+      {isMyRole || isFacilitatorUnlocked() ? (
+        <MarkdownRenderer content={content} />
+      ) : (
+        <div>
+          <p className="text-slate-600 mb-4">{stakeholder.shortDescription}</p>
+          <div className="p-4 rounded-lg bg-slate-100 border border-slate-200 text-sm text-slate-600">
+            {SCENARIOS[scenario]?.language === 'de'
+              ? 'Rollenkarten sind vertraulich — nur die Karte der eigenen Rolle ist vollständig sichtbar. Wähle diese Rolle als deine Rolle, um sie zu lesen.'
+              : 'Role cards are confidential — only your own role’s card is fully visible. Select this role as your role to read it.'}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

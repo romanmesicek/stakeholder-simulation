@@ -18,6 +18,7 @@ import StakeholdersOverview from './pages/StakeholdersOverview';
 import RolesOverview from './pages/RolesOverview';
 import RoleDetail from './pages/RoleDetail';
 import Impressum from './pages/Impressum';
+import FacilitatorGate from './components/FacilitatorGate';
 
 export default function App() {
   return (
@@ -30,10 +31,12 @@ export default function App() {
             <Route path="create" element={<CreateSession />} />
             <Route path="join/:sessionCode" element={<JoinSession />} />
             <Route path="session/:sessionCode" element={<ParticipantView />} />
-            <Route path="facilitate" element={<FacilitatorHome />} />
-            <Route path="facilitate/:sessionCode" element={<FacilitatorDashboard />} />
-            <Route path="facilitate/:sessionCode/roles" element={<FacilitatorRoles />} />
-            <Route path="facilitate/materials/:contentKey" element={<FacilitatorMaterial />} />
+            <Route element={<FacilitatorGate />}>
+              <Route path="facilitate" element={<FacilitatorHome />} />
+              <Route path="facilitate/:sessionCode" element={<FacilitatorDashboard />} />
+              <Route path="facilitate/:sessionCode/roles" element={<FacilitatorRoles />} />
+              <Route path="facilitate/materials/:contentKey" element={<FacilitatorMaterial />} />
+            </Route>
             <Route path="info" element={<InfoHub />} />
             <Route path="info/case" element={<CasePage />} />
             <Route path="info/reference" element={<ReferencePage />} />
