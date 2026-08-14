@@ -13,7 +13,7 @@ const components = {
 
 export default function MarkdownRenderer({ content }) {
   return (
-    <div className="prose prose-slate max-w-none prose-headings:text-slate-800 prose-p:text-slate-600 prose-li:text-slate-600 prose-strong:text-slate-800 prose-table:text-sm">
+    <div className="prose prose-slate max-w-none break-words prose-headings:text-slate-800 prose-p:text-slate-600 prose-li:text-slate-600 prose-strong:text-slate-800 prose-table:text-sm">
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
         {content}
       </ReactMarkdown>
