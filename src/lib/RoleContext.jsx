@@ -1,8 +1,7 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getStakeholderById } from './stakeholders';
 import { getScenarioLanguage } from './i18n';
-
-const RoleContext = createContext(null);
+import { RoleContext } from './roleContextObject';
 
 // Find a session code with a stored participant id, preferring the most
 // recently joined one so "My Role" never points at last week's session.
@@ -111,12 +110,4 @@ export function RoleProvider({ children }) {
       {children}
     </RoleContext.Provider>
   );
-}
-
-export function useRole() {
-  const context = useContext(RoleContext);
-  if (!context) {
-    throw new Error('useRole must be used within a RoleProvider');
-  }
-  return context;
 }

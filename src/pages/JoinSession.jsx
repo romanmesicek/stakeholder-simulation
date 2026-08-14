@@ -5,7 +5,7 @@ import { useSession } from '../hooks/useSession';
 import { useParticipants } from '../hooks/useParticipants';
 import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
 import { getUiStrings } from '../lib/i18n';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 import Loading from '../components/Loading';
 
 export default function JoinSession() {

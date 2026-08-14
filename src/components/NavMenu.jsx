@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 import { getUiStrings } from '../lib/i18n';
 
 export default function NavMenu() {

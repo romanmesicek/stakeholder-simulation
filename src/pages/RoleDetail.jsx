@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Loading from '../components/Loading';
 import { getStakeholderById, resolveLevel, SCENARIOS } from '../lib/stakeholders';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 import { loadRoleContent } from '../lib/contentLoader';
 import { isFacilitatorUnlocked } from '../lib/facilitatorAccess';
 
@@ -16,8 +16,12 @@ export default function RoleDetail() {
   const stakeholder = getStakeholderById(roleId, scenario);
   const isMyRole = selectedRoleId === roleId;
 
-  const [content, setContent] = useState(null);
-  const [loading, setLoading] = useState(true);
+  // Loading is derived: content counts as stale until it matches the current
+  // scenario/level/role key — no synchronous setState inside the effect.
+  const contentKey = `${scenario}/${level}/${roleId}`;
+  const [loaded, setLoaded] = useState({ key: null, content: null });
+  const loading = loaded.key !== contentKey;
+  const content = loading ? null : loaded.content;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -26,12 +30,12 @@ export default function RoleDetail() {
   useEffect(() => {
     if (!roleId) return;
 
-    setLoading(true);
+    let active = true;
     loadRoleContent(scenario, level, roleId)
-      .then(setContent)
-      .catch(() => setContent(null))
-      .finally(() => setLoading(false));
-  }, [roleId, scenario, level]);
+      .then(c => { if (active) setLoaded({ key: contentKey, content: c }); })
+      .catch(() => { if (active) setLoaded({ key: contentKey, content: null }); });
+    return () => { active = false; };
+  }, [roleId, scenario, level, contentKey]);
 
   if (loading) {
     return <Loading />;

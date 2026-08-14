@@ -1,17 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 import { getFacilitatorKey } from '../lib/facilitatorKeys';
 
 export function useSession(sessionCode) {
   const [session, setSession] = useState(null);
-  const [loading, setLoading] = useState(true);
+  // Without a session code there is nothing to load — start resolved.
+  const [loading, setLoading] = useState(() => Boolean(sessionCode));
   const [error, setError] = useState(null);
 
-  const fetchSession = async () => {
-    if (!sessionCode) {
-      setLoading(false);
-      return;
-    }
+  const fetchSession = useCallback(async () => {
+    if (!sessionCode) return;
 
     const { data, error } = await supabase
       .from('sessions')
@@ -27,9 +25,10 @@ export function useSession(sessionCode) {
       setError(null);
     }
     setLoading(false);
-  };
+  }, [sessionCode]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- all state updates in fetchSession happen after await (async)
     fetchSession();
 
     if (!sessionCode) return;
@@ -47,7 +46,7 @@ export function useSession(sessionCode) {
       .subscribe();
 
     return () => supabase.removeChannel(channel);
-  }, [sessionCode]);
+  }, [sessionCode, fetchSession]);
 
   const updateStatus = async (newStatus) => {
     const { error } = await supabase.rpc('set_session_status', {

@@ -1,7 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 import RoleCard from '../components/RoleCard';
 import { getOrderedStakeholders } from '../lib/stakeholders';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 import { getScenarioLanguage } from '../lib/i18n';
 
 export default function RolesOverview() {

@@ -1,6 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom';
 import { getScenariosArray, SCENARIOS, resolveLevel, getLevelMeta } from '../lib/stakeholders';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 
 const labels = {
   'energy-transition': {

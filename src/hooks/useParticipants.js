@@ -1,16 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 
 export function useParticipants(sessionCode) {
   const [participants, setParticipants] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // Without a session code there is nothing to load — start resolved.
+  const [loading, setLoading] = useState(() => Boolean(sessionCode));
   const [error, setError] = useState(null);
 
-  const fetchParticipants = async () => {
-    if (!sessionCode) {
-      setLoading(false);
-      return;
-    }
+  const fetchParticipants = useCallback(async () => {
+    if (!sessionCode) return;
 
     const { data, error } = await supabase
       .from('participants')
@@ -25,9 +23,10 @@ export function useParticipants(sessionCode) {
       setError(null);
     }
     setLoading(false);
-  };
+  }, [sessionCode]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- all state updates in fetchParticipants happen after await (async)
     fetchParticipants();
 
     if (!sessionCode) return;
@@ -45,7 +44,7 @@ export function useParticipants(sessionCode) {
       .subscribe();
 
     return () => supabase.removeChannel(channel);
-  }, [sessionCode]);
+  }, [sessionCode, fetchParticipants]);
 
   return { participants, loading, error, refetch: fetchParticipants };
 }

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 import { knownSessionCodes, getFacilitatorKey, removeFacilitatorKey } from '../lib/facilitatorKeys';
 
@@ -9,9 +9,12 @@ export function useAllSessions() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchSessions = async () => {
+  const fetchSessions = useCallback(async () => {
     const codes = knownSessionCodes();
     if (codes.length === 0) {
+      // Yield once so the state updates stay asynchronous even on this
+      // shortcut path (avoids setState-in-effect render cascades).
+      await Promise.resolve();
       setSessions([]);
       setLoading(false);
       return;
@@ -37,9 +40,10 @@ export function useAllSessions() {
       setSessions(sessionsWithCount);
     }
     setLoading(false);
-  };
+  }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- all state updates in fetchSessions happen after await (async)
     fetchSessions();
 
     // Subscribe to session changes
@@ -60,7 +64,7 @@ export function useAllSessions() {
     return () => {
       supabase.removeChannel(sessionsChannel);
     };
-  }, []);
+  }, [fetchSessions]);
 
   const deleteSession = async (sessionId) => {
     const { error: deleteError } = await supabase.rpc('delete_session', {

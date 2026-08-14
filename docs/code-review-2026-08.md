@@ -4,7 +4,9 @@ Consolidated findings from a three-track review (bugs/robustness, student UX jou
 
 Status legend: ☐ open · ☑ fixed (August 2026, packages A/B/C)
 
-Still open: M-6 (stale-session cleanup via pg_cron), L-4 partially (hook realtime-update strategies still differ; `useAllSessions` still subscribes globally), and the pre-existing `react-hooks/set-state-in-effect` lint warnings from the standard fetch-in-effect pattern (accepted for now). Full Supabase Auth remains the SaaS-step task.
+Still open: M-6 (stale-session cleanup via pg_cron) and L-4 partially (hook realtime-update strategies still differ; `useAllSessions` still subscribes globally). Full Supabase Auth remains the SaaS-step task.
+
+Lint cleanup 2026-08-14: `npm run lint` is clean. Content pages derive loading from a scenario/level key instead of sync `setLoading` in effects; hooks use `useCallback` with complete deps; `useRole`/`RoleContext` split into separate files (react-refresh). Three documented `eslint-disable` lines remain in the hooks where the `set-state-in-effect` rule false-positives on async fetch functions (all state updates happen after `await`).
 
 ---
 

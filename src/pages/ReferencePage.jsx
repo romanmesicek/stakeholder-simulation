@@ -6,23 +6,28 @@ import MarkdownRenderer from '../components/MarkdownRenderer';
 import { loadSharedContent } from '../lib/contentLoader';
 import { resolveLevel } from '../lib/stakeholders';
 import { getScenarioLanguage } from '../lib/i18n';
-import { useRole } from '../lib/RoleContext';
+import { useRole } from '../lib/useRole';
 
 export default function ReferencePage() {
   const [searchParams] = useSearchParams();
   const { selectedScenario, selectedLevel } = useRole();
   const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
   const level = resolveLevel(scenario, searchParams.get('level'), selectedScenario, selectedLevel);
-  const [content, setContent] = useState(null);
-  const [loading, setLoading] = useState(true);
+  // Loading is derived: content counts as stale until it matches the current
+  // scenario/level key — no synchronous setState inside the effect.
+  const contentKey = `${scenario}/${level}`;
+  const [loaded, setLoaded] = useState({ key: null, content: null });
+  const loading = loaded.key !== contentKey;
+  const content = loading ? null : loaded.content;
   const isGerman = getScenarioLanguage(scenario) === 'de';
 
   useEffect(() => {
-    setLoading(true);
+    let active = true;
     loadSharedContent(scenario, level, 'keyFacts')
-      .then(setContent)
-      .finally(() => setLoading(false));
-  }, [scenario, level]);
+      .then(c => { if (active) setLoaded({ key: contentKey, content: c }); })
+      .catch(() => { if (active) setLoaded({ key: contentKey, content: null }); });
+    return () => { active = false; };
+  }, [scenario, level, contentKey]);
 
   if (loading) {
     return <Loading />;
