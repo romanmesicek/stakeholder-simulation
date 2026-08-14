@@ -55,7 +55,7 @@ export default function RoleDetail() {
   };
 
   return (
-    <div>
+    <div lang={SCENARIOS[scenario]?.language}>
       <div className="flex items-center justify-between gap-3 mb-6">
         <div className="flex items-center gap-3">
           <span className="text-4xl">{stakeholder.emoji}</span>
@@ -78,7 +78,7 @@ export default function RoleDetail() {
         )}
       </div>
       {isMyRole || isFacilitatorUnlocked() ? (
-        <MarkdownRenderer content={content} />
+        <MarkdownRenderer content={content} lang={SCENARIOS[scenario]?.language} />
       ) : (
         <div>
           <p className="text-slate-600 mb-4">{stakeholder.shortDescription}</p>

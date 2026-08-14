@@ -302,7 +302,7 @@ export default function FacilitatorDashboard() {
             </div>
             <div className="px-6 py-4 max-h-[70vh] overflow-y-auto">
               {debriefingContent ? (
-                <MarkdownRenderer content={debriefingContent} />
+                <MarkdownRenderer content={debriefingContent} lang={SCENARIOS[session.scenario]?.language} />
               ) : (
                 <p className="text-slate-500">Loading...</p>
               )}

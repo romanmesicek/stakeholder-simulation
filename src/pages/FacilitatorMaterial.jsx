@@ -61,7 +61,7 @@ export default function FacilitatorMaterial() {
   }
 
   return (
-    <div>
+    <div lang={lang}>
       <BackButton to="/facilitate" label={isGerman ? 'Zurück' : 'Back'} />
 
       <div className="mb-6">
@@ -74,7 +74,7 @@ export default function FacilitatorMaterial() {
       </div>
 
       <div className="bg-white border border-slate-200 rounded-lg p-6">
-        <MarkdownRenderer content={content} />
+        <MarkdownRenderer content={content} lang={lang} />
       </div>
     </div>
   );

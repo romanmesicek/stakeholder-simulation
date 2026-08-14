@@ -29,9 +29,9 @@ export default function CasePage() {
   }
 
   return (
-    <div>
+    <div lang={getScenarioLanguage(scenario)}>
       <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
-      <MarkdownRenderer content={content} />
+      <MarkdownRenderer content={content} lang={getScenarioLanguage(scenario)} />
     </div>
   );
 }

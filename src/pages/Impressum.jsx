@@ -1,6 +1,6 @@
 export default function Impressum() {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto" lang="de">
       <h1 className="text-2xl font-bold text-slate-800 mb-6">Impressum</h1>
 
       <div className="space-y-6 text-slate-700">

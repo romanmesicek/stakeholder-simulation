@@ -2,6 +2,7 @@ import { useSearchParams } from 'react-router-dom';
 import RoleCard from '../components/RoleCard';
 import { getOrderedStakeholders } from '../lib/stakeholders';
 import { useRole } from '../lib/RoleContext';
+import { getScenarioLanguage } from '../lib/i18n';
 
 export default function RolesOverview() {
   const [searchParams] = useSearchParams();
@@ -10,8 +11,8 @@ export default function RolesOverview() {
   const stakeholders = getOrderedStakeholders(scenario);
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold text-slate-800 mb-6">Select Your Role</h1>
+    <div lang={getScenarioLanguage(scenario)}>
+      <h1 className="text-2xl font-bold text-slate-800 mb-6" lang="en">Select Your Role</h1>
       <div className="grid gap-4">
         {stakeholders.map((stakeholder) => (
           <RoleCard key={stakeholder.id} stakeholder={stakeholder} showDescription />

@@ -157,7 +157,7 @@ export default function JoinSession() {
     : null;
 
   return (
-    <div>
+    <div lang={SCENARIOS[session?.scenario]?.language}>
       <Link
         to="/"
         className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-800 mb-6"

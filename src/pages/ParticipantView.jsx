@@ -145,7 +145,7 @@ export default function ParticipantView() {
   const keyFactsLabel = SCENARIOS[session.scenario]?.keyFactsLabel || '🎭 Staying in Role';
 
   return (
-    <div>
+    <div lang={SCENARIOS[session.scenario]?.language}>
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-xl font-bold text-slate-800">{t.yourRole}</h1>
         <span className="font-mono text-sm text-slate-500">{sessionCode}</span>
@@ -176,19 +176,19 @@ export default function ParticipantView() {
       {/* Accordion Sections */}
       <div className="space-y-3">
         <Accordion title={t.roleCardSection} defaultOpen>
-          <MarkdownRenderer content={content.roleMarkdown} />
+          <MarkdownRenderer content={content.roleMarkdown} lang={SCENARIOS[session.scenario]?.language} />
         </Accordion>
 
         <Accordion title={keyFactsLabel}>
-          <MarkdownRenderer content={content.keyFacts} />
+          <MarkdownRenderer content={content.keyFacts} lang={SCENARIOS[session.scenario]?.language} />
         </Accordion>
 
         <Accordion title={t.caseSection}>
-          <MarkdownRenderer content={content.situationBriefing} />
+          <MarkdownRenderer content={content.situationBriefing} lang={SCENARIOS[session.scenario]?.language} />
         </Accordion>
 
         <Accordion title={t.scheduleSection}>
-          <MarkdownRenderer content={content.schedule} />
+          <MarkdownRenderer content={content.schedule} lang={SCENARIOS[session.scenario]?.language} />
         </Accordion>
 
         <Accordion title={t.allGroupsSection}>

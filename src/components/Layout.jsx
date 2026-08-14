@@ -26,7 +26,9 @@ export default function Layout() {
 
       {/* Main content */}
       <main className="flex-1">
-        <div className="max-w-4xl mx-auto px-4 py-6">
+        {/* break-words + hyphens-auto inherit into all pages; hyphenation
+            language follows the nearest lang attribute set per page. */}
+        <div className="max-w-4xl mx-auto px-4 py-6 break-words hyphens-auto">
           <Outlet />
         </div>
       </main>

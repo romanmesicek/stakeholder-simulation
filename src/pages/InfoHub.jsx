@@ -80,6 +80,7 @@ export default function InfoHub() {
           {scenarios.map(s => (
             <button
               key={s.id}
+              lang={s.language}
               onClick={() => handleScenarioChange(s.id)}
               className={`p-4 rounded-xl border-2 text-left transition-all ${
                 scenario === s.id
@@ -119,9 +120,9 @@ export default function InfoHub() {
       </div>
 
       {/* Info Cards */}
-      <h1 className="text-2xl font-bold text-slate-800 mb-4">{l.hubTitle}</h1>
+      <h1 className="text-2xl font-bold text-slate-800 mb-4" lang={scenarioData?.language}>{l.hubTitle}</h1>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2" lang={scenarioData?.language}>
         {infoCards.map((card) => (
           <Link
             key={card.path}

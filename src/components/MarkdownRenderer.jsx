@@ -11,9 +11,15 @@ const components = {
   ),
 };
 
-export default function MarkdownRenderer({ content }) {
+// `lang` enables proper hyphenation (hyphens-auto picks the dictionary from
+// the lang attribute) — pass the scenario language ('de'/'en') so long German
+// compounds break with a hyphen instead of a hard wrap.
+export default function MarkdownRenderer({ content, lang }) {
   return (
-    <div className="prose prose-slate max-w-none break-words prose-headings:text-slate-800 prose-p:text-slate-600 prose-li:text-slate-600 prose-strong:text-slate-800 prose-table:text-sm">
+    <div
+      lang={lang}
+      className="prose prose-slate max-w-none break-words hyphens-auto prose-headings:text-slate-800 prose-p:text-slate-600 prose-li:text-slate-600 prose-strong:text-slate-800 prose-table:text-sm"
+    >
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
         {content}
       </ReactMarkdown>

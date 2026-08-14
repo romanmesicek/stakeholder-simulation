@@ -23,7 +23,7 @@ export default function StakeholdersOverview() {
   const isGerman = getScenarioLanguage(scenario) === 'de';
 
   return (
-    <div>
+    <div lang={getScenarioLanguage(scenario)}>
       <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
       <h1 className="text-2xl font-bold text-slate-800 mb-6">
         {isGerman ? 'Alle Interessengruppen' : 'All Stakeholder Groups'}

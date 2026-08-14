@@ -32,6 +32,9 @@ Each scenario can have one or more difficulty levels:
 
 Level labels/badges/descriptions come from `levelMeta` in each `SCENARIOS` entry.
 
+### Language rule
+`index.html` is `lang="en"` (app chrome, facilitator pages). Every container that renders scenario content or scenario-language UI carries `lang={SCENARIOS[scenario].language}`: all markdown via `MarkdownRenderer`'s `lang` prop, the page roots of the info/participant/join pages, the per-scenario cards in the InfoHub, `FacilitatorMaterial`, and `/impressum` (hard `de`). The Layout main container sets `break-words hyphens-auto`, so long words (German compounds!) wrap with language-correct hyphenation everywhere — when adding a page that shows scenario text, set `lang` on its root.
+
 ### Sessions
 - Created by facilitators with a unique 6-character code
 - Facilitator selects scenario, level, and active groups
