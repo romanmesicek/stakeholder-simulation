@@ -20,7 +20,7 @@ Facilitator creates session     Participants join via code     Groups negotiate
 
 ## Included Scenarios
 
-The platform ships with two ready-to-use scenarios. New scenarios can be added with minimal code changes (see below).
+The platform ships with three ready-to-use scenarios. New scenarios can be added with minimal code changes (see below).
 
 ### Energy Transition (English)
 
@@ -29,6 +29,10 @@ A coal plant phase-out negotiation. 8 stakeholder groups with competing interest
 ### Umweltverschmutzung in Talstadt (Deutsch)
 
 Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Zwei Fabriken verschmutzen Luft und Wasser, sechs Interessengruppen — Stadtrat, Umweltbehörde, beide Fabrikl­eitungen, Fremdenverkehrsverein und Anglerclub — verhandeln über Lösungen. Ein Level: **Bachelor**.
+
+### The Falkenberg Data Center (English)
+
+A hyperscale data center siting negotiation, distilled from real European conflicts (Kronstorf, Dublin, Zeewolde, Frankfurt, the Nordic waste-heat successes, Aragón). 8 stakeholder groups — the cloud company, municipal council, citizens' initiative, environmental NGO, grid operator, development agency, farmers, and the permitting authority — negotiate whether and under which binding conditions the campus gets built. One level: **Master** (~4 hours).
 
 ## Features
 
@@ -118,6 +122,7 @@ The architecture is designed so new scenarios require no structural changes:
 1. **Define groups** — add an entry to `SCENARIOS` in `src/lib/stakeholders.js` (incl. `language`, `keyFactsLabel`, `levelMeta`)
 2. **Write content** — create `src/content/{scenario-id}/{level}/roles/` and `shared/`; role files are named `<groupId>.md`, shared files follow the fixed names (`situation-briefing.md`, `key-facts-reference.md`, `simulation-instructions.md`, `debriefing-questions.md`)
 3. **Optional facilitator materials** — add `facilitator/*.md` per level (e.g. `event-cards.md`, `role-overview.md`, `observation-sheet.md`, `common-problems.md`, `assessment-rubric.md`); each file type needs a matching key in `MATERIAL_META` (`src/lib/materialMeta.js`)
+4. **Info hub labels** — add an entry to the `labels` object in `src/pages/InfoHub.jsx`; without it, the hub silently falls back to the English energy-transition labels
 
 That's it. The content loader discovers the files via glob; the create-session UI, participant views, info hub, and facilitator dashboard all pick up the new scenario automatically.
 

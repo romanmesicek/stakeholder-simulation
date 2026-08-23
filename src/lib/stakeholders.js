@@ -170,6 +170,100 @@ export const SCENARIOS = {
         shortDescription: 'Vorstand des Anglerclubs mit 49 Mitgliedern. Will die Schwarzach als sauberes Gewässer erhalten und fordert Schadenersatz für das Fischsterben.'
       }
     }
+  },
+  'data-centers': {
+    id: 'data-centers',
+    name: 'The Falkenberg Data Center',
+    description: 'Hyperscale data center siting negotiation',
+    language: 'en',
+    keyFactsLabel: '📚 Key Facts & Reference',
+    levels: ['master'],
+    defaultLevel: 'master',
+    levelMeta: {
+      master: { label: 'Master', badge: 'MA', description: '~4 hours, 8 groups' },
+    },
+    groups: {
+      hyperscaler: {
+        id: 'hyperscaler',
+        name: 'NimbusData (Project Developer)',
+        emoji: '☁️',
+        color: 'blue',
+        order: 1,
+        priority: 1,
+        levels: ['master'],
+        shortDescription: 'Site development team of a global cloud company planning the 120 MW "Project Aurora" campus. Needs permits, grid connection and local acceptance — fast, and without concessions that set precedents for its global portfolio.'
+      },
+      municipality: {
+        id: 'municipality',
+        name: 'Falkenberg Municipal Council',
+        emoji: '🏛️',
+        color: 'purple',
+        order: 2,
+        priority: 2,
+        levels: ['master'],
+        shortDescription: 'Mayor and council members balancing jobs, tax revenue and re-election against water worries and protest. Control local zoning and building permits — and a budget gap nobody talks about.'
+      },
+      citizens: {
+        id: 'citizens',
+        name: 'Citizens\' Initiative "Falkenberg First"',
+        emoji: '📣',
+        color: 'orange',
+        order: 3,
+        priority: 3,
+        levels: ['master'],
+        shortDescription: 'Residents organized against the project as planned. Demand contract transparency, independent review of water use, and a say in a decision they feel was made 15 years ago without them.'
+      },
+      ngo: {
+        id: 'ngo',
+        name: 'GreenGrid Europe (Environmental NGO)',
+        emoji: '🌍',
+        color: 'green',
+        order: 4,
+        priority: 5,
+        levels: ['master'],
+        shortDescription: 'Supra-regional environmental organization. Fights for binding climate and resource conditions and a legal precedent — and can accept a locally painful project if the systemic conditions are strong enough.'
+      },
+      grid: {
+        id: 'grid',
+        name: 'Regional Grid Operator',
+        emoji: '⚡',
+        color: 'amber',
+        order: 5,
+        priority: 4,
+        levels: ['master'],
+        shortDescription: 'Operates the regional transmission grid. Its connection assessment is a de-facto veto: 150 MW fit into today\'s grid, anything more needs a new line — and someone has to pay for it.'
+      },
+      business: {
+        id: 'business',
+        name: 'Regional Development Agency',
+        emoji: '💼',
+        color: 'slate',
+        order: 6,
+        priority: 7,
+        levels: ['master'],
+        shortDescription: 'Economic development agency and business chamber. Sees the region\'s biggest investment in decades and fears an "anti-business" reputation — but must learn to argue with defensible job numbers.'
+      },
+      farmers: {
+        id: 'farmers',
+        name: 'Farmers & Landowners',
+        emoji: '🚜',
+        color: 'emerald',
+        order: 7,
+        priority: 6,
+        levels: ['master'],
+        shortDescription: 'Farming families around the site. Two of them still own land the campus needs; all of them share the water. Torn between a life-changing land deal and the neighbors who have to stay.'
+      },
+      regulator: {
+        id: 'regulator',
+        name: 'State Permitting Authority',
+        emoji: '⚖️',
+        color: 'cyan',
+        order: 8,
+        priority: 8,
+        levels: ['master'],
+        shortDescription: 'The state\'s water-law and plant-permitting authority. Issues the water and operating permits that actually decide the outcome, and can attach binding conditions — if they hold up in court.'
+      }
+    }
   }
 };
 

@@ -17,6 +17,13 @@ const labels = {
     stakeholders: { title: 'Interessengruppen', description: 'Übersicht aller Gruppen im Planspiel' },
     reference: { title: 'Informationsmaterialien', description: 'Fakten, Gutachten und Gesetze' },
   },
+  'data-centers': {
+    hubTitle: 'Information Hub',
+    case: { title: 'The Case', description: 'The Falkenberg situation briefing and background' },
+    schedule: { title: 'Schedule', description: 'Simulation timeline, phases and the permit rules' },
+    stakeholders: { title: 'Stakeholder Groups', description: 'Overview of all stakeholder groups' },
+    reference: { title: 'Key Facts & Reference', description: 'The shared fact sheet all parties can cite — and contest' },
+  },
 };
 
 const defaultLabels = labels['energy-transition'];

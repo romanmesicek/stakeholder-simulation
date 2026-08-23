@@ -8,7 +8,7 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 ## Versioning
 
-App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both existing scenarios after the August 2026 code + content reviews. **3.0** is reserved for the data-centers scenario release. Convention: minor bump for feature/content waves, major bump for a new scenario.
+App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both original scenarios after the August 2026 code + content reviews. **3.0.0** = release of the data-centers scenario. Convention: minor bump for feature/content waves, major bump for a new scenario.
 
 ## Tech Stack
 
@@ -24,11 +24,13 @@ App version lives in `package.json` (`version`) and is rendered in the global fo
 The platform supports multiple scenarios, each with its own stakeholder groups and content:
 - **Energy Transition** (`energy-transition`): Coal plant phase-out negotiation, 8 groups, bachelor/master levels
 - **Umweltverschmutzung in Talstadt** (`talstadt`): Environmental pollution conflict in a small German town, 6 groups, single level
+- **The Falkenberg Data Center** (`data-centers`): Hyperscale data center siting negotiation in a fictional EU town, 8 groups, single level (master), English; distilled from `material/2026-08-10_data-centers-dossier.md`. All game numbers live in the calibration table in `facilitator/role-overview.md` — keep every content file consistent with it
 
 ### Levels
 Each scenario can have one or more difficulty levels:
 - Energy Transition: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity)
 - Talstadt: single level, stored and displayed as `bachelor` (BA badge)
+- Data Centers: single level, stored and displayed as `master` (MA badge) — deliberately no bachelor level for now
 
 Level labels/badges/descriptions come from `levelMeta` in each `SCENARIOS` entry.
 
@@ -68,6 +70,16 @@ The whole facilitator area (`/facilitate*` incl. materials) sits behind a shared
 5. Fremdenverkehrsverein (tourism association)
 6. Anglerclub (fishing club)
 
+**Data Centers** (8 groups):
+1. NimbusData (hyperscaler / project developer)
+2. Falkenberg Municipal Council (mayor, council, Stadtwerke)
+3. Citizens' Initiative "Falkenberg First"
+4. GreenGrid Europe (environmental NGO)
+5. Regional Grid Operator (connection = de-facto veto)
+6. Regional Development Agency (business/investment attraction)
+7. Farmers & Landowners (own 15 ha of the site, senior water rights)
+8. State Permitting Authority (water/operating permits, binding conditions)
+
 ## Project Structure
 
 ```
@@ -75,10 +87,12 @@ The whole facilitator area (`/facilitate*` incl. materials) sits behind a shared
 ├── /components       # Reusable UI components
 ├── /content          # Markdown content by scenario → level
 │   ├── /energy-transition
-│   │   ├── /bachelor/roles|shared
-│   │   └── /master/roles|shared
-│   └── /talstadt
-│       └── /bachelor/roles|shared|facilitator
+│   │   ├── /bachelor/roles|shared|facilitator
+│   │   └── /master/roles|shared|facilitator
+│   ├── /talstadt
+│   │   └── /bachelor/roles|shared|facilitator
+│   └── /data-centers
+│       └── /master/roles|shared|facilitator
 ├── /hooks            # Custom React hooks
 │   ├── useSession.js       # Single session data
 │   ├── useAllSessions.js   # Facilitator's sessions (keys in localStorage)
@@ -166,7 +180,8 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 ### Add a new scenario
 1. Add entry in `SCENARIOS` in `src/lib/stakeholders.js` (incl. `language`, `keyFactsLabel`, `levelMeta`)
 2. Create content folder `src/content/new-scenario/{level}/roles|shared/` following the file conventions above
-3. Done — the loader discovers the files, CreateSession reads `getScenariosArray()` dynamically
+3. Add a labels entry in `src/pages/InfoHub.jsx` — easy to miss; without it the info hub silently shows the English energy-transition labels
+4. Done — the loader discovers the files, CreateSession reads `getScenariosArray()` dynamically. Group `color` must be one of the 8 whitelisted Tailwind colors (blue, amber, emerald, green, purple, orange, slate, cyan — see `RoleCard.jsx`)
 
 ### Add a new stakeholder group to existing scenario
 1. Add entry in `SCENARIOS[scenario].groups` in `src/lib/stakeholders.js`
@@ -182,7 +197,7 @@ Two consolidated reviews (August 2026) track findings and remaining work — che
 - `docs/code-review-2026-08.md` — code/UX/security review (step 1, largely done; remaining: session cleanup, hook consistency, Supabase Auth for SaaS)
 - `docs/content-review-2026-08.md` — case-content & didactics review (step 2; **all three packages done August 2026**, implementation notes inline — only the "Größere Ideen" list at the end remains open)
 
-Next up (step towards 3.0): the **data-centers scenario**, distilled from `material/2026-08-10_data-centers-dossier.md` (research prompt: `material/research-prompt-data-centers.md`).
+The **data-centers scenario** (3.0) shipped August 2026: master level only, English, 8 groups (the platform maximum), distilled from `material/2026-08-10_data-centers-dossier.md` (research prompt: `material/research-prompt-data-centers.md`). The dossier's two further role candidates were deliberately dropped, not deferred: the expert role lives on as the shared, contestable Key Facts sheet (Mercury-Game design), the unions don't fit the 8-group cap. Documented option for a later wave: a bachelor level (6–7 groups, permitting authority folded into the facilitator's State-Secretary side-role) — see Block 3 of the dossier.
 
 ## Testing Locally
 
