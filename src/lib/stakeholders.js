@@ -173,7 +173,7 @@ export const SCENARIOS = {
   },
   'data-centers': {
     id: 'data-centers',
-    name: 'The Falkenberg Data Center',
+    name: 'Falkenberg Data Center',
     description: 'Hyperscale data center siting negotiation',
     language: 'en',
     keyFactsLabel: '📚 Key Facts & Reference',
