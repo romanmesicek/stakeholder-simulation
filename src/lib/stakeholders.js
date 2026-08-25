@@ -99,8 +99,8 @@ export const SCENARIOS = {
   },
   'talstadt': {
     id: 'talstadt',
-    name: 'Umweltverschmutzung in Talstadt',
-    description: 'Umweltkonflikt in einer Kleinstadt',
+    name: 'Umweltkonflikt in der Kleinstadt',
+    description: 'Zwei Fabriken verschmutzen Luft und Wasser im Kurort',
     language: 'de',
     keyFactsLabel: '📚 Informationsmaterialien',
     levels: ['bachelor'],
@@ -173,8 +173,8 @@ export const SCENARIOS = {
   },
   'data-centers': {
     id: 'data-centers',
-    name: 'Falkenberg Data Center',
-    description: 'Hyperscale data center siting negotiation',
+    name: 'Data Center Decision',
+    description: 'Hyperscale siting negotiation in a fictional EU town',
     language: 'en',
     keyFactsLabel: '📚 Key Facts & Reference',
     levels: ['master'],

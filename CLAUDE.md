@@ -23,8 +23,8 @@ App version lives in `package.json` (`version`) and is rendered in the global fo
 ### Scenarios
 The platform supports multiple scenarios, each with its own stakeholder groups and content:
 - **Energy Transition** (`energy-transition`): Coal plant phase-out negotiation, 8 groups, bachelor/master levels
-- **Umweltverschmutzung in Talstadt** (`talstadt`): Environmental pollution conflict in a small German town, 6 groups, single level
-- **Falkenberg Data Center** (`data-centers`): Hyperscale data center siting negotiation in a fictional EU town, 8 groups, single level (master), English; distilled from `material/2026-08-10_data-centers-dossier.md`. All game numbers live in the calibration table in `facilitator/role-overview.md` — keep every content file consistent with it
+- **Umweltkonflikt in der Kleinstadt** (`talstadt`): Environmental pollution conflict in the small German town of Talstadt, 6 groups, single level
+- **Data Center Decision** (`data-centers`): Hyperscale data center siting negotiation in the fictional EU town of Falkenberg, 8 groups, single level (master), English; distilled from `material/2026-08-10_data-centers-dossier.md`. All game numbers live in the calibration table in `facilitator/role-overview.md` — keep every content file consistent with it. Scenario display titles are place-name-free by convention; the fictional place names live only in the materials
 
 ### Levels
 Each scenario can have one or more difficulty levels:

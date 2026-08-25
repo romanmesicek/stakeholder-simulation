@@ -26,11 +26,11 @@ The platform ships with three ready-to-use scenarios. New scenarios can be added
 
 A coal plant phase-out negotiation. 8 stakeholder groups with competing interests — workers, management, environmentalists, investors, government, indigenous community, local residents, and technical experts — must agree on a transition plan. Supports **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity) levels.
 
-### Umweltverschmutzung in Talstadt (Deutsch)
+### Umweltkonflikt in der Kleinstadt (Deutsch)
 
 Ein Planspiel zu Umweltkonflikten in einer Kleinstadt. Zwei Fabriken verschmutzen Luft und Wasser, sechs Interessengruppen — Stadtrat, Umweltbehörde, beide Fabrikl­eitungen, Fremdenverkehrsverein und Anglerclub — verhandeln über Lösungen. Ein Level: **Bachelor**.
 
-### Falkenberg Data Center (English)
+### Data Center Decision (English)
 
 A hyperscale data center siting negotiation, distilled from real European conflicts (Kronstorf, Dublin, Zeewolde, Frankfurt, the Nordic waste-heat successes, Aragón). 8 stakeholder groups — the cloud company, municipal council, citizens' initiative, environmental NGO, grid operator, development agency, farmers, and the permitting authority — negotiate whether and under which binding conditions the campus gets built. One level: **Master** (~4 hours).
 
