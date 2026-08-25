@@ -174,7 +174,7 @@ export const SCENARIOS = {
   'data-centers': {
     id: 'data-centers',
     name: 'Data Center Decision',
-    description: 'Hyperscale siting negotiation in a fictional EU town',
+    description: 'A town negotiates whether a giant data center gets built, and on what terms',
     language: 'en',
     keyFactsLabel: '📚 Key Facts & Reference',
     levels: ['master'],
