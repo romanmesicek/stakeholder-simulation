@@ -2,7 +2,7 @@ export const SCENARIOS = {
   'energy-transition': {
     id: 'energy-transition',
     name: 'Energy Transition',
-    description: 'Coal plant phase-out negotiation',
+    description: 'A region negotiates how fast to shut down its coal plants, and who pays for it',
     language: 'en',
     keyFactsLabel: '📊 Key Facts',
     levels: ['bachelor', 'master'],
@@ -100,7 +100,7 @@ export const SCENARIOS = {
   'talstadt': {
     id: 'talstadt',
     name: 'Umweltkonflikt in der Kleinstadt',
-    description: 'Zwei Fabriken verschmutzen Luft und Wasser im Kurort',
+    description: 'Eine Kleinstadt verhandelt, wie sie saubere Luft bekommt, ohne ihre Arbeitsplätze zu verlieren',
     language: 'de',
     keyFactsLabel: '📚 Informationsmaterialien',
     levels: ['bachelor'],
