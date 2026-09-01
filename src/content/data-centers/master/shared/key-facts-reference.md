@@ -18,9 +18,9 @@ Unflagged figures are independently verified. Quoting a flagged figure is legiti
 | Parameter | Figure |
 |---|---|
 | Phase 1 | 120 MW IT load, ~€1.2 bn investment, 2-year build, ~800 construction workers |
-| Phase 2 | Option to 450 MW total; unconfirmed by NimbusData [CONFLICTING with rumors of more] |
+| Phase 2 | Option to 450 MW total; NimbusData has not confirmed it, and rumors point higher [CONFLICTING] |
 | Site | 55 ha, zoned industrial 15 years ago; 40 ha under option, 15 ha owned by two farming families |
-| Land price offered | €45/m², while local SMEs in the same zone paid €70/m² |
+| Land price offered | €45/m², while local small and medium-sized businesses (SMEs) in the same zone paid €70/m² |
 | Electricity, Phase 1 | up to 1.0 TWh/yr ≈ 250,000 households ≈ 29% of the region's 3.5 TWh |
 | Grid headroom | 150 MW absorbable without reinforcement (Grid Operator, published); beyond that a new 220-kV line, ~€180 M, 6–8 years |
 | Water permit as filed | up to 600,000 m³/yr from the Verla; discharge capped at 28 °C against the river's summer ecological guideline of 26 °C |
@@ -75,7 +75,7 @@ Modern closed-loop designs cut water use by an order of magnitude. The criticism
 
 | Fact | Figure | Source type |
 |---|---|---|
-| Permanent operations staffing at hyperscale | 0.2–0.3 FTE per MW, which means 25–40 direct jobs for a 120 MW campus | Independent benchmark |
+| Permanent operations staffing at hyperscale | 0.2–0.3 full-time jobs per MW, which means 25–40 direct jobs for a 120 MW campus | Independent benchmark |
 | Construction workforce | ~850 workers over ~18 months per 100 MW | Secondary synthesis |
 | Independent county-level study (~770 facilities) | +4–5% total private employment over 5–6 years: real, higher-skill, and modest; industry impact reports overstate ~3× | Independent study |
 | Zeewolde (NL) jobs-per-hectare | 2.5 jobs/ha promised vs. ~7 jobs/ha at comparable sites, the single most damaging number in that debate | Documented |

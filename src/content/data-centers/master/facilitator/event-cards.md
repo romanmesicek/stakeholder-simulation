@@ -37,13 +37,13 @@ Events the facilitator (in the side-role of State Secretary) can inject to shift
 
 > Breaking news: The National Energy Authority, together with the European association of energy and environmental regulators, has published a model conditions framework for hyperscale data-center permits: efficiency ceiling PUE ≤ 1.2, majority sourcing from newly built renewables, water caps with drought provisions, waste-heat readiness, and annual public disclosure. Several states have announced they will apply it.
 
-**Effect:** The Regulator's wish list becomes the published mainstream, not a local invention. The NGO's benchmark demands gain institutional backing; NimbusData must argue against a standard, not a stakeholder. Modeled on the Irish CRU decision of 2025.
+**Effect:** The Regulator's wish list becomes the published mainstream, not a local invention. The NGO's benchmark demands gain institutional backing; NimbusData must argue against a standard, not a stakeholder. Modeled on the Irish energy regulator's December 2025 decision.
 
 ### E2: Court ruling next door (procedure becomes real)
 
 > Breaking news: The state administrative court has annulled the permit for a logistics park in a neighboring district because the public notice was defective and the affected residents were not properly heard. The project had been under construction for a year. Legal commentators call it "a warning to every fast-tracked procedure in the state."
 
-**Effect:** Party status and clean procedure stop being abstractions. Citizens and Farmers gain quiet power; the Regulator gains an unanswerable argument against political pressure for shortcuts. Modeled on the PW Digital Gateway litigation and the Dutch Council of State's Zeewolde annulment.
+**Effect:** Party status and clean procedure stop being abstractions. Citizens and Farmers gain quiet power; the Regulator gains an unanswerable argument against political pressure for shortcuts. Modeled on the Digital Gateway litigation in Virginia (US) and the Dutch Council of State's Zeewolde annulment.
 
 ### E3: Drought warning (the dry August arrives early)
 

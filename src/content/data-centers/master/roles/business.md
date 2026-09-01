@@ -17,7 +17,7 @@ You are the leadership of the Regional Development Agency, joined at the hip wit
 
 **What you got right:**
 - The site competition was real; the region beat richer rivals on land, grid proximity, fiber and speed
-- The construction phase is genuinely big: ~800 workers for 18 months and up to ~€200 million in contracts that regional firms can win, provided a local-contractor clause makes it into the accord
+- The construction phase is genuinely big: ~800 workers over the two-year build and up to ~€200 million in contracts that regional firms can win, provided a local-contractor clause makes it into the accord
 - The independent evidence supports a *modest, real* effect: regions receiving a first large data center show measurably higher private employment over the following years, concentrated in construction and IT services
 
 **What went wrong:**
@@ -72,7 +72,7 @@ Why: hard quotas for local firms are illegal. Consequence: the local-contractor 
 
 ### KEY FACTS TO USE
 
-- ~800 construction workers over 18 months and up to €200 million in regional construction volume: solid, local, and yours to organize
+- ~800 construction workers over the two-year build and up to €200 million in regional construction volume: solid, local, and yours to organize
 - The independent county-level evidence: +4–5% total private employment over 5–6 years after a first large data center. Real and modest, and you say both words
 - The region won a genuine site competition. Capital is mobile, 25 data-center projects were cancelled worldwide last year, and regions that fumble don't get the next call
 - The heat deal (2,800 households off gas) and the guaranteed-jobs contract are exactly the "tangible benefit" evidence the acceptance literature says builds trust

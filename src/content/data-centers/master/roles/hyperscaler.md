@@ -73,8 +73,8 @@ Why: cloud customer and pricing terms are the company's crown jewels. Consequenc
 **No Precedent-Setting Cash Fund Above €8 Million**
 Why: a "community payment" here becomes the opening bid at every future site; HQ approval caps cash-equivalent spending at €8 million. Consequence: in-kind offers only beyond that line.
 
-**No Permit Package Beyond ~15 Months or ~€40 Million Total**
-Why: the alternative site exists, and the board compares weekly. Consequence: beyond these lines, exit beats agreement, and everyone should believe you.
+**No Permit Package Beyond ~15 Months or ~€40 Million in Community Concessions**
+Why: the alternative site exists, and the board compares weekly. The €40 million covers heat, reservoir, cash and similar concessions; the closed-loop cooling system is a separate campus investment the board will only approve with a Phase 2 pathway. Consequence: beyond these lines, exit beats agreement, and everyone should believe you.
 
 **The 15 Hectares**
 Why: without Brandt and Keller, there is no full Phase 1 and no Phase 2. Consequence: you cannot bully the farmers; you need at least one of them at the table, and expropriation is politically unthinkable.
@@ -86,7 +86,7 @@ Why: without Brandt and Keller, there is no full Phase 1 and no Phase 2. Consequ
 - Your PUE ≤1.15 design vs. the stagnant industry average of ~1.55, a gap that has been independently confirmed
 - Delivered waste-heat precedents: 92% of a university campus's heat in Dublin; ~250,000 residents served in Espoo
 - The closed-loop option cuts water use by roughly a factor of seven. It is your answer to the river argument, at a price
-- ~800 construction jobs for 18 months and ~€200 million in potential regional contracts are real and local
+- ~800 construction jobs over the two-year build and ~€200 million in potential regional contracts are real and local
 - Grid headroom of 150 MW means Phase 1 needs no new line; the €180 million question belongs to Phase 2
 - 25 data-center projects were cancelled worldwide in 2025, four times the year before. Developers do walk, and your exit threat is credible because it is the industry pattern
 
@@ -104,7 +104,7 @@ Why: without Brandt and Keller, there is no full Phase 1 and no Phase 2. Consequ
 
 **Best outcome:** Permits in ≤9 months; water as filed with a drought clause; concessions ≤€20 million in-kind (heat €15M + reservoir €5M); 60-job guarantee lands before the jobs debate escalates; Phase 2 criteria agreed; land at ≤€55/m².
 
-**Acceptable outcome:** Permits in ≤15 months; closed-loop conceded in exchange for an agreed Phase 2 pathway; total package ≤€40 million; key-terms disclosure and monitoring board conceded; 4-of-5 endorsements secured with only one civil party outside.
+**Acceptable outcome:** Permits in ≤15 months; community concessions ≤€40 million; closed-loop conceded only in exchange for an agreed Phase 2 pathway (its €60 million is a campus investment the board accepts for Phase 2, not part of the concession ceiling); key-terms disclosure and monitoring board conceded; 4-of-5 endorsements secured with only one civil party outside.
 
 **Failure to avoid:** A cash fund above €8 million or master-contract disclosure (global precedent); a package permanently excluding Phase 2; a 24-month process; being maneuvered into bidding against your own announcement on jobs.
 

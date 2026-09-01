@@ -97,7 +97,7 @@ Why: you have been burned before. Consequence: only contractually guaranteed job
 
 **Best outcome:** Accord with 100 guaranteed jobs, funded heat deal, land price moved toward €70/m², transparency package the initiative accepts, water tightened by the Regulator, and your name on all of it.
 
-**Acceptable outcome:** ≥60 guaranteed jobs, heat MoU with the funding split committed and a signed feasibility study, monitoring board with citizen seats, drought clause in the water permit.
+**Acceptable outcome:** ≥60 guaranteed jobs, a signed heat agreement in principle with the funding split committed and a funded feasibility study, monitoring board with citizen seats, drought clause in the water permit.
 
 **Failure to avoid:** Endorsing without transparency wins (election loss); Stadtwerke committed beyond €10 million; the initiative pushed outside the accord and campaigning against you; the project collapsing *after* you spent political capital on it, the worst of all worlds.
 

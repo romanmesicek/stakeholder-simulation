@@ -14,7 +14,7 @@ For grading the written reflection (1000–1200 words: Experience / Analysis / E
 - *Experience* → collaborative + critical thinking
 - *Analysis (salience shifts)* → systems + critical thinking
 - *Evidence (the contested figure)* → critical thinking + systems
-- *Theory (SLO, walk-away options and the deal space, regulatory conditionality)* → normative + systems (accuracy and fit of the applied concepts)
+- *Theory (social license, walk-away options and the deal space, regulatory conditionality)* → normative + systems (accuracy and fit of the applied concepts)
 - *Transfer (comparison with a real case)* → normative + critical thinking
 
 **Grade guide:** Excellent in 3+ competencies ≈ top band · Proficient across all four ≈ solid pass · Developing in 2+ ≈ revision needed. In the Theory part, grade the *fit* between concept and observed moment, not the number of concepts cited; in the Evidence part, reward students who traced how a flagged figure was used strategically, not those who merely list flags.
