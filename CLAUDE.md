@@ -170,7 +170,7 @@ In dev mode the loader warns at startup about missing role/shared files (`[conte
 
 ## Analytics
 
-Umami (self-hosted on the Airbox, `airbox.minuet-polaris.ts.net`) via script tag in `index.html`. `data-domains` limits tracking to the production domain, so dev servers and Vercel previews are not counted; SPA route changes are tracked automatically. When the Umami instance moves off the Airbox (planned), only the `src` URL in `index.html` needs updating.
+Umami (self-hosted, `stats.greenbean.at`) via script tag in `index.html`. `data-domains` limits tracking to the production domain, so dev servers and Vercel previews are not counted; SPA route changes are tracked automatically. If the Umami instance moves again, only the `src` URL in `index.html` needs updating; the `data-website-id` must stay the same or the history breaks.
 
 ## Environment Variables
 
