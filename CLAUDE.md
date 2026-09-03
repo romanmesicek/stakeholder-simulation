@@ -200,6 +200,7 @@ Two consolidated reviews (August 2026) track findings and remaining work — che
 
 - `docs/code-review-2026-08.md` — code/UX/security review (step 1, largely done; remaining: session cleanup, hook consistency, Supabase Auth for SaaS)
 - `docs/content-review-2026-08.md` — case-content & didactics review (step 2; **all three packages done August 2026**, implementation notes inline — only the "Größere Ideen" list at the end remains open)
+- `docs/content-review-data-centers-2026-09.md` — review history of the data-centers scenario (fact-check against the dossier, humanizer pass, full review on 2026-09-01), its fixed design decisions and style rules, and the open items
 
 The **data-centers scenario** (3.0) shipped August 2026: master level only, English, 8 groups (the platform maximum), distilled from `material/2026-08-10_data-centers-dossier.md` (research prompt: `material/research-prompt-data-centers.md`). The dossier's two further role candidates were deliberately dropped, not deferred: the expert role lives on as the shared, contestable Key Facts sheet (Mercury-Game design), the unions don't fit the 8-group cap. Documented option for a later wave: a bachelor level (6–7 groups, permitting authority folded into the facilitator's State-Secretary side-role) — see Block 3 of the dossier.
 
