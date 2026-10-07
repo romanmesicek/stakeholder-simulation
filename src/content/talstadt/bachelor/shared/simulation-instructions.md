@@ -17,20 +17,18 @@ Nach diesem Planspiel können Sie:
 
 ## Übersicht
 
-| Phase | Aktivität | Dauer |
-|-------|-----------|-------|
-| 0 | Einführung und Rollenverteilung | 10 min |
-| 1 | Einlesen und Strategieentwicklung | 30 min |
-| 2 | Verhandlungsrunden | 50 min |
-| 3 | Konferenzvorbereitung | 10 min |
-| 4 | Bürgerkonferenz | 30 min |
-| 5 | Auswertung und Reflexion | 20 min |
-
-**Gesamtdauer:** ca. 2,5 Stunden
+| Phase | Aktivität |
+|-------|-----------|
+| 0 | Einführung und Rollenverteilung |
+| 1 | Einlesen und Strategieentwicklung |
+| 2 | Verhandlungsrunden |
+| 3 | Konferenzvorbereitung |
+| 4 | Bürgerkonferenz |
+| 5 | Auswertung und Reflexion |
 
 ---
 
-## Phase 0: Einführung und Rollenverteilung (10 min)
+## Phase 0: Einführung und Rollenverteilung
 
 - Einführung in das Planspiel und die Situation in Talstadt
 - Blitzumfrage (Handzeichen oder Mentimeter, wird am Ende wiederholt): Wer trägt die Hauptverantwortung für die Lage in Talstadt? Wer soll die Umweltmaßnahmen bezahlen? Wird heute eine Einigung gelingen?
@@ -39,11 +37,11 @@ Nach diesem Planspiel können Sie:
 
 ---
 
-## Phase 1: Einlesen und Strategieentwicklung (30 min)
+## Phase 1: Einlesen und Strategieentwicklung
 
 ### Arbeitskarte –8 Schritte
 
-1. **Materialien lesen:** Lesen Sie Ihre Rollenkarte und die Informationsmaterialien gründlich durch (15 min)
+1. **Materialien lesen:** Lesen Sie Ihre Rollenkarte und die Informationsmaterialien gründlich durch
 2. **Situation analysieren:** Was ist Ihre Ausgangslage? Was sind Ihre Stärken und Schwächen?
 3. **Ziele formulieren:** Was wollen Sie erreichen? Was sind Ihre Mindestforderungen?
 4. **Strategie besprechen:** Diskutieren Sie in Ihrer Gruppe die Verhandlungsstrategie
@@ -56,21 +54,21 @@ Nach diesem Planspiel können Sie:
 
 ---
 
-## Phase 2: Verhandlungsrunden (50 min)
+## Phase 2: Verhandlungsrunden
 
-### Runde 1: Erste Kontakte (12 min)
+### Runde 1: Erste Kontakte
 
 Treffen Sie sich mit einer anderen Gruppe Ihrer Wahl. Lernen Sie die Positionen kennen, sondieren Sie Möglichkeiten.
 
-### Runde 2: Vertiefung (13 min)
+### Runde 2: Vertiefung
 
 Treffen Sie sich mit einer weiteren Gruppe. Vertiefen Sie Gespräche, verhandeln Sie konkret.
 
-### Runde 3: Bündnisbildung (13 min)
+### Runde 3: Bündnisbildung
 
 Bilden Sie Allianzen mit gleichgesinnten Gruppen. Erstellen Sie gemeinsame Positionspapiere.
 
-### Runde 4: Letzte Verhandlungen (12 min)
+### Runde 4: Letzte Verhandlungen
 
 Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Finalisieren Sie Ihre Position.
 
@@ -86,7 +84,7 @@ Letzte Chance für Kompromisse und Vereinbarungen vor der Bürgerkonferenz. Fina
 
 ---
 
-## Phase 3: Konferenzvorbereitung (10 min)
+## Phase 3: Konferenzvorbereitung
 
 Bereiten Sie sich gezielt auf die Bürgerkonferenz vor:
 
@@ -97,13 +95,13 @@ Bereiten Sie sich gezielt auf die Bürgerkonferenz vor:
 
 ---
 
-## Phase 4: Bürgerkonferenz (30 min)
+## Phase 4: Bürgerkonferenz
 
 Die Bürgermeisterin / der Bürgermeister Müller (gespielt von der Spielleitung) hat zu einer **Schlichtungskonferenz** eingeladen, um die Meinungsverschiedenheiten möglichst einvernehmlich auszuräumen.
 
 ### Ablauf
 
-1. **Eröffnung** durch Bürgermeister:in Müller (3 min)
+1. **Eröffnung** durch Bürgermeister:in Müller
 2. **Statements der Gruppen** –jede Gruppe hat maximal 2 Minuten, die Beschwerdeführer zuerst:
    - Anglerclub
    - Fremdenverkehrsverein
@@ -125,7 +123,7 @@ Die Bürgermeisterin / der Bürgermeister Müller (gespielt von der Spielleitung
 
 ---
 
-## Phase 5: Auswertung und Reflexion (20 min)
+## Phase 5: Auswertung und Reflexion
 
 Siehe "Auswertungsfragen" für die strukturierte Nachbesprechung.
 

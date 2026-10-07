@@ -18,18 +18,16 @@ Preparation, before the session: read the situation briefing and the Key Facts s
 
 ## Session Overview
 
-| Phase | Activity | Duration |
-|-------|----------|----------|
-| 0 | Opening & Role Distribution | 5 min |
-| 1 | Reading, Strategy & Statement Prep | 35 min |
-| 2 | Opening Statements & Stakeholder Mapping | 20 min |
-| 3 | Negotiation Round 1: Bilaterals | 45 min |
-| 4 | Caucus Break | 15 min |
-| 5 | Negotiation Round 2: Coalitions & Drafting | 45 min |
-| 6 | The Falkenberg Siting Conference | 30 min |
-| 7 | Structured Debrief | 25 min |
-
-Total: about 3 hours 40 minutes, plus breaks as scheduled by the facilitator.
+| Phase | Activity |
+|-------|----------|
+| 0 | Opening & Role Distribution |
+| 1 | Reading, Strategy & Statement Prep |
+| 2 | Opening Statements & Stakeholder Mapping |
+| 3 | Negotiation Round 1: Bilaterals |
+| 4 | Caucus Break |
+| 5 | Negotiation Round 2: Coalitions & Drafting |
+| 6 | The Falkenberg Siting Conference |
+| 7 | Structured Debrief |
 
 ---
 
@@ -39,27 +37,27 @@ The negotiation succeeds if the parties conclude a Falkenberg Accord. An accord 
 
 ---
 
-## Phase 0: Opening & Role Distribution (5 min)
+## Phase 0: Opening & Role Distribution
 
 - Join your stakeholder group
 - Collect your materials; your role card is confidential
 - Agree who does what in your group: one person leads the negotiations, one owns your numbers and the Key Facts flags, one keeps written notes of every offer
 
-## Phase 1: Reading & Strategy (35 min)
+## Phase 1: Reading & Strategy
 
-1. Read your role card carefully (15 min)
+1. Read your role card carefully
 2. Work out your position: What can you block? What can you offer? What happens to you if there is no deal?
 3. Check the Key Facts sheet for figures that help you and for figures that will be used against you, and prepare your answers
 4. Decide whose endorsement you need, who needs yours, what you ask for first, and what minimum you can defend at home
 5. Prepare a one-minute opening statement based on your legitimate claims
 
-## Phase 2: Opening Statements & Stakeholder Mapping (20 min)
+## Phase 2: Opening Statements & Stakeholder Mapping
 
 The facilitator chairs the session in the side role of State Secretary for Digital Infrastructure, who has convened the Falkenberg Siting Conference.
 
-Opening statements (10 min): one minute per group, in this order: NimbusData, Municipal Council, Citizens' Initiative, GreenGrid Europe, Grid Operator, Development Agency, Farmers & Landowners, State Permitting Authority.
+Opening statements: one minute per group, in this order: NimbusData, Municipal Council, Citizens' Initiative, GreenGrid Europe, Grid Operator, Development Agency, Farmers & Landowners, State Permitting Authority.
 
-Stakeholder mapping (10 min), via Mentimeter:
+Stakeholder mapping, via Mentimeter:
 
 - Rate each stakeholder on interest (1-10) and power (1-10)
 - Predict the outcome: accord with strong conditions, accord with weak conditions, no accord and the project leaves, or no accord and the project proceeds anyway
@@ -68,14 +66,14 @@ Stakeholder mapping (10 min), via Mentimeter:
   - Which constraint will bind hardest: grid capacity, water, land ownership, or public trust?
   - Who should pay for the grid line and the heat network: the developer, electricity customers, or taxpayers?
 
-## Phase 3: Negotiation Round 1: Bilaterals (45 min)
+## Phase 3: Negotiation Round 1: Bilaterals
 
-| Round | Duration | Format |
-|-------|----------|--------|
-| 1a | 12 min | Assigned bilateral with your designated partner |
-| 1b | 12 min | Assigned bilateral with your second designated partner |
-| 1c | 12 min | Open bilateral with a group of your choice |
-| 1d | 9 min | Group huddle: consolidate what you learned, adjust your strategy |
+| Round | Format |
+|-------|--------|
+| 1a | Assigned bilateral with your designated partner |
+| 1b | Assigned bilateral with your second designated partner |
+| 1c | Open bilateral with a group of your choice |
+| 1d | Group huddle: consolidate what you learned, adjust your strategy |
 
 Round 1a pairings: NimbusData + Municipal Council, Citizens' Initiative + GreenGrid, Farmers + Development Agency, Grid Operator + Permitting Authority.
 
@@ -83,18 +81,18 @@ Round 1b pairings: NimbusData + Farmers, Municipal Council + Grid Operator, Citi
 
 Round 1c: choose strategically. Meet the group that can make or break your coalition.
 
-## Phase 4: Caucus Break (15 min)
+## Phase 4: Caucus Break
 
 Groups meet internally, and coalitions may meet too. The State Secretary may bring breaking news that changes someone's leverage. Check your red lines again before Round 2; teams tend to betray their own instructions when time runs short.
 
-## Phase 5: Negotiation Round 2: Coalitions & Drafting (45 min)
+## Phase 5: Negotiation Round 2: Coalitions & Drafting
 
 - Form negotiation clusters around the four topics: water, heat, grid and expansion, jobs and transparency
 - Draft concrete accord language with numbers, funding sources, and enforcement. Who pays how much for what, and who verifies it?
 - Every commitment needs a named funding source. The facilitator strikes unfunded promises from the record.
 - Put everything in writing. Oral agreements do not reach the conference floor.
 
-## Phase 6: The Falkenberg Siting Conference (30 min)
+## Phase 6: The Falkenberg Siting Conference
 
 The State Secretary chairs the closing conference:
 
@@ -105,7 +103,7 @@ The State Secretary chairs the closing conference:
 - NimbusData declares its decision: sign, or move to the alternative site
 - Outcome summary, then the Mentimeter post-round: compare your predictions and pre-question answers with what actually happened
 
-## Phase 7: Structured Debrief (25 min)
+## Phase 7: Structured Debrief
 
 Follows the debriefing guide in four steps, from first reactions to the transfer into real cases. This block is protected time; it is where the learning consolidates.
 

@@ -17,20 +17,18 @@ By the end of this simulation you will be able to:
 
 ## Session Overview
 
-| Phase | Activity | Duration |
-|-------|----------|----------|
-| 0 | Opening & Role Distribution | 5 min |
-| 1 | Reading, Strategy & Statement Prep | 40 min |
-| 2 | Pitches & Voting | 20 min |
-| 3 | Negotiations | 75 min |
-| 4 | Final Positions & Results | 25 min |
-| 5 | Structured Debrief | 20 min |
-
-**Total:** 3 hours 5 minutes
+| Phase | Activity |
+|-------|----------|
+| 0 | Opening & Role Distribution |
+| 1 | Reading, Strategy & Statement Prep |
+| 2 | Pitches & Voting |
+| 3 | Negotiations |
+| 4 | Final Positions & Results |
+| 5 | Structured Debrief |
 
 ---
 
-## Phase 0: Opening & Role Distribution (5 min)
+## Phase 0: Opening & Role Distribution
 
 - Draw a role slip randomly
 - Join your stakeholder group table
@@ -38,9 +36,9 @@ By the end of this simulation you will be able to:
 
 ---
 
-## Phase 1: Reading & Strategy (40 min)
+## Phase 1: Reading & Strategy
 
-1. **Read** the case document and your role card carefully (15 min)
+1. **Read** the case document and your role card carefully
 2. **Understand** your goals, resources, and constraints
 3. **Analyze** the stakeholder landscape — Who holds power? Who shares your interests?
 4. **Strategize** with your group — Who do you need? What can you offer? What are your red lines?
@@ -50,11 +48,11 @@ Your role card is confidential. Do not share your specific constraints or bottom
 
 ---
 
-## Phase 2: Pitches & Voting (20 min)
+## Phase 2: Pitches & Voting
 
 The facilitator chairs this phase in the side-role of **Regional Energy Minister**, who has convened the transition conference.
 
-**Opening Statements (10 min)** — Each group presents 1 minute, in order:
+**Opening Statements** — Each group presents 1 minute, in order:
 
 1. PowerShift Energy Management
 2. Coal Plant Workers Union
@@ -65,7 +63,7 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 7. Investor Coalition
 8. Technical Expert Panel
 
-**Stakeholder Mapping (10 min)** — Via Mentimeter:
+**Stakeholder Mapping** — Via Mentimeter:
 - Rate each stakeholder on Interest (1–10) and Power (1–10)
 - Predict the outcome: Win-win / Partial / Zero-sum / Deadlock
 - Identify your most likely coalition partners
@@ -76,15 +74,15 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 
 ---
 
-## Phase 3: Negotiations (75 min)
+## Phase 3: Negotiations
 
-| Round | Duration | Format |
-|-------|----------|--------|
-| 1 | 12 min | Assigned bilateral — meet your designated partner |
-| 2 | 12 min | Assigned bilateral — meet your second designated partner |
-| 3 | 10 min | Open bilateral — choose one group you haven't met |
-| 4 | 20 min | Coalition building — form groups of 3–4, draft joint positions |
-| 5 | 21 min | Coalition refinement — finalize agreements, address remaining conflicts |
+| Round | Format |
+|-------|--------|
+| 1 | Assigned bilateral — meet your designated partner |
+| 2 | Assigned bilateral — meet your second designated partner |
+| 3 | Open bilateral — choose one group you haven't met |
+| 4 | Coalition building — form groups of 3–4, draft joint positions |
+| 5 | Coalition refinement — finalize agreements, address remaining conflicts |
 
 **Round 1 Pairings:** Management + Workers | Community + Government | Environmental + Indigenous | Investors + Technical
 
@@ -98,7 +96,7 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 
 ---
 
-## Phase 4: Final Positions & Results (25 min)
+## Phase 4: Final Positions & Results
 
 The **Regional Energy Minister** (facilitator) chairs the closing conference: opens it, moderates the statements, and announces the outcome.
 
@@ -114,16 +112,16 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
 
 ---
 
-## Phase 5: Structured Debrief (20 min)
+## Phase 5: Structured Debrief
 
-**Defusing (5 min):** Step out of role. Share initial reactions.
+**Defusing:** Step out of role. Share initial reactions.
 
-**Discovery (10 min):**
+**Discovery:**
 - What coalitions formed? What blocked others?
 - Where did power asymmetries become most visible?
 - What creative solutions emerged?
 
-**Deepening (5 min):**
+**Deepening:**
 - How did this simulation illustrate "wicked problem" characteristics?
 - Which justice dimensions (distributional, procedural, recognition) were most contested?
 

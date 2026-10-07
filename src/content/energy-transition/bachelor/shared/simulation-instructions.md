@@ -17,20 +17,18 @@ By the end of this simulation you will be able to:
 
 ## Session Overview
 
-| Phase | Activity | Duration |
-|-------|----------|----------|
-| 0 | Opening & Role Distribution | 5 min |
-| 1 | Reading & Strategy | 20 min |
-| 2 | Pitches & Voting | 15 min |
-| 3 | Negotiations | 35 min |
-| 4 | Final Positions & Results | 15 min |
-| 5 | Debrief | 25 min |
-
-**Total:** 1 hour 55 minutes
+| Phase | Activity |
+|-------|----------|
+| 0 | Opening & Role Distribution |
+| 1 | Reading & Strategy |
+| 2 | Pitches & Voting |
+| 3 | Negotiations |
+| 4 | Final Positions & Results |
+| 5 | Debrief |
 
 ---
 
-## Phase 0: Opening & Role Distribution (5 min)
+## Phase 0: Opening & Role Distribution
 
 - Draw a role slip randomly
 - Join your stakeholder group table
@@ -38,7 +36,7 @@ By the end of this simulation you will be able to:
 
 ---
 
-## Phase 1: Reading & Strategy (20 min)
+## Phase 1: Reading & Strategy
 
 1. **Read** the case document and your role card
 2. **Understand** your goals, resources, and constraints
@@ -49,11 +47,11 @@ Your role card is confidential. Do not share your specific constraints.
 
 ---
 
-## Phase 2: Pitches & Voting (15 min)
+## Phase 2: Pitches & Voting
 
 The facilitator chairs this phase in the side-role of **Regional Energy Minister**, who has convened the transition conference.
 
-**Opening Statements (8 min)** — Each group presents 1 minute, in order:
+**Opening Statements** — Each group presents 1 minute, in order:
 
 1. PowerShift Energy Management
 2. Coal Plant Workers Union
@@ -62,7 +60,7 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 5. Regional Government
 6. Investor Coalition
 
-**Voting (7 min)** — Via Mentimeter:
+**Voting** — Via Mentimeter:
 - Rate each stakeholder on Power (1–10)
 - Predict the outcome: Agreement / Partial / Deadlock
 - Pre-questions (revisited after the simulation):
@@ -72,12 +70,12 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 
 ---
 
-## Phase 3: Negotiations (35 min)
+## Phase 3: Negotiations
 
-| Round | Duration | Format |
-|-------|----------|--------|
-| 1 | 15 min | Bilateral meetings — meet assigned partners |
-| 2 | 20 min | Coalition building — form groups of 3–4, finalize positions |
+| Round | Format |
+|-------|--------|
+| 1 | Bilateral meetings — meet assigned partners |
+| 2 | Coalition building — form groups of 3–4, finalize positions |
 
 **Round 1 Pairings:** Management + Workers | Community + Government | Environmental + Investors
 
@@ -87,7 +85,7 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 
 ---
 
-## Phase 4: Final Positions & Results (15 min)
+## Phase 4: Final Positions & Results
 
 The **Regional Energy Minister** (facilitator) chairs the closing conference: opens it, moderates the statements, and announces the outcome.
 
@@ -99,14 +97,14 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
 
 ---
 
-## Phase 5: Debrief (25 min)
+## Phase 5: Debrief
 
 Led by the facilitator, out of role:
 
-1. **How are you feeling? (5 min)** — Step out of your role. First reactions.
-2. **What happened? (8 min)** — Which coalitions formed, and why? What were the turning points? Where did power decide?
-3. **What did you learn? (7 min)** — Compare outcomes against each group's Best/Acceptable/Avoid ladder and no-deal outcome. What made offers credible?
-4. **Real-world transfer (5 min)** — Where does this conflict play out in reality, and what would help there?
+1. **How are you feeling?** — Step out of your role. First reactions.
+2. **What happened?** — Which coalitions formed, and why? What were the turning points? Where did power decide?
+3. **What did you learn?** — Compare outcomes against each group's Best/Acceptable/Avoid ladder and no-deal outcome. What made offers credible?
+4. **Real-world transfer** — Where does this conflict play out in reality, and what would help there?
 
 See the Debriefing Guide for detailed questions per step.
 

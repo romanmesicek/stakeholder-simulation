@@ -168,6 +168,8 @@ await loadSharedContent('talstadt', 'bachelor', 'keyFacts');
 
 In dev mode the loader warns at startup about missing role/shared files (`[contentLoader]` in the console).
 
+**No durations in agendas.** The `simulation-instructions.md` files (all scenarios/levels) list phases and rounds without minute budgets, per-phase durations, or a total running time. The facilitator sets the timing per session from the available lecture time, so don't add duration columns, "(X min)" in headings, or "Total:" lines. Speaking-time limits (e.g. one-minute opening statements, "max. 2 Minuten Redezeit") are format rules and stay. The rough length in `levelMeta.description` ("~3 hours") is only an orientation for choosing a level.
+
 ## Analytics
 
 Umami (self-hosted, `stats.greenbean.at`) via script tag in `index.html`. `data-domains` limits tracking to the production domain, so dev servers and Vercel previews are not counted; SPA route changes are tracked automatically. If the Umami instance moves again, only the `src` URL in `index.html` needs updating; the `data-website-id` must stay the same or the history breaks.
