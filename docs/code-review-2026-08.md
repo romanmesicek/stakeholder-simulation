@@ -4,7 +4,7 @@ Consolidated findings from a three-track review (bugs/robustness, student UX jou
 
 Status legend: ☐ open · ☑ fixed (August 2026, packages A/B/C)
 
-Still open: M-6 (stale-session cleanup via pg_cron) and L-4 partially (hook realtime-update strategies still differ; `useAllSessions` still subscribes globally). Full Supabase Auth remains the SaaS-step task.
+Still open: M-6 (stale-session cleanup via pg_cron) and L-4 partially (hook realtime-update strategies still differ). Full Supabase Auth remains the SaaS-step task. An external review in October 2026 is tracked in the section at the end (X-1 to X-3).
 
 Lint cleanup 2026-08-14: `npm run lint` is clean. Content pages derive loading from a scenario/level key instead of sync `setLoading` in effects; hooks use `useCallback` with complete deps; `useRole`/`RoleContext` split into separate files (react-refresh). Three documented `eslint-disable` lines remain in the hooks where the `set-state-in-effect` rule false-positives on async fetch functions (all state updates happen after `await`).
 
@@ -80,7 +80,7 @@ Lint cleanup 2026-08-14: `npm run lint` is clean. Content pages derive loading f
 - ☑ L-1 Accessibility: Accordion lacks `aria-expanded`; labels not linked to inputs; errors lack `role="alert"`; `text-slate-400` hints below AA contrast; `index.html` hard-codes `lang="en"`; nav touch targets ~36 px.
 - ☑ L-2 Mobile input attrs on code field (`autoCapitalize="characters"` etc.); parse pasted full URLs.
 - ☑ L-3 Duplication: `BackButton` exists but 5 pages inline the SVG; loading spinner + "not found" blocks duplicated ~10×; `MATERIAL_META`/`CONTENT_META` duplicated.
-- ☐ L-4 Hook inconsistencies: `useSession` applies realtime payloads, others refetch; `updateStatus` failure is silent on the dashboard; `useAllSessions` subscribes to all participants globally.
+- ☐ L-4 Hook inconsistencies: `useSession` applies realtime payloads, others refetch; `updateStatus` failure is silent on the dashboard; ~~`useAllSessions` subscribes to all participants globally~~ (fixed October 2026, see X-1).
 - ☑ L-5 Dead code / naming: `STAKEHOLDER_GROUPS` shim unused; `package.json` name `stakeholder-temp`; `education_level`/`level` naming mix; scattered `|| 'energy-transition'` fallbacks; level copy hardcoded in `CreateSession.jsx:156-157`; `FacilitatorRoles.jsx:31` shows all 8 role cards regardless of `active_groups`; `colorClasses` needs a fallback.
 - ☑ L-6 Docs drift: CLAUDE.md says React 18 / talstadt `standard`; code has React 19.2, router 7, `bachelor`.
 
@@ -95,3 +95,11 @@ Lint cleanup 2026-08-14: `npm run lint` is clean. Content pages derive loading f
 ## SaaS notes (step 3 preview)
 
 The `contentLoader(scenario, level, key)` abstraction is the right seam — for SaaS only its backing store changes (DB/Storage instead of bundled md). Blockers: no tenancy column, no auth (C-1), content compiled into the bundle, language/level semantics hardcoded per scenario id (M-2, L-5).
+
+## External review — October 2026
+
+Three findings from an outside code review, checked against the code on 2026-10-09.
+
+- ☑ X-1 **Global realtime subscription in `useAllSessions`.** Correct: the hook subscribed to every row of `sessions` and `participants`, so a facilitator client received every participant name of every session. Fixed: the channel is now scoped with `id=in.(…)` / `session_id=in.(…)` to the session codes whose keys are on the device and is re-created when keys are imported or deleted. Note the limit: the underlying `SELECT ... USING (true)` RLS policies still let any anon client *query* all names directly; closing that needs an identity for participants (Supabase Auth, SaaS step) because realtime `postgres_changes` honours RLS and would go silent under a stricter policy.
+- ☐ X-2 **Rejoin is identity-by-name.** Correct as described: whoever knows the session code and a participant's name can take over that identity (all role content ships in the client bundle anyway, so the gain is friction, not secrecy). Not changed, because the obvious fix conflicts with the feature's purpose: rejoin exists for students whose phone died or who switch devices, i.e. exactly the case where a localStorage secret is gone. A server-verified secret therefore needs a user-facing credential (e.g. a 4-digit rejoin PIN shown on the session page, verified by a `rejoin_session(code, name, pin)` RPC, plus a facilitator reset on the dashboard). Decide before multi-course use whether that UX cost is worth it.
+- ☑ X-3 **Error mapping by message text.** Partially correct: PostgREST copies the `RAISE EXCEPTION` text verbatim into `message` and supabase-js passes it through, so the matching was not actually breaking, but it was the only signal. Fixed: `04_join_error_codes.sql` raises `join_session()` errors with PostgREST-style SQLSTATEs (`PT400/404/409/423`), and `src/lib/rpcErrors.js` reads `error.code` first with the message token as fallback, so the client works with and without migration 04.

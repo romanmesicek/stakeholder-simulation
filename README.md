@@ -96,7 +96,7 @@ ALTER TABLE sessions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE participants ENABLE ROW LEVEL SECURITY;
 ```
 
-Then run the migrations in `supabase/migrations/` (SQL Editor, in file order — the `01_`/`02_`/`03_` prefixes are the order; `03_` must run last because its functions use the columns the first two add). The most important one is `03_owner_key_and_atomic_join.sql`: it adds facilitator owner keys, the atomic `join_session()` group assignment, and the RLS policies (anonymous clients may only read; all writes go through `SECURITY DEFINER` functions).
+Then run the migrations in `supabase/migrations/` (SQL Editor, in file order — the `01_`/`02_`/`03_` prefixes are the order; `03_` must run last because its functions use the columns the first two add). The most important one is `03_owner_key_and_atomic_join.sql`: it adds facilitator owner keys, the atomic `join_session()` group assignment, and the RLS policies (anonymous clients may only read; all writes go through `SECURITY DEFINER` functions). `04_join_error_codes.sql` adds PostgREST-style error codes (`PTxyz` → HTTP xyz) to `join_session()`; the app also understands the message-only errors from `03_`, so existing installs can run it whenever convenient.
 
 Facilitators authenticate through a per-session **facilitator key**: generated in the browser on session creation, stored in localStorage, and shown on the session dashboard so it can be transferred to another device. Without the key, a session can be viewed but not closed, deleted, or edited.
 

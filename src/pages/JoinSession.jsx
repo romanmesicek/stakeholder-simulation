@@ -6,6 +6,7 @@ import { useParticipants } from '../hooks/useParticipants';
 import { SCENARIOS, getStakeholderById } from '../lib/stakeholders';
 import { getUiStrings } from '../lib/i18n';
 import { useRole } from '../lib/useRole';
+import { rpcErrorToken } from '../lib/rpcErrors';
 import Loading from '../components/Loading';
 
 export default function JoinSession() {
@@ -59,11 +60,13 @@ export default function JoinSession() {
     });
 
     if (rpcError || !data) {
-      const message = rpcError?.message || '';
-      if (message.includes('GROUPS_FULL')) {
+      const token = rpcErrorToken(rpcError);
+      if (token === 'GROUPS_FULL') {
         setError(t.allGroupsFull);
-      } else if (message.includes('SESSION_CLOSED')) {
+      } else if (token === 'SESSION_CLOSED') {
         setError(t.closedNoNewJoin);
+      } else if (token === 'SESSION_NOT_FOUND') {
+        setError(t.sessionNotFound);
       } else {
         setError(t.joinFailed);
       }

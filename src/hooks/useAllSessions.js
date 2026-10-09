@@ -8,9 +8,13 @@ export function useAllSessions() {
   const [sessions, setSessions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  // Comma-joined session codes the realtime subscription is scoped to;
+  // changes (key import/delete) re-create the channel.
+  const [codesKey, setCodesKey] = useState(() => knownSessionCodes().join(','));
 
   const fetchSessions = useCallback(async () => {
     const codes = knownSessionCodes();
+    setCodesKey(codes.join(','));
     if (codes.length === 0) {
       // Yield once so the state updates stay asynchronous even on this
       // shortcut path (avoids setState-in-effect render cascades).
@@ -45,26 +49,35 @@ export function useAllSessions() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- all state updates in fetchSessions happen after await (async)
     fetchSessions();
+  }, [fetchSessions]);
 
-    // Subscribe to session changes
-    const sessionsChannel = supabase
-      .channel('all-sessions')
+  useEffect(() => {
+    if (!codesKey) return;
+
+    // Scope the realtime subscription to this facilitator's own sessions —
+    // a global subscription would stream every participant of every session
+    // to this client. (Realtime filters DELETE events by primary key only, so
+    // participant removals elsewhere may not arrive; deleteSession and the
+    // dashboard refetch explicitly.)
+    const inList = `in.(${codesKey})`;
+    const channel = supabase
+      .channel('facilitator-sessions')
       .on(
         'postgres_changes',
-        { event: '*', schema: 'public', table: 'sessions' },
+        { event: '*', schema: 'public', table: 'sessions', filter: `id=${inList}` },
         () => fetchSessions()
       )
       .on(
         'postgres_changes',
-        { event: '*', schema: 'public', table: 'participants' },
+        { event: '*', schema: 'public', table: 'participants', filter: `session_id=${inList}` },
         () => fetchSessions()
       )
       .subscribe();
 
     return () => {
-      supabase.removeChannel(sessionsChannel);
+      supabase.removeChannel(channel);
     };
-  }, [fetchSessions]);
+  }, [codesKey, fetchSessions]);
 
   const deleteSession = async (sessionId) => {
     const { error: deleteError } = await supabase.rpc('delete_session', {
