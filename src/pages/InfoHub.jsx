@@ -17,7 +17,7 @@ function LevelBadge({ scenario, level }) {
 // levels, the level. Everything after this lives under /info/:scenario/:level.
 export default function InfoHub() {
   const [searchParams] = useSearchParams();
-  const { activeSessionCode, selectedScenario, selectedLevel } = useRole();
+  const { activeSessionCode, sessionScenario, selectedLevel } = useRole();
   const scenarios = getScenariosArray();
 
   // Legacy links (/info?scenario=x): single-level cases go straight to their
@@ -27,22 +27,22 @@ export default function InfoHub() {
     return <Navigate to={infoPath(legacyScenario, SCENARIOS[legacyScenario].levels[0])} replace />;
   }
 
-  const hasSession = activeSessionCode && isValidInfoTarget(selectedScenario, selectedLevel);
-  const t = getUiStrings(selectedScenario);
+  const hasSession = activeSessionCode && isValidInfoTarget(sessionScenario, selectedLevel);
+  const t = getUiStrings(sessionScenario);
 
   return (
     <div>
       {hasSession && (
         <Link
-          to={infoPath(selectedScenario, selectedLevel)}
-          lang={SCENARIOS[selectedScenario].language}
+          to={infoPath(sessionScenario, selectedLevel)}
+          lang={SCENARIOS[sessionScenario].language}
           className="block mb-8 p-4 rounded-xl border-2 border-blue-500 bg-blue-50 hover:bg-blue-100 transition-colors"
         >
           <div className="text-xs font-medium uppercase tracking-wide text-blue-700">{t.infoYourSession}</div>
           <div className="flex items-center gap-2 flex-wrap mt-1">
-            <span className="font-semibold text-slate-800">{SCENARIOS[selectedScenario].name}</span>
-            <span className="text-slate-500">· {getLevelMeta(selectedScenario, selectedLevel).label}</span>
-            <LevelBadge scenario={selectedScenario} level={selectedLevel} />
+            <span className="font-semibold text-slate-800">{SCENARIOS[sessionScenario].name}</span>
+            <span className="text-slate-500">· {getLevelMeta(sessionScenario, selectedLevel).label}</span>
+            <LevelBadge scenario={sessionScenario} level={selectedLevel} />
           </div>
           <div className="text-sm text-blue-700 mt-1">{t.infoOpenMaterials} →</div>
         </Link>

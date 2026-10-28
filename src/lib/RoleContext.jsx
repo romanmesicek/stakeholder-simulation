@@ -34,6 +34,13 @@ export function RoleProvider({ children }) {
     return localStorage.getItem('selectedLevel') || null;
   });
 
+  // Scenario of the joined session, kept apart from selectedScenario (which
+  // browsing and "Select as my role" can change). Older installs without it
+  // fall back to selectedScenario, which was the session's at join time.
+  const [sessionScenario, setSessionScenario] = useState(() => {
+    return localStorage.getItem('sessionScenario') || localStorage.getItem('selectedScenario') || null;
+  });
+
   const [activeSessionCode, setActiveSessionCode] = useState(findActiveSessionCode);
 
   useEffect(() => {
@@ -81,7 +88,11 @@ export function RoleProvider({ children }) {
 
     localStorage.setItem('lastSessionCode', sessionCode);
     setActiveSessionCode(sessionCode);
-    if (scenario) setSelectedScenario(scenario);
+    if (scenario) {
+      setSelectedScenario(scenario);
+      setSessionScenario(scenario);
+      localStorage.setItem('sessionScenario', scenario);
+    }
     if (level) setSelectedLevel(level);
   };
 
@@ -103,6 +114,7 @@ export function RoleProvider({ children }) {
       setSelectedScenario,
       selectedLevel,
       setSelectedLevel,
+      sessionScenario,
       activeSessionCode,
       joinSession,
       leaveSession
