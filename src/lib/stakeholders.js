@@ -8,7 +8,7 @@ export const SCENARIOS = {
     levels: ['bachelor', 'master'],
     defaultLevel: 'master',
     levelMeta: {
-      bachelor: { label: 'Bachelor', badge: 'BA', description: '~2 hours, 6 groups, simplified' },
+      bachelor: { label: 'Bachelor', badge: 'BA', description: '~2 hours, 6–8 groups, simplified' },
       master: { label: 'Master', badge: 'MA', description: '~3 hours, 8 groups, full complexity' },
     },
     defaultGroupsByLevel: {

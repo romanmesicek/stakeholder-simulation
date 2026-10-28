@@ -1,8 +1,8 @@
 # Observation Sheet
 
-Notes you take here are the raw material for the debrief. Capture concrete moments — quotes, offers, refusals — rather than summaries. You will not use everything; three vivid observations beat ten vague ones.
+Notes you take here are the raw material for the debrief. Capture concrete moments (quotes, offers, refusals) rather than summaries. You will not use everything; three vivid observations beat ten vague ones.
 
-## During Phase 2 — Pitches
+## During Phase 2: Pitches
 
 | Group | Opening position (one line) | Tone (cooperative / demanding / defensive) |
 |-------|------------------------------|-------------------------------------------|
@@ -11,19 +11,21 @@ Notes you take here are the raw material for the debrief. Capture concrete momen
 | Community | | |
 | Environmental | | |
 | Government | | |
+| Indigenous *(if in play)* | | |
 | Investors | | |
+| Technical Panel *(if in play)* | | |
 
-## During Phase 3 — Negotiations
+## During Phase 3: Negotiations
 
-**Coalitions** — who is talking to whom, who is being left out?
+**Coalitions:** who is talking to whom, who is being left out?
 
 - Emerging alliances: …
 - Isolated groups: …
 - Surprising pairings: …
 
-**Turning points** — note the moment and what caused it:
+**Turning points:** note the moment and what caused it.
 
-- First concrete offer: who, what, when?
+- First concrete offer with a number: who, what, when?
 - First refusal / walk-away: …
 - The moment the deal became possible (or impossible): …
 
@@ -37,17 +39,28 @@ Notes you take here are the raw material for the debrief. Capture concrete momen
 
 - Who dominates airtime? Who has barely spoken?
 - Did anyone use their no-deal outcome (BATNA) explicitly?
+- Did Management or Investors use the return rule to price demands?
 - Were event-card effects picked up or ignored?
 
-## During Phase 4 — Final positions
+## During Phase 4: Final conference
 
-- Final package: timeline ______ years · worker fund € ______ · community fund € ______ · restoration € ______
-- Funding sources actually named? (government fund / contingency / credit facility / none)
-- Who endorsed, who dissented, who abstained?
+| Deal Sheet item | Value | Funding source |
+|-----------------|-------|----------------|
+| Timeline (Northern / Southern closure) | | |
+| Worker fund | | |
+| Community fund / tax replacement | | |
+| Local siting share | | |
+| Restoration (sites + river) | | |
+| Indigenous ownership / jobs *(if in play)* | | |
+| Extra company spend (credit) | | |
+
+- Signatures: Management ☐ · Government ☐ · others: ______ of ______ needed
+- Feasibility Certificate *(if Technical plays)*: granted ☐ refused ☐ (risks named: ______)
+- Who dissented or abstained, and why?
 - If no agreement: what was the proximate cause?
 
 ## Quick debrief prompts from your notes
 
 - Replay one quote and ask: "What was happening here?"
-- Name one coalition and ask how it formed — and what it cost its members.
+- Name one coalition and ask how it formed, and what it cost its members.
 - Compare the final numbers with the groups' Best/Acceptable/Avoid ladders: who moved most?

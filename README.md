@@ -24,7 +24,7 @@ The platform ships with three ready-to-use scenarios. New scenarios can be added
 
 ### Energy Transition (English)
 
-A coal plant phase-out negotiation. 8 stakeholder groups with competing interests — workers, management, environmentalists, investors, government, indigenous community, local residents, and technical experts — must agree on a transition plan. Supports **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity) levels.
+A coal plant phase-out negotiation. 8 stakeholder groups with competing interests — workers, management, environmentalists, investors, government, indigenous community, local residents, and technical experts — must agree on a transition plan. Supports **Bachelor** (6–8 groups, simplified; default 6) and **Master** (8 groups, full complexity) levels.
 
 ### Umweltkonflikt in der Kleinstadt (Deutsch)
 

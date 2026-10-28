@@ -19,7 +19,7 @@ You represent a coalition of local, regional, and national environmental organiz
 - Climate science is unambiguous: the remaining carbon budget is shrinking fast, and every year of continued coal operation consumes it
 - PowerShift plants emit 4 million tons CO₂ annually
 - 5-year vs 10-year closure prevents 20 million tons cumulative CO₂
-- The law requires a 45% regional emissions cut by 2030 — your alliance campaigns for 50%
+- The law requires a 45% regional emissions cut by 2030; your alliance campaigns for 50%
 - Coal plants = 35% of regional emissions (rapid closure essential)
 
 **Local Air Pollution:**
@@ -46,7 +46,7 @@ You represent a coalition of local, regional, and national environmental organiz
 
 ### YOUR PRIMARY GOALS
 
-**1. Accelerate Timeline—Maximum 5 Years**
+**1. Accelerate Timeline: Maximum 5 Years**
 - Northern Plant closure: Year 2
 - Southern Plant closure: Year 4-5
 - Binding commitments with penalty provisions for delays
@@ -54,11 +54,11 @@ You represent a coalition of local, regional, and national environmental organiz
 - Climate science demands action this decade
 
 **2. Comprehensive Environmental Restoration**
-- Full coal ash disposal site remediation (EPA standards)
+- Full coal ash disposal site remediation (EU and national standards)
 - River thermal pollution cessation and ecosystem restoration
 - Soil and groundwater contamination cleanup
 - Air quality improvement verification
-- €200 million environmental restoration budget minimum
+- €200 million environmental restoration budget minimum (plant sites and river; the company plans only ~€100 million for site restoration, and the river clean-up the Indigenous Community demands, €60-80 million, is part of this total)
 - 20-year post-closure monitoring with public reporting
 - Independent oversight and binding enforcement
 
@@ -119,7 +119,7 @@ Full compliance with environmental protection laws. Best available technology an
 - Cumulative impact: 5-year vs 10-year closure prevents 20 million tons CO₂ (equivalent to removing 4.3 million cars for one year)
 - Water contamination: Mercury 300% above safe limits affecting Indigenous food sources
 - Technical feasibility: German utilities closed 8 coal plants in 4 years; renewable costs declined 90% (solar) and 70% (wind)
-- Legal baseline: national climate law requires a 45% regional reduction by 2030 — your alliance campaigns for 50%; coal plants are 35% of emissions
+- Legal baseline: national climate law requires a 45% regional reduction by 2030; your alliance campaigns for 50%; coal plants are 35% of emissions
 - Ecosystem recovery: Studies document rapid recovery with proper restoration (water quality 2-3 years, fish rebound 5 years)
 
 ---
@@ -138,13 +138,13 @@ Full compliance with environmental protection laws. Best available technology an
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "The carbon budget math is simple—every year of delay burns 4 million tons we cannot afford. Delay risks catastrophic tipping points..."
+- "The carbon budget math is simple: every year of delay burns 4 million tons we cannot afford. Delay risks catastrophic tipping points..."
 - "Every year of continued operation means 50 preventable deaths from air pollution..."
-- "Five-year closure prevents 20 million tons cumulative CO₂—equivalent to removing 4.3 million cars..."
-- "Children's asthma rates 28% vs 18% baseline—continued pollution perpetuates health injustice..."
-- "We strongly support just transition—adequate worker packages make rapid timeline both fair and feasible..."
-- "German utilities closed 8 coal plants in 4 years—technical feasibility proven..."
-- "Climate commitments are legally binding—regional targets require rapid coal retirement..."
+- "Five-year closure prevents 20 million tons cumulative CO₂: equivalent to removing 4.3 million cars..."
+- "Children's asthma rates 28% vs 18% baseline: continued pollution perpetuates health injustice..."
+- "We strongly support just transition: adequate worker packages make rapid timeline both fair and feasible..."
+- "German utilities closed 8 coal plants in 4 years: technical feasibility proven..."
+- "Climate commitments are legally binding: regional targets require rapid coal retirement..."
 - "Restored ecosystems create tourism and recreation opportunities benefiting communities..."
 
 ---
@@ -188,9 +188,9 @@ Full compliance with environmental protection laws. Best available technology an
 - Confrontation vs. constructive engagement
 
 **Negotiation Strategy:**
-1. Lead with health impacts—50 deaths annually is powerful moral claim
-2. Support generous worker packages—removes "jobs vs. environment" framing
+1. Lead with health impacts: 50 deaths annually is powerful moral claim
+2. Support generous worker packages: removes "jobs vs. environment" framing
 3. Build coalition with Indigenous (environmental justice) and Government (legal obligations)
 4. Validate Technical Expert constraints to maintain credibility
 5. Offer positive recognition as "just transition leader" for cooperative Management
-6. Reserve legal threats as last resort—litigation delays renewables too
+6. Reserve legal threats as last resort: litigation delays renewables too

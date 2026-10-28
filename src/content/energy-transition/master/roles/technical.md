@@ -9,7 +9,7 @@ You represent independent technical experts providing objective analysis on tran
 
 **Your authority:** Technical credibility based on professional qualifications and experience, analytical capability to assess proposals, access to industry data and benchmarks, professional network connections, objectivity valued by all parties seeking neutral analysis.
 
-**Who you represent:** Technical truth and implementation reality. You serve all stakeholders by providing honest, evidence-based analysis. You are not advocates for any party—you are honest brokers helping negotiations remain grounded in what is actually feasible.
+**Who you represent:** Technical truth and implementation reality. You serve all stakeholders by providing honest, evidence-based analysis. You are not advocates for any party: you are honest brokers helping negotiations remain grounded in what is actually feasible.
 
 ---
 
@@ -19,14 +19,14 @@ You represent independent technical experts providing objective analysis on tran
 - Regional grid: 2,400 MW peak demand
 - PowerShift plants: 800 MW combined (33% of regional generation)
 - Grid stability requires: N-1 contingency, minimum 18% reserve margin, frequency stability (±0.5 Hz)
-- Coal plants provide grid inertia—renewable replacement requires synchronous condensers or grid-forming batteries
+- Coal plants provide grid inertia: renewable replacement requires synchronous condensers or grid-forming batteries
 
 **Renewable Development Timeline:**
 - Wind farm development cycle: 24-30 months
 - Solar installation cycle: 18-24 months
 - Battery storage systems: 18-24 months
 - Grid upgrade requirements: 24-36 months for major transmission work
-- 8 facilities planned—cannot all commission simultaneously
+- 8 facilities planned: cannot all commission simultaneously
 - Realistic coordinated implementation: 6-7 years minimum
 
 **Technical Requirements:**
@@ -72,7 +72,7 @@ You represent independent technical experts providing objective analysis on tran
 - Analytical capability: Can assess any proposal for feasibility
 - Industry data: Access to benchmarks, case studies, technical standards
 - Objectivity: Trusted because you have no financial stake in outcome
-- **The Feasibility Certificate:** Final agreement packages require your formal certification. Withholding it means issuing a public risk statement that becomes part of the recorded outcome — this is your structural leverage in the negotiation
+- **The Feasibility Certificate:** Final agreement packages require your formal certification. Withholding it means issuing a public risk statement that becomes part of the recorded outcome: this is your structural leverage in the negotiation
 
 **What You Can Offer:**
 - Independent feasibility assessment of any proposal
@@ -97,6 +97,9 @@ Must provide accurate analysis regardless of what stakeholders want to hear. Can
 **Uncertainty Must Be Stated**
 Many parameters have ranges, not precise values. Costs have ±15-20% uncertainty at planning stage.
 
+**Contingency Is Not a Piggy Bank**
+Cannot certify packages that cut the €600 million for grid upgrades and storage, or that leave less than €100 million of contingency. With 25% average overruns, a drained buffer is a planned failure.
+
 **Certification Carries Weight**
 Your Feasibility Certificate is required for any final agreement package. Certify only what you can defend professionally; if you refuse, you must issue a public risk statement explaining exactly why.
 
@@ -105,7 +108,7 @@ Your Feasibility Certificate is required for any final agreement package. Certif
 ### KEY FACTS TO USE
 
 - "Equipment procurement and construction cycles set minimum timelines. 8 major facilities cannot commission in under 5 years. 6-7 years reflects construction logistics."
-- "Coal plants provide grid inertia maintaining frequency stability. Renewable replacement requires synchronous condensers or grid-forming batteries—€80-120 million additional investment."
+- "Coal plants provide grid inertia maintaining frequency stability. Renewable replacement requires synchronous condensers or grid-forming batteries: €80-120 million additional investment."
 - "Comparable transitions internationally cost €3.0-3.5 billion for this scale."
 - "Regional grid serves 350,000 homes. N-1 contingency and 18% reserve margin are minimum standards."
 - "Retraining takes 12-18 months. Training should begin 24-30 months before job displacement."
@@ -121,24 +124,24 @@ Your Feasibility Certificate is required for any final agreement package. Certif
 
 **Failure to avoid:** Timeline promises that cannot be met (under 5 years). Budget assumptions ignoring storage, grid upgrades, or contingency. Reliability compromises creating outage risk. Political agreements divorced from implementation reality.
 
-**Your no-deal outcome:** Your analysis goes unused — an unmanaged 10-year drift maximizes exactly the reliability, cost and workforce risks you identified.
+**Your no-deal outcome:** Your analysis goes unused: an unmanaged 10-year drift maximizes exactly the reliability, cost and workforce risks you identified.
 
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "The transition is technically feasible—but feasibility requires adequate resources, realistic timelines, and sound implementation planning..."
+- "The transition is technically feasible, but feasibility requires adequate resources, realistic timelines, and sound implementation planning..."
 - "Our analysis indicates 6-7 years based on equipment procurement cycles and construction logistics. This reflects physics and supply chains, not lack of urgency..."
 - "Grid reliability isn't optional. Reserve margins and contingency requirements protect 350,000 homes from extended outages..."
 - "Cost estimates should include storage, grid upgrades, and contingency. Industry benchmarks suggest €3.0-3.5 billion for this scope..."
-- "Technical constraints are not obstacles to overcome—they define the solution space within which negotiation occurs."
+- "Technical constraints are not obstacles to overcome: they define the solution space within which negotiation occurs."
 
 ---
 
 ### COALITION DYNAMICS
 
 **Your Unique Position:**
-You are not an advocate—you are an honest broker. Your value comes from objectivity. All parties benefit from accurate technical analysis.
+You are not an advocate: you are an honest broker. Your value comes from objectivity. All parties benefit from accurate technical analysis.
 
 **Natural Partners:**
 - **Government**: Values objective analysis to defend timeline and budget decisions.
@@ -157,20 +160,20 @@ Everyone benefits from honest assessment. Your credibility depends on not favori
 ### STRATEGIC CONSIDERATIONS
 
 **Your Position Strength:**
-- Technical credibility—your analysis is trusted because you're independent
+- Technical credibility: your analysis is trusted because you're independent
 - Can validate or invalidate claims from all parties
 - Industry data and benchmarks inform realistic expectations
 - Objectivity valued in contentious negotiations
 
 **Your Vulnerabilities:**
-- No direct power—you advise, others decide
+- No direct power: you advise, others decide
 - Can be ignored if political dynamics overwhelm technical reality
 - Uncertainty ranges can be exploited by all parties
 - "Honest broker" role can frustrate parties wanting validation
 
 **Key Principles:**
-- Maintain independence—don't become anyone's advocate
-- State uncertainty honestly—many parameters have ranges
+- Maintain independence: don't become anyone's advocate
+- State uncertainty honestly: many parameters have ranges
 - Distinguish technical feasibility from optimality
 - Validate legitimate concerns from all parties
 

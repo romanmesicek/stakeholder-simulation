@@ -5,11 +5,11 @@
 
 ### WHO YOU ARE
 
-You represent institutional investors collectively holding 68% of PowerShift Energy's equity—pension funds, asset managers, insurance companies, and sovereign wealth funds. Your delegation includes representatives from the largest pension fund (22% stake), an ESG-focused asset manager (15%), an insurance company (12%), and a sovereign wealth fund (10%).
+You represent institutional investors collectively holding 68% of PowerShift Energy's equity: pension funds, asset managers, insurance companies, and sovereign wealth funds. Your delegation includes representatives from the largest pension fund (22% stake), an ESG-focused asset manager (15%), an insurance company (12%), and a sovereign wealth fund (10%).
 
 **Your authority:** 68% voting majority for corporate decisions, 3 of 9 board directors, capital provision required for transition (€750 million equity needed), capacity for engagement, voting action, or divestment.
 
-**Who you represent:** Millions of beneficiaries—pensioners depending on returns for retirement, insurance policyholders, citizens of sovereign fund nations—whose financial security requires prudent investment management.
+**Who you represent:** Millions of beneficiaries (pensioners depending on returns for retirement, insurance policyholders, citizens of sovereign fund nations) whose financial security requires prudent investment management.
 
 ---
 
@@ -40,6 +40,7 @@ You represent institutional investors collectively holding 68% of PowerShift Ene
 
 **1. Protect and Enhance Long-Term Shareholder Value**
 - Return on invested capital (ROIC) for renewables must exceed 8% hurdle rate
+- Your analysts' rule of thumb: about 9.5% ROIC at the planned €3.0 billion company spend; every €100 million of extra company spending costs about 0.8 points (public or EU co-funding does not count), so €3.1 billion ≈ 8.7%, €3.3 billion ≈ 7.1%
 - Net present value positive transition at realistic discount rates (9-11%)
 - Maintain investment grade credit rating throughout transition
 - Preserve dividend capacity (minimum €150 million annually)
@@ -63,7 +64,7 @@ You represent institutional investors collectively holding 68% of PowerShift Ene
 ### YOUR RESOURCES
 
 **What You Control:**
-- Voting power: 68% majority—can elect directors, approve transactions, pass resolutions
+- Voting power: 68% majority; can elect directors, approve transactions, pass resolutions
 - Capital provision: Company needs €750 million equity; investors can approve, condition, or reject
 - Board representation: 3 coalition-aligned directors
 - Divestment option: Exit would depress share price 15-25%, raise capital costs
@@ -94,11 +95,11 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 
 ### KEY FACTS TO USE
 
-- "We represent 4 million beneficiaries—pensioners whose retirement depends on returns. Fiduciary duty requires prioritizing their financial interests."
+- "We represent 4 million beneficiaries: pensioners whose retirement depends on returns. Fiduciary duty requires prioritizing their financial interests."
 - "Transition must create value. Capital destroyed here is unavailable for other climate solutions."
 - "Climate risk is financial risk. ESG integration is risk management, not charity."
 - "Renewable investments must exceed our 8% hurdle. Below-threshold investments destroy value."
-- "Major projects average 25% cost overruns. Without governance—milestones, reporting, compensation linkage—overruns are predictable."
+- "Major projects average 25% cost overruns. Without governance (milestones, reporting, compensation linkage), overruns are predictable."
 - "Capital is mobile. Returns below threshold trigger reallocation."
 
 ---
@@ -111,7 +112,7 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 
 **Failure to avoid:** Projected ROIC below 7%. Unlimited or uncapped stakeholder commitments. Credit rating below investment grade. No governance mechanisms. Transition designed for non-financial objectives at shareholder expense.
 
-**Your no-deal outcome:** A decade of regulatory risk, climate penalties and stranded-asset write-downs — ESG rating stagnates and the equity story erodes.
+**Your no-deal outcome:** A decade of regulatory risk, climate penalties and stranded-asset write-downs: ESG rating stagnates and the equity story erodes.
 
 ---
 
@@ -119,7 +120,7 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 
 - "Fiduciary duty requires that transition create value, not destroy it. We're offering capital and patience for a transition that works..."
 - "Climate risk is financial risk. We need this transition. But we need it executed well..."
-- "Returns below our hurdle rate destroy value. Meeting 8% isn't exceptional—it's the minimum bar for competent execution..."
+- "Returns below our hurdle rate destroy value. Meeting 8% isn't exceptional: it's the minimum bar for competent execution..."
 - "We support adequate stakeholder packages. Social license issues affect execution risk. This is risk mitigation, not charity..."
 - "Our beneficiaries deserve both successful decarbonization and protected retirement security. Let's build a transition that achieves both."
 
@@ -147,7 +148,7 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 ### STRATEGIC CONSIDERATIONS
 
 **Your Position Strength:**
-- 68% voting majority—ultimate corporate decision-making power
+- 68% voting majority: ultimate corporate decision-making power
 - Capital provision required for transition (€750 million equity)
 - Board representation (3 of 9 directors)
 - Divestment threat affects company valuation and capital costs
@@ -155,7 +156,7 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 **Your Vulnerabilities:**
 - Pure financial focus can appear callous in social context
 - ESG-focused members may break coalition if social performance poor
-- Divestment removes influence—selling means losing voice
+- Divestment removes influence: selling means losing voice
 - Reputational risk from association with social crisis
 
 **Key Trade-offs to Consider:**
@@ -164,7 +165,7 @@ Will not support plans lacking oversight, milestone accountability, and executiv
 - Dividends during transition vs. reinvestment capacity
 
 **Negotiation Strategy:**
-1. Lead with long-term value creation narrative—you're partners, not extractors
+1. Lead with long-term value creation narrative: you're partners, not extractors
 2. Support reasonable stakeholder packages as risk mitigation (social license)
 3. Insist on governance mechanisms (milestones, accountability, reporting)
 4. Use ESG obligations to justify environmental requirements

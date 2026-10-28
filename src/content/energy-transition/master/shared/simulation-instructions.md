@@ -1,4 +1,4 @@
-# Energy Transition Simulation — Student Guide
+# Energy Transition Simulation: Student Guide
 
 ---
 
@@ -8,10 +8,10 @@ By the end of this simulation you will be able to:
 
 - Analyze multi-stakeholder governance under power asymmetries, using stakeholder salience and just-transition frameworks
 - Negotiate within technical and financial constraints, judging every offer against your no-deal alternative (BATNA)
-- Build and manage coalitions — and account for what membership costs each party
+- Build and manage coalitions, and account for what membership costs each party
 - Transfer transition-governance concepts (multi-level perspective, transition management, distributive justice) to real cases
 
-**Preparation:** Read the situation briefing *before* the session — it is substantial, and in-session reading time only covers your role card.
+**Preparation:** Read the situation briefing *before* the session: it is substantial, and in-session reading time only covers your role card.
 
 ---
 
@@ -40,8 +40,8 @@ By the end of this simulation you will be able to:
 
 1. **Read** the case document and your role card carefully
 2. **Understand** your goals, resources, and constraints
-3. **Analyze** the stakeholder landscape — Who holds power? Who shares your interests?
-4. **Strategize** with your group — Who do you need? What can you offer? What are your red lines?
+3. **Analyze** the stakeholder landscape: Who holds power? Who shares your interests?
+4. **Strategize** with your group: Who do you need? What can you offer? What are your red lines?
 5. **Prepare** a 1-minute opening statement emphasizing your legitimate claims
 
 Your role card is confidential. Do not share your specific constraints or bottom lines.
@@ -52,7 +52,7 @@ Your role card is confidential. Do not share your specific constraints or bottom
 
 The facilitator chairs this phase in the side-role of **Regional Energy Minister**, who has convened the transition conference.
 
-**Opening Statements** — Each group presents 1 minute, in order:
+**Opening Statements**: Each group presents 1 minute, in order:
 
 1. PowerShift Energy Management
 2. Coal Plant Workers Union
@@ -63,7 +63,7 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 7. Investor Coalition
 8. Technical Expert Panel
 
-**Stakeholder Mapping** — Via Mentimeter:
+**Stakeholder Mapping**: Via Mentimeter:
 - Rate each stakeholder on Interest (1–10) and Power (1–10)
 - Predict the outcome: Win-win / Partial / Zero-sum / Deadlock
 - Identify your most likely coalition partners
@@ -78,17 +78,17 @@ The facilitator chairs this phase in the side-role of **Regional Energy Minister
 
 | Round | Format |
 |-------|--------|
-| 1 | Assigned bilateral — meet your designated partner |
-| 2 | Assigned bilateral — meet your second designated partner |
-| 3 | Open bilateral — choose one group you haven't met |
-| 4 | Coalition building — form groups of 3–4, draft joint positions |
-| 5 | Coalition refinement — finalize agreements, address remaining conflicts |
+| 1 | Assigned bilateral: meet your designated partner |
+| 2 | Assigned bilateral: meet your second designated partner |
+| 3 | Open bilateral: choose one group you haven't met |
+| 4 | Coalition building: form groups of 3–4, draft joint positions |
+| 5 | Coalition refinement: finalize agreements, address remaining conflicts |
 
 **Round 1 Pairings:** Management + Workers | Community + Government | Environmental + Indigenous | Investors + Technical
 
 **Round 2 Pairings:** Management + Investors | Workers + Community | Environmental + Technical | Indigenous + Government
 
-**Round 3:** Choose strategically — meet a group that could strengthen or threaten your coalition.
+**Round 3:** Choose strategically: meet a group that could strengthen or threaten your coalition.
 
 **Rounds 4–5:** Coalition building phase. Form alliances, negotiate trade-offs, and prepare joint position statements.
 
@@ -106,8 +106,8 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
   - Coalition partnerships formed
 - A final agreement package needs the Technical Expert Panel's **Feasibility Certificate**; if the Panel refuses to certify, it delivers a public risk statement that becomes part of the recorded outcome
 - Outcome summary (timeline, budget, agreements, unresolved issues)
-- Mentimeter results revealed — compare predictions vs. reality
-- Post-round of the pre-questions — discuss which answers moved and why
+- Mentimeter results revealed: compare predictions vs. reality
+- Post-round of the pre-questions: discuss which answers moved and why
 - Discussion: What enabled or blocked consensus?
 
 ---
@@ -125,21 +125,21 @@ The **Regional Energy Minister** (facilitator) chairs the closing conference: op
 - How did this simulation illustrate "wicked problem" characteristics?
 - Which justice dimensions (distributional, procedural, recognition) were most contested?
 
-**Reflection Assignment — Due: [Date TBD]**
+**Reflection Assignment (due: [Date TBD])**
 
 1000–1200 words addressing:
-1. **Experience** — Most significant moment? What surprised you?
-2. **Analysis** — How did stakeholder salience (power, legitimacy, urgency) shift during negotiations?
-3. **Coalitions** — What enabled successful alliances? What caused breakdowns?
-4. **Theory** — Connect your observations to course concepts (transition management, just transition, stakeholder theory)
-5. **Transfer** — What would you do differently? How does this apply to real-world transitions?
+1. **Experience**: Most significant moment? What surprised you?
+2. **Analysis**: How did stakeholder salience (power, legitimacy, urgency) shift during negotiations?
+3. **Coalitions**: What enabled successful alliances? What caused breakdowns?
+4. **Theory**: Connect your observations to course concepts (transition management, just transition, stakeholder theory)
+5. **Transfer**: What would you do differently? How does this apply to real-world transitions?
 
 ---
 
-## Staying in Role — Ground Rules
+## Staying in Role: Ground Rules
 
-1. **Stay in character** during all negotiations — speak as "we", not "I think"
-2. **Your constraints are real** — honor them
-3. **No agreement is a valid outcome** — don't force consensus
-4. **Attack positions, not people** — disagreement is expected and valuable
+1. **Stay in character** during all negotiations: speak as "we", not "I think"
+2. **Your constraints are real**: honor them
+3. **No agreement is a valid outcome**: don't force consensus
+4. **Attack positions, not people**: disagreement is expected and valuable
 5. **Listen as much as you advocate**, take notes on offers, and look for creative trade-offs

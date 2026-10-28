@@ -19,7 +19,7 @@ You represent the Indigenous community of approximately 3,000 members whose trad
 - Southern Plant built in 1990 with minimal Indigenous consultation
 - 35 years of thermal discharge raised river temperature 5-8°C
 - Mercury contamination: 300% above safe limits for fish consumption
-- Traditional fishing—your people's primary protein source for millennia—no longer safe
+- Traditional fishing (your people's primary protein source for millennia) no longer safe
 - Sacred sites along riverbank near plant operations
 - Air pollution: respiratory illness rates 23% above regional average
 
@@ -47,7 +47,7 @@ You represent the Indigenous community of approximately 3,000 members whose trad
 - 20-year post-closure monitoring program
 
 **2. Meaningful Economic Participation Through Ownership**
-- Minimum 25% Indigenous ownership stake in renewable facilities on your territory
+- Minimum 25% Indigenous ownership stake in renewable facilities on your territory (the company can sell it at a discount; each 10% costs about €30 million, which someone has to fund)
 - 100 guaranteed jobs for community members (construction + permanent)
 - Skills training with 150 placement commitments
 - Revenue sharing: €5 million annually to community
@@ -65,7 +65,7 @@ You represent the Indigenous community of approximately 3,000 members whose trad
 
 **What You Control:**
 - Legal rights: Constitutional protections, treaty obligations, international frameworks
-- Consultation requirements: Legal obligation for meaningful consultation—failure creates permit vulnerability
+- Consultation requirements: Legal obligation for meaningful consultation; failure creates permit vulnerability
 - Strategic location: Optimal renewable sites lie within your territory
 - Traditional ecological knowledge: Generations of ecosystem understanding
 - Moral authority: Public sympathy for Indigenous environmental justice
@@ -120,10 +120,10 @@ Absolute protection of identified sacred sites. No facilities within designated 
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "Our people have lived on this land for thousands of years—long before coal plants, before this company, before the governments here today existed..."
+- "Our people have lived on this land for thousands of years: long before coal plants, before this company, before the governments here today existed..."
 - "The river you call a 'cooling system' we call the life-giver. It sustained our ancestors. It should sustain our grandchildren."
 - "Development on our territory requires our partnership or faces legal challenge. Courts increasingly recognize Indigenous rights. Choose partnership..."
-- "We're not asking for charity—we're offering partnership. Our land, your capital, shared prosperity."
+- "We're not asking for charity: we're offering partnership. Our land, your capital, shared prosperity."
 - "Restoration. Ownership. Employment. Rights. These are our requirements. The river's health and our community's future are not negotiable."
 
 ---
@@ -150,7 +150,7 @@ Absolute protection of identified sacred sites. No facilities within designated 
 
 **Your Position Strength:**
 - Legal rights recognized in constitution and international frameworks
-- Strategic land control—best renewable sites require your cooperation
+- Strategic land control: best renewable sites require your cooperation
 - Moral authority and public sympathy
 - Capacity for litigation and permit challenges
 
@@ -166,9 +166,9 @@ Absolute protection of identified sacred sites. No facilities within designated 
 - Partnership with company vs. maintaining independent advocacy position
 
 **Negotiation Strategy:**
-1. Lead with historical harm and restoration requirement—moral foundation
+1. Lead with historical harm and restoration requirement: moral foundation
 2. Build coalition with Environmental Alliance early (shared environmental justice frame)
 3. Position land access as partnership opportunity, not threat
-4. Insist on FPIC process—procedural rights create negotiating leverage
-5. Demand ownership not just employment—build community wealth
+4. Insist on FPIC process: procedural rights create negotiating leverage
+5. Demand ownership not just employment: build community wealth
 6. Use international frameworks (UNDRIP) to strengthen position

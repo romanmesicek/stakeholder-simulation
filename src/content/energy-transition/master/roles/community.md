@@ -19,7 +19,7 @@ You represent community leaders, business owners, municipal officials, and resid
 - Plant provides 40% of local employment directly and indirectly
 - Economic flow: ~€45 million annually flows through the local economy (≈€20 million direct payroll plus local spending and multiplier effects)
 - Economic multiplier: Each plant job supports 1.5 additional jobs (2.5 total including the plant job)
-- Tax revenue: €5 million municipal property tax (35% of municipal budget); a further €3 million flows to the region — €8 million total
+- Tax revenue: €5 million municipal property tax (35% of municipal budget); a further €3 million flows to the region (€8 million total)
 - Schools: 55% funded by plant taxes
 - Demographics: Median age 48; population declining 8% over decade
 - Youth: 28% unemployment; many leaving for cities
@@ -73,7 +73,7 @@ You represent community leaders, business owners, municipal officials, and resid
 ### YOUR RESOURCES
 
 **What You Control:**
-- Social license: Renewable projects need community acceptance—opposition can delay or prevent development
+- Social license: Renewable projects need community acceptance; opposition can delay or prevent development
 - Permitting influence: Local councils affect planning approvals
 - Political connections: Direct access to regional/national representatives
 - Land: Strategic sites for wind and solar installations
@@ -97,10 +97,10 @@ You represent community leaders, business owners, municipal officials, and resid
 Cannot accept severe public service cuts. School closure politically and ethically unacceptable. Emergency service reductions endanger safety. Require: €8 million annual revenue replacement OR equivalent service funding for 10 years minimum.
 
 **Local Renewable Siting**
-Cannot accept community burdens without community benefits. Minimum 70% of renewable capacity must be sited locally. Provides: construction jobs, operational positions, local tax revenue. Principle: Communities hosting plants should host clean energy.
+Cannot accept community burdens without community benefits. Minimum 65% of renewable capacity must be sited locally. Provides: construction jobs, operational positions, local tax revenue. Principle: Communities hosting plants should host clean energy.
 
 **Economic Development Fund**
-Minimum €250 million for business attraction and diversification. Token gestures inadequate for genuine economic transition. Transparent governance with community representation. Binding commitment, not vague promises.
+Minimum €200 million for business attraction and diversification. Token gestures inadequate for genuine economic transition. Transparent governance with community representation. Binding commitment, not vague promises.
 
 **Youth Opportunity Programs**
 Concrete programs with measurable commitments. Training slots, scholarships, apprenticeships with defined numbers. Cannot sacrifice next generation's future.
@@ -127,20 +127,20 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 
 **Failure to avoid:** Community fund under €100 million (token gesture). Minimal local renewable siting (costs without benefits). Inadequate tax replacement forcing school closures. Timeline under 6 years forcing rushed adjustment. No youth programs (abandoning next generation). Community economic collapse creating ghost towns.
 
-**Your no-deal outcome:** Unmanaged 10-year closure — the tax base erodes with no replacement fund, no local siting commitments, no infrastructure investment; the decline arrives anyway, without compensation.
+**Your no-deal outcome:** Unmanaged 10-year closure: the tax base erodes with no replacement fund, no local siting commitments, no infrastructure investment; the decline arrives anyway, without compensation.
 
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "We hosted these plants for 40 years accepting environmental burden—we deserve to benefit from clean energy future..."
-- "Ghost towns help nobody—community collapse creates lasting opposition to climate policy..."
+- "We hosted these plants for 40 years accepting environmental burden: we deserve to benefit from clean energy future..."
+- "Ghost towns help nobody: community collapse creates lasting opposition to climate policy..."
 - "We have the perfect sites for renewable facilities: excellent resources, existing infrastructure, available workforce..."
-- "School closure triggers family exodus accelerating decline—education is community foundation..."
+- "School closure triggers family exodus accelerating decline: education is community foundation..."
 - "Fair exchange: communities provide land and acceptance; renewable development provides jobs and tax revenue..."
 - "Northern Town already has technical training center ready for renewable energy curriculum..."
-- "Property value drops wipe out family wealth—for most residents, homes represent total net worth..."
-- "We're not asking for charity—we're asking for reinvestment in communities that generated company profits..."
+- "Property value drops wipe out family wealth: for most residents, homes represent total net worth..."
+- "We're not asking for charity: we're asking for reinvestment in communities that generated company profits..."
 
 ---
 
@@ -165,7 +165,7 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 ### STRATEGIC CONSIDERATIONS
 
 **Your Position Strength:**
-- Control social license—renewable projects need community acceptance
+- Control social license: renewable projects need community acceptance
 - Political leverage through voter representation (23,000 voters)
 - Land and permitting influence for renewable siting
 - Media access to shape public narrative
@@ -182,8 +182,8 @@ Concrete programs with measurable commitments. Training slots, scholarships, app
 - Local jobs vs. lower renewable energy costs
 
 **Negotiation Strategy:**
-1. Lead with renewable siting offer—frame community as partner, not obstacle
+1. Lead with renewable siting offer: frame community as partner, not obstacle
 2. Align with Workers early to present unified "social" front
-3. Use Government as ally—they share political incentives
+3. Use Government as ally: they share political incentives
 4. Quantify community assets: sites, infrastructure, workforce availability
 5. Frame community investment as enabling rapid, stable transition (appeals to all parties)

@@ -1,4 +1,4 @@
-# Key Facts — Quick Reference
+# Key Facts: Quick Reference
 
 Public facts every group can cite during negotiations. Role cards contain additional asymmetric information.
 
@@ -20,20 +20,24 @@ Public facts every group can cite during negotiations. Role cards contain additi
 |----------|----------------|
 | Renewable infrastructure (450 MW wind + 350 MW solar) | €1.8 billion |
 | Grid upgrades and storage | €600 million |
-| *— of which storage systems (200 MW/800 MWh)* | *€250 million* |
+| *of which storage systems (200 MW/800 MWh)* | *€250 million* |
 | Plant decommissioning and site restoration | €400 million |
+| *of which safe shutdown and demolition* | *~€300 million* |
+| *of which site restoration (soil, water)* | *~€100 million* |
 | Contingency (industry standard 15-25%) | €200 million |
 | **Total company budget** | **€3.0 billion** |
 
 Plus €500 million government transition fund → €3.5 billion total available. Major infrastructure projects average 25% cost overruns and 30% schedule delays.
 
-**Where can stakeholder packages come from?** Worker, community, Indigenous and restoration packages are not separate line items in the €3.0 billion envelope. Possible sources: the €500 million government fund, the €200 million contingency (if the company commits it), a credit facility up to the €3.5 billion ceiling, or reallocation within the envelope — restoration demands draw on the €400 million decommissioning and site restoration budget. Every commitment needs a named funding source.
+**Where can stakeholder packages come from?** Worker, community, Indigenous and restoration packages are not separate line items in the €3.0 billion envelope. Possible sources: the €500 million government fund, the €200 million contingency (if the company commits it), a credit facility up to the €3.5 billion ceiling, or reallocation within the envelope: restoration demands draw on the €400 million decommissioning and site restoration budget. Every commitment needs a named funding source.
+
+**Ownership stakes:** PowerShift can sell the Indigenous Community a share of the facilities built on its territory at a discount. Each 10% stake costs about €30 million (the discount), to be funded from one of the sources above.
 
 ## Grid & Technical Constraints
 
 - Regional peak demand: 2,400 MW; PowerShift supplies 800 MW (33%)
 - Stability requires N-1 contingency and ≥18% reserve margin
-- Coal provides grid inertia — replacement needs synchronous condensers or grid-forming batteries
+- Coal provides grid inertia: replacement needs synchronous condensers or grid-forming batteries
 - Development cycles: wind 24-30 months · solar 18-24 · storage 18-24 · major grid upgrades 24-36
 - Realistic implementation: **6-7 years**; below 5 years creates unacceptable reliability risk
 

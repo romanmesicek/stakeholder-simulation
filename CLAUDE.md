@@ -8,7 +8,7 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 ## Versioning
 
-App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both original scenarios after the August 2026 code + content reviews. **3.0.0** = release of the data-centers scenario. Convention: minor bump for feature/content waves, major bump for a new scenario.
+App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both original scenarios after the August 2026 code + content reviews. **3.0.0** = release of the data-centers scenario. **3.1.0** = Energy Transition bachelor content wave (October 2026). Convention: minor bump for feature/content waves, major bump for a new scenario.
 
 ## Tech Stack
 
@@ -28,7 +28,7 @@ The platform supports multiple scenarios, each with its own stakeholder groups a
 
 ### Levels
 Each scenario can have one or more difficulty levels:
-- Energy Transition: **Bachelor** (6 groups, simplified) and **Master** (8 groups, full complexity)
+- Energy Transition: **Bachelor** (6–8 groups, simplified; default 6) and **Master** (8 groups, full complexity)
 - Talstadt: single level, stored and displayed as `bachelor` (BA badge)
 - Data Centers: single level, stored and displayed as `master` (MA badge) — deliberately no bachelor level for now
 
@@ -203,6 +203,7 @@ Two consolidated reviews (August 2026) track findings and remaining work — che
 - `docs/code-review-2026-08.md` — code/UX/security review (step 1, largely done; remaining: session cleanup, hook consistency, Supabase Auth for SaaS)
 - `docs/content-review-2026-08.md` — case-content & didactics review (step 2; **all three packages done August 2026**, implementation notes inline — only the "Größere Ideen" list at the end remains open)
 - `docs/content-review-data-centers-2026-09.md` — review history of the data-centers scenario (fact-check against the dossier, humanizer pass, full review on 2026-09-01), its fixed design decisions and style rules, and the open items
+- `docs/content-review-energy-transition-2026-10.md` — bachelor vs. master vs. the other scenarios (October 2026): bachelor ET upgraded to Talstadt level, 6–8 groups playable, Deal Sheet + agreement rule, calibration tables in `{bachelor,master}/facilitator/role-overview.md` (return rule, money split) — keep each level's files consistent with its table; ET content is em-dash-free
 
 The **data-centers scenario** (3.0) shipped August 2026: master level only, English, 8 groups (the platform maximum), distilled from `material/2026-08-10_data-centers-dossier.md` (research prompt: `material/research-prompt-data-centers.md`). The dossier's two further role candidates were deliberately dropped, not deferred: the expert role lives on as the shared, contestable Key Facts sheet (Mercury-Game design), the unions don't fit the 8-group cap. Documented option for a later wave: a bachelor level (6–7 groups, permitting authority folded into the facilitator's State-Secretary side-role) — see Block 3 of the dossier.
 

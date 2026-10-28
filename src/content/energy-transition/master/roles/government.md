@@ -21,7 +21,7 @@ You represent regional government authorities balancing economic development, so
 - Previous election decided by 3,200 votes
 - Environmental constituency: 22% identify as "green voters" (growing)
 - Coalition government: Economic development party + Social welfare party (internal tensions)
-- Media scrutiny intense—transition is signature policy
+- Media scrutiny intense: transition is signature policy
 
 **Legal Obligations:**
 - National climate law: 50% emissions reduction by 2030 (regional 45% required)
@@ -34,7 +34,7 @@ You represent regional government authorities balancing economic development, so
 - Regional budget: €2.8 billion annually
 - Transition fund allocated: €500 million over 5 years (€100M/year)
 - Potential emergency allocation: €150 million (if crisis conditions)
-- Maximum public contribution: €650 million (further requires parliamentary approval—politically difficult)
+- Maximum public contribution: €650 million (further requires parliamentary approval, politically difficult)
 - Opportunity costs: Every €100M to transition = delayed healthcare, education, infrastructure
 
 **Fiscal Impact:**
@@ -103,7 +103,7 @@ You represent regional government authorities balancing economic development, so
 ### YOUR CONSTRAINTS (NON-NEGOTIABLE)
 
 **Energy Security Maintenance**
-Cannot accept any agreement risking extended power disruptions. Legal liability, public safety, economic damage prevent compromise. Technical analysis required: N-1 redundancy, 20% reserve margin. If timeline threatens security, government will mandate delay.
+Cannot accept any agreement risking extended power disruptions. Legal liability, public safety, economic damage prevent compromise. Technical analysis required: N-1 redundancy, 18% reserve margin. If timeline threatens security, government will mandate delay.
 
 **Climate Compliance**
 Must achieve 45% regional emissions reduction by 2030. Coal plants = 35% of emissions, must close rapidly enough. €50 million annual penalties + enforcement for non-compliance. Maximum timeline flexibility limited by climate mathematics.
@@ -124,7 +124,7 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 - Political reality: Northern Town (15,000 voters) + Southern Region (8,000 voters) = critical swing constituencies
 - Support precedents: German coal transition: €40 billion support over 15 years; Scottish communities: Major infrastructure investments
 - Long-term benefits: Renewable development creates €15-20 million new annual tax revenue
-- Electoral timeline: Next election in 24 months—transition handling determines outcome
+- Electoral timeline: Next election in 24 months; transition handling determines outcome
 
 ---
 
@@ -136,20 +136,20 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 
 **Failure to avoid:** Timeline threatening energy security (blackout risk). Inadequate support generating severe social crisis. Fiscal commitment exceeding €650 million. Environmental standards violations. Stakeholder revolt making implementation impossible. Electoral catastrophe from perceived incompetence.
 
-**Your no-deal outcome:** The region misses its binding 45% target — €50 million annual penalties from public budgets, blame for the failure, and the social crisis still unfolds on your watch.
+**Your no-deal outcome:** The region misses its binding 45% target: €50 million annual penalties from public budgets, blame for the failure, and the social crisis still unfolds on your watch.
 
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
 - "Government committed to just transition protecting workers, communities, and environment..."
-- "We offer €500 million transition support—18% of our annual budget demonstrating commitment..."
-- "Energy security is non-negotiable—blackouts create legal liability and public catastrophe..."
-- "Climate targets are law, not choice—45% reduction required by 2030 with enforcement mechanisms..."
+- "We offer €500 million transition support: 18% of our annual budget demonstrating commitment..."
+- "Energy security is non-negotiable: blackouts create legal liability and public catastrophe..."
+- "Climate targets are law, not choice: 45% reduction required by 2030 with enforcement mechanisms..."
 - "We can fast-track permits saving €30-50 million in time and costs..."
 - "Every €100 million to transition represents delayed investment in healthcare, education, infrastructure..."
-- "Political reality: transition handling determines next election—fairness is both moral and strategic..."
-- "We're honest brokers balancing all interests—seeking collaborative solutions serving broad public good..."
+- "Political reality: transition handling determines next election; fairness is both moral and strategic..."
+- "We're honest brokers balancing all interests: seeking collaborative solutions serving broad public good..."
 
 ---
 
@@ -177,7 +177,7 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 **Your Position Strength:**
 - Regulatory power over permits and enforcement
 - €500-650 million public funding available
-- Convening authority—you can set agenda and facilitate
+- Convening authority: you can set agenda and facilitate
 - Political legitimacy as elected representatives
 - Information advantage through government expertise
 
@@ -185,7 +185,7 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 - Electoral vulnerability (24 months to election)
 - Budget constraints limit flexibility
 - Must balance conflicting constituencies
-- Failure is highly visible—transition is signature policy
+- Failure is highly visible: transition is signature policy
 - Coalition government creates internal tensions
 
 **Key Trade-offs to Consider:**
@@ -196,7 +196,7 @@ Cannot accept severe social crisis: >20% unemployment without alternatives. Scho
 
 **Negotiation Strategy:**
 1. Position as "honest broker" seeking balanced solution
-2. Use funding as leverage—attach conditions to support
+2. Use funding as leverage: attach conditions to support
 3. Build coalition with Management and Technical Experts on feasibility
 4. Validate both environmental urgency AND worker protection needs
 5. Set timeline boundaries: minimum 5 years (safety), maximum 7 years (climate)

@@ -5,7 +5,11 @@
 
 ### WHO YOU ARE
 
-You are independent technical experts providing objective analysis. Your panel includes engineers, scientists, and energy economists. You have no financial stake—you serve all parties with honest assessment.
+You are independent technical experts providing objective analysis. Your panel includes engineers, grid specialists, and energy economists. You have no financial stake; you serve all parties with honest assessment.
+
+**Your authority:** Your professional credibility, which all parties respect, and the **Feasibility Certificate**: a Deal Sheet only becomes the conference outcome if you certify it.
+
+**Who you answer to:** Your professional standards and the 350,000 households who need reliable power. If a plan you certified fails, it is your name on it.
 
 ---
 
@@ -19,36 +23,35 @@ You are independent technical experts providing objective analysis. Your panel i
 **Timeline Facts:**
 - Wind farm development: 24-30 months
 - Solar installation: 18-24 months
-- 8 facilities cannot all build at once
-- Realistic timeline: 6-7 years minimum
+- 8 facilities cannot all be built at once
+- Realistic timeline: 6-7 years; below 5 years the grid is not safe
 
 **Cost Reality:**
 - Comparable transitions cost €3.0-3.5 billion
-- Storage requirement: €250 million
-- Grid upgrades: €285 million
-- Average projects have 25% cost overruns
+- Storage requirement: €250 million; grid upgrades: €285 million (both inside the planned €600 million)
+- Average projects run 25% over budget: the €200 million contingency is the plan's only protection
 
 ---
 
 ### YOUR GOALS
 
-1. **Ensure grid reliability** — No blackouts for 350,000 homes
-2. **Validate feasibility** — Only endorse realistic plans
-3. **Identify risks** — Warn about problems before they happen
-4. **Stay objective** — Provide honest analysis, not advocacy
+1. **Ensure grid reliability:** No blackouts for 350,000 homes
+2. **Validate feasibility:** Only certify realistic plans
+3. **Identify risks:** Warn about problems before they happen
+4. **Stay objective:** Provide honest analysis, not advocacy
 
 ---
 
 ### YOUR RESOURCES
 
 **What you control:**
-- Technical credibility: All parties trust your expertise
+- **The Feasibility Certificate.** If you refuse, you read out a public risk statement at the final conference instead. This is your real leverage: parties must convince you their plan works
+- Technical credibility: all parties trust your expertise
 - Industry data and benchmarks
-- Analytical capability to assess any proposal
-- **The Feasibility Certificate:** A final agreement needs your sign-off — if you refuse, you read out a public risk statement instead. This is your real leverage: parties must convince you their plan works
+- Analytical capability to check any proposal
 
 **What you can offer:**
-- Independent feasibility assessment
+- Independent feasibility checks, also during the negotiation (a "pre-check" of a draft Deal Sheet)
 - Risk identification
 - Reality checks on cost and timeline claims
 - Translation between technical and policy language
@@ -57,40 +60,48 @@ You are independent technical experts providing objective analysis. Your panel i
 
 ### YOUR CONSTRAINTS (Non-Negotiable)
 
-- **Physics is physics** — Cannot endorse impossible timelines
-- **Safety first** — Grid reliability below standards is unacceptable
-- **Professional honesty** — Must give accurate analysis, even if unpopular
-- **State uncertainty** — Costs have ±15-20% ranges at planning stage
-- **Certificate discipline** — Sign only plans you could defend publicly; if you refuse, you must state the concrete risks that made certification impossible
+- **Physics is physics:** Cannot certify timelines under 5 years
+- **Storage and grid are not savings:** Cannot certify plans that cut the €600 million for grid upgrades and storage
+- **Keep a buffer:** Cannot certify plans that leave less than €100 million of contingency, because overruns are almost certain
+- **Professional honesty:** Must give accurate analysis, even if unpopular; costs carry ±15-20% uncertainty at this stage
+- **Certificate discipline:** Sign only plans you could defend publicly. If you refuse, you must state the concrete risks
 
 ---
 
 ### KEY FACTS TO USE
 
-- 8 major facilities cannot commission in under 5 years
-- Grid serves 350,000 homes—reliability standards are not optional
-- Retraining takes 12-18 months—start 24-30 months before displacement
+- 8 major facilities cannot be commissioned in under 5 years
+- The grid serves 350,000 homes: reliability standards are not optional
+- Retraining takes 12-18 months: it must start 2-3 years before jobs disappear
 - International benchmarks: €3.0-3.5 billion for this scale
-- Major projects average 25% cost overruns—contingency is necessary
+- Major projects average 25% cost overruns: contingency is necessary, not a reserve for packages
 
 ---
 
 ### SUCCESS FOR YOU
 
-**Best:** Plan grounded in reality. 6-7 year timeline. €3.2 billion budget with contingency. Grid reliability maintained.
+**Best:** Plan grounded in reality. 6-7 year timeline. Contingency intact. Grid reliability maintained.
 
-**Acceptable:** 5-7 years. €3.0-3.5 billion. Adequate storage and grid upgrades. Major risks identified.
+**Acceptable:** 5-7 years. At least €100 million contingency left. Storage and grid upgrades fully funded. Major risks identified.
 
-**Avoid:** Impossible timelines (<5 years). Budgets ignoring storage/upgrades. Reliability compromises.
+**Avoid:** Impossible timelines (under 5 years). Budgets that cut storage or grid upgrades. Reliability compromises.
 
-**Your no-deal outcome:** Your analysis goes unused — an unmanaged 10-year drift maximizes exactly the reliability and cost risks you warned about.
+**Your no-deal outcome:** Your analysis goes unused. An unmanaged 10-year drift maximizes exactly the reliability and cost risks you warned about.
+
+---
+
+### NEGOTIATION TIPS
+
+- **Be available early.** Offer pre-checks of draft Deal Sheets in Rounds 2 and 3; a refusal at the very end helps nobody.
+- **Explain your conditions, don't negotiate them.** You can be flexible on how a plan reaches 6 years, not on whether it is safe.
+- **Watch the money.** The most common trick: the same contingency euro promised to workers *and* kept as an overrun buffer.
+- **Your vulnerability:** If you seem to favor one side, nobody trusts your certificate. Give every group the same answer.
 
 ---
 
 ### USEFUL PHRASES
 
-- "The transition is feasible—but feasibility requires realistic timelines..."
+- "The transition is feasible, but feasibility requires realistic timelines..."
 - "6-7 years reflects construction logistics, not lack of urgency..."
-- "Grid reliability isn't optional—it protects 350,000 homes..."
-- "Technical constraints define the solution space for negotiation."
-
+- "Grid reliability isn't optional: it protects 350,000 homes..."
+- "Show us where the overrun money comes from, then we can talk about certification."

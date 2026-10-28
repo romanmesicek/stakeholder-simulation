@@ -5,7 +5,7 @@
 
 ### WHO YOU ARE
 
-You represent 500 coal plant workers—technicians, operators, maintenance staff, engineers—and the approximately 2,000 family members who depend on these jobs. Your delegation includes union officials, shop stewards, and elected worker representatives.
+You represent 500 coal plant workers (technicians, operators, maintenance staff, engineers) and the approximately 2,000 family members who depend on these jobs. Your delegation includes union officials, shop stewards, and elected worker representatives.
 
 **Your authority:** Collective bargaining rights (98% union membership), operational knowledge essential for safe plant operations, potential for industrial action (3-month strike fund available), voice of workers in all transition decisions, veto power through membership votes (75% required for major changes).
 
@@ -71,7 +71,7 @@ You represent 500 coal plant workers—technicians, operators, maintenance staff
 - Public sympathy: Strong public support for workers facing job loss
 - Industrial action: Legal right to strike (would halt power for 350,000 homes)
 - Political connections: Local politicians need your votes
-- Technical expertise: A union-commissioned study finds skills transferable to renewable operations (electrical: 85%, mechanical: 80%, grid: 90%, safety: 95%) — be aware that independent estimates may come in lower
+- Technical expertise: A union-commissioned study finds skills transferable to renewable operations (electrical: 85%, mechanical: 80%, grid: 90%, safety: 95%); be aware that independent estimates may come in lower
 
 **What You Can Offer:**
 - Cooperation with phased plant closure
@@ -102,7 +102,7 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 ### KEY FACTS TO USE
 
 - Family impact: 500 jobs support 2,000 family members; with economic multipliers, 1,200-1,500 total jobs at risk
-- Mortgage crisis: Average worker has €120,000 mortgage on €45,000 income—unemployment means immediate default risk for 200+ families
+- Mortgage crisis: Average worker has €120,000 mortgage on €45,000 income: unemployment means immediate default risk for 200+ families
 - Skills value: Coal workers have critical transferable skills needed for renewable sector
 - Health sacrifice: Many workers show coal-related health conditions from decades keeping regional lights on
 - Community collapse: Northern Town property values already dropped 15%; rapid closure triggers full economic collapse affecting 15,000 residents
@@ -119,19 +119,19 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 
 **Failure to avoid:** Timeline under 5 years forcing rushed displacement. Worker support under €100 million. Inadequate retraining leaving workers unemployable. Forced layoffs exceeding 30% without fair packages. Any pension reductions. Community abandonment creating ghost town.
 
-**Your no-deal outcome:** Statutory severance only — no support fund, no retraining program, no priority hiring; layoffs spread across an unmanaged 10-year decline.
+**Your no-deal outcome:** Statutory severance only: no support fund, no retraining program, no priority hiring; layoffs spread across an unmanaged 10-year decline.
 
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "500 workers support 2,000 family members—these aren't just jobs, they're livelihoods..."
-- "We have the skills you need for renewable operations—invest in retraining, not replacement..."
-- "Workers sacrificed their health for 40 years keeping regional lights on—society owes them basic fairness..."
+- "500 workers support 2,000 family members: these aren't just jobs, they're livelihoods..."
+- "We have the skills you need for renewable operations: invest in retraining, not replacement..."
+- "Workers sacrificed their health for 40 years keeping regional lights on: society owes them basic fairness..."
 - "Rushed transitions destroy families: mortgage defaults, forced relocation, children's education disrupted..."
-- "We're not against renewable energy—many younger members are already training in clean tech..."
-- "Adequate support makes rapid transition possible and fair—inadequate support makes it impossible and unjust..."
-- "Ghost towns help nobody—community collapse creates lasting opposition to climate action..."
+- "We're not against renewable energy: many younger members are already training in clean tech..."
+- "Adequate support makes rapid transition possible and fair: inadequate support makes it impossible and unjust..."
+- "Ghost towns help nobody: community collapse creates lasting opposition to climate action..."
 
 ---
 
@@ -173,8 +173,8 @@ Programs must be accredited with recognized qualifications. Reasonable duration:
 - Individual worker benefits vs. community-wide investments
 
 **Negotiation Strategy:**
-1. Lead with transferable skills narrative—you're assets, not obstacles
+1. Lead with transferable skills narrative: you're assets, not obstacles
 2. Build coalition with Community and Indigenous before engaging Management
-3. Use Government as mediator—they fear social crisis
+3. Use Government as mediator: they fear social crisis
 4. Keep strike threat implicit rather than explicit (preserves relationship)
 5. Accept faster timeline in exchange for enhanced packages (leverage Environmental Alliance pressure)

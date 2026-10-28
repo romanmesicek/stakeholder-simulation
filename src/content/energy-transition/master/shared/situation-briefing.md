@@ -8,9 +8,9 @@
 
 ## Case Overview
 
-PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants—Northern Plant (500 MW, 300 employees) and Southern Plant (300 MW, 200 employees)—serving 350,000 households while supporting approximately 750 indirect regional employment positions.
+PowerShift Energy Corporation faces a paradigmatic socio-technical transition requiring simultaneous management of technological substitution, institutional reconfiguration, and distributive justice imperatives. The corporation operates two coal-fired power plants, Northern Plant (500 MW, 300 employees) and Southern Plant (300 MW, 200 employees), serving 350,000 households while supporting approximately 750 indirect regional employment positions.
 
-The case is fictional, set in a region of an EU member state whose constitution explicitly recognizes the rights of its Indigenous community — combining EU-style climate policy with constitutionally anchored Indigenous rights.
+The case is fictional, set in a region of an EU member state whose constitution explicitly recognizes the rights of its Indigenous community, combining EU-style climate policy with constitutionally anchored Indigenous rights.
 
 This case exemplifies the "wicked problem" characteristics inherent in sustainability transitions: irreducible complexity, value pluralism, deep uncertainty, and contested knowledge claims (Rittel & Webber, 1973). No single stakeholder possesses sufficient resources or authority for unilateral implementation. Success requires coalition formation, creative value creation expanding negotiation space, and acceptance of imperfect but workable compromises.
 
@@ -86,7 +86,7 @@ With eight major facilities requiring coordinated commissioning, realistic imple
 |----------|----------------|
 | Renewable infrastructure | €1.8 billion |
 | Grid upgrades and storage | €600 million |
-| *— of which storage systems (200 MW/800 MWh)* | *€250 million* |
+| *of which storage systems (200 MW/800 MWh)* | *€250 million* |
 | Plant decommissioning and site restoration | €400 million |
 | Contingency (industry standard 15–25%) | €200 million |
 | **Total** | **€3.0 billion** |
@@ -156,7 +156,7 @@ The International Labour Organization's Just Transition Guidelines (ILO, 2015) o
 
 ### Stakeholder Salience
 
-Mitchell et al. (1997) theorize stakeholder salience as a function of three attributes: power (ability to impose will), legitimacy (socially accepted claims), and urgency (time-sensitivity of claims). Stakeholders possessing all three attributes demand immediate managerial attention. The dynamic nature of salience—attributes gained and lost through negotiation—creates strategic complexity.
+Mitchell et al. (1997) theorize stakeholder salience as a function of three attributes: power (ability to impose will), legitimacy (socially accepted claims), and urgency (time-sensitivity of claims). Stakeholders possessing all three attributes demand immediate managerial attention. The dynamic nature of salience, attributes gained and lost through negotiation, creates strategic complexity.
 
 ---
 
@@ -184,10 +184,10 @@ How should transition decisions incorporate diverse stakeholder voices? What gov
 
 ## The No-Deal Default
 
-Negotiation failure does not preserve the status quo — it triggers a defined default trajectory. Absent agreement, PowerShift implements unilateral minimum compliance:
+Negotiation failure does not preserve the status quo: it triggers a defined default trajectory. Absent agreement, PowerShift implements unilateral minimum compliance:
 
 - Both plants operate as long as regulators allow, closing in approximately 10 years without coordinated replacement build-out
-- Workforce reductions follow statutory severance requirements only — no transition fund, no retraining programs, no priority hiring
+- Workforce reductions follow statutory severance requirements only: no transition fund, no retraining programs, no priority hiring
 - No community fund, no local siting commitments, no restoration beyond legally mandated minimums
 - The region misses its binding 45% reduction target, incurring €50 million annual penalties from public budgets
 - Investors carry a decade of regulatory exposure and stranded-asset write-downs
@@ -232,7 +232,7 @@ International Energy Agency. (2023). *Net zero by 2050: A roadmap for the global
 
 International Labour Organization. (2015). *Guidelines for a just transition towards environmentally sustainable economies and societies for all*. ILO.
 
-Lazard. (2024). *Lazard's levelized cost of energy analysis—Version 17.0*.
+Lazard. (2024). *Lazard's levelized cost of energy analysis: Version 17.0*.
 
 McCauley, D., & Heffron, R. (2018). Just transition: Integrating climate, energy and environmental justice. *Energy Policy, 119*, 1–7.
 

@@ -4,7 +4,7 @@
 
 ## The Challenge
 
-PowerShift Energy Corporation must close its two coal plants and switch to renewable energy. This affects many people with different interests—and no single group can solve the problem alone.
+PowerShift Energy Corporation must close its two coal plants and switch to renewable energy. This affects many people with different interests, and no single group can solve the problem alone.
 
 The case is fictional, set in a region of an EU member state whose constitution explicitly recognizes the rights of its Indigenous community.
 
@@ -14,26 +14,36 @@ The case is fictional, set in a region of an EU member state whose constitution 
 
 PowerShift operates two coal-fired power plants:
 
-| Plant | Workers | Homes Served | Built |
-|-------|---------|--------------|-------|
-| Northern Plant | 300 | 200,000 | 1985 |
-| Southern Plant | 200 | 150,000 | 1990 |
+| Plant | Capacity | Workers | Homes Served | Built |
+|-------|----------|---------|--------------|-------|
+| Northern Plant | 500 MW | 300 | 200,000 | 1985 |
+| Southern Plant | 300 MW | 200 | 150,000 | 1990 |
 
 **Key numbers:**
 - Annual revenue: €450 million
 - Annual CO₂ emissions: 4 million tons
 - Tax contribution: €8 million/year (€5 million municipal + €3 million regional)
-- Total workers: 500
+- Total workers: 500, plus about 750 indirect jobs in the region
+
+---
+
+## The Region
+
+**Northern Town** (15,000 residents) depends on the Northern Plant: it provides 40% of local jobs, and its taxes fund more than half of the schools.
+
+**The Southern Region** (8,000 residents) is rural. The Southern Plant stands on the edge of the traditional lands of about 3,000 Indigenous people. The river that cools the plant runs through their territory and is polluted with mercury; traditional fishing is no longer safe. 90 of the plant's 200 workers are Indigenous.
+
+Both areas have excellent wind and solar sites. Where the new facilities are built decides who gets the new jobs and tax income.
 
 ---
 
 ## Why the Transition Must Happen
 
-**Climate regulations:** EU law requires 55% emissions reduction by 2030; national law makes a 45% cut legally binding for the region. Coal plants must close.
+**Climate regulations:** The EU targets a 55% emissions reduction by 2030; national law makes a 45% cut legally binding for the region, with €50 million in annual penalties if it is missed. The plants must close within 10 years at the latest.
 
-**Economics:** Renewable energy is now cheaper than coal. Solar and wind cost €25-45 per MWh; coal costs €65-150 per MWh.
+**Economics:** Renewable energy is now cheaper than coal. Solar and wind cost €25-45 per MWh; coal costs €65-150 per MWh (including environmental costs).
 
-**Investor pressure:** Major shareholders demand climate action and better ESG performance.
+**Investor pressure:** Major shareholders demand climate action and better ESG performance (environmental, social and governance).
 
 ---
 
@@ -48,7 +58,9 @@ PowerShift operates two coal-fired power plants:
 **Planned renewables:**
 - Wind farms: 450 MW (3 facilities)
 - Solar installations: 350 MW (5 facilities)
-- Total: 800 MW renewable capacity
+- Total: 800 MW renewable capacity, with 300 permanent jobs and about 1,200 temporary construction jobs
+
+The €3 billion is already planned for infrastructure, decommissioning and a contingency buffer. Support packages for workers and communities are **not** part of it. The Key Facts sheet shows where extra money could come from.
 
 ---
 
@@ -62,13 +74,13 @@ Building renewable energy takes time:
 | Solar installation | 18-24 months |
 | Battery storage | 18-24 months |
 
-**Realistic transition timeline:** 6-7 years; anything below 5 years risks power outages for 350,000 homes.
+**Realistic transition timeline:** 6-7 years. Anything below 5 years risks power outages for 350,000 homes.
 
 ---
 
 ## The Stakeholders
 
-Six groups have stakes in this transition:
+Six to eight groups have stakes in this transition. Your facilitator decides which groups take part in your session.
 
 | Group | Main Interest |
 |-------|---------------|
@@ -78,6 +90,8 @@ Six groups have stakes in this transition:
 | **Environmental Alliance** | Fast closure, clean-up, health |
 | **Regional Government** | Balance all interests, climate targets |
 | **Investor Coalition** | Returns, ESG performance |
+| **Indigenous Community** *(if in play)* | River restoration, ownership, rights on their land |
+| **Technical Expert Panel** *(if in play)* | A plan that works; must certify the final agreement |
 
 ---
 
@@ -87,9 +101,11 @@ Six groups have stakes in this transition:
 
 **Jobs vs. Environment:** Workers need time to transition; environmentalists want quick closure.
 
-**Costs vs. Support:** Generous worker packages cost money that could go to renewables.
+**Costs vs. Support:** Generous worker and community packages cost money that someone has to pay: the company, its shareholders, or the taxpayer.
 
 **Local vs. Global:** Communities want local benefits; investors want cost efficiency.
+
+**Jobs vs. Ownership:** Jobs end when a facility closes; a share in the facility keeps paying. Who gets to own the new energy system?
 
 ---
 
@@ -102,21 +118,21 @@ A good outcome includes:
 - Strong environmental restoration
 - Financially viable for the company
 
-**No single group gets everything they want.** The goal is finding workable compromises that most parties can accept.
+**No single group gets everything it wants.** The goal is finding workable compromises that most parties can accept.
 
 ---
 
 ## If No Agreement Is Reached
 
-No agreement is a real outcome — and it has a defined default:
+No agreement is a real outcome, and it has a defined default:
 
 - PowerShift proceeds unilaterally with a minimum-compliance plan: both plants close in about 10 years, as late as regulators allow
-- Workers receive only statutory severance — no fund, no retraining programs, no priority hiring
+- Workers receive only statutory severance: no fund, no retraining programs, no priority hiring
 - No community fund, no local investment commitments, no restoration beyond legal minimums
 - The region misses its binding 45% target: €50 million in annual penalties, paid from public budgets
 - Investors face years of regulatory risk and a stagnating share price
 
-Every group loses something under no-deal — but not equally. Your role card tells you what no-deal means for you: that is your walk-away line. Judge every offer against it.
+Every group loses something under no-deal, but not equally. Your role card tells you what no-deal means for you: that is your walk-away line. Judge every offer against it.
 
 ---
 
@@ -125,5 +141,4 @@ Every group loses something under no-deal — but not equally. Your role card te
 1. Understand your stakeholder's interests and constraints
 2. Find potential allies and identify likely conflicts
 3. Negotiate trade-offs to build a coalition
-4. Reach agreements that balance competing needs
-
+4. Write your agreement on a **Deal Sheet** (see the Student Guide): numbers, funding sources, signatures

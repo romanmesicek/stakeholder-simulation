@@ -39,7 +39,7 @@ You are the executive leadership team of PowerShift Energy making decisions abou
 **1. Stay Within Budget**
 - Target: Complete transition for €2.5-2.8 billion (saving €200-500 million)
 - Absolute maximum: €3.5 billion (exceeding triggers financial crisis)
-- Trade-off: Every €100 million extra reduces return on investment by 0.8%
+- Trade-off: At the planned €3.0 billion the transition returns about 9.5%; every €100 million of extra company spending lowers that by about 0.8 percentage points (public or EU money does not count)
 
 **2. Maintain Power Supply Reliability**
 - Cannot accept plans risking electricity outages
@@ -115,17 +115,17 @@ Why: Technical reality of grid integration and renewable commissioning. Conseque
 
 **Failure to avoid:** Budget exceeding €3.5 billion. Timeline under 5 years causing power failures. Public opposition preventing renewable permits. Mass worker layoffs without support causing political intervention.
 
-**Your no-deal outcome:** Unilateral minimum-compliance closure over ~10 years — no negotiated package costs, but sustained protests, permit blockades, climate penalties and lasting reputational damage.
+**Your no-deal outcome:** Unilateral minimum-compliance closure over ~10 years: no negotiated package costs, but sustained protests, permit blockades, climate penalties and lasting reputational damage.
 
 ---
 
 ### USEFUL PHRASES FOR NEGOTIATION
 
-- "We're investing €3 billion—more than any other regional energy company..."
+- "We're investing €3 billion: more than any other regional energy company..."
 - "Technical analysis shows minimum 5 years needed for grid stability..."
-- "Bankruptcy helps nobody—we must maintain financial viability to deliver on commitments..."
+- "Bankruptcy helps nobody: we must maintain financial viability to deliver on commitments..."
 - "We're creating 300 permanent renewable jobs plus 1,200 construction positions..."
-- "Every €100 million extra reduces our return by 0.8%, threatening project viability..."
+- "Every €100 million extra reduces our return by 0.8 points, threatening project viability..."
 - "We want to support workers and communities, but we operate within real financial constraints..."
 
 ---
@@ -152,7 +152,7 @@ Why: Technical reality of grid integration and renewable commissioning. Conseque
 ### STRATEGIC CONSIDERATIONS
 
 **Your Position Strength:**
-- You control the €3 billion budget—no transition happens without you
+- You control the €3 billion budget: no transition happens without you
 - Technical expertise gives you information advantage on feasibility
 - Legal authority over employment decisions and site selection
 
