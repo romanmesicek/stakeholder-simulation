@@ -48,6 +48,11 @@ const STRINGS = {
     navStart: 'Start',
     navInfoHub: 'Info Hub',
     navMyRole: 'My Role',
+    // Info hub
+    infoBackToOverview: 'Back to overview',
+    infoChangeCase: 'Change case or level',
+    infoYourSession: 'Your session',
+    infoOpenMaterials: 'Open your materials',
   },
   de: {
     loading: 'Lädt...',
@@ -94,6 +99,11 @@ const STRINGS = {
     navStart: 'Start',
     navInfoHub: 'Infos',
     navMyRole: 'Meine Rolle',
+    // Info hub
+    infoBackToOverview: 'Zurück zur Übersicht',
+    infoChangeCase: 'Fall oder Stufe wechseln',
+    infoYourSession: 'Deine Session',
+    infoOpenMaterials: 'Zu deinen Materialien',
   },
 };
 

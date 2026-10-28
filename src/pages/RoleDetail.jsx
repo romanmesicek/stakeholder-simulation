@@ -1,18 +1,17 @@
-import { useParams, useSearchParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Loading from '../components/Loading';
-import { getStakeholderById, resolveLevel, SCENARIOS } from '../lib/stakeholders';
+import { getStakeholderById, SCENARIOS } from '../lib/stakeholders';
+import { useInfoParams } from '../lib/infoPaths';
 import { useRole } from '../lib/useRole';
 import { loadRoleContent } from '../lib/contentLoader';
 import { isFacilitatorUnlocked } from '../lib/facilitatorAccess';
 
 export default function RoleDetail() {
   const { roleId } = useParams();
-  const [searchParams] = useSearchParams();
-  const { selectedRoleId, setSelectedRoleId, selectedScenario, setSelectedScenario } = useRole();
-  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
-  const level = resolveLevel(scenario, searchParams.get('level'), selectedScenario, null);
+  const { scenario, level, valid } = useInfoParams();
+  const { selectedRoleId, setSelectedRoleId, setSelectedScenario } = useRole();
   const stakeholder = getStakeholderById(roleId, scenario);
   const isMyRole = selectedRoleId === roleId;
 
@@ -28,14 +27,16 @@ export default function RoleDetail() {
   }, [roleId]);
 
   useEffect(() => {
-    if (!roleId) return;
+    if (!roleId || !valid) return;
 
     let active = true;
     loadRoleContent(scenario, level, roleId)
       .then(c => { if (active) setLoaded({ key: contentKey, content: c }); })
       .catch(() => { if (active) setLoaded({ key: contentKey, content: null }); });
     return () => { active = false; };
-  }, [roleId, scenario, level, contentKey]);
+  }, [roleId, valid, scenario, level, contentKey]);
+
+  if (!valid) return <Navigate to="/info" replace />;
 
   if (loading) {
     return <Loading />;

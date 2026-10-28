@@ -8,7 +8,7 @@ A web-based platform for multi-stakeholder negotiation simulations, designed for
 
 ## Versioning
 
-App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both original scenarios after the August 2026 code + content reviews. **3.0.0** = release of the data-centers scenario. **3.1.0** = Energy Transition bachelor content wave (October 2026). Convention: minor bump for feature/content waves, major bump for a new scenario.
+App version lives in `package.json` (`version`) and is rendered in the global footer. **2.5.0** = both original scenarios after the August 2026 code + content reviews. **3.0.0** = release of the data-centers scenario. **3.1.0** = Energy Transition bachelor content wave (October 2026). **3.2.0** = info hub restructured by case and level, pre-reading link on the facilitator dashboard. Convention: minor bump for feature/content waves, major bump for a new scenario.
 
 ## Tech Stack
 
@@ -119,7 +119,8 @@ The whole facilitator area (`/facilitate*` incl. materials) sits behind a shared
 | `/session/:code` | Participant view with role |
 | `/facilitate` | Facilitator home - all sessions |
 | `/facilitate/:code` | Dashboard for specific session |
-| `/info/*` | Info hub with case materials |
+| `/info` | Info hub step 1: choose case (and level, if the case has several); joined session shows as a shortcut card |
+| `/info/:scenario/:level` | Overview of one case + level; subpages `case`, `schedule`, `reference`, `stakeholders`, `roles`, `roles/:roleId`. Old query-style URLs (`/info/case?scenario=…&level=…`) redirect here (`LegacyInfoRedirect`) |
 | `/impressum` | Legal notice (Impressum, SUSTAINABILITY SKILLS e.U.) |
 
 ## Database Schema

@@ -12,11 +12,11 @@ const colorClasses = {
 };
 
 export default function RoleCard({ stakeholder, showDescription = false, linkTo }) {
-  const { id, name, emoji, color, shortDescription } = stakeholder;
+  const { name, emoji, color, shortDescription } = stakeholder;
 
   return (
     <Link
-      to={linkTo || `/info/roles/${id}`}
+      to={linkTo}
       className={`block p-4 rounded-lg border-l-4 shadow-sm transition-colors ${colorClasses[color]}`}
     >
       <div className="flex items-start gap-3">

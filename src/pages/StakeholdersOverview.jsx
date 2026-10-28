@@ -1,8 +1,8 @@
-import { useSearchParams } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import BackButton from '../components/BackButton';
-import { getOrderedStakeholders } from '../lib/stakeholders';
-import { useRole } from '../lib/useRole';
-import { getScenarioLanguage } from '../lib/i18n';
+import { getStakeholdersForLevel } from '../lib/stakeholders';
+import { infoPath, useInfoParams } from '../lib/infoPaths';
+import { getScenarioLanguage, getUiStrings } from '../lib/i18n';
 
 const colorClasses = {
   blue: 'border-blue-400 bg-blue-50',
@@ -16,15 +16,15 @@ const colorClasses = {
 };
 
 export default function StakeholdersOverview() {
-  const [searchParams] = useSearchParams();
-  const { selectedScenario } = useRole();
-  const scenario = searchParams.get('scenario') || selectedScenario || 'energy-transition';
-  const stakeholders = getOrderedStakeholders(scenario);
+  const { scenario, level, valid } = useInfoParams();
+  if (!valid) return <Navigate to="/info" replace />;
+
+  const stakeholders = getStakeholdersForLevel(level, scenario);
   const isGerman = getScenarioLanguage(scenario) === 'de';
 
   return (
     <div lang={getScenarioLanguage(scenario)}>
-      <BackButton to={`/info?scenario=${scenario}`} label={isGerman ? 'Zurück' : 'Back to Info Hub'} />
+      <BackButton to={infoPath(scenario, level)} label={getUiStrings(scenario).infoBackToOverview} />
       <h1 className="text-2xl font-bold text-slate-800 mb-6">
         {isGerman ? 'Alle Interessengruppen' : 'All Stakeholder Groups'}
       </h1>

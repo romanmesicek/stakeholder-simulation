@@ -11,9 +11,9 @@ import FacilitatorDashboard from './pages/FacilitatorDashboard';
 import FacilitatorMaterial from './pages/FacilitatorMaterial';
 import FacilitatorRoles from './pages/FacilitatorRoles';
 import InfoHub from './pages/InfoHub';
-import CasePage from './pages/CasePage';
-import ReferencePage from './pages/ReferencePage';
-import SchedulePage from './pages/SchedulePage';
+import InfoOverview from './pages/InfoOverview';
+import InfoContentPage from './pages/InfoContentPage';
+import LegacyInfoRedirect from './pages/LegacyInfoRedirect';
 import StakeholdersOverview from './pages/StakeholdersOverview';
 import RolesOverview from './pages/RolesOverview';
 import RoleDetail from './pages/RoleDetail';
@@ -38,12 +38,20 @@ export default function App() {
               <Route path="facilitate/materials/:contentKey" element={<FacilitatorMaterial />} />
             </Route>
             <Route path="info" element={<InfoHub />} />
-            <Route path="info/case" element={<CasePage />} />
-            <Route path="info/reference" element={<ReferencePage />} />
-            <Route path="info/schedule" element={<SchedulePage />} />
-            <Route path="info/stakeholders" element={<StakeholdersOverview />} />
-            <Route path="info/roles" element={<RolesOverview />} />
-            <Route path="info/roles/:roleId" element={<RoleDetail />} />
+            <Route path="info/:scenario/:level" element={<InfoOverview />} />
+            <Route path="info/:scenario/:level/case" element={<InfoContentPage contentKey="situationBriefing" />} />
+            <Route path="info/:scenario/:level/schedule" element={<InfoContentPage contentKey="schedule" />} />
+            <Route path="info/:scenario/:level/reference" element={<InfoContentPage contentKey="keyFacts" />} />
+            <Route path="info/:scenario/:level/stakeholders" element={<StakeholdersOverview />} />
+            <Route path="info/:scenario/:level/roles" element={<RolesOverview />} />
+            <Route path="info/:scenario/:level/roles/:roleId" element={<RoleDetail />} />
+            {/* Legacy query-style URLs */}
+            <Route path="info/case" element={<LegacyInfoRedirect sub="case" />} />
+            <Route path="info/reference" element={<LegacyInfoRedirect sub="reference" />} />
+            <Route path="info/schedule" element={<LegacyInfoRedirect sub="schedule" />} />
+            <Route path="info/stakeholders" element={<LegacyInfoRedirect sub="stakeholders" />} />
+            <Route path="info/roles" element={<LegacyInfoRedirect sub="roles" />} />
+            <Route path="info/roles/:roleId" element={<LegacyInfoRedirect />} />
             <Route path="impressum" element={<Impressum />} />
           </Route>
         </Routes>

@@ -13,6 +13,7 @@ import ParticipantList from '../components/ParticipantList';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import BackButton from '../components/BackButton';
 import Loading from '../components/Loading';
+import { infoPath } from '../lib/infoPaths';
 
 export default function FacilitatorDashboard() {
   const { sessionCode } = useParams();
@@ -22,6 +23,7 @@ export default function FacilitatorDashboard() {
   const [debriefingContent, setDebriefingContent] = useState(null);
   const [actionError, setActionError] = useState(null);
   const [linkCopied, setLinkCopied] = useState(false);
+  const [preReadCopied, setPreReadCopied] = useState(false);
   const [ownerKey, setOwnerKey] = useState(() => getFacilitatorKey(sessionCode));
   const [keyInput, setKeyInput] = useState('');
   const [showKey, setShowKey] = useState(false);
@@ -67,11 +69,11 @@ export default function FacilitatorDashboard() {
     }
   };
 
-  const handleCopyLink = async () => {
+  const copyLink = async (url, setCopied) => {
     try {
-      await navigator.clipboard.writeText(joinUrl);
-      setLinkCopied(true);
-      setTimeout(() => setLinkCopied(false), 2000);
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     } catch {
       setActionError('Could not copy the link — please copy it manually.');
     }
@@ -136,6 +138,7 @@ export default function FacilitatorDashboard() {
   }
 
   const levelMeta = getLevelMeta(session.scenario, session.education_level);
+  const preReadUrl = `${window.location.origin}${infoPath(session.scenario, session.education_level)}`;
 
   return (
     <div>
@@ -174,12 +177,24 @@ export default function FacilitatorDashboard() {
           <div className="min-w-0">
             <p className="text-sm text-slate-600 break-all">{joinUrl}</p>
             <button
-              onClick={handleCopyLink}
+              onClick={() => copyLink(joinUrl, setLinkCopied)}
               className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700"
             >
               {linkCopied ? 'Copied!' : 'Copy join link'}
             </button>
           </div>
+        </div>
+        <div className="mt-4 p-3 rounded-lg bg-slate-50 border border-slate-200">
+          <p className="text-sm text-slate-500">
+            Pre-reading link (case, schedule and key facts for this case and level, no join needed):
+          </p>
+          <p className="text-sm text-slate-600 break-all mt-1">{preReadUrl}</p>
+          <button
+            onClick={() => copyLink(preReadUrl, setPreReadCopied)}
+            className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-700"
+          >
+            {preReadCopied ? 'Copied!' : 'Copy pre-reading link'}
+          </button>
         </div>
       </div>
 

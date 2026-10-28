@@ -4,6 +4,7 @@ import { SCENARIOS, getStakeholderById, getLevelMeta } from '../lib/stakeholders
 import RoleCard from '../components/RoleCard';
 import BackButton from '../components/BackButton';
 import Loading from '../components/Loading';
+import { infoPath } from '../lib/infoPaths';
 
 export default function FacilitatorRoles() {
   const { sessionCode } = useParams();
@@ -47,7 +48,7 @@ export default function FacilitatorRoles() {
             key={stakeholder.id}
             stakeholder={stakeholder}
             showDescription
-            linkTo={`/info/roles/${stakeholder.id}?scenario=${scenario}&level=${level}`}
+            linkTo={infoPath(scenario, level, `roles/${stakeholder.id}`)}
           />
         ))}
       </div>
